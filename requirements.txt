@@ -1,0 +1,8 @@
+# 运行实验脚本所需的 Python 包；PyTorch 在现有 pytorch 环境中已安装。
+numpy
+pandas
+scikit-learn
+matplotlib
+datasets
+sentence-transformers
+torch

@@ -1,0 +1,10 @@
+{
+  "source_url": "https://dl.fbaipublicfiles.com/glue/data/QNLI.zip",
+  "train_n": 12000,
+  "test_n": 5463,
+  "label_names": [
+    "Entailment (contains answer)",
+    "Not Entailment"
+  ],
+  "seed": 42
+}

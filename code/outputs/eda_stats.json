@@ -1,0 +1,113 @@
+{
+  "seed": 42,
+  "train_n": 3448,
+  "test_n": 308,
+  "train_missing_ratio": {
+    "text_a": 0.0,
+    "text_b": 0.0,
+    "label": 0.0,
+    "label_raw": 0.0,
+    "group": 0.0,
+    "uid": 0.0
+  },
+  "train_empty": {
+    "text_a_empty": 0,
+    "text_b_empty": 0,
+    "label_empty": 0
+  },
+  "test_missing_ratio": {
+    "text_a": 0.0,
+    "text_b": 0.0,
+    "label": 0.0,
+    "label_raw": 0.0,
+    "group": 1.0,
+    "uid": 0.0
+  },
+  "test_empty": {
+    "text_a_empty": 0,
+    "text_b_empty": 0,
+    "label_empty": 0
+  },
+  "train_question_len": {
+    "mean": 14.5,
+    "median": 12.0,
+    "p95": 30.649999999999636,
+    "max": 80
+  },
+  "train_answer_len": {
+    "mean": 293.6,
+    "median": 207.0,
+    "p95": 888.2999999999993,
+    "max": 2117
+  },
+  "test_question_len": {
+    "mean": 15.3,
+    "median": 14.0,
+    "p95": 33.0,
+    "max": 66
+  },
+  "test_answer_len": {
+    "mean": 326.3,
+    "median": 291.5,
+    "p95": 814.0,
+    "max": 1309
+  },
+  "train_label_counts": {
+    "Clear Reply": 1052,
+    "Ambivalent Reply": 2040,
+    "Clear Non-Reply": 356
+  },
+  "test_label_counts": {
+    "Clear Reply": 79,
+    "Ambivalent Reply": 206,
+    "Clear Non-Reply": 23
+  },
+  "train_label_ratio": {
+    "Clear Reply": 0.3051,
+    "Ambivalent Reply": 0.5916,
+    "Clear Non-Reply": 0.1032
+  },
+  "test_label_ratio": {
+    "Clear Reply": 0.2565,
+    "Ambivalent Reply": 0.6688,
+    "Clear Non-Reply": 0.0747
+  },
+  "train_president_counts": {
+    "Donald J. Trump": 1325,
+    "Barack Obama": 1010,
+    "George W. Bush": 714,
+    "Joseph R. Biden": 399
+  },
+  "qa_text_overlap_train_test": {
+    "question_exact_overlap": 1,
+    "pair_exact_overlap": 0
+  },
+  "train_unique_interviews": 175,
+  "train_dup_question_rows": 62,
+  "president_label_ratio": [
+    [
+      "Donald J. Trump",
+      0.326,
+      0.556,
+      0.118
+    ],
+    [
+      "Barack Obama",
+      0.224,
+      0.681,
+      0.095
+    ],
+    [
+      "George W. Bush",
+      0.343,
+      0.57,
+      0.087
+    ],
+    [
+      "Joseph R. Biden",
+      0.373,
+      0.521,
+      0.105
+    ]
+  ]
+}

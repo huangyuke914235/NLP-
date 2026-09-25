@@ -1,0 +1,55 @@
+{
+  "accuracy": 0.576423210690097,
+  "macro_f1": 0.5740590564552649,
+  "macro_p": 0.577150490545578,
+  "macro_r": 0.5756857503704313,
+  "per_class": {
+    "Entailment (contains answer)": {
+      "precision": 0.5824129141886151,
+      "recall": 0.5074019245003701,
+      "f1": 0.5423259493670886,
+      "support": 2702
+    },
+    "Not Entailment": {
+      "precision": 0.571888066902541,
+      "recall": 0.6439695762404926,
+      "f1": 0.6057921635434412,
+      "support": 2761
+    }
+  },
+  "confusion_matrix": [
+    [
+      1371,
+      1331
+    ],
+    [
+      983,
+      1778
+    ]
+  ],
+  "model": "TF-IDF(question + [SEP] + sentence) + Logistic Regression",
+  "dataset": "nyu-mll/glue/qnli (official GLUE TSV)",
+  "train_n": 12000,
+  "test_n": 5463,
+  "best_config": "tfidf_uni+bigram_no_cw",
+  "val_selection": {
+    "tfidf_unigram_no_cw": {
+      "val_accuracy": 0.57,
+      "val_macro_f1": 0.5695683727293201
+    },
+    "tfidf_unigram_balanced": {
+      "val_accuracy": 0.57,
+      "val_macro_f1": 0.5695683727293201
+    },
+    "tfidf_uni+bigram_no_cw": {
+      "val_accuracy": 0.5716666666666667,
+      "val_macro_f1": 0.5697544642857142
+    },
+    "tfidf_uni+bigram_balanced": {
+      "val_accuracy": 0.5716666666666667,
+      "val_macro_f1": 0.5697544642857142
+    }
+  },
+  "seed": 42,
+  "note": "train 按类别各抽样 6000 条；QNLI dev 全量作为迁移测试集。"
+}

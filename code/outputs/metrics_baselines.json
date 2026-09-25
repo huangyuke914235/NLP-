@@ -1,0 +1,109 @@
+{
+  "majority": {
+    "accuracy": 0.6688311688311688,
+    "macro_f1": 0.26718547341115434,
+    "macro_p": 0.22294372294372292,
+    "macro_r": 0.3333333333333333,
+    "per_class": {
+      "Clear Reply": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 79
+      },
+      "Ambivalent Reply": {
+        "precision": 0.6688311688311688,
+        "recall": 1.0,
+        "f1": 0.8015564202334631,
+        "support": 206
+      },
+      "Clear Non-Reply": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 23
+      }
+    },
+    "confusion_matrix": [
+      [
+        0,
+        79,
+        0
+      ],
+      [
+        0,
+        206,
+        0
+      ],
+      [
+        0,
+        23,
+        0
+      ]
+    ],
+    "majority_class": "Ambivalent Reply"
+  },
+  "tfidf_ablation_val": {
+    "tfidf_unigram_no_cw": {
+      "val_accuracy": 0.6347826086956522,
+      "val_macro_f1": 0.508419624147042
+    },
+    "tfidf_unigram_balanced": {
+      "val_accuracy": 0.5942028985507246,
+      "val_macro_f1": 0.5645629224576593
+    },
+    "tfidf_uni+bigram_no_cw": {
+      "val_accuracy": 0.6405797101449275,
+      "val_macro_f1": 0.5114838242497817
+    },
+    "tfidf_uni+bigram_balanced": {
+      "val_accuracy": 0.6318840579710145,
+      "val_macro_f1": 0.5912092632845938
+    }
+  },
+  "tfidf_best_config": "tfidf_uni+bigram_balanced",
+  "tfidf_lr_test": {
+    "accuracy": 0.538961038961039,
+    "macro_f1": 0.4350749902369335,
+    "macro_p": 0.43266551525618874,
+    "macro_r": 0.43910710246449836,
+    "per_class": {
+      "Clear Reply": {
+        "precision": 0.23333333333333334,
+        "recall": 0.26582278481012656,
+        "f1": 0.2485207100591716,
+        "support": 79
+      },
+      "Ambivalent Reply": {
+        "precision": 0.7046632124352331,
+        "recall": 0.6601941747572816,
+        "f1": 0.681704260651629,
+        "support": 206
+      },
+      "Clear Non-Reply": {
+        "precision": 0.36,
+        "recall": 0.391304347826087,
+        "f1": 0.375,
+        "support": 23
+      }
+    },
+    "confusion_matrix": [
+      [
+        21,
+        52,
+        6
+      ],
+      [
+        60,
+        136,
+        10
+      ],
+      [
+        9,
+        5,
+        9
+      ]
+    ],
+    "vocab_size": 121340
+  }
+}

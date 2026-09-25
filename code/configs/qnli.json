@@ -1,0 +1,16 @@
+{
+  "dataset_name": "nyu-mll/glue",
+  "config_name": "qnli",
+  "text_a_column": "question",
+  "text_b_column": "sentence",
+  "label_column": "label",
+  "label_mapping": {
+    "0": 0,
+    "1": 1
+  },
+  "label_names": ["Entailment (contains answer)", "Not Entailment"],
+  "group_column": "idx",
+  "id_column": "idx",
+  "sep": " [SEP] ",
+  "note": "QNLI: question + sentence -> 该句是否包含问题答案（0=包含, 1=不包含）。train 含 104,743 条，为控制 CPU/时间成本按固定种子抽样 12,000 条训练，validation 5,463 条全部作为测试。"
+}

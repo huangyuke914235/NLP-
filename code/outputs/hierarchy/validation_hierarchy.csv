@@ -1,0 +1,267 @@
+﻿row,title,gold_fine,pred_fine,gold_coarse,direct,hierarchical
+164,"The President's News Conference With President Yoon Suk Yeol of South Korea in Seoul, South Korea",0,3,0,0,1
+165,"The President's News Conference With President Yoon Suk Yeol of South Korea in Seoul, South Korea",3,4,1,1,1
+166,"The President's News Conference With President Yoon Suk Yeol of South Korea in Seoul, South Korea",4,1,1,0,1
+167,"The President's News Conference With President Yoon Suk Yeol of South Korea in Seoul, South Korea",2,3,1,2,1
+168,"The President's News Conference With President Yoon Suk Yeol of South Korea in Seoul, South Korea",3,3,1,2,1
+171,"The President's News Conference in Brussels, Belgium",5,6,1,2,1
+172,"The President's News Conference in Brussels, Belgium",6,6,2,2,1
+173,"The President's News Conference in Brussels, Belgium",8,7,2,2,2
+174,"The President's News Conference in Brussels, Belgium",8,8,2,2,1
+175,"The President's News Conference in Brussels, Belgium",0,8,0,0,2
+176,"The President's News Conference in Brussels, Belgium",0,8,0,0,2
+177,"The President's News Conference in Brussels, Belgium",6,7,2,0,1
+178,"The President's News Conference in Brussels, Belgium",2,2,1,1,1
+179,"The President's News Conference in Brussels, Belgium",0,0,0,0,1
+180,"The President's News Conference in Brussels, Belgium",2,2,1,1,1
+181,"The President's News Conference in Brussels, Belgium",2,8,1,2,2
+264,"The President's News Conference in Glasgow, United Kingdom",0,5,0,1,1
+265,"The President's News Conference in Glasgow, United Kingdom",0,4,0,0,1
+266,"The President's News Conference in Glasgow, United Kingdom",0,4,0,1,1
+267,"The President's News Conference in Glasgow, United Kingdom",0,4,0,1,1
+268,"The President's News Conference in Glasgow, United Kingdom",0,4,0,1,1
+269,"The President's News Conference in Glasgow, United Kingdom",6,5,2,0,1
+270,"The President's News Conference in Glasgow, United Kingdom",5,6,1,0,1
+271,"The President's News Conference in Glasgow, United Kingdom",0,4,0,1,1
+272,"The President's News Conference in Glasgow, United Kingdom",0,4,0,1,1
+273,"The President's News Conference in Glasgow, United Kingdom",0,4,0,0,1
+274,"The President's News Conference in Glasgow, United Kingdom",1,5,1,0,1
+275,"The President's News Conference in Glasgow, United Kingdom",0,5,0,1,1
+315,"The President's News Conference in Brussels, Belgium",6,2,2,1,1
+316,"The President's News Conference in Brussels, Belgium",3,4,1,0,1
+317,"The President's News Conference in Brussels, Belgium",2,8,1,2,2
+318,"The President's News Conference in Brussels, Belgium",0,3,0,0,1
+319,"The President's News Conference in Brussels, Belgium",4,2,1,1,1
+320,"The President's News Conference in Brussels, Belgium",0,4,0,1,1
+357,The President's News Conference With Prime Minister Yoshihide Suga of Japan,0,1,0,0,1
+997,The President's News Conference With President Recep Tayyip Erdogan of Turkey,2,6,1,2,1
+998,The President's News Conference With President Recep Tayyip Erdogan of Turkey,2,7,1,2,1
+999,The President's News Conference With President Recep Tayyip Erdogan of Turkey,0,3,0,0,1
+1000,The President's News Conference With President Recep Tayyip Erdogan of Turkey,0,0,0,0,1
+1001,The President's News Conference With President Recep Tayyip Erdogan of Turkey,1,1,1,1,1
+1002,The President's News Conference With President Sergio Mattarella of Italy,2,8,1,2,2
+1003,The President's News Conference With President Sergio Mattarella of Italy,6,6,2,2,1
+1004,The President's News Conference With President Sergio Mattarella of Italy,0,5,0,1,1
+1005,The President's News Conference With President Sergio Mattarella of Italy,0,4,0,1,1
+1023,The President's News Conference With Prime Minister Scott Morrison of Australia,0,4,0,1,1
+1024,The President's News Conference With Prime Minister Scott Morrison of Australia,0,4,0,0,1
+1025,The President's News Conference With Prime Minister Scott Morrison of Australia,1,4,1,0,1
+1026,The President's News Conference With Prime Minister Scott Morrison of Australia,1,4,1,0,1
+1027,The President's News Conference With Prime Minister Scott Morrison of Australia,1,3,1,1,1
+1028,The President's News Conference With Prime Minister Scott Morrison of Australia,4,3,1,1,1
+1029,The President's News Conference With Prime Minister Scott Morrison of Australia,6,3,2,1,1
+1030,The President's News Conference With Prime Minister Scott Morrison of Australia,4,4,1,1,1
+1098,The President's News Conference With President Recep Tayyip Erdogan of Turkey,0,7,0,0,1
+1170,"The President's News Conference With Prime Minister Shinzo Abe of Japan in Tokyo, Japan",4,7,1,1,1
+1171,"The President's News Conference With Prime Minister Shinzo Abe of Japan in Tokyo, Japan",0,8,0,0,1
+1172,"The President's News Conference With Prime Minister Shinzo Abe of Japan in Tokyo, Japan",2,4,1,1,1
+1173,"The President's News Conference With Prime Minister Shinzo Abe of Japan in Tokyo, Japan",1,3,1,1,1
+1174,"The President's News Conference With Prime Minister Shinzo Abe of Japan in Tokyo, Japan",1,4,1,1,1
+1175,"The President's News Conference With Prime Minister Shinzo Abe of Japan in Tokyo, Japan",2,4,1,1,1
+1176,"The President's News Conference With Prime Minister Shinzo Abe of Japan in Tokyo, Japan",1,7,1,2,1
+1177,"The President's News Conference With Prime Minister Shinzo Abe of Japan in Tokyo, Japan",1,4,1,1,1
+1178,"The President's News Conference With Prime Minister Shinzo Abe of Japan in Tokyo, Japan",4,4,1,1,1
+1260,"The President's News Conference With Prime Minister Shinzo Abe of Japan in Tokyo, Japan",4,4,1,1,1
+1477,"The President's News Conference in Brussels, Belgium",1,0,1,0,1
+1478,"The President's News Conference in Brussels, Belgium",0,0,0,0,1
+1479,"The President's News Conference in Brussels, Belgium",0,0,0,0,1
+1480,"The President's News Conference in Brussels, Belgium",2,2,1,1,1
+1481,"The President's News Conference in Brussels, Belgium",3,2,1,1,1
+1482,"The President's News Conference in Brussels, Belgium",1,0,1,0,1
+1483,"The President's News Conference in Brussels, Belgium",0,0,0,0,1
+1484,"The President's News Conference in Brussels, Belgium",3,4,1,0,1
+1485,"The President's News Conference in Brussels, Belgium",3,1,1,0,1
+1486,"The President's News Conference in Brussels, Belgium",0,4,0,0,1
+1487,"The President's News Conference in Brussels, Belgium",2,1,1,0,1
+1488,"The President's News Conference in Brussels, Belgium",2,8,1,2,1
+1489,"The President's News Conference in Brussels, Belgium",0,1,0,1,1
+1490,"The President's News Conference in Brussels, Belgium",1,3,1,1,1
+1491,"The President's News Conference in Brussels, Belgium",2,7,1,0,1
+1492,"The President's News Conference in Brussels, Belgium",0,0,0,0,1
+1493,"The President's News Conference in Brussels, Belgium",0,8,0,0,1
+1494,"The President's News Conference in Brussels, Belgium",3,6,1,2,1
+1495,"The President's News Conference in Brussels, Belgium",3,6,1,2,1
+1496,"The President's News Conference in Brussels, Belgium",0,0,0,0,1
+1497,"The President's News Conference in Brussels, Belgium",4,2,1,0,1
+1498,"The President's News Conference in Brussels, Belgium",0,5,0,1,1
+1499,"The President's News Conference in Brussels, Belgium",4,4,1,1,1
+1500,"The President's News Conference in Brussels, Belgium",4,2,1,1,1
+1501,"The President's News Conference in Brussels, Belgium",0,5,0,1,1
+1502,"The President's News Conference in Brussels, Belgium",8,8,2,1,1
+1503,"The President's News Conference in Brussels, Belgium",0,2,0,1,1
+1504,"The President's News Conference in Brussels, Belgium",2,2,1,1,1
+1505,"The President's News Conference in Brussels, Belgium",0,7,0,2,1
+1643,The President's News Conference With Prime Minister Malcolm B. Turnbull of Australia,1,3,1,0,1
+1644,The President's News Conference With Prime Minister Malcolm B. Turnbull of Australia,3,3,1,1,1
+1645,The President's News Conference With Prime Minister Malcolm B. Turnbull of Australia,0,5,0,0,1
+1646,The President's News Conference With Prime Minister Malcolm B. Turnbull of Australia,1,2,1,1,1
+1647,The President's News Conference With Prime Minister Malcolm B. Turnbull of Australia,0,5,0,1,1
+1648,The President's News Conference With Prime Minister Malcolm B. Turnbull of Australia,3,7,1,1,1
+1674,"The President's News Conference With Prime Minister Shinzo Abe of Japan in Tokyo, Japan",2,7,1,0,1
+1675,"The President's News Conference With Prime Minister Shinzo Abe of Japan in Tokyo, Japan",2,7,1,2,1
+1676,"The President's News Conference With Prime Minister Shinzo Abe of Japan in Tokyo, Japan",2,1,1,0,1
+1677,"The President's News Conference With Prime Minister Shinzo Abe of Japan in Tokyo, Japan",1,7,1,0,1
+1678,"The President's News Conference With Prime Minister Shinzo Abe of Japan in Tokyo, Japan",1,0,1,0,1
+1679,"The President's News Conference With Prime Minister Shinzo Abe of Japan in Tokyo, Japan",5,4,1,1,1
+1951,The President's News Conference With President Dilma Rousseff of Brazil,5,5,1,0,1
+1952,The President's News Conference With President Dilma Rousseff of Brazil,0,8,0,2,2
+1977,The President's News Conference With President Ashraf Ghani Ahmadzai of Afghanistan,0,7,0,2,2
+1978,The President's News Conference With President Ashraf Ghani Ahmadzai of Afghanistan,1,1,1,1,1
+1979,The President's News Conference With President Ashraf Ghani Ahmadzai of Afghanistan,1,1,1,1,1
+1980,The President's News Conference With President Ashraf Ghani Ahmadzai of Afghanistan,1,1,1,1,1
+1981,The President's News Conference With President Ashraf Ghani Ahmadzai of Afghanistan,1,3,1,1,1
+1982,The President's News Conference With President Ashraf Ghani Ahmadzai of Afghanistan,0,1,0,0,1
+1983,The President's News Conference With President Ashraf Ghani Ahmadzai of Afghanistan,0,3,0,0,1
+1984,The President's News Conference With President Ashraf Ghani Ahmadzai of Afghanistan,5,3,1,1,1
+1985,The President's News Conference With President Ashraf Ghani Ahmadzai of Afghanistan,2,3,1,1,1
+1986,The President's News Conference With President Ashraf Ghani Ahmadzai of Afghanistan,0,3,0,2,1
+1987,The President's News Conference With President Ashraf Ghani Ahmadzai of Afghanistan,2,2,1,1,1
+2091,"The President's News Conference With President Benigno S. Aquino III of the Philippines in Manila, Philippines",2,5,1,1,1
+2092,"The President's News Conference With President Benigno S. Aquino III of the Philippines in Manila, Philippines",2,5,1,1,1
+2102,"The President's News Conference With Prime Minister Shinzo Abe of Japan in Tokyo, Japan",8,8,2,2,2
+2103,"The President's News Conference With Prime Minister Shinzo Abe of Japan in Tokyo, Japan",0,0,0,0,1
+2104,"The President's News Conference With Prime Minister Shinzo Abe of Japan in Tokyo, Japan",1,1,1,1,1
+2105,"The President's News Conference With Prime Minister Shinzo Abe of Japan in Tokyo, Japan",3,1,1,1,1
+2170,"The President's News Conference in St. Petersburg, Russia",0,0,0,0,1
+2171,"The President's News Conference in St. Petersburg, Russia",6,7,2,2,2
+2172,"The President's News Conference in St. Petersburg, Russia",0,1,0,0,1
+2173,"The President's News Conference in St. Petersburg, Russia",0,3,0,1,1
+2174,"The President's News Conference in St. Petersburg, Russia",4,3,1,1,1
+2195,The President's News Conference With Prime Minister Recep Tayyip Erdogan of Turkey,1,1,1,1,1
+2196,The President's News Conference With Prime Minister Recep Tayyip Erdogan of Turkey,6,6,2,2,1
+2197,The President's News Conference With Prime Minister Recep Tayyip Erdogan of Turkey,2,4,1,1,1
+2198,The President's News Conference With Prime Minister Recep Tayyip Erdogan of Turkey,6,4,2,1,1
+2199,The President's News Conference With Prime Minister Recep Tayyip Erdogan of Turkey,0,5,0,1,1
+2200,The President's News Conference With Prime Minister Recep Tayyip Erdogan of Turkey,4,4,1,1,1
+2201,The President's News Conference With Prime Minister Recep Tayyip Erdogan of Turkey,0,5,0,1,1
+2202,The President's News Conference With Prime Minister Recep Tayyip Erdogan of Turkey,7,3,2,1,1
+2203,The President's News Conference With Prime Minister Recep Tayyip Erdogan of Turkey,7,3,2,1,1
+2204,The President's News Conference With Prime Minister Recep Tayyip Erdogan of Turkey,2,3,1,1,1
+2240,The President's News Conference With President Hamid Karzai of Afghanistan,7,0,2,2,1
+2241,The President's News Conference With President Hamid Karzai of Afghanistan,0,1,0,1,1
+2242,The President's News Conference With President Hamid Karzai of Afghanistan,5,1,1,1,1
+2275,The President's News Conference in Los Cabos,1,3,1,1,1
+2276,The President's News Conference in Los Cabos,2,4,1,1,1
+2277,The President's News Conference in Chicago,4,1,1,0,1
+2278,The President's News Conference in Chicago,1,4,1,1,1
+2279,The President's News Conference in Chicago,4,1,1,1,1
+2280,The President's News Conference in Chicago,1,0,1,0,1
+2281,The President's News Conference in Chicago,1,0,1,0,1
+2282,The President's News Conference With Prime Minister Yoshihiko Noda of Japan,6,5,2,1,1
+2283,The President's News Conference With Prime Minister Yoshihiko Noda of Japan,5,5,1,1,1
+2284,The President's News Conference With Prime Minister Yoshihiko Noda of Japan,0,5,0,1,1
+2285,The President's News Conference With Prime Minister Yoshihiko Noda of Japan,1,4,1,1,1
+2286,The President's News Conference With Prime Minister Yoshihiko Noda of Japan,0,4,0,1,1
+2287,The President's News Conference With Prime Minister Yoshihiko Noda of Japan,2,1,1,1,1
+2288,The President's News Conference With Prime Minister Yoshihiko Noda of Japan,2,0,1,0,1
+2312,The President's News Conference With Prime Minister Malcolm B. Turnbull of Australia,1,3,1,0,1
+2313,The President's News Conference With Prime Minister Malcolm B. Turnbull of Australia,3,4,1,1,1
+2314,The President's News Conference With Prime Minister Malcolm B. Turnbull of Australia,3,3,1,1,1
+2323,The President's News Conference With President Dilma Rousseff of Brazil,3,7,1,2,1
+2348,The President's News Conference in Los Cabos,1,1,1,1,1
+2349,The President's News Conference in Los Cabos,3,1,1,0,1
+2350,The President's News Conference in Los Cabos,1,7,1,0,1
+2351,The President's News Conference in Los Cabos,0,3,0,1,1
+2352,The President's News Conference in Los Cabos,6,4,2,1,1
+2353,The President's News Conference in Chicago,1,1,1,1,1
+2354,The President's News Conference in Chicago,4,1,1,1,1
+2355,The President's News Conference in Chicago,3,3,1,1,1
+2392,The President's News Conference in Cannes,4,4,1,1,1
+2393,The President's News Conference in Cannes,4,4,1,1,1
+2394,The President's News Conference in Cannes,1,1,1,1,1
+2395,The President's News Conference in Cannes,3,4,1,1,1
+2396,The President's News Conference in Cannes,2,0,1,0,1
+2397,The President's News Conference With President Lee Myung-bak of South Korea,4,1,1,0,1
+2460,"The President's News Conference With President Carlos Mauricio Funes Cartagena of El Salvador in San Salvador, El Salvador",1,2,1,1,1
+2461,"The President's News Conference With President Carlos Mauricio Funes Cartagena of El Salvador in San Salvador, El Salvador",3,1,1,1,1
+2671,The President's News Conference With President Lee Myung-bak of South Korea,1,5,1,1,1
+2672,The President's News Conference With President Lee Myung-bak of South Korea,3,1,1,1,1
+2673,The President's News Conference With President Lee Myung-bak of South Korea,2,1,1,1,1
+2674,The President's News Conference With President Lee Myung-bak of South Korea,2,1,1,1,1
+2675,The President's News Conference With President Lee Myung-bak of South Korea,2,5,1,1,1
+2676,The President's News Conference With President Lee Myung-bak of South Korea,6,5,2,1,1
+2691,The President's News Conference in London,0,4,0,0,1
+2692,The President's News Conference in London,2,2,1,1,1
+2693,The President's News Conference in London,2,2,1,0,1
+2694,The President's News Conference in London,2,2,1,1,1
+2766,The President's News Conference With President Alvaro Uribe Velez of Colombia,4,3,1,1,1
+2767,The President's News Conference With President Alvaro Uribe Velez of Colombia,1,4,1,1,1
+2807,"The President's News Conference With Prime Minister Yasuo Fukuda of Japan in Toyako, Japan",0,3,0,0,1
+2808,"The President's News Conference With Prime Minister Yasuo Fukuda of Japan in Toyako, Japan",0,3,0,1,1
+2809,"The President's News Conference With Prime Minister Yasuo Fukuda of Japan in Toyako, Japan",0,1,0,0,1
+2810,"The President's News Conference With Prime Minister Yasuo Fukuda of Japan in Toyako, Japan",2,1,1,0,1
+2811,"The President's News Conference With Prime Minister Yasuo Fukuda of Japan in Toyako, Japan",1,7,1,0,1
+2812,"The President's News Conference With Prime Minister Yasuo Fukuda of Japan in Toyako, Japan",0,1,0,0,1
+2813,"The President's News Conference With Prime Minister Yasuo Fukuda of Japan in Toyako, Japan",2,1,1,0,1
+2814,"The President's News Conference With Prime Minister Yasuo Fukuda of Japan in Toyako, Japan",3,3,1,0,1
+2899,"The President's News Conference With President Lee Myung-bak of South Korea at Camp David, Maryland",3,2,1,1,1
+2900,"The President's News Conference With President Lee Myung-bak of South Korea at Camp David, Maryland",1,3,1,0,1
+2901,"The President's News Conference With President Lee Myung-bak of South Korea at Camp David, Maryland",0,7,0,0,1
+2902,"The President's News Conference With President Lee Myung-bak of South Korea at Camp David, Maryland",0,7,0,0,1
+2903,"The President's News Conference With President Lee Myung-bak of South Korea at Camp David, Maryland",0,0,0,0,1
+2904,"The President's News Conference With President Lee Myung-bak of South Korea at Camp David, Maryland",0,3,0,0,1
+2905,"The President's News Conference With President Lee Myung-bak of South Korea at Camp David, Maryland",2,0,1,0,1
+2906,"The President's News Conference With President Lee Myung-bak of South Korea at Camp David, Maryland",2,3,1,1,1
+2915,"The President's News Conference With President Traian Basescu of Romania in Neptun, Romania",1,1,1,1,1
+2916,"The President's News Conference With President Traian Basescu of Romania in Neptun, Romania",1,2,1,1,1
+2917,"The President's News Conference With President Traian Basescu of Romania in Neptun, Romania",2,2,1,1,1
+2918,"The President's News Conference With President Traian Basescu of Romania in Neptun, Romania",2,2,1,0,1
+2919,"The President's News Conference With President Traian Basescu of Romania in Neptun, Romania",2,8,1,2,2
+2920,"The President's News Conference With President Traian Basescu of Romania in Neptun, Romania",1,2,1,1,1
+2921,"The President's News Conference With President Traian Basescu of Romania in Neptun, Romania",3,2,1,1,1
+2922,"The President's News Conference With President Traian Basescu of Romania in Neptun, Romania",5,3,1,1,1
+2923,"The President's News Conference With President Traian Basescu of Romania in Neptun, Romania",2,3,1,1,1
+2992,The President's News Conference With President Paul Kagame of Rwanda in Kigali,2,8,1,0,1
+2993,The President's News Conference With President Paul Kagame of Rwanda in Kigali,0,0,0,0,1
+3048,"The President's News Conference With President Nicolas Sarkozy of France in Mount Vernon, Virginia",0,2,0,1,1
+3049,"The President's News Conference With President Nicolas Sarkozy of France in Mount Vernon, Virginia",1,4,1,1,1
+3050,"The President's News Conference With President Nicolas Sarkozy of France in Mount Vernon, Virginia",0,0,0,0,1
+3051,"The President's News Conference With President Nicolas Sarkozy of France in Mount Vernon, Virginia",1,0,1,0,1
+3052,"The President's News Conference With President Nicolas Sarkozy of France in Mount Vernon, Virginia",2,0,1,0,1
+3053,"The President's News Conference With President Nicolas Sarkozy of France in Mount Vernon, Virginia",0,0,0,0,1
+3146,"The President's News Conference With President Hamid Karzai of Afghanistan at Camp David, Maryland",3,5,1,0,1
+3147,"The President's News Conference With President Hamid Karzai of Afghanistan at Camp David, Maryland",0,6,0,2,2
+3148,"The President's News Conference With President Hamid Karzai of Afghanistan at Camp David, Maryland",0,8,0,2,1
+3174,"The President's News Conference With President Georgi Parvanov of Bulgaria in Sofia, Bulgaria",1,3,1,1,1
+3175,"The President's News Conference With President Georgi Parvanov of Bulgaria in Sofia, Bulgaria",4,3,1,1,1
+3176,"The President's News Conference With President Georgi Parvanov of Bulgaria in Sofia, Bulgaria",4,3,1,1,1
+3177,"The President's News Conference With President Georgi Parvanov of Bulgaria in Sofia, Bulgaria",5,5,1,0,1
+3178,"The President's News Conference With President Georgi Parvanov of Bulgaria in Sofia, Bulgaria",4,0,1,0,1
+3179,"The President's News Conference With President Georgi Parvanov of Bulgaria in Sofia, Bulgaria",4,3,1,1,1
+3180,"The President's News Conference With Prime Minister Sali Berisha of Albania in Tirana, Albania",1,7,1,2,1
+3181,"The President's News Conference With Prime Minister Sali Berisha of Albania in Tirana, Albania",4,7,1,0,1
+3182,"The President's News Conference With Prime Minister Sali Berisha of Albania in Tirana, Albania",2,0,1,0,1
+3183,"The President's News Conference With Prime Minister Sali Berisha of Albania in Tirana, Albania",0,3,0,0,1
+3184,"The President's News Conference With Prime Minister Sali Berisha of Albania in Tirana, Albania",1,2,1,1,1
+3185,"The President's News Conference With Prime Minister Sali Berisha of Albania in Tirana, Albania",0,3,0,1,1
+3238,The President's News Conference With European Union Leaders,0,0,0,0,1
+3239,The President's News Conference With European Union Leaders,0,3,0,0,1
+3240,The President's News Conference With European Union Leaders,0,2,0,1,1
+3262,The President's News Conference With President Felipe de Jesus Calderon Hinojosa in Merida,1,5,1,0,1
+3263,The President's News Conference With President Felipe de Jesus Calderon Hinojosa in Merida,2,5,1,0,1
+3264,The President's News Conference With President Felipe de Jesus Calderon Hinojosa in Merida,0,6,0,1,1
+3265,The President's News Conference With President Felipe de Jesus Calderon Hinojosa in Merida,0,6,0,0,1
+3266,The President's News Conference With President Felipe de Jesus Calderon Hinojosa in Merida,1,6,1,1,1
+3267,The President's News Conference With President Felipe de Jesus Calderon Hinojosa in Merida,1,3,1,1,1
+3268,The President's News Conference With President Felipe de Jesus Calderon Hinojosa in Merida,4,5,1,1,1
+3269,The President's News Conference With President Felipe de Jesus Calderon Hinojosa in Merida,4,5,1,1,1
+3270,The President's News Conference With President Felipe de Jesus Calderon Hinojosa in Merida,0,6,0,1,1
+3271,The President's News Conference With President Felipe de Jesus Calderon Hinojosa in Merida,0,6,0,2,1
+3272,The President's News Conference With President Felipe de Jesus Calderon Hinojosa in Merida,2,1,1,1,1
+3273,The President's News Conference With President Felipe de Jesus Calderon Hinojosa in Merida,0,4,0,1,1
+3274,The President's News Conference With President Felipe de Jesus Calderon Hinojosa in Merida,0,5,0,1,1
+3275,The President's News Conference With President Felipe de Jesus Calderon Hinojosa in Merida,0,4,0,1,1
+3300,The President's News Conference With President Luiz Inacio Lula da Silva of Brazil in Sao Paulo,0,4,0,1,1
+3301,The President's News Conference With President Luiz Inacio Lula da Silva of Brazil in Sao Paulo,2,5,1,1,1
+3302,The President's News Conference With President Luiz Inacio Lula da Silva of Brazil in Sao Paulo,0,5,0,1,1
+3303,The President's News Conference With President Luiz Inacio Lula da Silva of Brazil in Sao Paulo,2,4,1,1,1
+3304,The President's News Conference With President Luiz Inacio Lula da Silva of Brazil in Sao Paulo,4,4,1,1,1
+3305,The President's News Conference With President Luiz Inacio Lula da Silva of Brazil in Sao Paulo,0,3,0,0,1
+3306,The President's News Conference With President Luiz Inacio Lula da Silva of Brazil in Sao Paulo,4,4,1,1,1
+3384,The President's News Conference With President Toomas Ilves of Estonia in Tallinn,0,3,0,1,1
+3385,The President's News Conference With President Toomas Ilves of Estonia in Tallinn,4,3,1,1,1
+3386,The President's News Conference With President Toomas Ilves of Estonia in Tallinn,0,3,0,1,1
+3387,The President's News Conference With President Toomas Ilves of Estonia in Tallinn,2,3,1,1,1
+3388,The President's News Conference With President Toomas Ilves of Estonia in Tallinn,2,3,1,1,1
+3389,The President's News Conference With President Toomas Ilves of Estonia in Tallinn,0,1,0,1,1
+3390,The President's News Conference With President Toomas Ilves of Estonia in Tallinn,3,3,1,1,1

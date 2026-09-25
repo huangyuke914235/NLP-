@@ -1,0 +1,17 @@
+{
+  "dataset_name": "ailsntua/QEvasion",
+  "local_path": "data/qevasion_raw",
+  "text_a_column": "question",
+  "text_b_column": "interview_answer",
+  "label_column": "clarity_label",
+  "label_mapping": {
+    "Clear Reply": 0,
+    "Ambivalent": 1,
+    "Clear Non-Reply": 2
+  },
+  "label_names": ["Clear Reply", "Ambivalent Reply", "Clear Non-Reply"],
+  "group_column": "president",
+  "id_column": "index",
+  "sep": " [SEP] ",
+  "note": "数据文件中三类标签的实际命名为 Clear Reply / Ambivalent / Clear Non-Reply；报告展示名 Ambivalent Reply 对应原始值 Ambivalent。"
+}
