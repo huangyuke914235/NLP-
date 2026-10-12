@@ -6,7 +6,7 @@
 
 | 路径 | 内容 |
 | --- | --- |
-| `自然语言处理期末大作业_按模板完成.docx` | 按课程模板撰写的 15 页实验报告 |
+| `自然语言处理期末大作业.docx` | 实验报告 |
 | `requirements.txt`、`DATA_SOURCES.md` | Python 依赖清单及数据来源、快照校验信息 |
 | `code/common.py` | 数据适配、评估与结果保存的公共函数 |
 | `code/01_eda.py`～`code/06_direct_transfer.py` | 数据分析、基线、语义表示、QNLI 适配、层级扩展与直接迁移实验 |
@@ -21,7 +21,7 @@
 
 ## 环境和数据
 
-在项目使用的 Anaconda `pytorch` 环境中运行。所需 Python 包列于 `requirements.txt`。附带的 `code/deps/` 是项目本地依赖副本，实验脚本会优先搜索它；其中的编译扩展面向 Windows/Python 3.13，不能代替跨平台安装，也不是整个 Anaconda 环境。实测 NumPy、pandas、scikit-learn 与 datasets 可从包内加载；matplotlib 和 PyTorch 仍由当前 Anaconda 环境提供，`sentence-transformers` 在检查时尚未安装。从头运行 `03_plm_lr.py` 前须先按清单安装所缺的包。首次运行语义模型时，还需要从 [MiniLM 模型页面](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)下载权重；模型权重没有打包。
+在 Anaconda `pytorch` 环境中运行，所需 Python 包列于 `requirements.txt`。附带的 `code/deps/` 是面向 Windows/Python 3.13 的项目本地依赖副本，实验脚本会优先搜索它；在其他系统或 Python 版本中，请按依赖清单安装。MiniLM 模型权重未包含在仓库中，首次运行语义模型时需从 [MiniLM 模型页面](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)下载。
 
 原始数据已放在 `code/data/`。来源、样本量、本地文件记录时间和校验值见 `DATA_SOURCES.md`。QEvasion 来自[发布者的数据集页面](https://huggingface.co/datasets/ailsntua/QEvasion)；QNLI 的 `train.tsv` 和 `dev.tsv` 来自脚本中记录的 GLUE 下载地址。
 
@@ -63,6 +63,3 @@ python 06_direct_transfer.py
 
 这些是一次固定随机种子运行的结果，不是多次实验的均值。QEvasion 官方测试集缺少细粒度 `evasion_label`，因此报告没有声称测得测试集的九分类 F1。细粒度标签 `Implicit` 映射到粗类 `Ambivalent`，而非 `Clear Reply`。
 
-## 发布前检查
-
-报告封面的个人信息及第五节 GitHub 仓库链接尚未填写，请提交前补齐。提交包现已包含原始数据和项目内第三方依赖，但不包含完整 Conda 环境、PyTorch 安装包或 MiniLM 模型权重。公开发布原始数据、预测 CSV 和第三方包前，请核对各来源的许可与课程要求。整个包约 500 MB、文件数较多，建议通过 Git 命令行推送；[GitHub 文档](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github)列有文件与仓库大小限制。
