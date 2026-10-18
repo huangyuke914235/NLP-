@@ -1,0 +1,12 @@
+{
+  "description": "Read-only evidence viewers; screenshot by a real headless browser, not a simulated terminal",
+  "inputs_sha256": {
+    "replay_evidence/run_records.json": "fab5900a93f5163b470341dd1c6353429c565eecab0748c37695103d30c1997a",
+    "replay_evidence/output_comparison.json": "af55d316c8c7ddef69e05db8f91cacf166ec1b1177213cd584ad01d9994e0378",
+    "replay_evidence/01_eda.log": "0bf96f9e04fab598581f7b347c3655253d8361ffc52b9ffef3bde12d845f7198",
+    "replay_evidence/02_baselines.log": "f388d5aad126a49efddf4d231db983a17af0e86b6c1d75cec715b6e68eda270f",
+    "replay_evidence/03_plm_lr.log": "a77483ec4f63177aba65b765a5f0a209e3a3df73c39c95eab1bba24a07565329",
+    "replay_evidence/04_transfer_qnli.log": "00306e2d588648fc3287dd6f1f22d0d0373994284e18536621ba0fd7f8c6a9bb",
+    "audit_outputs/review_validation.json": "41065805130958402802d5d5d5adcbe79415a58b1ba76e81043012ca27fef9a1"
+  }
+}

@@ -1,0 +1,15 @@
+ISOLATED REPLAY EVIDENCE
+{"script": "02_baselines.py", "started_at": "2026-10-18T17:58:19+08:00", "command": ["D:\\Anaconda\\envs\\pytorch\\python.exe", "-B", "-u", "-c", "import os,sys,runpy,datetime; print('REPLAY_PROCESS',datetime.datetime.now().isoformat(), 'pid=',os.getpid(),'executable=',sys.executable,'cwd=',os.getcwd(),flush=True); runpy.run_path('C:\\\\Users\\\\20251\\\\.codex\\\\visualizations\\\\2026\\\\09\\\\11\\\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\\\review_20261018\\\\replay_code\\\\02_baselines.py',run_name='__main__')"], "cwd": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_code", "log": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_evidence\\02_baselines.log", "script_sha256": "04c27197455d61caf7f87424adadee89df80c4a8700fe88c05394abb6c4621d2"}
+REPLAY_PROCESS 2026-10-18T17:58:19.175909 pid= 12448 executable= D:\Anaconda\envs\pytorch\python.exe cwd= C:\Users\20251\.codex\visualizations\2026\09\11\01a08dee-0b13-74b2-8206-d0c120d15bcc\review_20261018\replay_code
+loaded in 1.3s | train=3448 test=308
+fit=3103 val=345 (1.4s)
+majority: 0.6688311688311688 0.26718547341115434
+unigram    cw=None     val_acc=0.6348 val_macroF1=0.5084
+unigram    cw=balanced val_acc=0.5942 val_macroF1=0.5646
+uni+bigram cw=None     val_acc=0.6406 val_macroF1=0.5115
+uni+bigram cw=balanced val_acc=0.6319 val_macroF1=0.5912
+best config: tfidf_uni+bigram_balanced
+TF-IDF+LR test: acc=0.5390 macroF1=0.4351 vocab=121340 (10.2s)
+saved metrics + predictions (10.2s total)
+
+REPLAY_COMPLETED {"script": "02_baselines.py", "started_at": "2026-10-18T17:58:19+08:00", "command": ["D:\\Anaconda\\envs\\pytorch\\python.exe", "-B", "-u", "-c", "import os,sys,runpy,datetime; print('REPLAY_PROCESS',datetime.datetime.now().isoformat(), 'pid=',os.getpid(),'executable=',sys.executable,'cwd=',os.getcwd(),flush=True); runpy.run_path('C:\\\\Users\\\\20251\\\\.codex\\\\visualizations\\\\2026\\\\09\\\\11\\\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\\\review_20261018\\\\replay_code\\\\02_baselines.py',run_name='__main__')"], "cwd": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_code", "log": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_evidence\\02_baselines.log", "script_sha256": "04c27197455d61caf7f87424adadee89df80c4a8700fe88c05394abb6c4621d2", "pid": 12448, "exit_code": 0, "elapsed_seconds": 17.02257770000142, "finished_at": "2026-10-18T17:58:36+08:00"}

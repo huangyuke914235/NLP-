@@ -1,0 +1,14 @@
+ISOLATED REPLAY EVIDENCE
+{"script": "03_plm_lr.py", "started_at": "2026-10-18T17:58:36+08:00", "command": ["D:\\Anaconda\\envs\\pytorch\\python.exe", "-B", "-u", "-c", "import os,sys,runpy,datetime; print('REPLAY_PROCESS',datetime.datetime.now().isoformat(), 'pid=',os.getpid(),'executable=',sys.executable,'cwd=',os.getcwd(),flush=True); runpy.run_path('C:\\\\Users\\\\20251\\\\.codex\\\\visualizations\\\\2026\\\\09\\\\11\\\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\\\review_20261018\\\\replay_code\\\\03_plm_lr.py',run_name='__main__')"], "cwd": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_code", "log": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_evidence\\03_plm_lr.log", "script_sha256": "846a98c0d8afb713d045b685db2d65317c7ffc81378a40067d3fcfbd4b34ba08"}
+REPLAY_PROCESS 2026-10-18T17:58:36.220002 pid= 35052 executable= D:\Anaconda\envs\pytorch\python.exe cwd= C:\Users\20251\.codex\visualizations\2026\09\11\01a08dee-0b13-74b2-8206-d0c120d15bcc\review_20261018\replay_code
+model loaded sentence-transformers/all-MiniLM-L6-v2 0.2s
+encoded in 28.9s | dim=384
+feature dim: 1536
+C=0.1: val_macroF1=0.5889
+C=1.0: val_macroF1=0.5880
+C=10.0: val_macroF1=0.5407
+best C: 0.1
+ST+LR test: 0.5811688311688312 0.48548845012259645
+saved
+
+REPLAY_COMPLETED {"script": "03_plm_lr.py", "started_at": "2026-10-18T17:58:36+08:00", "command": ["D:\\Anaconda\\envs\\pytorch\\python.exe", "-B", "-u", "-c", "import os,sys,runpy,datetime; print('REPLAY_PROCESS',datetime.datetime.now().isoformat(), 'pid=',os.getpid(),'executable=',sys.executable,'cwd=',os.getcwd(),flush=True); runpy.run_path('C:\\\\Users\\\\20251\\\\.codex\\\\visualizations\\\\2026\\\\09\\\\11\\\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\\\review_20261018\\\\replay_code\\\\03_plm_lr.py',run_name='__main__')"], "cwd": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_code", "log": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_evidence\\03_plm_lr.log", "script_sha256": "846a98c0d8afb713d045b685db2d65317c7ffc81378a40067d3fcfbd4b34ba08", "pid": 35052, "exit_code": 0, "elapsed_seconds": 44.0387238000003, "finished_at": "2026-10-18T17:59:20+08:00"}

@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "purpose": "Post-hoc sensitivity analysis, not official-test model selection",
+  "notes": [
+    "Nine fine labels map exactly to three coarse labels; summing mutually exclusive fine-label probabilities is the standard coarse marginalization.",
+    "Dividing coarse sums by the number of child labels (1, 5, 3) is an alternative decision rule, not a calibrated coarse-class probability.",
+    "All three variants reuse the same frozen embeddings, C, split seed, and label mapping; only class weighting and decision rule vary.",
+    "Official test scores are descriptive; do not choose a model or tune hyperparameters on this test set."
+  ],
+  "seed": 42,
+  "C": 0.1,
+  "max_iter": 2000,
+  "feature_dim": 1536,
+  "coarse_class_order": [
+    "Clear Reply",
+    "Ambivalent",
+    "Clear Non-Reply"
+  ],
+  "fine_class_order": [
+    "Explicit",
+    "Implicit",
+    "Dodging",
+    "General",
+    "Deflection",
+    "Partial/half-answer",
+    "Declining to answer",
+    "Claims ignorance",
+    "Clarification"
+  ],
+  "fine_to_coarse": {
+    "Explicit": "Clear Reply",
+    "Implicit": "Ambivalent",
+    "Dodging": "Ambivalent",
+    "General": "Ambivalent",
+    "Deflection": "Ambivalent",
+    "Partial/half-answer": "Ambivalent",
+    "Declining to answer": "Clear Non-Reply",
+    "Claims ignorance": "Clear Non-Reply",
+    "Clarification": "Clear Non-Reply"
+  },
+  "child_counts": {
+    "Clear Reply": 1,
+    "Ambivalent": 5,
+    "Clear Non-Reply": 3
+  },
+  "validation_split": {
+    "method": "GroupShuffleSplit by title",
+    "test_size": 0.2,
+    "fit_n": 3182,
+    "validation_n": 266,
+    "fit_title_groups": 140,
+    "validation_title_groups": 35,
+    "title_group_overlap": 0
+  },
+  "official_train_n": 3448,
+  "official_test_n": 308,
+  "direct_three_class_reference": {
+    "validation": {
+      "n": 266,
+      "accuracy": 0.5601503759398496,
+      "macro_f1": 0.48144385026737974,
+      "gold_counts": [
+        86,
+        161,
+        19
+      ],
+      "predicted_counts": [
+        90,
+        145,
+        31
+      ],
+      "confusion_matrix": [
+        [
+          42,
+          37,
+          7
+        ],
+        [
+          46,
+          99,
+          16
+        ],
+        [
+          2,
+          9,
+          8
+        ]
+      ]
+    },
+    "official_test": {
+      "n": 308,
+      "accuracy": 0.5811688311688312,
+      "macro_f1": 0.48548845012259645,
+      "gold_counts": [
+        79,
+        206,
+        23
+      ],
+      "predicted_counts": [
+        96,
+        163,
+        49
+      ],
+      "confusion_matrix": [
+        [
+          40,
+          30,
+          9
+        ],
+        [
+          49,
+          128,
+          29
+        ],
+        [
+          7,
+          5,
+          11
+        ]
+      ]
+    }
+  },
+  "variants": [
+    {
+      "name": "balanced_sum",
+      "class_weight": "balanced",
+      "aggregation": "sum",
+      "score_interpretation": "model-implied coarse probability",
+      "validation": {
+        "n": 266,
+        "accuracy": 0.6015037593984962,
+        "macro_f1": 0.3167249643736236,
+        "gold_counts": [
+          86,
+          161,
+          19
+        ],
+        "predicted_counts": [
+          0,
+          254,
+          12
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            81,
+            5
+          ],
+          [
+            0,
+            157,
+            4
+          ],
+          [
+            0,
+            16,
+            3
+          ]
+        ]
+      },
+      "official_test": {
+        "n": 308,
+        "accuracy": 0.6525974025974026,
+        "macro_f1": 0.35041250542770297,
+        "gold_counts": [
+          79,
+          206,
+          23
+        ],
+        "predicted_counts": [
+          0,
+          284,
+          24
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            72,
+            7
+          ],
+          [
+            0,
+            195,
+            11
+          ],
+          [
+            0,
+            17,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "name": "balanced_child_count_normalized",
+      "class_weight": "balanced",
+      "aggregation": "child_count_normalized",
+      "score_interpretation": "heuristic decision score; not a normalized probability",
+      "validation": {
+        "n": 266,
+        "accuracy": 0.518796992481203,
+        "macro_f1": 0.43944512694512694,
+        "gold_counts": [
+          86,
+          161,
+          19
+        ],
+        "predicted_counts": [
+          106,
+          135,
+          25
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            36,
+            8
+          ],
+          [
+            60,
+            90,
+            11
+          ],
+          [
+            4,
+            9,
+            6
+          ]
+        ]
+      },
+      "official_test": {
+        "n": 308,
+        "accuracy": 0.5487012987012987,
+        "macro_f1": 0.46875966875966874,
+        "gold_counts": [
+          79,
+          206,
+          23
+        ],
+        "predicted_counts": [
+          101,
+          164,
+          43
+        ],
+        "confusion_matrix": [
+          [
+            34,
+            35,
+            10
+          ],
+          [
+            62,
+            123,
+            21
+          ],
+          [
+            5,
+            6,
+            12
+          ]
+        ]
+      }
+    },
+    {
+      "name": "unweighted_sum",
+      "class_weight": null,
+      "aggregation": "sum",
+      "score_interpretation": "model-implied coarse probability",
+      "validation": {
+        "n": 266,
+        "accuracy": 0.6390977443609023,
+        "macro_f1": 0.33487135121279116,
+        "gold_counts": [
+          86,
+          161,
+          19
+        ],
+        "predicted_counts": [
+          15,
+          251,
+          0
+        ],
+        "confusion_matrix": [
+          [
+            12,
+            74,
+            0
+          ],
+          [
+            3,
+            158,
+            0
+          ],
+          [
+            0,
+            19,
+            0
+          ]
+        ]
+      },
+      "official_test": {
+        "n": 308,
+        "accuracy": 0.6753246753246753,
+        "macro_f1": 0.3121714159487519,
+        "gold_counts": [
+          79,
+          206,
+          23
+        ],
+        "predicted_counts": [
+          11,
+          297,
+          0
+        ],
+        "confusion_matrix": [
+          [
+            6,
+            73,
+            0
+          ],
+          [
+            4,
+            202,
+            0
+          ],
+          [
+            1,
+            22,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "input_sha256": {
+    "outputs/st_embeddings.npz": "686476eb069802814bbd281f26c19834099a4b86ab9cb824b8bf5d9b69ae3b11",
+    "data/qevasion_raw/train/data-00000-of-00001.arrow": "636d1ca556f8e614e219767ecaba07b0202f74cb43733f271b01ae96ebbba84e",
+    "data/qevasion_raw/test/data-00000-of-00001.arrow": "6d5765d1f7b75a7882d88bd493943efd797e05184a7516d5b27e43049842c949",
+    "05_hierarchy.py": "99627a1afe33a81ac16bfd3c534cee1dec018e97814b5703cfe2a853baa53ee2",
+    "outputs/hierarchy/metrics_hierarchy.json": "5502de5378a85569a928834166df5f2d97f81a1bfce96eba1567f8b7589f9738"
+  },
+  "software_versions": {
+    "python": "3.13.15",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scikit_learn": "1.9.0",
+    "datasets": "5.0.1"
+  }
+}

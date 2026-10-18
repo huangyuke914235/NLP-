@@ -1,0 +1,186 @@
+{
+  "verification_date": "2026-10-18",
+  "scope": "Fresh processes, copied scripts and raw data, CPU MiniLM re-encoding, no original output overwrite",
+  "historical_environment_claim": false,
+  "started_at": "2026-10-18T17:58:15+08:00",
+  "finished_at": "2026-10-18T17:59:43+08:00",
+  "pipeline_wall_seconds": 88.0,
+  "independent_process_count": 6,
+  "all_exit_codes_zero": true,
+  "steps": [
+    {
+      "script": "01_eda.py",
+      "pid": 28700,
+      "started_at": "2026-10-18T17:58:15+08:00",
+      "finished_at": "2026-10-18T17:58:19+08:00",
+      "elapsed_seconds": 3.841136600000027,
+      "exit_code": 0
+    },
+    {
+      "script": "02_baselines.py",
+      "pid": 12448,
+      "started_at": "2026-10-18T17:58:19+08:00",
+      "finished_at": "2026-10-18T17:58:36+08:00",
+      "elapsed_seconds": 17.02257770000142,
+      "exit_code": 0
+    },
+    {
+      "script": "03_plm_lr.py",
+      "pid": 35052,
+      "started_at": "2026-10-18T17:58:36+08:00",
+      "finished_at": "2026-10-18T17:59:20+08:00",
+      "elapsed_seconds": 44.0387238000003,
+      "exit_code": 0
+    },
+    {
+      "script": "04_transfer_qnli.py",
+      "pid": 13952,
+      "started_at": "2026-10-18T17:59:20+08:00",
+      "finished_at": "2026-10-18T17:59:30+08:00",
+      "elapsed_seconds": 9.790705600000365,
+      "exit_code": 0
+    },
+    {
+      "script": "05_hierarchy.py",
+      "pid": 15316,
+      "started_at": "2026-10-18T17:59:31+08:00",
+      "finished_at": "2026-10-18T17:59:36+08:00",
+      "elapsed_seconds": 5.146823399998539,
+      "exit_code": 0
+    },
+    {
+      "script": "06_direct_transfer.py",
+      "pid": 33512,
+      "started_at": "2026-10-18T17:59:36+08:00",
+      "finished_at": "2026-10-18T17:59:43+08:00",
+      "elapsed_seconds": 7.190650600001391,
+      "exit_code": 0
+    }
+  ],
+  "new_metrics": {
+    "metrics_baselines.json": {
+      "accuracy": 0.538961038961039,
+      "macro_f1": 0.4350749902369335
+    },
+    "metrics_st_lr.json": {
+      "accuracy": 0.5811688311688312,
+      "macro_f1": 0.48548845012259645
+    },
+    "metrics_qnli_tfidf_lr.json": {
+      "accuracy": 0.576423210690097,
+      "macro_f1": 0.5740590564552649
+    },
+    "hierarchy/metrics_hierarchy.json": {
+      "accuracy": 0.6525974025974026,
+      "macro_f1": 0.35041250542770297
+    },
+    "hierarchy/metrics_direct_transfer.json": {
+      "accuracy": 0.5046677649643053,
+      "macro_f1": 0.33638742186338455
+    }
+  },
+  "all_test_identity_or_hard_prediction_mismatches": {
+    "outputs/predictions_qnli_tfidf_lr.csv": 0,
+    "outputs/predictions_st_lr.csv": 0,
+    "outputs/predictions_tfidf_lr.csv": 0,
+    "outputs/hierarchy/predictions_direct_transfer.csv": 0,
+    "outputs/hierarchy/predictions_hierarchy.csv": 0
+  },
+  "embedding_cache": {
+    "old_sha256": "686476eb069802814bbd281f26c19834099a4b86ab9cb824b8bf5d9b69ae3b11",
+    "new_sha256": "686476eb069802814bbd281f26c19834099a4b86ab9cb824b8bf5d9b69ae3b11",
+    "arrays": {
+      "X_train": {
+        "old_shape": [
+          3448,
+          1536
+        ],
+        "new_shape": [
+          3448,
+          1536
+        ],
+        "exact_equal": true,
+        "max_absolute_difference": 0.0
+      },
+      "y_train": {
+        "old_shape": [
+          3448
+        ],
+        "new_shape": [
+          3448
+        ],
+        "exact_equal": true,
+        "max_absolute_difference": 0.0
+      },
+      "X_test": {
+        "old_shape": [
+          308,
+          1536
+        ],
+        "new_shape": [
+          308,
+          1536
+        ],
+        "exact_equal": true,
+        "max_absolute_difference": 0.0
+      },
+      "y_test": {
+        "old_shape": [
+          308
+        ],
+        "new_shape": [
+          308
+        ],
+        "exact_equal": true,
+        "max_absolute_difference": 0.0
+      }
+    }
+  },
+  "minilm_selected_C_old_and_new": 0.1,
+  "minilm_unselected_C10_validation_f1": {
+    "old": 0.5468422671526855,
+    "new": 0.5406821733246604,
+    "test_metric_impact": false
+  },
+  "max_probability_difference": {
+    "outputs/predictions_qnli_tfidf_lr.csv": {
+      "prob_Entailment (contains answer)": 0.0,
+      "prob_Not Entailment": 0.0
+    },
+    "outputs/predictions_st_lr.csv": {
+      "prob_Clear Reply": 1.2000000000012001e-05,
+      "prob_Ambivalent Reply": 1.2000000000012001e-05,
+      "prob_Clear Non-Reply": 1.4000000000014001e-05
+    },
+    "outputs/predictions_tfidf_lr.csv": {
+      "prob_Clear Reply": 0.0,
+      "prob_Ambivalent Reply": 0.0,
+      "prob_Clear Non-Reply": 0.0
+    },
+    "outputs/hierarchy/predictions_direct_transfer.csv": {},
+    "outputs/hierarchy/predictions_hierarchy.csv": {
+      "prob_clear": 8.121132850646973e-07,
+      "prob_ambivalent": 1.5050172805786133e-06,
+      "prob_nonreply": 2.0116567611694336e-06
+    }
+  },
+  "notes": [
+    "Every script was run by a separate subprocess using its unchanged copy.",
+    "MiniLM feature cache is byte-for-byte and array-for-array identical to the saved original.",
+    "All evaluated hard predictions and all final test metrics agree.",
+    "Some probability columns and the unselected C=10 validation score differ; do not claim all output files are identical.",
+    "Dependencies were installed only to scratch; no Conda package or E drive result was changed."
+  ],
+  "model_revision_cached_and_loaded": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "evidence_files": [
+    "environment.json",
+    "run_records.json",
+    "output_comparison.json",
+    "01_eda.log",
+    "02_baselines.log",
+    "03_plm_lr.log",
+    "04_transfer_qnli.log",
+    "05_hierarchy.log",
+    "06_direct_transfer.log"
+  ]
+}

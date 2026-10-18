@@ -17,6 +17,13 @@ _DEPS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "deps")
 if os.path.isdir(_DEPS) and _DEPS not in sys.path:
     sys.path.insert(0, _DEPS)
 
+# 独立模型依赖优先，避免旧 deps 中的同名包覆盖已验证的模型依赖。
+_MODEL_DEPS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "model_deps")
+if os.path.isdir(_MODEL_DEPS):
+    if _MODEL_DEPS in sys.path:
+        sys.path.remove(_MODEL_DEPS)
+    sys.path.insert(0, _MODEL_DEPS)
+
 SEED = 42
 CLASS_ORDER = ["Clear Reply", "Ambivalent Reply", "Clear Non-Reply"]  # 0/1/2 展示顺序
 

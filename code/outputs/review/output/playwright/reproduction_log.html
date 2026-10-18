@@ -1,0 +1,95 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><title>复现日志查看页</title><style>
+*{box-sizing:border-box}body{margin:0;background:#fff;color:#142130;font-family:'Microsoft YaHei','Segoe UI',sans-serif}
+main{width:1600px;padding:26px 36px 22px}h1{font-size:34px;line-height:1.25;margin:0 0 8px}h2{font-size:25px;line-height:1.3;margin:0 0 12px}
+p{margin:5px 0;line-height:1.4}a{color:#245782}code,pre{font-family:Consolas,'Microsoft YaHei',monospace}
+.muted{font-size:20px;color:#526273}.meta{font-size:20px;margin-top:7px}.status{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin:18px 0}
+.status div{border:1px solid #bdc8d2;border-radius:5px;padding:10px 12px;font-size:20px;line-height:1.5}.status strong{font-size:21px}.ok{color:#176042}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.card{border:1px solid #c4cdd6;border-radius:5px;padding:17px;background:#fafbfd}
+.card .time{font-size:18px;color:#536171;margin-bottom:10px}pre{font-size:20px;line-height:1.45;white-space:pre-wrap;overflow-wrap:anywhere;margin:0;color:#172b3b}
+.note{font-size:20px;line-height:1.45;border-left:4px solid #637f96;background:#f0f4f7;padding:11px 15px;margin-top:16px}
+.sources{font-size:17px;color:#526273;margin-top:10px;line-height:1.5}.small{font-size:18px}details{margin:12px 0;font-size:18px}details pre{font-size:15px}
+.two{display:grid;grid-template-columns:1.1fr .9fr;gap:18px;margin-top:17px}.check{font-size:22px;line-height:1.6;margin-top:10px}
+table{border-collapse:collapse;width:100%;font-size:21px;margin:12px 0}td,th{border:1px solid #c4cdd6;text-align:left;padding:8px 12px}
+</style></head><body><main><h1>复现日志查看页</h1>
+<p class="muted">实际日志页面截图 · 2026-10-18（Asia/Shanghai）· 隔离复现目录 · 逐字输出节选</p>
+<p class="meta">解释器：<code>D:\Anaconda\envs\pytorch\python.exe</code>　Python 3.13.15　scikit-learn 1.9.0</p>
+<div class="status"><div><strong>01_eda.py</strong><br>3.84 秒　<span class="ok">退出 0</span></div><div><strong>02_baselines.py</strong><br>17.02 秒　<span class="ok">退出 0</span></div><div><strong>03_plm_lr.py</strong><br>44.04 秒　<span class="ok">退出 0</span></div><div><strong>04_transfer_qnli.py</strong><br>9.79 秒　<span class="ok">退出 0</span></div><div><strong>05_hierarchy.py</strong><br>5.15 秒　<span class="ok">退出 0</span></div><div><strong>06_direct_transfer.py</strong><br>7.19 秒　<span class="ok">退出 0</span></div></div><div class="grid"><section class="card"><h2>02 · TF-IDF 基线</h2><p class="time">17:58:19—17:58:36　PID 12448　退出码 0</p><pre>loaded in 1.3s | train=3448 test=308
+fit=3103 val=345 (1.4s)
+majority: 0.6688311688311688 0.26718547341115434
+best config: tfidf_uni+bigram_balanced
+TF-IDF+LR test: acc=0.5390 macroF1=0.4351 vocab=121340 (10.2s)
+saved metrics + predictions (10.2s total)</pre></section><section class="card"><h2>03 · MiniLM 重新编码与分类</h2><p class="time">17:58:36—17:59:20　PID 35052　退出码 0</p><pre>model loaded sentence-transformers/all-MiniLM-L6-v2 0.2s
+encoded in 28.9s | dim=384
+feature dim: 1536
+best C: 0.1
+ST+LR test: 0.5811688311688312 0.48548845012259645
+saved</pre></section><section class="card"><h2>04 · QNLI 目标域适配</h2><p class="time">17:59:20—17:59:30　PID 13952　退出码 0</p><pre>uni+bigram cw=None     val_acc=0.5717 val_macroF1=0.5698
+QNLI test: 0.576423210690097 0.5740590564552649
+saved QNLI metrics, predictions and metadata</pre></section></div>
+<p class="note">本页为真实运行日志的只读查看页。01—06 均在独立 Python 子进程中顺序运行，03 重新编码全部问答；卡片耗时为父进程计时，日志内计时为脚本自身计时。全部 5 份预测文件的样本身份与类别预测均复现一致；MiniLM 未入选 C=10 的验证 Macro-F1 从 0.546842 变为 0.540682，最终 C=0.1 与官方测试指标一致。</p>
+<p class="sources">证据来源：<a href="../../replay_evidence/run_records.json">run_records.json</a>、
+<a href="../../replay_evidence/02_baselines.log">02_baselines.log</a>、
+<a href="../../replay_evidence/03_plm_lr.log">03_plm_lr.log</a>、
+<a href="../../replay_evidence/04_transfer_qnli.log">04_transfer_qnli.log</a>、
+<a href="../../replay_evidence/output_comparison.json">output_comparison.json</a>。完整逐字命令可展开查看；此页面没有执行训练。</p>
+<details><summary>查看六项逐字执行命令、工作目录与脚本 SHA-256（展开）</summary><details><summary>01_eda.py：逐字命令数组、工作目录与脚本校验值</summary><pre>{
+  &quot;command&quot;: [
+    &quot;D:\\Anaconda\\envs\\pytorch\\python.exe&quot;,
+    &quot;-B&quot;,
+    &quot;-u&quot;,
+    &quot;-c&quot;,
+    &quot;import os,sys,runpy,datetime; print(&#x27;REPLAY_PROCESS&#x27;,datetime.datetime.now().isoformat(), &#x27;pid=&#x27;,os.getpid(),&#x27;executable=&#x27;,sys.executable,&#x27;cwd=&#x27;,os.getcwd(),flush=True); runpy.run_path(&#x27;C:\\\\Users\\\\20251\\\\.codex\\\\visualizations\\\\2026\\\\09\\\\11\\\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\\\review_20261018\\\\replay_code\\\\01_eda.py&#x27;,run_name=&#x27;__main__&#x27;)&quot;
+  ],
+  &quot;cwd&quot;: &quot;C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_code&quot;,
+  &quot;script_sha256&quot;: &quot;c91e9afbc1fddc6fd9503b6c4a5287c960d70ff8f5339b8b301032f6b072932e&quot;
+}</pre></details><details><summary>02_baselines.py：逐字命令数组、工作目录与脚本校验值</summary><pre>{
+  &quot;command&quot;: [
+    &quot;D:\\Anaconda\\envs\\pytorch\\python.exe&quot;,
+    &quot;-B&quot;,
+    &quot;-u&quot;,
+    &quot;-c&quot;,
+    &quot;import os,sys,runpy,datetime; print(&#x27;REPLAY_PROCESS&#x27;,datetime.datetime.now().isoformat(), &#x27;pid=&#x27;,os.getpid(),&#x27;executable=&#x27;,sys.executable,&#x27;cwd=&#x27;,os.getcwd(),flush=True); runpy.run_path(&#x27;C:\\\\Users\\\\20251\\\\.codex\\\\visualizations\\\\2026\\\\09\\\\11\\\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\\\review_20261018\\\\replay_code\\\\02_baselines.py&#x27;,run_name=&#x27;__main__&#x27;)&quot;
+  ],
+  &quot;cwd&quot;: &quot;C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_code&quot;,
+  &quot;script_sha256&quot;: &quot;04c27197455d61caf7f87424adadee89df80c4a8700fe88c05394abb6c4621d2&quot;
+}</pre></details><details><summary>03_plm_lr.py：逐字命令数组、工作目录与脚本校验值</summary><pre>{
+  &quot;command&quot;: [
+    &quot;D:\\Anaconda\\envs\\pytorch\\python.exe&quot;,
+    &quot;-B&quot;,
+    &quot;-u&quot;,
+    &quot;-c&quot;,
+    &quot;import os,sys,runpy,datetime; print(&#x27;REPLAY_PROCESS&#x27;,datetime.datetime.now().isoformat(), &#x27;pid=&#x27;,os.getpid(),&#x27;executable=&#x27;,sys.executable,&#x27;cwd=&#x27;,os.getcwd(),flush=True); runpy.run_path(&#x27;C:\\\\Users\\\\20251\\\\.codex\\\\visualizations\\\\2026\\\\09\\\\11\\\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\\\review_20261018\\\\replay_code\\\\03_plm_lr.py&#x27;,run_name=&#x27;__main__&#x27;)&quot;
+  ],
+  &quot;cwd&quot;: &quot;C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_code&quot;,
+  &quot;script_sha256&quot;: &quot;846a98c0d8afb713d045b685db2d65317c7ffc81378a40067d3fcfbd4b34ba08&quot;
+}</pre></details><details><summary>04_transfer_qnli.py：逐字命令数组、工作目录与脚本校验值</summary><pre>{
+  &quot;command&quot;: [
+    &quot;D:\\Anaconda\\envs\\pytorch\\python.exe&quot;,
+    &quot;-B&quot;,
+    &quot;-u&quot;,
+    &quot;-c&quot;,
+    &quot;import os,sys,runpy,datetime; print(&#x27;REPLAY_PROCESS&#x27;,datetime.datetime.now().isoformat(), &#x27;pid=&#x27;,os.getpid(),&#x27;executable=&#x27;,sys.executable,&#x27;cwd=&#x27;,os.getcwd(),flush=True); runpy.run_path(&#x27;C:\\\\Users\\\\20251\\\\.codex\\\\visualizations\\\\2026\\\\09\\\\11\\\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\\\review_20261018\\\\replay_code\\\\04_transfer_qnli.py&#x27;,run_name=&#x27;__main__&#x27;)&quot;
+  ],
+  &quot;cwd&quot;: &quot;C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_code&quot;,
+  &quot;script_sha256&quot;: &quot;e919c05cb2aeb57da7f718344ee3b331e6fa2aba9a2550bdb40ddb5b5ddf4923&quot;
+}</pre></details><details><summary>05_hierarchy.py：逐字命令数组、工作目录与脚本校验值</summary><pre>{
+  &quot;command&quot;: [
+    &quot;D:\\Anaconda\\envs\\pytorch\\python.exe&quot;,
+    &quot;-B&quot;,
+    &quot;-u&quot;,
+    &quot;-c&quot;,
+    &quot;import os,sys,runpy,datetime; print(&#x27;REPLAY_PROCESS&#x27;,datetime.datetime.now().isoformat(), &#x27;pid=&#x27;,os.getpid(),&#x27;executable=&#x27;,sys.executable,&#x27;cwd=&#x27;,os.getcwd(),flush=True); runpy.run_path(&#x27;C:\\\\Users\\\\20251\\\\.codex\\\\visualizations\\\\2026\\\\09\\\\11\\\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\\\review_20261018\\\\replay_code\\\\05_hierarchy.py&#x27;,run_name=&#x27;__main__&#x27;)&quot;
+  ],
+  &quot;cwd&quot;: &quot;C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_code&quot;,
+  &quot;script_sha256&quot;: &quot;99627a1afe33a81ac16bfd3c534cee1dec018e97814b5703cfe2a853baa53ee2&quot;
+}</pre></details><details><summary>06_direct_transfer.py：逐字命令数组、工作目录与脚本校验值</summary><pre>{
+  &quot;command&quot;: [
+    &quot;D:\\Anaconda\\envs\\pytorch\\python.exe&quot;,
+    &quot;-B&quot;,
+    &quot;-u&quot;,
+    &quot;-c&quot;,
+    &quot;import os,sys,runpy,datetime; print(&#x27;REPLAY_PROCESS&#x27;,datetime.datetime.now().isoformat(), &#x27;pid=&#x27;,os.getpid(),&#x27;executable=&#x27;,sys.executable,&#x27;cwd=&#x27;,os.getcwd(),flush=True); runpy.run_path(&#x27;C:\\\\Users\\\\20251\\\\.codex\\\\visualizations\\\\2026\\\\09\\\\11\\\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\\\review_20261018\\\\replay_code\\\\06_direct_transfer.py&#x27;,run_name=&#x27;__main__&#x27;)&quot;
+  ],
+  &quot;cwd&quot;: &quot;C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_code&quot;,
+  &quot;script_sha256&quot;: &quot;b5991bbebe45c582fc48ac30d0c053c8fb8af67e21a5afa4c966a3835102f129&quot;
+}</pre></details></details></main></body></html>

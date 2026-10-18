@@ -1,0 +1,185 @@
+{
+  "metrics": {
+    "outputs/metrics_baselines.json": {
+      "old_sha256": "d05d7e39991a4bc60acd95b885196753b63094cd42aa2ebb6effc97d682d9fdf",
+      "new_sha256": "d05d7e39991a4bc60acd95b885196753b63094cd42aa2ebb6effc97d682d9fdf",
+      "all_values_equal_within_1e_12": true,
+      "differences": []
+    },
+    "outputs/metrics_qnli_tfidf_lr.json": {
+      "old_sha256": "d5faccf5f0034edf4b96c52e34f4602187a228dab12377937f2a82aecb24552f",
+      "new_sha256": "d5faccf5f0034edf4b96c52e34f4602187a228dab12377937f2a82aecb24552f",
+      "all_values_equal_within_1e_12": true,
+      "differences": []
+    },
+    "outputs/metrics_st_lr.json": {
+      "old_sha256": "e9dee3931212396b84c2aa3270b7aaa2d78c1c8f3904c9b1b02c5db8d25001b4",
+      "new_sha256": "48d3d7c4fbde2a791e082e90ffeae334f9489515e63cab27740258caaf7d0629",
+      "all_values_equal_within_1e_12": false,
+      "differences": [
+        {
+          "key": "val_selection.C=10.0",
+          "old": 0.5468422671526855,
+          "new": 0.5406821733246604,
+          "delta": -0.0061600938280250706
+        }
+      ]
+    },
+    "outputs/hierarchy/metrics_direct_transfer.json": {
+      "old_sha256": "d400761f2c42003145c87409880f6eb2d545d767e4fb235fbf3a417f2c70f8e3",
+      "new_sha256": "d400761f2c42003145c87409880f6eb2d545d767e4fb235fbf3a417f2c70f8e3",
+      "all_values_equal_within_1e_12": true,
+      "differences": []
+    },
+    "outputs/hierarchy/metrics_hierarchy.json": {
+      "old_sha256": "5502de5378a85569a928834166df5f2d97f81a1bfce96eba1567f8b7589f9738",
+      "new_sha256": "85dd81c30ac3bef092f092f2d2df2ef3b21970fa6c4095410e872ff8acf26b0b",
+      "all_values_equal_within_1e_12": false,
+      "differences": [
+        {
+          "key": "hashes.outputs\\metrics_st_lr.json",
+          "old": "e9dee3931212396b84c2aa3270b7aaa2d78c1c8f3904c9b1b02c5db8d25001b4",
+          "new": "48d3d7c4fbde2a791e082e90ffeae334f9489515e63cab27740258caaf7d0629"
+        }
+      ]
+    }
+  },
+  "predictions": {
+    "outputs/predictions_qnli_tfidf_lr.csv": {
+      "old_n": 5463,
+      "new_n": 5463,
+      "old_sha256": "461dcb903e30b3255027ae070ce36b0780da2c469a536d17612421a43b62be24",
+      "new_sha256": "461dcb903e30b3255027ae070ce36b0780da2c469a536d17612421a43b62be24",
+      "common_identity_prediction_columns": [
+        "id",
+        "gold",
+        "prediction"
+      ],
+      "rows_differing_in_identity_or_prediction": 0,
+      "rows_differing_any_column": 0,
+      "probability_max_absolute_difference": {
+        "prob_Entailment (contains answer)": 0.0,
+        "prob_Not Entailment": 0.0
+      }
+    },
+    "outputs/predictions_st_lr.csv": {
+      "old_n": 308,
+      "new_n": 308,
+      "old_sha256": "54959322a76b80a3c4e32b713b966309734654ff9f2cff94dbaa34d95eee5717",
+      "new_sha256": "38c5b1512fd9dc3d83f639cf6b284d55a62d463f4e076d05159341229a602b56",
+      "common_identity_prediction_columns": [
+        "id",
+        "gold",
+        "prediction"
+      ],
+      "rows_differing_in_identity_or_prediction": 0,
+      "rows_differing_any_column": 308,
+      "probability_max_absolute_difference": {
+        "prob_Clear Reply": 1.2000000000012001e-05,
+        "prob_Ambivalent Reply": 1.2000000000012001e-05,
+        "prob_Clear Non-Reply": 1.4000000000014001e-05
+      }
+    },
+    "outputs/predictions_tfidf_lr.csv": {
+      "old_n": 308,
+      "new_n": 308,
+      "old_sha256": "40b599d9d947c971ccbb5700d00adc828a221ff29e1f6884736f1bd7c665423e",
+      "new_sha256": "40b599d9d947c971ccbb5700d00adc828a221ff29e1f6884736f1bd7c665423e",
+      "common_identity_prediction_columns": [
+        "id",
+        "gold",
+        "prediction"
+      ],
+      "rows_differing_in_identity_or_prediction": 0,
+      "rows_differing_any_column": 0,
+      "probability_max_absolute_difference": {
+        "prob_Clear Reply": 0.0,
+        "prob_Ambivalent Reply": 0.0,
+        "prob_Clear Non-Reply": 0.0
+      }
+    },
+    "outputs/hierarchy/predictions_direct_transfer.csv": {
+      "old_n": 5463,
+      "new_n": 5463,
+      "old_sha256": "6d05d0950361ca8bd30318ac11caa7d464f51b2634a51a5dcd92c5f0de2dbc53",
+      "new_sha256": "6d05d0950361ca8bd30318ac11caa7d464f51b2634a51a5dcd92c5f0de2dbc53",
+      "common_identity_prediction_columns": [
+        "id",
+        "gold",
+        "prediction"
+      ],
+      "rows_differing_in_identity_or_prediction": 0,
+      "rows_differing_any_column": 0,
+      "probability_max_absolute_difference": {}
+    },
+    "outputs/hierarchy/predictions_hierarchy.csv": {
+      "old_n": 308,
+      "new_n": 308,
+      "old_sha256": "07d9831e13eddb808bd0e711e3f90bf2f46d1f25e3a7af414700b15954f882d9",
+      "new_sha256": "ed0d0696507d7a472ad6f7fd63a57873e989482e1593392b38a8c465d3efa5f9",
+      "common_identity_prediction_columns": [
+        "id",
+        "gold",
+        "direct",
+        "hierarchical"
+      ],
+      "rows_differing_in_identity_or_prediction": 0,
+      "rows_differing_any_column": 308,
+      "probability_max_absolute_difference": {
+        "prob_clear": 8.121132850646973e-07,
+        "prob_ambivalent": 1.5050172805786133e-06,
+        "prob_nonreply": 2.0116567611694336e-06
+      }
+    }
+  },
+  "cache": {
+    "old_sha256": "686476eb069802814bbd281f26c19834099a4b86ab9cb824b8bf5d9b69ae3b11",
+    "new_sha256": "686476eb069802814bbd281f26c19834099a4b86ab9cb824b8bf5d9b69ae3b11",
+    "arrays": {
+      "X_train": {
+        "old_shape": [
+          3448,
+          1536
+        ],
+        "new_shape": [
+          3448,
+          1536
+        ],
+        "exact_equal": true,
+        "max_absolute_difference": 0.0
+      },
+      "y_train": {
+        "old_shape": [
+          3448
+        ],
+        "new_shape": [
+          3448
+        ],
+        "exact_equal": true,
+        "max_absolute_difference": 0.0
+      },
+      "X_test": {
+        "old_shape": [
+          308,
+          1536
+        ],
+        "new_shape": [
+          308,
+          1536
+        ],
+        "exact_equal": true,
+        "max_absolute_difference": 0.0
+      },
+      "y_test": {
+        "old_shape": [
+          308
+        ],
+        "new_shape": [
+          308
+        ],
+        "exact_equal": true,
+        "max_absolute_difference": 0.0
+      }
+    }
+  }
+}

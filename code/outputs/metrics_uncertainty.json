@@ -1,0 +1,54 @@
+{
+  "seed": 42,
+  "bootstrap_repetitions": 10000,
+  "metric": "Macro-F1 with all three coarse labels; zero_division=0",
+  "confidence_interval": "2.5th and 97.5th percentiles, linear interpolation",
+  "labels": [
+    "Clear Reply",
+    "Ambivalent Reply",
+    "Clear Non-Reply"
+  ],
+  "test_samples": 308,
+  "unique_answer_clusters": 191,
+  "repeated_answer_clusters": 86,
+  "rows_in_repeated_answer_clusters": 203,
+  "largest_answer_cluster": 5,
+  "direct_vs_minilm_prediction_mismatches": 0,
+  "point_macro_f1": {
+    "tfidf": 0.4350749902369335,
+    "minilm": 0.48548845012259645,
+    "direct": 0.48548845012259645,
+    "hierarchy": 0.35041250542770297
+  },
+  "comparisons": {
+    "minilm_minus_tfidf": {
+      "point_difference": 0.050413459885662926,
+      "paired_sample_bootstrap_ci95": [
+        -0.015682742515284974,
+        0.1189137004452271
+      ],
+      "paired_answer_cluster_bootstrap_ci95": [
+        -0.024121137435386117,
+        0.12965593736796172
+      ]
+    },
+    "hierarchy_minus_direct": {
+      "point_difference": -0.13507594469489348,
+      "paired_sample_bootstrap_ci95": [
+        -0.20617017443628236,
+        -0.06493443031552791
+      ],
+      "paired_answer_cluster_bootstrap_ci95": [
+        -0.21423452969142548,
+        -0.05889374934957532
+      ]
+    }
+  },
+  "resampling_note": "The sample bootstrap resamples paired test IDs. The cluster bootstrap resamples identical answer texts and preserves all questions sharing an answer. These two checks do not account for source-level dependence. Official test URLs are available; see 09_review_validation.py for URL-cluster intervals. Intervals are descriptive, not a claim of population-level significance.",
+  "sha256": {
+    "outputs/predictions_tfidf_lr.csv": "40b599d9d947c971ccbb5700d00adc828a221ff29e1f6884736f1bd7c665423e",
+    "outputs/predictions_st_lr.csv": "54959322a76b80a3c4e32b713b966309734654ff9f2cff94dbaa34d95eee5717",
+    "outputs/hierarchy/predictions_hierarchy.csv": "07d9831e13eddb808bd0e711e3f90bf2f46d1f25e3a7af414700b15954f882d9",
+    "script": "56fda6f632e15a61444ecac68163a6448c3c5c27a01aa2f9cb82d8a580747d65"
+  }
+}

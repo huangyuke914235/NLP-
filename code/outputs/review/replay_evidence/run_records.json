@@ -1,0 +1,110 @@
+[
+  {
+    "script": "01_eda.py",
+    "started_at": "2026-10-18T17:58:15+08:00",
+    "command": [
+      "D:\\Anaconda\\envs\\pytorch\\python.exe",
+      "-B",
+      "-u",
+      "-c",
+      "import os,sys,runpy,datetime; print('REPLAY_PROCESS',datetime.datetime.now().isoformat(), 'pid=',os.getpid(),'executable=',sys.executable,'cwd=',os.getcwd(),flush=True); runpy.run_path('C:\\\\Users\\\\20251\\\\.codex\\\\visualizations\\\\2026\\\\09\\\\11\\\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\\\review_20261018\\\\replay_code\\\\01_eda.py',run_name='__main__')"
+    ],
+    "cwd": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_code",
+    "log": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_evidence\\01_eda.log",
+    "script_sha256": "c91e9afbc1fddc6fd9503b6c4a5287c960d70ff8f5339b8b301032f6b072932e",
+    "pid": 28700,
+    "exit_code": 0,
+    "elapsed_seconds": 3.841136600000027,
+    "finished_at": "2026-10-18T17:58:19+08:00"
+  },
+  {
+    "script": "02_baselines.py",
+    "started_at": "2026-10-18T17:58:19+08:00",
+    "command": [
+      "D:\\Anaconda\\envs\\pytorch\\python.exe",
+      "-B",
+      "-u",
+      "-c",
+      "import os,sys,runpy,datetime; print('REPLAY_PROCESS',datetime.datetime.now().isoformat(), 'pid=',os.getpid(),'executable=',sys.executable,'cwd=',os.getcwd(),flush=True); runpy.run_path('C:\\\\Users\\\\20251\\\\.codex\\\\visualizations\\\\2026\\\\09\\\\11\\\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\\\review_20261018\\\\replay_code\\\\02_baselines.py',run_name='__main__')"
+    ],
+    "cwd": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_code",
+    "log": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_evidence\\02_baselines.log",
+    "script_sha256": "04c27197455d61caf7f87424adadee89df80c4a8700fe88c05394abb6c4621d2",
+    "pid": 12448,
+    "exit_code": 0,
+    "elapsed_seconds": 17.02257770000142,
+    "finished_at": "2026-10-18T17:58:36+08:00"
+  },
+  {
+    "script": "03_plm_lr.py",
+    "started_at": "2026-10-18T17:58:36+08:00",
+    "command": [
+      "D:\\Anaconda\\envs\\pytorch\\python.exe",
+      "-B",
+      "-u",
+      "-c",
+      "import os,sys,runpy,datetime; print('REPLAY_PROCESS',datetime.datetime.now().isoformat(), 'pid=',os.getpid(),'executable=',sys.executable,'cwd=',os.getcwd(),flush=True); runpy.run_path('C:\\\\Users\\\\20251\\\\.codex\\\\visualizations\\\\2026\\\\09\\\\11\\\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\\\review_20261018\\\\replay_code\\\\03_plm_lr.py',run_name='__main__')"
+    ],
+    "cwd": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_code",
+    "log": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_evidence\\03_plm_lr.log",
+    "script_sha256": "846a98c0d8afb713d045b685db2d65317c7ffc81378a40067d3fcfbd4b34ba08",
+    "pid": 35052,
+    "exit_code": 0,
+    "elapsed_seconds": 44.0387238000003,
+    "finished_at": "2026-10-18T17:59:20+08:00"
+  },
+  {
+    "script": "04_transfer_qnli.py",
+    "started_at": "2026-10-18T17:59:20+08:00",
+    "command": [
+      "D:\\Anaconda\\envs\\pytorch\\python.exe",
+      "-B",
+      "-u",
+      "-c",
+      "import os,sys,runpy,datetime; print('REPLAY_PROCESS',datetime.datetime.now().isoformat(), 'pid=',os.getpid(),'executable=',sys.executable,'cwd=',os.getcwd(),flush=True); runpy.run_path('C:\\\\Users\\\\20251\\\\.codex\\\\visualizations\\\\2026\\\\09\\\\11\\\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\\\review_20261018\\\\replay_code\\\\04_transfer_qnli.py',run_name='__main__')"
+    ],
+    "cwd": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_code",
+    "log": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_evidence\\04_transfer_qnli.log",
+    "script_sha256": "e919c05cb2aeb57da7f718344ee3b331e6fa2aba9a2550bdb40ddb5b5ddf4923",
+    "pid": 13952,
+    "exit_code": 0,
+    "elapsed_seconds": 9.790705600000365,
+    "finished_at": "2026-10-18T17:59:30+08:00"
+  },
+  {
+    "script": "05_hierarchy.py",
+    "started_at": "2026-10-18T17:59:31+08:00",
+    "command": [
+      "D:\\Anaconda\\envs\\pytorch\\python.exe",
+      "-B",
+      "-u",
+      "-c",
+      "import os,sys,runpy,datetime; print('REPLAY_PROCESS',datetime.datetime.now().isoformat(), 'pid=',os.getpid(),'executable=',sys.executable,'cwd=',os.getcwd(),flush=True); runpy.run_path('C:\\\\Users\\\\20251\\\\.codex\\\\visualizations\\\\2026\\\\09\\\\11\\\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\\\review_20261018\\\\replay_code\\\\05_hierarchy.py',run_name='__main__')"
+    ],
+    "cwd": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_code",
+    "log": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_evidence\\05_hierarchy.log",
+    "script_sha256": "99627a1afe33a81ac16bfd3c534cee1dec018e97814b5703cfe2a853baa53ee2",
+    "pid": 15316,
+    "exit_code": 0,
+    "elapsed_seconds": 5.146823399998539,
+    "finished_at": "2026-10-18T17:59:36+08:00"
+  },
+  {
+    "script": "06_direct_transfer.py",
+    "started_at": "2026-10-18T17:59:36+08:00",
+    "command": [
+      "D:\\Anaconda\\envs\\pytorch\\python.exe",
+      "-B",
+      "-u",
+      "-c",
+      "import os,sys,runpy,datetime; print('REPLAY_PROCESS',datetime.datetime.now().isoformat(), 'pid=',os.getpid(),'executable=',sys.executable,'cwd=',os.getcwd(),flush=True); runpy.run_path('C:\\\\Users\\\\20251\\\\.codex\\\\visualizations\\\\2026\\\\09\\\\11\\\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\\\review_20261018\\\\replay_code\\\\06_direct_transfer.py',run_name='__main__')"
+    ],
+    "cwd": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_code",
+    "log": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_evidence\\06_direct_transfer.log",
+    "script_sha256": "b5991bbebe45c582fc48ac30d0c053c8fb8af67e21a5afa4c966a3835102f129",
+    "pid": 33512,
+    "exit_code": 0,
+    "elapsed_seconds": 7.190650600001391,
+    "finished_at": "2026-10-18T17:59:43+08:00"
+  }
+]

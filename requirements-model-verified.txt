@@ -1,0 +1,14 @@
+# Additional model dependencies verified during the isolated 2026-10-18 replay.
+# This records the new replay environment, NOT the original experiment lock.
+# Base scientific packages are listed in the repository requirements.txt.
+# CPU inference reused existing torch 2.14.0+cu130; no CUDA GPU is required by 03.
+# To install these packages to code/model_deps without changing the Conda env:
+# From the repository root:
+# python -m pip install --target code/model_deps --no-deps -r requirements-model-verified.txt
+# The target must be new or empty; do not merge incompatible package versions.
+sentence-transformers==5.1.1
+transformers==4.57.1
+tokenizers==0.22.1
+safetensors==0.6.2
+huggingface-hub==0.36.0
+regex==2025.9.18

@@ -1,8 +1,10 @@
-# 运行实验脚本所需的 Python 包。
+# Basic experiment dependencies. CPU inference is sufficient.
+# The six model components below were verified on 2026-10-18.
+# This is not a complete historical lock of the original experiment environment.
 numpy
 pandas
 scikit-learn
 matplotlib
 datasets
-sentence-transformers
 torch
+-r requirements-model-verified.txt

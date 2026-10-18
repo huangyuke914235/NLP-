@@ -1,0 +1,40 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><title>复现日志查看页 · 数据加载与标签核验</title><style>
+*{box-sizing:border-box}body{margin:0;background:#fff;color:#142130;font-family:'Microsoft YaHei','Segoe UI',sans-serif}
+main{width:1600px;padding:26px 36px 22px}h1{font-size:34px;line-height:1.25;margin:0 0 8px}h2{font-size:25px;line-height:1.3;margin:0 0 12px}
+p{margin:5px 0;line-height:1.4}a{color:#245782}code,pre{font-family:Consolas,'Microsoft YaHei',monospace}
+.muted{font-size:20px;color:#526273}.meta{font-size:20px;margin-top:7px}.status{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin:18px 0}
+.status div{border:1px solid #bdc8d2;border-radius:5px;padding:10px 12px;font-size:20px;line-height:1.5}.status strong{font-size:21px}.ok{color:#176042}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.card{border:1px solid #c4cdd6;border-radius:5px;padding:17px;background:#fafbfd}
+.card .time{font-size:18px;color:#536171;margin-bottom:10px}pre{font-size:20px;line-height:1.45;white-space:pre-wrap;overflow-wrap:anywhere;margin:0;color:#172b3b}
+.note{font-size:20px;line-height:1.45;border-left:4px solid #637f96;background:#f0f4f7;padding:11px 15px;margin-top:16px}
+.sources{font-size:17px;color:#526273;margin-top:10px;line-height:1.5}.small{font-size:18px}details{margin:12px 0;font-size:18px}details pre{font-size:15px}
+.two{display:grid;grid-template-columns:1.1fr .9fr;gap:18px;margin-top:17px}.check{font-size:22px;line-height:1.6;margin-top:10px}
+table{border-collapse:collapse;width:100%;font-size:21px;margin:12px 0}td,th{border:1px solid #c4cdd6;text-align:left;padding:8px 12px}
+</style></head><body><main><h1>复现日志查看页 · 数据加载与标签核验</h1>
+<p class="muted">实际日志页面截图 · 左侧为 01_eda.log 逐字节选，右侧为实际配置文件及独立核验结果</p>
+<div class="two"><section class="card"><h2>数据加载输出</h2><pre>train=3448, test=308, label_names=[&#x27;Clear Reply&#x27;, &#x27;Ambivalent Reply&#x27;, &#x27;Clear Non-Reply&#x27;]
+train missing: {} empty: {&#x27;text_a_empty&#x27;: 0, &#x27;text_b_empty&#x27;: 0, &#x27;label_empty&#x27;: 0}
+test missing: {&#x27;group&#x27;: 1.0} empty: {&#x27;text_a_empty&#x27;: 0, &#x27;text_b_empty&#x27;: 0, &#x27;label_empty&#x27;: 0}
+label counts: {&#x27;Clear Reply&#x27;: 1052, &#x27;Ambivalent Reply&#x27;: 2040, &#x27;Clear Non-Reply&#x27;: 356} {&#x27;Clear Reply&#x27;: 79, &#x27;Ambivalent Reply&#x27;: 206, &#x27;Clear Non-Reply&#x27;: 23}
+overlap train/test: {&#x27;question_exact_overlap&#x27;: 1, &#x27;pair_exact_overlap&#x27;: 0}</pre>
+<h2 style="margin-top:18px">独立来源审计（review_validation.json）</h2>
+<table><tr><th>字段</th><th>核验值</th></tr>
+<tr><td>train / test 唯一来源 URL</td><td>287 / 56</td></tr>
+<tr><td>交集 URL / 涉及测试行</td><td>39 / 118</td></tr>
+<tr><td>跨划分完整问答对重合</td><td>0</td></tr></table></section>
+<section class="card"><h2>configs/qevasion.json（实际内容节选）</h2><pre>{
+  &quot;label_column&quot;: &quot;clarity_label&quot;,
+  &quot;label_mapping&quot;: {
+    &quot;Clear Reply&quot;: 0,
+    &quot;Ambivalent&quot;: 1,
+    &quot;Clear Non-Reply&quot;: 2
+  },
+  &quot;label_names&quot;: [
+    &quot;Clear Reply&quot;,
+    &quot;Ambivalent Reply&quot;,
+    &quot;Clear Non-Reply&quot;
+  ]
+}</pre>
+<p class="check">核验：九类细标签→粗标签映射一致。<br>原指标及逐行预测核验：38/38 项通过。</p></section></div>
+<p class="note">原始标签 Ambivalent 的展示名为 Ambivalent Reply。175 是不重复标题文本数，287 是训练集唯一来源 URL 数；测试集 URL 可用，不能把 title/president 缺失写成“没有来源标识”。</p>
+<p class="sources">证据来源：01_eda.log；replay_code/configs/qevasion.json；audit_outputs/review_validation.json。此页面仅展示已有证据，不模拟终端输出。</p></main></body></html>

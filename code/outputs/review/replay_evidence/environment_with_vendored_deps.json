@@ -1,0 +1,84 @@
+{
+  "checked_at": "2026-10-18T18:06:48+08:00",
+  "purpose": "Current environment preflight; not the historical experiment lock",
+  "python": "3.13.15 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 17:17:48) [MSC v.1942 64 bit (AMD64)]",
+  "executable": "D:\\Anaconda\\envs\\pytorch\\python.exe",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "pid": 32600,
+  "common_module": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\common.py",
+  "path_priority": [
+    "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\model_deps",
+    "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\deps",
+    "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018",
+    "D:\\Anaconda\\envs\\pytorch\\python313.zip",
+    "D:\\Anaconda\\envs\\pytorch\\DLLs",
+    "D:\\Anaconda\\envs\\pytorch\\Lib"
+  ],
+  "model_dependencies_directory": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\model_deps",
+  "legacy_dependencies_directory": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\deps",
+  "modules": {
+    "numpy": {
+      "version": "2.5.2",
+      "loaded_from": "D:\\Anaconda\\envs\\pytorch\\Lib\\site-packages\\numpy\\__init__.py"
+    },
+    "pandas": {
+      "version": "3.0.5",
+      "loaded_from": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\deps\\pandas\\__init__.py"
+    },
+    "scipy": {
+      "version": "1.18.1",
+      "loaded_from": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\deps\\scipy\\__init__.py"
+    },
+    "sklearn": {
+      "version": "1.9.0",
+      "loaded_from": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\deps\\sklearn\\__init__.py"
+    },
+    "matplotlib": {
+      "version": "3.11.2",
+      "loaded_from": "D:\\Anaconda\\envs\\pytorch\\Lib\\site-packages\\matplotlib\\__init__.py"
+    },
+    "datasets": {
+      "version": "5.0.1",
+      "loaded_from": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\deps\\datasets\\__init__.py"
+    },
+    "torch": {
+      "version": "2.14.0+cu130",
+      "loaded_from": "D:\\Anaconda\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py"
+    },
+    "sentence_transformers": {
+      "version": "5.1.1",
+      "loaded_from": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\model_deps\\sentence_transformers\\__init__.py"
+    },
+    "transformers": {
+      "version": "4.57.1",
+      "loaded_from": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\model_deps\\transformers\\__init__.py"
+    },
+    "tokenizers": {
+      "version": "0.22.1",
+      "loaded_from": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\model_deps\\tokenizers\\__init__.py"
+    },
+    "safetensors": {
+      "version": "0.6.2",
+      "loaded_from": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\model_deps\\safetensors\\__init__.py"
+    },
+    "huggingface_hub": {
+      "version": "0.36.0",
+      "loaded_from": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\model_deps\\huggingface_hub\\__init__.py"
+    },
+    "regex": {
+      "version": "2.5.162",
+      "loaded_from": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\model_deps\\regex\\__init__.py"
+    }
+  },
+  "model_check": {
+    "success": true,
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "device": "cpu",
+    "offline": true,
+    "embedding_dim": 384,
+    "max_seq_length": 256,
+    "note": "Loaded model only; did not regenerate embeddings or train classifiers."
+  },
+  "success": true
+}

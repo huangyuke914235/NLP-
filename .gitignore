@@ -5,3 +5,4 @@ __pycache__/
 report_render*/
 Thumbs.db
 .DS_Store
+.workbuddy-ai/

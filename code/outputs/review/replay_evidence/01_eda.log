@@ -1,0 +1,17 @@
+ISOLATED REPLAY EVIDENCE
+{"script": "01_eda.py", "started_at": "2026-10-18T17:58:15+08:00", "command": ["D:\\Anaconda\\envs\\pytorch\\python.exe", "-B", "-u", "-c", "import os,sys,runpy,datetime; print('REPLAY_PROCESS',datetime.datetime.now().isoformat(), 'pid=',os.getpid(),'executable=',sys.executable,'cwd=',os.getcwd(),flush=True); runpy.run_path('C:\\\\Users\\\\20251\\\\.codex\\\\visualizations\\\\2026\\\\09\\\\11\\\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\\\review_20261018\\\\replay_code\\\\01_eda.py',run_name='__main__')"], "cwd": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_code", "log": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_evidence\\01_eda.log", "script_sha256": "c91e9afbc1fddc6fd9503b6c4a5287c960d70ff8f5339b8b301032f6b072932e"}
+REPLAY_PROCESS 2026-10-18T17:58:15.324290 pid= 28700 executable= D:\Anaconda\envs\pytorch\python.exe cwd= C:\Users\20251\.codex\visualizations\2026\09\11\01a08dee-0b13-74b2-8206-d0c120d15bcc\review_20261018\replay_code
+train=3448, test=308, label_names=['Clear Reply', 'Ambivalent Reply', 'Clear Non-Reply']
+train missing: {} empty: {'text_a_empty': 0, 'text_b_empty': 0, 'label_empty': 0}
+test missing: {'group': 1.0} empty: {'text_a_empty': 0, 'text_b_empty': 0, 'label_empty': 0}
+length: {'train_question_len': {'mean': 14.5, 'median': 12.0, 'p95': 30.649999999999636, 'max': 80}, 'train_answer_len': {'mean': 293.6, 'median': 207.0, 'p95': 888.2999999999993, 'max': 2117}, 'test_question_len': {'mean': 15.3, 'median': 14.0, 'p95': 33.0, 'max': 66}, 'test_answer_len': {'mean': 326.3, 'median': 291.5, 'p95': 814.0, 'max': 1309}}
+label counts: {'Clear Reply': 1052, 'Ambivalent Reply': 2040, 'Clear Non-Reply': 356} {'Clear Reply': 79, 'Ambivalent Reply': 206, 'Clear Non-Reply': 23}
+fig1 saved
+fig2 saved
+president: {'Donald J. Trump': 1325, 'Barack Obama': 1010, 'George W. Bush': 714, 'Joseph R. Biden': 399}
+overlap train/test: {'question_exact_overlap': 1, 'pair_exact_overlap': 0}
+unique interviews(train): 175 dup questions: 62
+president label ratio: [['Donald J. Trump', np.float64(0.326), np.float64(0.556), np.float64(0.118)], ['Barack Obama', np.float64(0.224), np.float64(0.681), np.float64(0.095)], ['George W. Bush', np.float64(0.343), np.float64(0.57), np.float64(0.087)], ['Joseph R. Biden', np.float64(0.373), np.float64(0.521), np.float64(0.105)]]
+eda_stats.json saved
+
+REPLAY_COMPLETED {"script": "01_eda.py", "started_at": "2026-10-18T17:58:15+08:00", "command": ["D:\\Anaconda\\envs\\pytorch\\python.exe", "-B", "-u", "-c", "import os,sys,runpy,datetime; print('REPLAY_PROCESS',datetime.datetime.now().isoformat(), 'pid=',os.getpid(),'executable=',sys.executable,'cwd=',os.getcwd(),flush=True); runpy.run_path('C:\\\\Users\\\\20251\\\\.codex\\\\visualizations\\\\2026\\\\09\\\\11\\\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\\\review_20261018\\\\replay_code\\\\01_eda.py',run_name='__main__')"], "cwd": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_code", "log": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_evidence\\01_eda.log", "script_sha256": "c91e9afbc1fddc6fd9503b6c4a5287c960d70ff8f5339b8b301032f6b072932e", "pid": 28700, "exit_code": 0, "elapsed_seconds": 3.841136600000027, "finished_at": "2026-10-18T17:58:19+08:00"}

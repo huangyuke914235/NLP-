@@ -1,0 +1,76 @@
+{
+  "captured_at": "2026-10-18T17:57:53+08:00",
+  "python": "3.13.15 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 17:17:48) [MSC v.1942 64 bit (AMD64)]",
+  "executable": "D:\\Anaconda\\envs\\pytorch\\python.exe",
+  "parent_pid": 25660,
+  "dependencies_target": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_deps",
+  "pip_install_source": "https://mirrors.aliyun.com/pypi/simple/",
+  "note": "Isolated replay environment, not claimed to be original experiment environment.",
+  "modules": {
+    "numpy": {
+      "version": "2.5.2",
+      "file": "D:\\Anaconda\\envs\\pytorch\\Lib\\site-packages\\numpy\\__init__.py"
+    },
+    "pandas": {
+      "version": "3.0.5",
+      "file": "C:\\Users\\20251\\AppData\\Roaming\\Python\\Python313\\site-packages\\pandas\\__init__.py"
+    },
+    "scipy": {
+      "version": "1.18.1",
+      "file": "C:\\Users\\20251\\AppData\\Roaming\\Python\\Python313\\site-packages\\scipy\\__init__.py"
+    },
+    "sklearn": {
+      "version": "1.9.0",
+      "file": "C:\\Users\\20251\\AppData\\Roaming\\Python\\Python313\\site-packages\\sklearn\\__init__.py"
+    },
+    "matplotlib": {
+      "version": "3.11.2",
+      "file": "D:\\Anaconda\\envs\\pytorch\\Lib\\site-packages\\matplotlib\\__init__.py"
+    },
+    "datasets": {
+      "version": "5.0.1",
+      "file": "C:\\Users\\20251\\AppData\\Roaming\\Python\\Python313\\site-packages\\datasets\\__init__.py"
+    },
+    "torch": {
+      "version": "2.14.0+cu130",
+      "file": "D:\\Anaconda\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py"
+    },
+    "sentence_transformers": {
+      "version": "5.1.1",
+      "file": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_deps\\sentence_transformers\\__init__.py"
+    },
+    "transformers": {
+      "version": "4.57.1",
+      "file": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_deps\\transformers\\__init__.py"
+    },
+    "tokenizers": {
+      "version": "0.22.1",
+      "file": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_deps\\tokenizers\\__init__.py"
+    },
+    "safetensors": {
+      "version": "0.6.2",
+      "file": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_deps\\safetensors\\__init__.py"
+    },
+    "huggingface_hub": {
+      "version": "0.36.0",
+      "file": "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\review_20261018\\replay_deps\\huggingface_hub\\__init__.py"
+    }
+  },
+  "copied_script_sha256": {
+    "01_eda.py": "c91e9afbc1fddc6fd9503b6c4a5287c960d70ff8f5339b8b301032f6b072932e",
+    "02_baselines.py": "04c27197455d61caf7f87424adadee89df80c4a8700fe88c05394abb6c4621d2",
+    "03_plm_lr.py": "846a98c0d8afb713d045b685db2d65317c7ffc81378a40067d3fcfbd4b34ba08",
+    "04_transfer_qnli.py": "e919c05cb2aeb57da7f718344ee3b331e6fa2aba9a2550bdb40ddb5b5ddf4923",
+    "05_hierarchy.py": "99627a1afe33a81ac16bfd3c534cee1dec018e97814b5703cfe2a853baa53ee2",
+    "06_direct_transfer.py": "b5991bbebe45c582fc48ac30d0c053c8fb8af67e21a5afa4c966a3835102f129",
+    "common.py": "59af6cd041c5ab277c72446dfc1af4739b87fb16c2e278c7a568d11464d96031"
+  },
+  "copied_data_sha256": {
+    "data/qevasion_raw/train/data-00000-of-00001.arrow": "636d1ca556f8e614e219767ecaba07b0202f74cb43733f271b01ae96ebbba84e",
+    "data/qevasion_raw/test/data-00000-of-00001.arrow": "6d5765d1f7b75a7882d88bd493943efd797e05184a7516d5b27e43049842c949",
+    "data/qnli_raw/train.tsv": "3bb7026735a0d4cd439dc1ca6ea162e0c1cc8f962f52df9cc50ee8f8278e0c0e",
+    "data/qnli_raw/dev.tsv": "ac19409dcb04631eaaa094bdebdcf621086bc352503dfb6a1a648b614986f4fd"
+  },
+  "hf_cached_main_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "model_loading": "Original model ID; HF_HUB_OFFLINE=1, TRANSFORMERS_OFFLINE=1; existing cache only."
+}
