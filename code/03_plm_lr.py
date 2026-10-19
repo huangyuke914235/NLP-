@@ -35,8 +35,9 @@ y_test = test["label"].to_numpy()
 from sentence_transformers import SentenceTransformer
 
 MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+MODEL_REVISION = "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
 t0 = time.time()
-st = SentenceTransformer(MODEL, device="cpu")  # 无 GPU 时使用 CPU
+st = SentenceTransformer(MODEL, revision=MODEL_REVISION, device="cpu")  # 与环境预检使用同一修订
 print("model loaded", MODEL, f"{time.time()-t0:.1f}s")
 
 t0 = time.time()

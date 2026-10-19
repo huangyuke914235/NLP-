@@ -1,0 +1,6 @@
+unigram    cw=None     val_acc=0.5700 val_macroF1=0.5696
+unigram    cw=balanced val_acc=0.5700 val_macroF1=0.5696
+uni+bigram cw=None     val_acc=0.5717 val_macroF1=0.5698
+uni+bigram cw=balanced val_acc=0.5717 val_macroF1=0.5698
+QNLI test: 0.576423210690097 0.5740590564552649
+saved QNLI metrics, predictions and metadata

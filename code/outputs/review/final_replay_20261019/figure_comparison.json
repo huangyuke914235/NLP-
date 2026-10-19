@@ -1,0 +1,52 @@
+{
+  "fig1_label_distribution.png": {
+    "old_size": [
+      2640,
+      1034
+    ],
+    "new_size": [
+      2640,
+      1034
+    ],
+    "old_info": {
+      "Software": "Matplotlib version3.11.1, https://matplotlib.org/",
+      "dpi": [
+        219.9894,
+        219.9894
+      ]
+    },
+    "new_info": {
+      "Software": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "dpi": [
+        219.9894,
+        219.9894
+      ]
+    },
+    "pixel_diff_bbox": null
+  },
+  "fig2_length_distribution.png": {
+    "old_size": [
+      2640,
+      1056
+    ],
+    "new_size": [
+      2640,
+      1056
+    ],
+    "old_info": {
+      "Software": "Matplotlib version3.11.1, https://matplotlib.org/",
+      "dpi": [
+        219.9894,
+        219.9894
+      ]
+    },
+    "new_info": {
+      "Software": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "dpi": [
+        219.9894,
+        219.9894
+      ]
+    },
+    "pixel_diff_bbox": null
+  }
+}

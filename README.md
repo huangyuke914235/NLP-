@@ -23,7 +23,9 @@
 | `code/outputs/hierarchy/` | 标签层级与源域直接迁移的指标和预测 |
 | `code/outputs/review/` | 独立复核的 JSON 和日志，包括 URL 分组留出与来源簇 bootstrap |
 | `code/outputs/review/replay_evidence/` | 01—06 完整复现的真实日志、环境、进程记录及新旧输出比较 |
-| `code/outputs/review/output/playwright/` | 实验报告图3的日志展示页、真实浏览器截图及来源校验清单；保留采集时的目录名，不是待清理缓存 |
+| `code/outputs/review/final_replay_20261019/` | 固定模型修订后，01—06 再次隔离运行的原始日志与逐项结果比较 |
+| `code/outputs/review/output/playwright/` | 实验报告图3的日志展示页、真实浏览器截图及来源校验清单 |
+| `code/outputs/review/audit_outputs/` | 截图采集时使用的来源审计原件；与截图来源校验清单中的哈希对应 |
 
 `st_embeddings.npz` 约 20 MB，供 `05_hierarchy.py` 直接复用。删除它后，可先运行 `03_plm_lr.py` 重新生成。
 
@@ -35,7 +37,9 @@
 
 保留的 `code/deps/` 和新增 `code/model_deps/` 是本机依赖副本，含平台相关二进制包，适用范围为已验证的 Windows/Python 3.13 环境。`common.py` 优先复用解释器中已可正常导入的 NumPy，再登记 `deps/` 并把 `model_deps/` 置于搜索路径首位；若解释器没有安装 NumPy，则在登记本地依赖后回退加载项目副本。这样既保留现有环境使用的 NumPy，也避免缺少 NumPy 时在登记依赖前中断。其余尚未导入的依赖按 `model_deps/`、`deps/`、解释器环境的顺序查找，防止旧目录中的同名模型组件覆盖验证版本。其他平台应安装适配平台的依赖，不能直接套用 Windows 二进制副本。
 
-MiniLM 权重未包含在仓库中，来源为 [MiniLM 模型页面](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)。本次复现离线读取的缓存修订为 `1110a243fdf4706b3f48f1d95db1a4f5529b4d41`，环境预检也显式检查该修订。首次准备模型需能访问模型发布方；默认预检不会下载，只有显式加入 `--allow-download` 才允许下载。全新安装时的其他包版本与上游数据、模型状态仍可能变化，仓库中的快照、特征、预测和比较记录用于核对本次报告结果。
+上述回退行为支持环境预检，不意味着没有安装依赖的解释器可以直接运行全部实验：部分实验脚本在导入公共模块之前已导入 NumPy、scikit-learn 等包。完整运行仍须准备 `requirements.txt` 所列依赖和可用的 PyTorch 环境。建议将项目放在较短的本地路径，避免 Windows 长路径限制影响第三方包导入。
+
+MiniLM 权重未包含在仓库中，来源为 [MiniLM 模型页面](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)。本次复现离线读取的缓存修订为 `1110a243fdf4706b3f48f1d95db1a4f5529b4d41`，`03_plm_lr.py` 与环境预检均显式固定该修订。首次准备模型需能访问模型发布方；默认预检不会下载，只有显式加入 `--allow-download` 才允许下载。全新安装时的其他包版本与上游数据、模型状态仍可能变化，仓库中的快照、特征、预测和比较记录用于核对本次报告结果。
 
 原始数据已放在 `code/data/`。来源、样本量、本地文件记录时间和校验值见 `DATA_SOURCES.md`。QEvasion 来自[发布者的数据集页面](https://huggingface.co/datasets/ailsntua/QEvasion)；QNLI 的 `train.tsv` 和 `dev.tsv` 来自脚本中记录的 GLUE 下载地址。
 
@@ -97,6 +101,10 @@ python 09_review_validation.py
 所有测试硬预测、最终指标和混淆矩阵与保存结果一致；新生成的 MiniLM 特征缓存与原缓存逐元素及 SHA-256 完全一致。02、04、06 的指标和预测文件也逐字节一致。仍有明确的小差异：03 未选中的 C=10 验证 Macro-F1 从 0.546842 变为 0.540682，最终选择仍为 C=0.1；MiniLM 与层级预测文件的概率列最大绝对差约为 1.4×10⁻⁵、2.02×10⁻⁶。因此，复现结论是测试硬预测和主指标一致，不是所有输出文件完全相同。
 
 完整证据见 `code/outputs/review/replay_evidence/`：`environment.json` 记录实际包版本与导入位置，`run_records.json` 记录各进程及耗时，`01_eda.log`—`06_direct_transfer.log` 保留真实运行输出，`output_comparison.json` 给出逐文件差异，`replay_summary.json` 提供汇总。另有 `environment_with_vendored_deps.json` 记录原 `deps/` 与新增 `model_deps/` 并存时的导入及离线模型加载预检。
+
+日志页面与截图为该次运行的存档，不会随后续代码修订自动更新。`code/outputs/review/output/playwright/capture_notes.md` 说明截图与原始日志、历史审计原件及哈希清单的对应关系；运行记录中的脚本哈希指向采集时版本。
+
+2026-10-19 在固定同一模型修订后再次以六个独立进程完整运行 01—06，全部正常退出，总经过时间约 123.11 秒。五份预测文件的样本身份、原文、金标及硬预测均与提交快照一致；主要指标、混淆矩阵与向量缓存也一致。未入选 C=10 验证点和 MiniLM 概率小数仍存在上文所述差异；图1、图2像素一致，但 PNG 中的绘图库版本元数据不同。原始数据和既有结果未被覆盖。此次记录单独保存在 `code/outputs/review/final_replay_20261019/`，不替代前次日志及报告截图。
 
 ## 数据和第三方许可
 

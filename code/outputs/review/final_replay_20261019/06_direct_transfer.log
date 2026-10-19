@@ -1,0 +1,90 @@
+{
+  "source_only_projection": {
+    "accuracy": 0.5046677649643053,
+    "macro_f1": 0.33638742186338455,
+    "per_class": {
+      "0": {
+        "precision": 0.3,
+        "recall": 0.0011102886750555144,
+        "f1-score": 0.0022123893805309734,
+        "support": 2702.0
+      },
+      "1": {
+        "precision": 0.5050430955437374,
+        "recall": 0.9974646867077146,
+        "f1-score": 0.6705624543462382,
+        "support": 2761.0
+      },
+      "accuracy": 0.5046677649643053,
+      "macro avg": {
+        "precision": 0.40252154777186866,
+        "recall": 0.49928748769138503,
+        "f1-score": 0.33638742186338455,
+        "support": 5463.0
+      },
+      "weighted avg": {
+        "precision": 0.4036287729811933,
+        "recall": 0.5046677649643053,
+        "f1-score": 0.33999648774595614,
+        "support": 5463.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        3,
+        2699
+      ],
+      [
+        7,
+        2754
+      ]
+    ]
+  },
+  "target_train_tie_majority": {
+    "accuracy": 0.4946000366099213,
+    "macro_f1": 0.3309246785058175,
+    "per_class": {
+      "0": {
+        "precision": 0.4946000366099213,
+        "recall": 1.0,
+        "f1-score": 0.661849357011635,
+        "support": 2702.0
+      },
+      "1": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 2761.0
+      },
+      "accuracy": 0.4946000366099213,
+      "macro avg": {
+        "precision": 0.24730001830496065,
+        "recall": 0.5,
+        "f1-score": 0.3309246785058175,
+        "support": 5463.0
+      },
+      "weighted avg": {
+        "precision": 0.2446291962145355,
+        "recall": 0.4946000366099213,
+        "f1-score": 0.3273507162082076,
+        "support": 5463.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        2702,
+        0
+      ],
+      [
+        2761,
+        0
+      ]
+    ]
+  },
+  "projection": "P(entailment)=P(Clear Reply); P(not_entailment)=P(Ambivalent)+P(Clear Non-Reply)",
+  "target_labels_used_for_training": false,
+  "threshold": 0.5,
+  "seed": 42,
+  "source_train_n": 3448,
+  "qnli_dev_n": 5463
+}

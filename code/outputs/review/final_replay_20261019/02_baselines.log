@@ -1,0 +1,10 @@
+loaded in 1.4s | train=3448 test=308
+fit=3103 val=345 (1.4s)
+majority: 0.6688311688311688 0.26718547341115434
+unigram    cw=None     val_acc=0.6348 val_macroF1=0.5084
+unigram    cw=balanced val_acc=0.5942 val_macroF1=0.5646
+uni+bigram cw=None     val_acc=0.6406 val_macroF1=0.5115
+uni+bigram cw=balanced val_acc=0.6319 val_macroF1=0.5912
+best config: tfidf_uni+bigram_balanced
+TF-IDF+LR test: acc=0.5390 macroF1=0.4351 vocab=121340 (9.4s)
+saved metrics + predictions (9.4s total)

@@ -1,0 +1,9 @@
+model loaded sentence-transformers/all-MiniLM-L6-v2 0.1s
+encoded in 32.3s | dim=384
+feature dim: 1536
+C=0.1: val_macroF1=0.5889
+C=1.0: val_macroF1=0.5880
+C=10.0: val_macroF1=0.5407
+best C: 0.1
+ST+LR test: 0.5811688311688312 0.48548845012259645
+saved

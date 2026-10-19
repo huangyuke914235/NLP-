@@ -1,0 +1,13 @@
+{
+  "eda_stats_exact": true,
+  "figures_byte_identical": {
+    "fig1_label_distribution.png": false,
+    "fig2_length_distribution.png": false
+  },
+  "hierarchy_json_changed_top_keys": [
+    "hashes"
+  ],
+  "st_json_changed_top_keys": [
+    "val_selection"
+  ]
+}

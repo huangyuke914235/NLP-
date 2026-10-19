@@ -1,0 +1,271 @@
+{
+  "started": "2026-10-19T12:49:26.613493+08:00",
+  "finished": "2026-10-19T12:51:29.725279+08:00",
+  "wall_seconds": 123.11177809999754,
+  "source_code_note": "Only 03 has explicit model revision pin; other scripts are unchanged copies",
+  "all_process_exit_codes_zero": true,
+  "steps": [
+    {
+      "script": "01_eda.py",
+      "command": [
+        "D:\\Anaconda\\envs\\pytorch\\python.exe",
+        "-B",
+        "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\final_submission_audit_20261019\\science\\r\\01_eda.py"
+      ],
+      "started": "2026-10-19T12:49:26.630837+08:00",
+      "finished": "2026-10-19T12:49:35.457307+08:00",
+      "elapsed_seconds": 8.825938300000416,
+      "exit_code": 0
+    },
+    {
+      "script": "02_baselines.py",
+      "command": [
+        "D:\\Anaconda\\envs\\pytorch\\python.exe",
+        "-B",
+        "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\final_submission_audit_20261019\\science\\r\\02_baselines.py"
+      ],
+      "started": "2026-10-19T12:49:35.457702+08:00",
+      "finished": "2026-10-19T12:50:04.998817+08:00",
+      "elapsed_seconds": 29.540173600000344,
+      "exit_code": 0
+    },
+    {
+      "script": "03_plm_lr.py",
+      "command": [
+        "D:\\Anaconda\\envs\\pytorch\\python.exe",
+        "-B",
+        "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\final_submission_audit_20261019\\science\\r\\03_plm_lr.py"
+      ],
+      "started": "2026-10-19T12:50:04.999520+08:00",
+      "finished": "2026-10-19T12:51:01.919083+08:00",
+      "elapsed_seconds": 56.91901429999962,
+      "exit_code": 0
+    },
+    {
+      "script": "04_transfer_qnli.py",
+      "command": [
+        "D:\\Anaconda\\envs\\pytorch\\python.exe",
+        "-B",
+        "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\final_submission_audit_20261019\\science\\r\\04_transfer_qnli.py"
+      ],
+      "started": "2026-10-19T12:51:01.919543+08:00",
+      "finished": "2026-10-19T12:51:11.125103+08:00",
+      "elapsed_seconds": 9.204977400000644,
+      "exit_code": 0
+    },
+    {
+      "script": "05_hierarchy.py",
+      "command": [
+        "D:\\Anaconda\\envs\\pytorch\\python.exe",
+        "-B",
+        "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\final_submission_audit_20261019\\science\\r\\05_hierarchy.py"
+      ],
+      "started": "2026-10-19T12:51:11.125599+08:00",
+      "finished": "2026-10-19T12:51:21.002029+08:00",
+      "elapsed_seconds": 9.875812399999631,
+      "exit_code": 0
+    },
+    {
+      "script": "06_direct_transfer.py",
+      "command": [
+        "D:\\Anaconda\\envs\\pytorch\\python.exe",
+        "-B",
+        "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\final_submission_audit_20261019\\science\\r\\06_direct_transfer.py"
+      ],
+      "started": "2026-10-19T12:51:21.002573+08:00",
+      "finished": "2026-10-19T12:51:29.139872+08:00",
+      "elapsed_seconds": 8.136568800000532,
+      "exit_code": 0
+    }
+  ],
+  "metrics_comparison": {
+    "metrics_baselines.json": {
+      "accuracy_old": 0.538961038961039,
+      "accuracy_new": 0.538961038961039,
+      "macro_f1_old": 0.4350749902369335,
+      "macro_f1_new": 0.4350749902369335,
+      "confusion_matrix_equal": true,
+      "full_file_bytes_equal": true
+    },
+    "metrics_st_lr.json": {
+      "accuracy_old": 0.5811688311688312,
+      "accuracy_new": 0.5811688311688312,
+      "macro_f1_old": 0.48548845012259645,
+      "macro_f1_new": 0.48548845012259645,
+      "confusion_matrix_equal": true,
+      "full_file_bytes_equal": false
+    },
+    "metrics_qnli_tfidf_lr.json": {
+      "accuracy_old": 0.576423210690097,
+      "accuracy_new": 0.576423210690097,
+      "macro_f1_old": 0.5740590564552649,
+      "macro_f1_new": 0.5740590564552649,
+      "confusion_matrix_equal": true,
+      "full_file_bytes_equal": true
+    },
+    "hierarchy/metrics_hierarchy.json": {
+      "accuracy_old": 0.6525974025974026,
+      "accuracy_new": 0.6525974025974026,
+      "macro_f1_old": 0.35041250542770297,
+      "macro_f1_new": 0.35041250542770297,
+      "confusion_matrix_equal": true,
+      "full_file_bytes_equal": false
+    },
+    "hierarchy/metrics_direct_transfer.json": {
+      "accuracy_old": 0.5046677649643053,
+      "accuracy_new": 0.5046677649643053,
+      "macro_f1_old": 0.33638742186338455,
+      "macro_f1_new": 0.33638742186338455,
+      "confusion_matrix_equal": true,
+      "full_file_bytes_equal": true
+    }
+  },
+  "predictions_comparison": {
+    "predictions_tfidf_lr.csv": {
+      "old_rows": 308,
+      "new_rows": 308,
+      "compared_identity_text_and_hard_prediction_columns": [
+        "id",
+        "question",
+        "answer",
+        "gold",
+        "prediction"
+      ],
+      "identity_or_hard_prediction_mismatches": 0,
+      "max_probability_column_absolute_difference": {
+        "prob_Clear Reply": 0.0,
+        "prob_Ambivalent Reply": 0.0,
+        "prob_Clear Non-Reply": 0.0
+      },
+      "full_file_bytes_equal": true
+    },
+    "predictions_st_lr.csv": {
+      "old_rows": 308,
+      "new_rows": 308,
+      "compared_identity_text_and_hard_prediction_columns": [
+        "id",
+        "question",
+        "answer",
+        "gold",
+        "prediction"
+      ],
+      "identity_or_hard_prediction_mismatches": 0,
+      "max_probability_column_absolute_difference": {
+        "prob_Clear Reply": 1.2000000000012001e-05,
+        "prob_Ambivalent Reply": 1.2000000000012001e-05,
+        "prob_Clear Non-Reply": 1.4000000000014001e-05
+      },
+      "full_file_bytes_equal": false
+    },
+    "predictions_qnli_tfidf_lr.csv": {
+      "old_rows": 5463,
+      "new_rows": 5463,
+      "compared_identity_text_and_hard_prediction_columns": [
+        "id",
+        "question",
+        "answer",
+        "gold",
+        "prediction"
+      ],
+      "identity_or_hard_prediction_mismatches": 0,
+      "max_probability_column_absolute_difference": {
+        "prob_Entailment (contains answer)": 0.0,
+        "prob_Not Entailment": 0.0
+      },
+      "full_file_bytes_equal": true
+    },
+    "hierarchy/predictions_hierarchy.csv": {
+      "old_rows": 308,
+      "new_rows": 308,
+      "compared_identity_text_and_hard_prediction_columns": [
+        "id",
+        "gold",
+        "direct",
+        "hierarchical"
+      ],
+      "identity_or_hard_prediction_mismatches": 0,
+      "max_probability_column_absolute_difference": {
+        "prob_clear": 0.0,
+        "prob_ambivalent": 0.0,
+        "prob_nonreply": 0.0
+      },
+      "full_file_bytes_equal": true
+    },
+    "hierarchy/predictions_direct_transfer.csv": {
+      "old_rows": 5463,
+      "new_rows": 5463,
+      "compared_identity_text_and_hard_prediction_columns": [
+        "id",
+        "gold",
+        "prediction"
+      ],
+      "identity_or_hard_prediction_mismatches": 0,
+      "max_probability_column_absolute_difference": {
+        "p_entailment": 0.0,
+        "p_not_entailment": 0.0
+      },
+      "full_file_bytes_equal": true
+    }
+  },
+  "embedding_cache_comparison": {
+    "old_sha256": "686476eb069802814bbd281f26c19834099a4b86ab9cb824b8bf5d9b69ae3b11",
+    "new_sha256": "686476eb069802814bbd281f26c19834099a4b86ab9cb824b8bf5d9b69ae3b11",
+    "arrays": {
+      "X_train": {
+        "old_shape": [
+          3448,
+          1536
+        ],
+        "new_shape": [
+          3448,
+          1536
+        ],
+        "exact_equal": true,
+        "max_absolute_difference": 0.0
+      },
+      "y_train": {
+        "old_shape": [
+          3448
+        ],
+        "new_shape": [
+          3448
+        ],
+        "exact_equal": true,
+        "max_absolute_difference": 0.0
+      },
+      "X_test": {
+        "old_shape": [
+          308,
+          1536
+        ],
+        "new_shape": [
+          308,
+          1536
+        ],
+        "exact_equal": true,
+        "max_absolute_difference": 0.0
+      },
+      "y_test": {
+        "old_shape": [
+          308
+        ],
+        "new_shape": [
+          308
+        ],
+        "exact_equal": true,
+        "max_absolute_difference": 0.0
+      }
+    }
+  },
+  "minilm_C_old": 0.1,
+  "minilm_C_new": 0.1,
+  "minilm_validation_point_differences": {
+    "C=10.0": {
+      "old": 0.5468422671526855,
+      "new": 0.5406821733246604
+    }
+  },
+  "original_source_data_outputs_figures_configs_unchanged": true,
+  "staged03_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "passed": true
+}

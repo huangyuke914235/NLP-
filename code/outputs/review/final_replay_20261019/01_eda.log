@@ -1,0 +1,12 @@
+train=3448, test=308, label_names=['Clear Reply', 'Ambivalent Reply', 'Clear Non-Reply']
+train missing: {} empty: {'text_a_empty': 0, 'text_b_empty': 0, 'label_empty': 0}
+test missing: {'group': 1.0} empty: {'text_a_empty': 0, 'text_b_empty': 0, 'label_empty': 0}
+length: {'train_question_len': {'mean': 14.5, 'median': 12.0, 'p95': 30.649999999999636, 'max': 80}, 'train_answer_len': {'mean': 293.6, 'median': 207.0, 'p95': 888.2999999999993, 'max': 2117}, 'test_question_len': {'mean': 15.3, 'median': 14.0, 'p95': 33.0, 'max': 66}, 'test_answer_len': {'mean': 326.3, 'median': 291.5, 'p95': 814.0, 'max': 1309}}
+label counts: {'Clear Reply': 1052, 'Ambivalent Reply': 2040, 'Clear Non-Reply': 356} {'Clear Reply': 79, 'Ambivalent Reply': 206, 'Clear Non-Reply': 23}
+tail >=600 words: {'n': 498, 'ratio': 0.14443155452436196, 'label_counts': {'Clear Reply': 127, 'Ambivalent Reply': 358, 'Clear Non-Reply': 13}, 'ambivalent_share': 0.7188755020080321}
+length histogram sample coverage: {'word_count': 'str.split() on whitespace', 'sample_scope': 'all 3448 training samples', 'answer_x_axis': 'logarithmic; 41 shared log-spaced bins; no clipping', 'question_x_axis': 'linear; shared two-word bins over the full observed range', 'answer_histogram_count': 3448, 'question_histogram_count': 3448}
+distinct title strings: 175 duplicate question rows: 62
+source URLs: 287 56 shared: 39 test rows: 118
+overlap train/test: {'question_exact_overlap': 1, 'pair_exact_overlap': 0, 'answer_exact_overlap': 2}
+stats saved: C:\Users\20251\.codex\visualizations\2026\09\11\01a08dee-0b13-74b2-8206-d0c120d15bcc\final_submission_audit_20261019\science\r\outputs\eda_stats.json
+figures saved: C:\Users\20251\.codex\visualizations\2026\09\11\01a08dee-0b13-74b2-8206-d0c120d15bcc\final_submission_audit_20261019\science\r\figures

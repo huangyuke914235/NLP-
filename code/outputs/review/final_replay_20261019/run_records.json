@@ -1,0 +1,74 @@
+[
+  {
+    "script": "01_eda.py",
+    "command": [
+      "D:\\Anaconda\\envs\\pytorch\\python.exe",
+      "-B",
+      "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\final_submission_audit_20261019\\science\\r\\01_eda.py"
+    ],
+    "started": "2026-10-19T12:49:26.630837+08:00",
+    "finished": "2026-10-19T12:49:35.457307+08:00",
+    "elapsed_seconds": 8.825938300000416,
+    "exit_code": 0
+  },
+  {
+    "script": "02_baselines.py",
+    "command": [
+      "D:\\Anaconda\\envs\\pytorch\\python.exe",
+      "-B",
+      "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\final_submission_audit_20261019\\science\\r\\02_baselines.py"
+    ],
+    "started": "2026-10-19T12:49:35.457702+08:00",
+    "finished": "2026-10-19T12:50:04.998817+08:00",
+    "elapsed_seconds": 29.540173600000344,
+    "exit_code": 0
+  },
+  {
+    "script": "03_plm_lr.py",
+    "command": [
+      "D:\\Anaconda\\envs\\pytorch\\python.exe",
+      "-B",
+      "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\final_submission_audit_20261019\\science\\r\\03_plm_lr.py"
+    ],
+    "started": "2026-10-19T12:50:04.999520+08:00",
+    "finished": "2026-10-19T12:51:01.919083+08:00",
+    "elapsed_seconds": 56.91901429999962,
+    "exit_code": 0
+  },
+  {
+    "script": "04_transfer_qnli.py",
+    "command": [
+      "D:\\Anaconda\\envs\\pytorch\\python.exe",
+      "-B",
+      "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\final_submission_audit_20261019\\science\\r\\04_transfer_qnli.py"
+    ],
+    "started": "2026-10-19T12:51:01.919543+08:00",
+    "finished": "2026-10-19T12:51:11.125103+08:00",
+    "elapsed_seconds": 9.204977400000644,
+    "exit_code": 0
+  },
+  {
+    "script": "05_hierarchy.py",
+    "command": [
+      "D:\\Anaconda\\envs\\pytorch\\python.exe",
+      "-B",
+      "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\final_submission_audit_20261019\\science\\r\\05_hierarchy.py"
+    ],
+    "started": "2026-10-19T12:51:11.125599+08:00",
+    "finished": "2026-10-19T12:51:21.002029+08:00",
+    "elapsed_seconds": 9.875812399999631,
+    "exit_code": 0
+  },
+  {
+    "script": "06_direct_transfer.py",
+    "command": [
+      "D:\\Anaconda\\envs\\pytorch\\python.exe",
+      "-B",
+      "C:\\Users\\20251\\.codex\\visualizations\\2026\\09\\11\\01a08dee-0b13-74b2-8206-d0c120d15bcc\\final_submission_audit_20261019\\science\\r\\06_direct_transfer.py"
+    ],
+    "started": "2026-10-19T12:51:21.002573+08:00",
+    "finished": "2026-10-19T12:51:29.139872+08:00",
+    "elapsed_seconds": 8.136568800000532,
+    "exit_code": 0
+  }
+]

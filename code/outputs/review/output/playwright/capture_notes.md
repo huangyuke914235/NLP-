@@ -1,6 +1,6 @@
 # 实际日志页面截图说明
 
-这两张图片是本地只读 HTML 证据查看页的真实浏览器截图，不是终端截图，也没有模拟终端界面。
+以下三张图片是本地只读 HTML 证据查看页的真实浏览器截图，不是终端截图。页面汇总实际运行日志与核验结果，未模拟终端界面。
 
 | 文件 | 尺寸 | 展示内容 |
 |---|---|---|
@@ -8,12 +8,12 @@
 | reproduction_full.png | 1600 × 800 | 先前完整日志查看页截图，保留02、03、04原始输出逐字节选 |
 | data_validation.png | 1600 × 940 | 01 的数据读取原始日志、实际配置标签映射、09 的来源审计和检查结果 |
 
-实际截图浏览器为 Microsoft Edge 155.0.4283.62，使用 `--headless=new`，由 PowerShell 以 `-WindowStyle Hidden` 启动；最终截图均退出 0。渲染输入是同目录 `focus_replay.html`、`reproduction_log.html` 和 `data_validation.html`。截图未经图像文字重绘或伪终端加工。页面生成脚本为 `../../build_evidence_pages.py`。
+实际截图浏览器为 Microsoft Edge 155.0.4283.62。渲染输入分别为同目录 `focus_replay.html`、`reproduction_log.html` 和 `data_validation.html`。截图未经图像文字重绘或伪终端加工。HTML、图片与来源清单均保留为采集时的静态存档。
 
 为在报告5.3英寸图宽下清晰打印，`reproduction_log.png` 改用1000像素宽关键输出页，表格字号24像素，打印等效约9.2磅；完整1600像素截图另存 `reproduction_full.png`。关键页明确标注“实际日志摘要、指标保留四位小数”，未把四舍五入后的摘要当作逐字原始输出。
 
-Playwright CLI 未缓存在 npm 中；尝试获取时 `registry.npmjs.org` 域名解析失败（ENOTFOUND）。本机缓存 Chromium 启动退出 21，未生成截图，因此按允许的后备路径使用系统 Edge。对应错误记录保留于同目录日志。
+完整运行命令和时间来自 `../../replay_evidence/run_records.json`，页面中可展开逐字命令数组；模型输出节选来自相应 `.log`。原始数据标签名与展示名不同的事实已直接展示。`evidence_page_manifest.json` 保存了页面读取的证据文件 SHA-256；其中来源审计原件保存在 `../../audit_outputs/review_validation.json`，对应日志为同目录 `review_validation.log`。这些历史文件与当前 `../../review_validation.json` 分别保存，不能用较晚运行的文件替代截图来源。
 
-完整运行命令和时间来自 `../../replay_evidence/run_records.json`，页面中可展开逐字命令数组；模型输出节选来自相应 `.log`。原始数据标签名与展示名不同的事实已直接展示。`evidence_page_manifest.json` 保存了页面读取的证据文件 SHA-256。
+存档页面中的原运行路径描述采集时目录；提交目录中，原始日志的准确相对位置为 `../../replay_evidence/`。运行记录中的脚本哈希也对应采集时版本，而非后续维护版本。
 
-关键披露：独立复现环境中 MiniLM 未入选的 C=10 验证点由 0.546842 变为 0.540682；最终选中的 C=0.1、官方测试分类指标和所有五份预测文件的样本身份及类别预测一致。截图和报告均不应写成“所有浮点输出逐字相同”。
+关键披露：独立复现环境中 MiniLM 未入选的 C=10 验证点由 0.546842 变为 0.540682；最终选中的 C=0.1、官方测试分类指标和所有五份预测文件的样本身份及类别预测一致。因此，复现一致性指硬预测与主指标一致，并不表示所有浮点输出逐字相同。
