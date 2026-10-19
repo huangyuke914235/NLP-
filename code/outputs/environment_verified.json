@@ -1,0 +1,84 @@
+{
+  "checked_at": "2026-10-19T12:16:25+08:00",
+  "purpose": "Current environment preflight; not the historical experiment lock",
+  "python": "3.13.15 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 17:17:48) [MSC v.1942 64 bit (AMD64)]",
+  "executable": "D:\\Anaconda\\envs\\pytorch\\python.exe",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "pid": 31000,
+  "common_module": "E:\\homework\\NLP期末大作业\\code\\common.py",
+  "path_priority": [
+    "E:\\homework\\NLP期末大作业\\code\\model_deps",
+    "E:\\homework\\NLP期末大作业\\code\\deps",
+    "E:\\homework\\NLP期末大作业\\code",
+    "D:\\Anaconda\\envs\\pytorch\\python313.zip",
+    "D:\\Anaconda\\envs\\pytorch\\DLLs",
+    "D:\\Anaconda\\envs\\pytorch\\Lib"
+  ],
+  "model_dependencies_directory": "E:\\homework\\NLP期末大作业\\code\\model_deps",
+  "legacy_dependencies_directory": "E:\\homework\\NLP期末大作业\\code\\deps",
+  "modules": {
+    "numpy": {
+      "version": "2.5.2",
+      "loaded_from": "D:\\Anaconda\\envs\\pytorch\\Lib\\site-packages\\numpy\\__init__.py"
+    },
+    "pandas": {
+      "version": "3.0.5",
+      "loaded_from": "E:\\homework\\NLP期末大作业\\code\\deps\\pandas\\__init__.py"
+    },
+    "scipy": {
+      "version": "1.18.1",
+      "loaded_from": "E:\\homework\\NLP期末大作业\\code\\deps\\scipy\\__init__.py"
+    },
+    "sklearn": {
+      "version": "1.9.0",
+      "loaded_from": "E:\\homework\\NLP期末大作业\\code\\deps\\sklearn\\__init__.py"
+    },
+    "matplotlib": {
+      "version": "3.11.2",
+      "loaded_from": "D:\\Anaconda\\envs\\pytorch\\Lib\\site-packages\\matplotlib\\__init__.py"
+    },
+    "datasets": {
+      "version": "5.0.1",
+      "loaded_from": "E:\\homework\\NLP期末大作业\\code\\deps\\datasets\\__init__.py"
+    },
+    "torch": {
+      "version": "2.14.0+cu130",
+      "loaded_from": "D:\\Anaconda\\envs\\pytorch\\Lib\\site-packages\\torch\\__init__.py"
+    },
+    "sentence_transformers": {
+      "version": "5.1.1",
+      "loaded_from": "E:\\homework\\NLP期末大作业\\code\\model_deps\\sentence_transformers\\__init__.py"
+    },
+    "transformers": {
+      "version": "4.57.1",
+      "loaded_from": "E:\\homework\\NLP期末大作业\\code\\model_deps\\transformers\\__init__.py"
+    },
+    "tokenizers": {
+      "version": "0.22.1",
+      "loaded_from": "E:\\homework\\NLP期末大作业\\code\\model_deps\\tokenizers\\__init__.py"
+    },
+    "safetensors": {
+      "version": "0.6.2",
+      "loaded_from": "E:\\homework\\NLP期末大作业\\code\\model_deps\\safetensors\\__init__.py"
+    },
+    "huggingface_hub": {
+      "version": "0.36.0",
+      "loaded_from": "E:\\homework\\NLP期末大作业\\code\\model_deps\\huggingface_hub\\__init__.py"
+    },
+    "regex": {
+      "version": "2.5.162",
+      "loaded_from": "E:\\homework\\NLP期末大作业\\code\\model_deps\\regex\\__init__.py"
+    }
+  },
+  "model_check": {
+    "success": true,
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "device": "cpu",
+    "offline": true,
+    "embedding_dim": 384,
+    "max_seq_length": 256,
+    "note": "Loaded model only; did not regenerate embeddings or train classifiers."
+  },
+  "success": true
+}

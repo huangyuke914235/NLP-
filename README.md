@@ -18,19 +18,22 @@
 | `code/data/` | 实验使用的 QEvasion 与 QNLI 原始数据本地副本 |
 | `code/deps/` | 项目内第三方 Python 依赖副本；适用于本机 Windows/Python 3.13，不等于完整 Conda 环境 |
 | `code/model_deps/` | 本次验证的独立模型依赖副本，保留原 `deps/` 并优先加载模型组件 |
-| `code/figures/` | 报告使用的图 |
+| `code/figures/` | 报告使用的图及补充方法示意图 |
 | `code/outputs/` | 已运行得到的指标 JSON、预测 CSV 和 `st_embeddings.npz` |
 | `code/outputs/hierarchy/` | 标签层级与源域直接迁移的指标和预测 |
 | `code/outputs/review/` | 独立复核的 JSON 和日志，包括 URL 分组留出与来源簇 bootstrap |
 | `code/outputs/review/replay_evidence/` | 01—06 完整复现的真实日志、环境、进程记录及新旧输出比较 |
+| `code/outputs/review/output/playwright/` | 实验报告图3的日志展示页、真实浏览器截图及来源校验清单；保留采集时的目录名，不是待清理缓存 |
 
 `st_embeddings.npz` 约 20 MB，供 `05_hierarchy.py` 直接复用。删除它后，可先运行 `03_plm_lr.py` 重新生成。
+
+`code/figures/fig4_frozen_lr_pipeline.png` 是补充方法示意图，未纳入两份提交报告；文件名中的 `fig4` 不对应报告中的图4。实验报告图3的截图与展示页保留在上表所列证据目录，原始运行日志位于 `replay_evidence/`；不改名以免破坏既有来源记录。
 
 ## 环境和数据
 
 本次复核使用 Windows 64 位、Python 3.13.15 和 Anaconda `pytorch` 环境；03 脚本在 CPU 上运行，不要求 CUDA GPU。所需基本包见根目录 `requirements.txt`，该文件引用 `requirements-model-verified.txt` 中六个已验证的模型组件版本：sentence-transformers 5.1.1、transformers 4.57.1、tokenizers 0.22.1、safetensors 0.6.2、huggingface-hub 0.36.0、regex 2025.9.18。这些是 2026-10-18 复核环境的记录，不是原始实验的完整历史锁文件。
 
-保留的 `code/deps/` 和新增 `code/model_deps/` 是本机依赖副本，含平台相关二进制包，适用范围为已验证的 Windows/Python 3.13 环境。`common.py` 先登记 `deps/`，再把 `model_deps/` 置于搜索路径首位，防止旧目录中的同名模型组件覆盖验证版本；现有科学计算依赖不被覆盖。其他平台应安装适配平台的依赖，不能直接套用 Windows 二进制副本。
+保留的 `code/deps/` 和新增 `code/model_deps/` 是本机依赖副本，含平台相关二进制包，适用范围为已验证的 Windows/Python 3.13 环境。`common.py` 优先复用解释器中已可正常导入的 NumPy，再登记 `deps/` 并把 `model_deps/` 置于搜索路径首位；若解释器没有安装 NumPy，则在登记本地依赖后回退加载项目副本。这样既保留现有环境使用的 NumPy，也避免缺少 NumPy 时在登记依赖前中断。其余尚未导入的依赖按 `model_deps/`、`deps/`、解释器环境的顺序查找，防止旧目录中的同名模型组件覆盖验证版本。其他平台应安装适配平台的依赖，不能直接套用 Windows 二进制副本。
 
 MiniLM 权重未包含在仓库中，来源为 [MiniLM 模型页面](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)。本次复现离线读取的缓存修订为 `1110a243fdf4706b3f48f1d95db1a4f5529b4d41`，环境预检也显式检查该修订。首次准备模型需能访问模型发布方；默认预检不会下载，只有显式加入 `--allow-download` 才允许下载。全新安装时的其他包版本与上游数据、模型状态仍可能变化，仓库中的快照、特征、预测和比较记录用于核对本次报告结果。
 
@@ -46,7 +49,7 @@ cd code
 python 10_check_environment.py
 ```
 
-若当前环境缺少基本依赖，可在仓库根目录执行 `python -m pip install -r requirements.txt`，再进入 `code` 运行预检。已有可用 PyTorch 可复用，不必安装本机相同的 CUDA 构建。模型尚未缓存时，运行 `python 10_check_environment.py --allow-download`；下载能否完成取决于网络与发布方服务。预检结果写入 `code/outputs/environment_verified.json`。
+若当前环境缺少基本依赖，可在仓库根目录执行 `python -m pip install -r requirements.txt`，再进入 `code` 运行预检。已有可用 PyTorch 可复用，不必安装本机相同的 CUDA 构建。模型尚未缓存时，运行 `python 10_check_environment.py --allow-download`；下载能否完成取决于网络与发布方服务。预检结果写入 `code/outputs/environment_verified.json`。仓库保留一次实际离线检查记录，其时间和导入位置仅描述记录中的本机环境，不代替其他机器重新运行预检，也不是历史实验锁文件。
 
 包内已有 `code/data/qevasion_raw/` 和 `code/data/qnli_raw/`，复核保存结果应优先使用这些快照。若本地数据缺失，可在 `code` 目录尝试重新获取 QEvasion；此命令取得的是上游当前版本，不保证与本次快照相同：
 

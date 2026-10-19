@@ -10,7 +10,14 @@ import random
 import sys
 import time
 
-import numpy as np
+# 优先保留解释器中已可用的 NumPy，避免改变既有实验的科学计算环境。
+# 解释器完全未安装 NumPy 时，待登记项目依赖后再从 deps/ 回退加载。
+try:
+    import numpy as np
+except ModuleNotFoundError as exc:
+    if exc.name != "numpy":
+        raise
+    np = None
 
 # 项目内依赖目录：避免要求用户修改 Conda 环境或全局 PYTHONPATH。
 _DEPS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "deps")
@@ -23,6 +30,9 @@ if os.path.isdir(_MODEL_DEPS):
     if _MODEL_DEPS in sys.path:
         sys.path.remove(_MODEL_DEPS)
     sys.path.insert(0, _MODEL_DEPS)
+
+if np is None:
+    import numpy as np
 
 SEED = 42
 CLASS_ORDER = ["Clear Reply", "Ambivalent Reply", "Clear Non-Reply"]  # 0/1/2 展示顺序
