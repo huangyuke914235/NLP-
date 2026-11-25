@@ -1,0 +1,95 @@
+{
+  "upstream_repository": "https://github.com/konstantinosftw/Question-Evasion",
+  "upstream_commit": "ff78482fe3ee63b76ce427ea4b8ee2b690fe8896",
+  "runtime": {
+    "python": "3.12.13",
+    "os": "Windows"
+  },
+  "counterfactual_annotation_check": [
+    {
+      "annotator": "Annotator1",
+      "input_json_records": 31,
+      "matched_subquestions_evaluated": 36,
+      "selected_counterfactual_label": 4,
+      "counterfactual_selection_rate": 0.1111111111111111,
+      "upstream_rounded_disagreement": 0.8889
+    },
+    {
+      "annotator": "Annotator2",
+      "input_json_records": 31,
+      "matched_subquestions_evaluated": 36,
+      "selected_counterfactual_label": 3,
+      "counterfactual_selection_rate": 0.08333333333333333,
+      "upstream_rounded_disagreement": 0.9167
+    },
+    {
+      "annotator": "Annotator3",
+      "input_json_records": 31,
+      "matched_subquestions_evaluated": 36,
+      "selected_counterfactual_label": 3,
+      "counterfactual_selection_rate": 0.08333333333333333,
+      "upstream_rounded_disagreement": 0.9167
+    }
+  ],
+  "evaluator_release_audit": {
+    "raw_test_rows": 317,
+    "raw_annotation_label_counts": {
+      "1.1 Explicit": 259,
+      "1.2 Implicit": 179,
+      "2.1 Dodging": 161,
+      "2.2 Deflection": 75,
+      "2.3 Partial/half-answer": 18,
+      "2.4 General": 173,
+      "2.5 Contradictory": 1,
+      "2.6 Declining to answer": 33,
+      "2.7 Claims ignorance": 27,
+      "2.8 Clarification": 14,
+      "2.9 Diffusion": 11
+    },
+    "unmapped_annotation_labels": {
+      "2.5 Contradictory": 1,
+      "2.9 Diffusion": 11
+    },
+    "first_unmapped_label": "2.9 Diffusion",
+    "predictor_files_audited": 15,
+    "predictor_files_with_missing_test_ids": {
+      "results/gpt3.5_clarity_zero_shot_cot_test_set.pickle": [
+        57,
+        200
+      ],
+      "results/gpt3.5_clarity_zero_shot_test_set.pickle": [
+        269
+      ],
+      "results/gpt3.5_evasion_zero_shot_cot_test_set.pickle": [
+        250
+      ]
+    },
+    "duplicate_evaluator_inputs": [
+      "../results/gpt3.5_evasion_zero_shot_test_set.pickle"
+    ]
+  },
+  "input_sha256": {
+    "scripts/utils.py": "c917bfb61da72ff8f6bf791520cb059ddb194f8c6d8b938e64305060fa531b56",
+    "scripts/counterfactual_summaries_analysis.py": "adc23045098eb3d1aa3fe813a3a74f91f51f2f4011793b2a52d3831a309f3f1c",
+    "dataset/Counterfactual-Summaries/Annotator1_countersummaries.json": "18a1c647ab07d5efb5aaf3de980cb778868303e669edcabec6bcd3a1a9c425d2",
+    "dataset/Counterfactual-Summaries/Annotator2_countersummaries.json": "532ca5b7c2084137d5f77465bc000d0e797132df7a1459a4175c36481f92308d",
+    "dataset/Counterfactual-Summaries/Annotator3_countersummaries.json": "8fdace285f51a179cfe4bfad06511b4a6ef6b782d00ed2a9802015b7e349ffe0",
+    "scripts/results.py": "fdede244078a35db5af91a4ef6b3d36e67c580f306bcc7ab13975e98039f64ff",
+    "dataset/Inter-Annotator/test_set.csv": "67876435ff69a1d1f965253338d9a7c6c50e80927c16d8184a1a208f4e429d77",
+    "results/falcon_40b_clarity_zero_shot_test_set.pickle": "64c021cf0f3b0d47c6622a19d456abac93c50ca7b68674b69bb9f7f6f2281572",
+    "results/falcon_40b_evasion_zero_shot_test_set.pickle": "92aa2a3916080589dbd8c888ea4a67db5616d4e3fc0f0eb4726f1d502a34da2b",
+    "results/falcon_40b_qaevasion_evasion_test_set.pickle": "618242fdecc938d4252122b66bc803f0eb602a672250792f426968d539971483",
+    "results/falcon_7b_qaevasion_evasion_test_set.pickle": "7ce532b329409ac2089c9fad49dae482120887d89d1d8993bde00d59642a932a",
+    "results/gpt3.5_clarity_zero_shot_cot_test_set.pickle": "cf5a910ada5c82c87b88394e237ebd07ed79d24cc8c6abd0090249868c47c889",
+    "results/gpt3.5_clarity_zero_shot_test_set.pickle": "b2628009d497fcedd7c246677eb183482822bb9cc21b2ea16e06004144f839cd",
+    "results/gpt3.5_evasion_zero_shot_cot_test_set.pickle": "999141e716c187181b9fabb0f0ebf4ab66df1836511dfc792b94d3c928ded9b5",
+    "results/gpt3.5_evasion_zero_shot_test_set.pickle": "804f8cce250822e826f447129afede399a233d8791e1247316cc9e64fddf5c3f",
+    "results/llama-2-13b_qaevasion_clarity_test_set.pickle": "1bd123785844debb85cd3e5b517ffc39e30a24390d4608232cb726a1e602cbbe",
+    "results/llama-2-13b_qaevasion_evasion_test_set.pickle": "fb82596fdd238b6da68ed88189e89004e202d5b24579e40c69537237a6bf2682",
+    "results/llama-2-70b_qaevasion_evasion_test_set.pickle": "a0bb9f749dd9666d96a87d78b58813f7d123bd63431bad136bde23577c837fdb",
+    "results/llama-2-7b_qaevasion_clarity_test_set.pickle": "4b7f73c9d580913c02837a5bd0509b70bed9ae44535f39f1b561f8396dc5962b",
+    "results/llama-2-7b_qaevasion_evasion_test_set.pickle": "8b5e61ccf2ead7c355741b7ebb7c3c4c453a08e6dc8b51737b3af7d383ca60e9",
+    "results/llama_2_70b_clarity_zero_shot_test_set.pickle": "778efc8358a03b68d823d50240225d5a2cbadde5007d13e6078d2fb02e867eb6",
+    "results/llama_2_70b_evasion_zero_shot_test_set.pickle": "62ac0e66cfe0713e455041d3bd9090984bdf6759ed8c2634228e1cc4fb7066b6"
+  }
+}

@@ -1,0 +1,2 @@
+id_a,id_b,kind,question_cosine,answer_cosine,split_a,split_b,official_split_a,official_split_b,source_a,source_b,label_a,label_b
+qnli-train-064100,qnli-dev-000517,exact_answer_substantial,,,validation,test,train,dev,Immunology,Immune_system,not_entailment,not_entailment

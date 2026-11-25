@@ -1,0 +1,125 @@
+{
+  "reference_prediction_files_byte_equal": 32,
+  "baseline_sha256": {
+    "grouped_majority": "5e2bc7ec69e09fc57c716d1f7ac5e04d2b2f99a5d4bff482abd619a25f0879cb",
+    "grouped_tfidf": "c64babcc6b84e114ed4476de14bb07bb9bbec37cb790bf454f2638528d325e31",
+    "grouped_tfidf_alternate_ngram": "14d6d456702ddc2449bf8e34e1f4d5a5b6ade0b270a9544894ef4c19ab5fbc36",
+    "grouped_tfidf_alternate_weight": "00acf4a5139fe4f95c3157bc03964bcbedaac0e88ad27aa1ba8a281e2c0d41f6",
+    "grouped_minilm": "fed14aec302a763603e8d7fdd76966463eb28f3d2b292b4bfa0dc0789522e459",
+    "grouped_minilm_interactions": "5f8cdbffbf7f80b0564c0874649a8df3ca44e0e49e19a1e6509d123790805a4d",
+    "hierarchy_direct_coarse": "fed14aec302a763603e8d7fdd76966463eb28f3d2b292b4bfa0dc0789522e459",
+    "hierarchy_fine_to_coarse": "c6b0c1647e24a45ee415e6d43669cf5643b831d81e609fcb834f4ac99f1383b2",
+    "hierarchy_fine": "248d8e6782675d90af0d65b25717daa8b94078152014740f8c1433296fa569d4",
+    "official_majority": "ec1746450862b47776bec77dbfbb6ee2b17e1465bc4cbd3208962b210fd7873b",
+    "official_tfidf": "3582a4d0eb1de4425db19291fca744515fea25c7ba086213e69386ba4c1cc881",
+    "official_tfidf_alternate_ngram": "55c185751b87cde2e30288a326ddb927a10667df3012ba09dbcc8fa7b5593e7c",
+    "official_tfidf_alternate_weight": "e1a5654a2a0518f60a98c33744df744a6e916b2ad633c92f382e68f5e170cc10",
+    "official_minilm": "afd16b47803ac39938d6b740589bfb04b4869741d237235c44b4483dc54b993d",
+    "official_minilm_interactions": "179c199dc542e4c8de9f49c67bd8d044122b67e056c1f120e1eb226b1dcafc1e",
+    "target_majority": "d0348812e81bf7d4d1f1ab3c6493f12e9304b77c2736133c4147c3643f34f2e1",
+    "target_tfidf": "9cc200377f0c2559d7f93dcdd51db6294d50834a4252091e1e1fa72eac5374bb",
+    "target_direct": "e4bbfc0bc576b0deab41c61991fa7938186cb08eae774ddaac29603e31904473",
+    "efficiency_minilm_010_seed20251125": "58f1b6749126dbde0f39f2b1fbbf311b8b45bb39744da3e670f6441df2b14d2c",
+    "efficiency_adapted_010_seed20251125": "c3de04dea230574b8f2b6c30012dcd7ed7828334d162835d45801ca5b3267a4a",
+    "efficiency_minilm_030_seed20251125": "aaace07bee23685a0236d3ff5d1c732fd4151627b7103ac89514e66998940984",
+    "efficiency_adapted_030_seed20251125": "db14f5a7137081a6fe5eb6b05984d140c4b4fb8846fd977c87ca734bc7a1592b",
+    "target_minilm": "c8874093ad530dede6753f492ffef983505338f5a9d441c028c84ba18603ca97",
+    "target_adapted": "e13ffa6aa4f4968cda2ef8419a9a3918c857d8a61f95010aa96f486727ee80b0",
+    "efficiency_minilm_010_seed20251126": "4de5cebb616aeea86811f54cc947e28953e201bf43f614d3e5c0cac9614a033e",
+    "efficiency_adapted_010_seed20251126": "1d2f3bb13039dcdd5ca93404ccec6da88b55a59bf30bb58d5f31c5d8aa9bf62a",
+    "efficiency_minilm_030_seed20251126": "7f80fc52a951299632fdda9dc05057b100dbd789da75a3d9f495703985467769",
+    "efficiency_adapted_030_seed20251126": "ef652b4d1307daa466c5d22803798f474d7573239d693de8cbbd54b04bc03722",
+    "efficiency_minilm_010_seed20251127": "23792508409a6e34bbbd6c7afe46e8fbb10726d0b6eaa8eb4ce4c2e15d8484bf",
+    "efficiency_adapted_010_seed20251127": "76c14b8b176af791cb20fad14362eb591eec3398ca92ae21e16fe4d4b72e062a",
+    "efficiency_minilm_030_seed20251127": "4b493d4815cb6630b8296b247e774b8002ec22848d5a457f1415654ee2cdb289",
+    "efficiency_adapted_030_seed20251127": "2683fc9ebe57fe255fea55eed2a90fb949b4892ec0e17a84ab7d8a956f183b27"
+  },
+  "new_prediction_files_equal": {
+    "target_direct_inclusive": "174037915323a23ce905716d97337f3901f76ab5bfd81967ee80a5984d95087b"
+  },
+  "adapter_sha256": "59bf6fcacbdc4f3047335ca4160c1b8dc52a7b70529c306ece8f03e172c326e3",
+  "counterfactual_recomputed": {
+    "changed_expected_support": {
+      "Ambivalent": 12,
+      "Clear Reply": 4,
+      "Clear Non-Reply": 3
+    },
+    "change_kind_support": {
+      "unrelated": 12,
+      "answer_supported": 4,
+      "same_scoped_refusal": 3
+    },
+    "models": {
+      "grouped_tfidf": {
+        "n": 19,
+        "original_correct_n": 9,
+        "paraphrase_stable_n": 18,
+        "paraphrase_both_correct_n": 9,
+        "changed_expected_label_correct_n": 9,
+        "gold_requires_change_n": 14,
+        "correct_and_changed_on_required_n": 0,
+        "required_and_original_correct_n": 6,
+        "correct_change_given_original_correct_n": 0,
+        "same_scoped_refusal_preserved_n": 3,
+        "changed_correct_by_expected": {
+          "Ambivalent": 5,
+          "Clear Reply": 1,
+          "Clear Non-Reply": 3
+        }
+      },
+      "grouped_minilm": {
+        "n": 19,
+        "original_correct_n": 5,
+        "paraphrase_stable_n": 16,
+        "paraphrase_both_correct_n": 5,
+        "changed_expected_label_correct_n": 13,
+        "gold_requires_change_n": 14,
+        "correct_and_changed_on_required_n": 1,
+        "required_and_original_correct_n": 2,
+        "correct_change_given_original_correct_n": 1,
+        "same_scoped_refusal_preserved_n": 2,
+        "changed_correct_by_expected": {
+          "Ambivalent": 11,
+          "Clear Reply": 0,
+          "Clear Non-Reply": 2
+        }
+      },
+      "grouped_minilm_interactions": {
+        "n": 19,
+        "original_correct_n": 8,
+        "paraphrase_stable_n": 12,
+        "paraphrase_both_correct_n": 4,
+        "changed_expected_label_correct_n": 13,
+        "gold_requires_change_n": 14,
+        "correct_and_changed_on_required_n": 2,
+        "required_and_original_correct_n": 5,
+        "correct_change_given_original_correct_n": 2,
+        "same_scoped_refusal_preserved_n": 2,
+        "changed_correct_by_expected": {
+          "Ambivalent": 11,
+          "Clear Reply": 0,
+          "Clear Non-Reply": 2
+        }
+      },
+      "constant_ambivalent": {
+        "n": 19,
+        "original_correct_n": 6,
+        "paraphrase_stable_n": 19,
+        "paraphrase_both_correct_n": 6,
+        "changed_expected_label_correct_n": 12,
+        "gold_requires_change_n": 14,
+        "correct_and_changed_on_required_n": 0,
+        "required_and_original_correct_n": 4,
+        "correct_change_given_original_correct_n": 0,
+        "same_scoped_refusal_preserved_n": 0,
+        "changed_correct_by_expected": {
+          "Ambivalent": 12,
+          "Clear Reply": 0,
+          "Clear Non-Reply": 0
+        }
+      }
+    }
+  },
+  "counterfactual_prediction_sha256": "33a974d5ffa91439678c4063cd0a4441ee19a775fec079cc0cf909240b3b9fa2",
+  "full_fixed_answer_checked": true
+}

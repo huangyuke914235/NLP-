@@ -1,0 +1,509 @@
+{
+  "selected": "head_tail",
+  "selection_rule": "Select the maximum validation Macro-F1 across completed options, breaking exact ties by the order listed above; select the earliest epoch for an exact epoch tie. Evaluate the selected option once on the fixed test after all validation decisions.",
+  "candidates": [
+    "head",
+    "head_tail"
+  ],
+  "conditional_candidate_triggered": false,
+  "native_prefix_equivalence": {
+    "matched_all_rows": true,
+    "row_count": 3166
+  },
+  "validation": {
+    "head": {
+      "all": {
+        "labels": [
+          "Clear Reply",
+          "Ambivalent",
+          "Clear Non-Reply"
+        ],
+        "count": 584,
+        "accuracy": 0.5993150684931506,
+        "macro_precision": 0.5936969730910312,
+        "macro_recall": 0.4966590693306497,
+        "macro_f1": 0.4353769037979564,
+        "per_class": {
+          "Clear Reply": {
+            "precision": 0.7,
+            "recall": 0.03783783783783784,
+            "f1": 0.07179487179487179,
+            "support": 185
+          },
+          "Ambivalent": {
+            "precision": 0.6163021868787276,
+            "recall": 0.9198813056379822,
+            "f1": 0.7380952380952381,
+            "support": 337
+          },
+          "Clear Non-Reply": {
+            "precision": 0.4647887323943662,
+            "recall": 0.532258064516129,
+            "f1": 0.49624060150375937,
+            "support": 62
+          }
+        },
+        "confusion_matrix": [
+          [
+            7,
+            164,
+            14
+          ],
+          [
+            3,
+            310,
+            24
+          ],
+          [
+            0,
+            29,
+            33
+          ]
+        ],
+        "prediction_counts": {
+          "Clear Reply": 10,
+          "Ambivalent": 503,
+          "Clear Non-Reply": 71
+        }
+      },
+      "truncated": {
+        "labels": [
+          "Clear Reply",
+          "Ambivalent",
+          "Clear Non-Reply"
+        ],
+        "count": 320,
+        "accuracy": 0.65625,
+        "macro_precision": 0.3037974683544304,
+        "macro_recall": 0.3497816188086609,
+        "macro_f1": 0.2961356585645011,
+        "per_class": {
+          "Clear Reply": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 92
+          },
+          "Ambivalent": {
+            "precision": 0.6613924050632911,
+            "recall": 0.990521327014218,
+            "f1": 0.793168880455408,
+            "support": 211
+          },
+          "Clear Non-Reply": {
+            "precision": 0.25,
+            "recall": 0.058823529411764705,
+            "f1": 0.09523809523809523,
+            "support": 17
+          }
+        },
+        "confusion_matrix": [
+          [
+            0,
+            91,
+            1
+          ],
+          [
+            0,
+            209,
+            2
+          ],
+          [
+            0,
+            16,
+            1
+          ]
+        ],
+        "prediction_counts": {
+          "Clear Reply": 0,
+          "Ambivalent": 316,
+          "Clear Non-Reply": 4
+        }
+      },
+      "not_truncated": {
+        "labels": [
+          "Clear Reply",
+          "Ambivalent",
+          "Clear Non-Reply"
+        ],
+        "count": 264,
+        "accuracy": 0.5303030303030303,
+        "macro_precision": 0.5725729640567218,
+        "macro_recall": 0.5293224099675713,
+        "macro_f1": 0.45090610455541125,
+        "per_class": {
+          "Clear Reply": {
+            "precision": 0.7,
+            "recall": 0.07526881720430108,
+            "f1": 0.13592233009708737,
+            "support": 93
+          },
+          "Ambivalent": {
+            "precision": 0.5401069518716578,
+            "recall": 0.8015873015873016,
+            "f1": 0.645367412140575,
+            "support": 126
+          },
+          "Clear Non-Reply": {
+            "precision": 0.47761194029850745,
+            "recall": 0.7111111111111111,
+            "f1": 0.5714285714285714,
+            "support": 45
+          }
+        },
+        "confusion_matrix": [
+          [
+            7,
+            73,
+            13
+          ],
+          [
+            3,
+            101,
+            22
+          ],
+          [
+            0,
+            13,
+            32
+          ]
+        ],
+        "prediction_counts": {
+          "Clear Reply": 10,
+          "Ambivalent": 187,
+          "Clear Non-Reply": 67
+        }
+      }
+    },
+    "head_tail": {
+      "all": {
+        "labels": [
+          "Clear Reply",
+          "Ambivalent",
+          "Clear Non-Reply"
+        ],
+        "count": 584,
+        "accuracy": 0.6095890410958904,
+        "macro_precision": 0.6113205634944765,
+        "macro_recall": 0.5086063760707199,
+        "macro_f1": 0.4563093880492373,
+        "per_class": {
+          "Clear Reply": {
+            "precision": 0.6923076923076923,
+            "recall": 0.04864864864864865,
+            "f1": 0.09090909090909091,
+            "support": 185
+          },
+          "Ambivalent": {
+            "precision": 0.6185770750988142,
+            "recall": 0.9287833827893175,
+            "f1": 0.7425860023724793,
+            "support": 337
+          },
+          "Clear Non-Reply": {
+            "precision": 0.5230769230769231,
+            "recall": 0.5483870967741935,
+            "f1": 0.5354330708661418,
+            "support": 62
+          }
+        },
+        "confusion_matrix": [
+          [
+            9,
+            165,
+            11
+          ],
+          [
+            4,
+            313,
+            20
+          ],
+          [
+            0,
+            28,
+            34
+          ]
+        ],
+        "prediction_counts": {
+          "Clear Reply": 13,
+          "Ambivalent": 506,
+          "Clear Non-Reply": 65
+        }
+      },
+      "truncated": {
+        "labels": [
+          "Clear Reply",
+          "Ambivalent",
+          "Clear Non-Reply"
+        ],
+        "count": 320,
+        "accuracy": 0.65,
+        "macro_precision": 0.27530077848549184,
+        "macro_recall": 0.3466220611467336,
+        "macro_f1": 0.2918426501035197,
+        "per_class": {
+          "Clear Reply": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 92
+          },
+          "Ambivalent": {
+            "precision": 0.6592356687898089,
+            "recall": 0.981042654028436,
+            "f1": 0.7885714285714286,
+            "support": 211
+          },
+          "Clear Non-Reply": {
+            "precision": 0.16666666666666666,
+            "recall": 0.058823529411764705,
+            "f1": 0.08695652173913043,
+            "support": 17
+          }
+        },
+        "confusion_matrix": [
+          [
+            0,
+            91,
+            1
+          ],
+          [
+            0,
+            207,
+            4
+          ],
+          [
+            0,
+            16,
+            1
+          ]
+        ],
+        "prediction_counts": {
+          "Clear Reply": 0,
+          "Ambivalent": 314,
+          "Clear Non-Reply": 6
+        }
+      },
+      "not_truncated": {
+        "labels": [
+          "Clear Reply",
+          "Ambivalent",
+          "Clear Non-Reply"
+        ],
+        "count": 264,
+        "accuracy": 0.5606060606060606,
+        "macro_precision": 0.6012376865131102,
+        "macro_recall": 0.5571257893838539,
+        "macro_f1": 0.4903644573455894,
+        "per_class": {
+          "Clear Reply": {
+            "precision": 0.6923076923076923,
+            "recall": 0.0967741935483871,
+            "f1": 0.16981132075471697,
+            "support": 93
+          },
+          "Ambivalent": {
+            "precision": 0.5520833333333334,
+            "recall": 0.8412698412698413,
+            "f1": 0.6666666666666666,
+            "support": 126
+          },
+          "Clear Non-Reply": {
+            "precision": 0.559322033898305,
+            "recall": 0.7333333333333333,
+            "f1": 0.6346153846153846,
+            "support": 45
+          }
+        },
+        "confusion_matrix": [
+          [
+            9,
+            74,
+            10
+          ],
+          [
+            4,
+            106,
+            16
+          ],
+          [
+            0,
+            12,
+            33
+          ]
+        ],
+        "prediction_counts": {
+          "Clear Reply": 13,
+          "Ambivalent": 192,
+          "Clear Non-Reply": 59
+        }
+      }
+    }
+  },
+  "selected_test": {
+    "head_tail": {
+      "all": {
+        "labels": [
+          "Clear Reply",
+          "Ambivalent",
+          "Clear Non-Reply"
+        ],
+        "count": 308,
+        "accuracy": 0.6785714285714286,
+        "macro_precision": 0.6021164021164022,
+        "macro_recall": 0.5365097345637123,
+        "macro_f1": 0.45758151873028446,
+        "per_class": {
+          "Clear Reply": {
+            "precision": 0.6666666666666666,
+            "recall": 0.02531645569620253,
+            "f1": 0.04878048780487805,
+            "support": 79
+          },
+          "Ambivalent": {
+            "precision": 0.7111111111111111,
+            "recall": 0.9320388349514563,
+            "f1": 0.8067226890756303,
+            "support": 206
+          },
+          "Clear Non-Reply": {
+            "precision": 0.42857142857142855,
+            "recall": 0.6521739130434783,
+            "f1": 0.5172413793103449,
+            "support": 23
+          }
+        },
+        "confusion_matrix": [
+          [
+            2,
+            70,
+            7
+          ],
+          [
+            1,
+            192,
+            13
+          ],
+          [
+            0,
+            8,
+            15
+          ]
+        ],
+        "prediction_counts": {
+          "Clear Reply": 3,
+          "Ambivalent": 270,
+          "Clear Non-Reply": 35
+        }
+      },
+      "truncated": {
+        "labels": [
+          "Clear Reply",
+          "Ambivalent",
+          "Clear Non-Reply"
+        ],
+        "count": 199,
+        "accuracy": 0.7185929648241206,
+        "macro_precision": 0.32144249512670564,
+        "macro_recall": 0.43524904214559385,
+        "macro_f1": 0.369485903814262,
+        "per_class": {
+          "Clear Reply": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 48
+          },
+          "Ambivalent": {
+            "precision": 0.7421052631578947,
+            "recall": 0.9724137931034482,
+            "f1": 0.8417910447761194,
+            "support": 145
+          },
+          "Clear Non-Reply": {
+            "precision": 0.2222222222222222,
+            "recall": 0.3333333333333333,
+            "f1": 0.26666666666666666,
+            "support": 6
+          }
+        },
+        "confusion_matrix": [
+          [
+            0,
+            45,
+            3
+          ],
+          [
+            0,
+            141,
+            4
+          ],
+          [
+            0,
+            4,
+            2
+          ]
+        ],
+        "prediction_counts": {
+          "Clear Reply": 0,
+          "Ambivalent": 190,
+          "Clear Non-Reply": 9
+        }
+      },
+      "not_truncated": {
+        "labels": [
+          "Clear Reply",
+          "Ambivalent",
+          "Clear Non-Reply"
+        ],
+        "count": 109,
+        "accuracy": 0.6055045871559633,
+        "macro_precision": 0.6013888888888889,
+        "macro_recall": 0.5550958617185636,
+        "macro_f1": 0.48190082564445874,
+        "per_class": {
+          "Clear Reply": {
+            "precision": 0.6666666666666666,
+            "recall": 0.06451612903225806,
+            "f1": 0.11764705882352941,
+            "support": 31
+          },
+          "Ambivalent": {
+            "precision": 0.6375,
+            "recall": 0.8360655737704918,
+            "f1": 0.723404255319149,
+            "support": 61
+          },
+          "Clear Non-Reply": {
+            "precision": 0.5,
+            "recall": 0.7647058823529411,
+            "f1": 0.6046511627906976,
+            "support": 17
+          }
+        },
+        "confusion_matrix": [
+          [
+            2,
+            25,
+            4
+          ],
+          [
+            1,
+            51,
+            9
+          ],
+          [
+            0,
+            4,
+            13
+          ]
+        ],
+        "prediction_counts": {
+          "Clear Reply": 3,
+          "Ambivalent": 80,
+          "Clear Non-Reply": 26
+        }
+      }
+    }
+  }
+}

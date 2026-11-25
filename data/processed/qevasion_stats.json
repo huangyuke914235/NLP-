@@ -1,0 +1,561 @@
+{
+  "raw_fields": {
+    "train": {
+      "count": 3448,
+      "type": {
+        "title": "string",
+        "date": "string",
+        "president": "string",
+        "url": "string",
+        "question_order": "int64",
+        "interview_question": "string",
+        "interview_answer": "string",
+        "gpt3.5_summary": "string",
+        "gpt3.5_prediction": "string",
+        "question": "string",
+        "annotator_id": "string",
+        "annotator1": "string",
+        "annotator2": "string",
+        "annotator3": "string",
+        "inaudible": "bool",
+        "multiple_questions": "bool",
+        "affirmative_questions": "bool",
+        "index": "int64",
+        "clarity_label": "string",
+        "evasion_label": "string"
+      },
+      "missing": {
+        "title": 0,
+        "date": 0,
+        "president": 0,
+        "url": 0,
+        "question_order": 0,
+        "interview_question": 0,
+        "interview_answer": 0,
+        "gpt3.5_summary": 0,
+        "gpt3.5_prediction": 0,
+        "question": 0,
+        "annotator_id": 0,
+        "annotator1": 3448,
+        "annotator2": 3448,
+        "annotator3": 3448,
+        "inaudible": 0,
+        "multiple_questions": 0,
+        "affirmative_questions": 0,
+        "index": 0,
+        "clarity_label": 0,
+        "evasion_label": 0
+      }
+    },
+    "test": {
+      "count": 308,
+      "type": {
+        "title": "string",
+        "date": "string",
+        "president": "string",
+        "url": "string",
+        "question_order": "int64",
+        "interview_question": "string",
+        "interview_answer": "string",
+        "gpt3.5_summary": "string",
+        "gpt3.5_prediction": "string",
+        "question": "string",
+        "annotator_id": "string",
+        "annotator1": "string",
+        "annotator2": "string",
+        "annotator3": "string",
+        "inaudible": "bool",
+        "multiple_questions": "bool",
+        "affirmative_questions": "bool",
+        "index": "int64",
+        "clarity_label": "string",
+        "evasion_label": "string"
+      },
+      "missing": {
+        "title": 308,
+        "date": 308,
+        "president": 308,
+        "url": 0,
+        "question_order": 0,
+        "interview_question": 0,
+        "interview_answer": 0,
+        "gpt3.5_summary": 308,
+        "gpt3.5_prediction": 308,
+        "question": 0,
+        "annotator_id": 308,
+        "annotator1": 0,
+        "annotator2": 0,
+        "annotator3": 0,
+        "inaudible": 0,
+        "multiple_questions": 0,
+        "affirmative_questions": 0,
+        "index": 0,
+        "clarity_label": 0,
+        "evasion_label": 308
+      }
+    }
+  },
+  "raw_splits": {
+    "test": {
+      "rows": 308,
+      "labels": {
+        "Ambivalent": 206,
+        "Clear Non-Reply": 23,
+        "Clear Reply": 79
+      },
+      "fine_labels": {
+        "(missing)": 308
+      },
+      "source_group_count": 56,
+      "duplicate_component_count": 56,
+      "source_group_size_median": 3.0,
+      "source_group_size_max": 29,
+      "source_hosts": {
+        "presidency.ucsb.edu": 308
+      },
+      "presidents": {
+        "(missing)": 308
+      },
+      "question_length": {
+        "mean": 15.457792207792208,
+        "min": 3.0,
+        "q1": 9.0,
+        "median": 14.0,
+        "q3": 20.0,
+        "p90": 25.30000000000001,
+        "p95": 33.0,
+        "max": 69.0
+      },
+      "answer_length": {
+        "mean": 334.04545454545456,
+        "min": 1.0,
+        "q1": 129.0,
+        "median": 297.0,
+        "q3": 475.0,
+        "p90": 687.6000000000001,
+        "p95": 837.0,
+        "max": 1330.0
+      }
+    },
+    "train": {
+      "rows": 3448,
+      "labels": {
+        "Ambivalent": 2040,
+        "Clear Non-Reply": 356,
+        "Clear Reply": 1052
+      },
+      "fine_labels": {
+        "Claims ignorance": 119,
+        "Clarification": 92,
+        "Declining to answer": 145,
+        "Deflection": 381,
+        "Dodging": 706,
+        "Explicit": 1052,
+        "General": 386,
+        "Implicit": 488,
+        "Partial/half-answer": 79
+      },
+      "source_group_count": 287,
+      "duplicate_component_count": 287,
+      "source_group_size_median": 9.0,
+      "source_group_size_max": 117,
+      "source_hosts": {
+        "presidency.ucsb.edu": 3448
+      },
+      "presidents": {
+        "Barack Obama": 1010,
+        "Donald J. Trump": 1325,
+        "George W. Bush": 714,
+        "Joseph R. Biden": 399
+      },
+      "question_length": {
+        "mean": 14.635440835266822,
+        "min": 1.0,
+        "q1": 8.0,
+        "median": 13.0,
+        "q3": 19.0,
+        "p90": 26.0,
+        "p95": 31.0,
+        "max": 81.0
+      },
+      "answer_length": {
+        "mean": 301.85672853828305,
+        "min": 0.0,
+        "q1": 58.0,
+        "median": 213.0,
+        "q3": 452.0,
+        "p90": 720.3000000000002,
+        "p95": 910.0,
+        "max": 2154.0
+      }
+    }
+  },
+  "official_protocol": {
+    "test": {
+      "rows": 308,
+      "labels": {
+        "Ambivalent": 206,
+        "Clear Non-Reply": 23,
+        "Clear Reply": 79
+      },
+      "fine_labels": {
+        "(missing)": 308
+      },
+      "source_group_count": 56,
+      "duplicate_component_count": 56,
+      "source_group_size_median": 3.0,
+      "source_group_size_max": 29,
+      "source_hosts": {
+        "presidency.ucsb.edu": 308
+      },
+      "presidents": {
+        "(missing)": 308
+      },
+      "question_length": {
+        "mean": 15.457792207792208,
+        "min": 3.0,
+        "q1": 9.0,
+        "median": 14.0,
+        "q3": 20.0,
+        "p90": 25.30000000000001,
+        "p95": 33.0,
+        "max": 69.0
+      },
+      "answer_length": {
+        "mean": 334.04545454545456,
+        "min": 1.0,
+        "q1": 129.0,
+        "median": 297.0,
+        "q3": 475.0,
+        "p90": 687.6000000000001,
+        "p95": 837.0,
+        "max": 1330.0
+      }
+    },
+    "train": {
+      "rows": 2800,
+      "labels": {
+        "Ambivalent": 1663,
+        "Clear Non-Reply": 290,
+        "Clear Reply": 847
+      },
+      "fine_labels": {
+        "Claims ignorance": 94,
+        "Clarification": 76,
+        "Declining to answer": 120,
+        "Deflection": 324,
+        "Dodging": 582,
+        "Explicit": 847,
+        "General": 303,
+        "Implicit": 386,
+        "Partial/half-answer": 68
+      },
+      "source_group_count": 229,
+      "duplicate_component_count": 229,
+      "source_group_size_median": 9.0,
+      "source_group_size_max": 117,
+      "source_hosts": {
+        "presidency.ucsb.edu": 2800
+      },
+      "presidents": {
+        "Barack Obama": 803,
+        "Donald J. Trump": 1017,
+        "George W. Bush": 629,
+        "Joseph R. Biden": 351
+      },
+      "question_length": {
+        "mean": 14.850714285714286,
+        "min": 1.0,
+        "q1": 8.0,
+        "median": 13.0,
+        "q3": 19.0,
+        "p90": 26.0,
+        "p95": 31.0,
+        "max": 81.0
+      },
+      "answer_length": {
+        "mean": 302.43,
+        "min": 0.0,
+        "q1": 58.0,
+        "median": 210.5,
+        "q3": 453.0,
+        "p90": 724.0999999999999,
+        "p95": 920.3999999999978,
+        "max": 2154.0
+      }
+    },
+    "validation": {
+      "rows": 648,
+      "labels": {
+        "Ambivalent": 377,
+        "Clear Non-Reply": 66,
+        "Clear Reply": 205
+      },
+      "fine_labels": {
+        "Claims ignorance": 25,
+        "Clarification": 16,
+        "Declining to answer": 25,
+        "Deflection": 57,
+        "Dodging": 124,
+        "Explicit": 205,
+        "General": 83,
+        "Implicit": 102,
+        "Partial/half-answer": 11
+      },
+      "source_group_count": 58,
+      "duplicate_component_count": 58,
+      "source_group_size_median": 8.5,
+      "source_group_size_max": 70,
+      "source_hosts": {
+        "presidency.ucsb.edu": 648
+      },
+      "presidents": {
+        "Barack Obama": 207,
+        "Donald J. Trump": 308,
+        "George W. Bush": 85,
+        "Joseph R. Biden": 48
+      },
+      "question_length": {
+        "mean": 13.705246913580247,
+        "min": 2.0,
+        "q1": 8.0,
+        "median": 12.0,
+        "q3": 18.0,
+        "p90": 24.0,
+        "p95": 29.0,
+        "max": 59.0
+      },
+      "answer_length": {
+        "mean": 299.3796296296296,
+        "min": 1.0,
+        "q1": 62.5,
+        "median": 225.5,
+        "q3": 449.0,
+        "p90": 700.5000000000003,
+        "p95": 872.7499999999997,
+        "max": 1447.0
+      }
+    }
+  },
+  "grouped_protocol": {
+    "test": {
+      "rows": 308,
+      "labels": {
+        "Ambivalent": 206,
+        "Clear Non-Reply": 23,
+        "Clear Reply": 79
+      },
+      "fine_labels": {
+        "(missing)": 308
+      },
+      "source_group_count": 56,
+      "duplicate_component_count": 56,
+      "source_group_size_median": 3.0,
+      "source_group_size_max": 29,
+      "source_hosts": {
+        "presidency.ucsb.edu": 308
+      },
+      "presidents": {
+        "(missing)": 308
+      },
+      "question_length": {
+        "mean": 15.457792207792208,
+        "min": 3.0,
+        "q1": 9.0,
+        "median": 14.0,
+        "q3": 20.0,
+        "p90": 25.30000000000001,
+        "p95": 33.0,
+        "max": 69.0
+      },
+      "answer_length": {
+        "mean": 334.04545454545456,
+        "min": 1.0,
+        "q1": 129.0,
+        "median": 297.0,
+        "q3": 475.0,
+        "p90": 687.6000000000001,
+        "p95": 837.0,
+        "max": 1330.0
+      }
+    },
+    "train": {
+      "rows": 2274,
+      "labels": {
+        "Ambivalent": 1349,
+        "Clear Non-Reply": 218,
+        "Clear Reply": 707
+      },
+      "fine_labels": {
+        "Claims ignorance": 75,
+        "Clarification": 57,
+        "Declining to answer": 86,
+        "Deflection": 259,
+        "Dodging": 458,
+        "Explicit": 707,
+        "General": 244,
+        "Implicit": 327,
+        "Partial/half-answer": 61
+      },
+      "source_group_count": 196,
+      "duplicate_component_count": 196,
+      "source_group_size_median": 9.0,
+      "source_group_size_max": 67,
+      "source_hosts": {
+        "presidency.ucsb.edu": 2274
+      },
+      "presidents": {
+        "Barack Obama": 684,
+        "Donald J. Trump": 900,
+        "George W. Bush": 339,
+        "Joseph R. Biden": 351
+      },
+      "question_length": {
+        "mean": 15.11873350923483,
+        "min": 1.0,
+        "q1": 9.0,
+        "median": 13.0,
+        "q3": 19.0,
+        "p90": 26.0,
+        "p95": 32.0,
+        "max": 81.0
+      },
+      "answer_length": {
+        "mean": 314.5008795074758,
+        "min": 0.0,
+        "q1": 66.0,
+        "median": 223.0,
+        "q3": 464.0,
+        "p90": 740.0,
+        "p95": 970.0999999999995,
+        "max": 2154.0
+      }
+    },
+    "validation": {
+      "rows": 584,
+      "labels": {
+        "Ambivalent": 337,
+        "Clear Non-Reply": 62,
+        "Clear Reply": 185
+      },
+      "fine_labels": {
+        "Claims ignorance": 24,
+        "Clarification": 14,
+        "Declining to answer": 24,
+        "Deflection": 45,
+        "Dodging": 114,
+        "Explicit": 185,
+        "General": 76,
+        "Implicit": 91,
+        "Partial/half-answer": 11
+      },
+      "source_group_count": 52,
+      "duplicate_component_count": 52,
+      "source_group_size_median": 9.0,
+      "source_group_size_max": 70,
+      "source_hosts": {
+        "presidency.ucsb.edu": 584
+      },
+      "presidents": {
+        "Barack Obama": 183,
+        "Donald J. Trump": 308,
+        "George W. Bush": 45,
+        "Joseph R. Biden": 48
+      },
+      "question_length": {
+        "mean": 13.525684931506849,
+        "min": 2.0,
+        "q1": 8.0,
+        "median": 11.0,
+        "q3": 17.0,
+        "p90": 23.0,
+        "p95": 28.850000000000023,
+        "max": 59.0
+      },
+      "answer_length": {
+        "mean": 298.4760273972603,
+        "min": 1.0,
+        "q1": 50.75,
+        "median": 208.0,
+        "q3": 450.5,
+        "p90": 714.4000000000001,
+        "p95": 900.0,
+        "max": 1447.0
+      }
+    }
+  },
+  "raw_source_groups_total": 304,
+  "raw_source_group_overlap": {
+    "test~train": 39
+  },
+  "raw_duplicate_component_overlap": {
+    "test~train": 39
+  },
+  "official_partition_source_overlap": {
+    "test~train": 33,
+    "test~validation": 6,
+    "train~validation": 0
+  },
+  "grouped_partition_source_overlap": {
+    "test~train": 0,
+    "test~validation": 0,
+    "train~validation": 0
+  },
+  "grouped_partition_component_overlap": {
+    "test~train": 0,
+    "test~validation": 0,
+    "train~validation": 0
+  },
+  "official_test_rows_from_overlapping_source": 118,
+  "strict_holdout_excluded": 590,
+  "strict_holdout_excluded_for_source_overlap": 590,
+  "strict_holdout_excluded_for_duplicate_link_only": 0,
+  "strict_holdout_excluded_by_partition": {
+    "train": 526,
+    "validation": 64
+  },
+  "seed": 2026,
+  "stratified_group_fold_zero_indexed": 3,
+  "duplicates": {
+    "question": {
+      "unique_duplicate_keys": 88,
+      "rows_in_duplicate_keys": 178,
+      "pair_count": 93
+    },
+    "answer": {
+      "unique_duplicate_keys": 1023,
+      "rows_in_duplicate_keys": 2589,
+      "pair_count": 3581
+    },
+    "question_and_answer": {
+      "unique_duplicate_keys": 81,
+      "rows_in_duplicate_keys": 162,
+      "pair_count": 81
+    },
+    "link_totals": {
+      "exact_answer_substantial": 2103,
+      "exact_question_and_answer": 81,
+      "near_question_and_answer": 12
+    },
+    "cross_official_split_links": {},
+    "cross_grouped_partition_links": 0,
+    "clashing_exact_qa_keys": 17
+  },
+  "fine_by_clarity_train": {
+    "Ambivalent": {
+      "Deflection": 381,
+      "Dodging": 706,
+      "General": 386,
+      "Implicit": 488,
+      "Partial/half-answer": 79
+    },
+    "Clear Non-Reply": {
+      "Claims ignorance": 119,
+      "Clarification": 92,
+      "Declining to answer": 145
+    },
+    "Clear Reply": {
+      "Explicit": 1052
+    }
+  }
+}

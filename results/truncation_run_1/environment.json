@@ -1,0 +1,14 @@
+{
+  "python": "3.12.13",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "torch": "2.14.1+cu130",
+  "transformers": "4.53.3",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "base_weight_sha256": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db",
+  "code_sha256": "59981004946b606ad6eddc4c1ad732ad935e804532a359d63f86e5b0675ead56",
+  "source_config_sha256": "2e8b64d06fe070a317ebf3de0e69f04d02d0c9006276501212dc2a34a11c7e27",
+  "base_config_sha256": "ccf6c447ea0468d9ea8b0f3902c576ff27f77d36a4f6874cd8693f1c63920543",
+  "data_sha256": "9811501d43ac8c8a531e151a1c35740cb442afe825632a54b2efef08cf1833a1",
+  "elapsed_seconds": 102.51820279999811
+}

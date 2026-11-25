@@ -1,0 +1,309 @@
+id,gold,prediction,group,answer_length,question_length,prob_Clear Reply,prob_Ambivalent,prob_Clear Non-Reply
+qevasion-test-0000,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-3,52,9,0.170871639254,0.807219263547,0.0219090971991
+qevasion-test-0001,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-lee-myung-bak-south-korea,150,14,0.250302757315,0.73839457366,0.0113026690247
+qevasion-test-0002,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-chicago,347,21,0.732430921402,0.264022604639,0.00354647395819
+qevasion-test-0003,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-secretary-state-condoleezza-rice-crawford-texas,393,6,0.4453031351,0.546087765946,0.00860909895403
+qevasion-test-0004,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-3,144,6,0.0101035670889,0.98862073259,0.0012757003213
+qevasion-test-0005,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-4,318,13,0.785206128324,0.205042442774,0.00975142890157
+qevasion-test-0006,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-3,129,18,0.508393087184,0.480120634006,0.0114862788106
+qevasion-test-0007,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-secretary-state-condoleezza-rice-crawford-texas,605,11,0.110256472947,0.126800601804,0.762942925248
+qevasion-test-0008,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1133,336,12,0.128676947579,0.870365018399,0.000958034022132
+qevasion-test-0009,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-5,412,13,0.573227792755,0.416224058178,0.0105481490675
+qevasion-test-0010,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference,307,3,0.48300982185,0.495119161454,0.0218710166963
+qevasion-test-0011,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-tony-blair-the-united-kingdom-0,195,5,0.0066001722775,0.989752167037,0.00364766068594
+qevasion-test-0012,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-4,343,9,0.939284064394,0.0504526108292,0.0102633247769
+qevasion-test-0013,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-vladimir-v-putin-russia-sochi,341,13,0.0175552247622,0.979539345584,0.00290542965333
+qevasion-test-0014,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-3,786,11,0.272931241296,0.707720955547,0.0193478031573
+qevasion-test-0015,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-tony-blair-the-united-kingdom-0,387,8,0.709529630766,0.278545938671,0.0119244305635
+qevasion-test-0016,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-5,85,8,0.0369440008709,0.0595133031505,0.903542695979
+qevasion-test-0017,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-5,7,9,0.00815282492431,0.489475222339,0.502371952736
+qevasion-test-0018,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-4,296,18,0.0452505527644,0.550633082305,0.40411636493
+qevasion-test-0019,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-5,80,23,0.750485715135,0.241854681261,0.00765960360386
+qevasion-test-0020,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-ehud-olmert-israel-jerusalem,750,26,0.931898505171,0.0602974143151,0.00780408051422
+qevasion-test-0021,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1131,267,5,0.534606177328,0.4651372474,0.000256575272208
+qevasion-test-0022,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1,120,9,0.791415387343,0.167086153825,0.0414984588312
+qevasion-test-0023,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-julia-e-gillard-australia-canberra,625,31,0.0104274069632,0.985529202115,0.00404339092193
+qevasion-test-0024,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-secretary-state-condoleezza-rice-crawford-texas,57,25,0.497277586333,0.488549941699,0.0141724719674
+qevasion-test-0025,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-stephen-harper-canada-and-president,740,15,0.8596858079,0.139643021924,0.00067117017596
+qevasion-test-0026,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-tony-blair-the-united-kingdom-0,837,14,0.16133577482,0.837955997835,0.000708227344566
+qevasion-test-0027,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-julia-e-gillard-australia-canberra,625,19,0.560176699036,0.333429586901,0.106393714063
+qevasion-test-0028,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-4,222,11,0.292763253079,0.704780692375,0.00245605454626
+qevasion-test-0029,Clear Non-Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-chicago,329,41,0.243825534832,0.617649997215,0.138524467953
+qevasion-test-0030,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-lee-myung-bak-south-korea-0,254,7,0.154522665692,0.819123789783,0.0263535445247
+qevasion-test-0031,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-4,466,11,0.0317671698551,0.964663348783,0.00356948136197
+qevasion-test-0032,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1129,130,10,0.514848335946,0.483317940244,0.00183372381012
+qevasion-test-0033,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-0,382,22,0.61015524944,0.383859378649,0.00598537191111
+qevasion-test-0034,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-0,259,21,0.0298724966637,0.958057029336,0.0120704740006
+qevasion-test-0035,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-5,156,15,0.117040048066,0.874583829206,0.00837612272808
+qevasion-test-0036,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-chicago,29,9,0.0154423667568,0.982844806412,0.00171282683128
+qevasion-test-0037,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-tony-blair-the-united-kingdom-0,628,9,0.237656648081,0.696168301765,0.0661750501542
+qevasion-test-0038,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-lisbon-portugal,848,31,0.102337727836,0.89364669317,0.00401557899421
+qevasion-test-0039,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-john-agyekum-kufuor-ghana-accra,943,21,0.632375705576,0.361332090902,0.00629220352196
+qevasion-test-0040,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1135,119,6,0.033200082832,0.921499748688,0.0453001684797
+qevasion-test-0041,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-ehud-olmert-israel-jerusalem,750,33,0.951038719201,0.0421486307473,0.00681265005155
+qevasion-test-0042,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-tony-blair-the-united-kingdom-0,837,18,0.0291786373863,0.967135933723,0.00368542889024
+qevasion-test-0043,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1135,107,16,0.0576884968493,0.939414951415,0.00289655173548
+qevasion-test-0044,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1113,134,10,0.110486592492,0.888757756812,0.000755650695253
+qevasion-test-0045,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-lee-myung-bak-south-korea-seoul,98,12,0.0197723976332,0.978732192221,0.00149541014581
+qevasion-test-0046,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1131,368,11,0.869789680181,0.120438115698,0.00977220412118
+qevasion-test-0047,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-5,107,9,0.042113885422,0.957328643073,0.000557471504501
+qevasion-test-0048,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-stephen-harper-canada,748,8,0.49020309572,0.46269839059,0.0470985136898
+qevasion-test-0049,Clear Non-Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-junichiro-koizumi-japan,184,4,0.00633890807464,0.530612636293,0.463048455632
+qevasion-test-0050,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-junichiro-koizumi-japan,320,20,0.744700676136,0.214331770971,0.0409675528923
+qevasion-test-0051,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-5,36,9,0.404943701332,0.582715318644,0.0123409800245
+qevasion-test-0052,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1134,105,17,0.99940503399,0.000501913125614,9.30528847343e-05
+qevasion-test-0053,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-secretary-state-condoleezza-rice-crawford-texas,57,4,0.177811456853,0.45421999946,0.367968543687
+qevasion-test-0054,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-secretary-state-condoleezza-rice-crawford-texas,165,13,0.00563099643369,0.994289159069,7.984449727e-05
+qevasion-test-0055,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-4,446,10,0.25571490399,0.740378986078,0.00390610993202
+qevasion-test-0056,Clear Non-Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-5,20,9,0.016943720644,0.975218571927,0.00783770742862
+qevasion-test-0057,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-secretary-state-condoleezza-rice-crawford-texas,165,6,0.00049498800897,0.998678097453,0.000826914537839
+qevasion-test-0058,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1122,384,9,0.344145899291,0.634896006682,0.0209580940271
+qevasion-test-0059,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-5,156,17,0.888021687812,0.111934291352,4.40208362026e-05
+qevasion-test-0060,Clear Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1133,17,9,0.0020329709164,0.0389674731484,0.958999555935
+qevasion-test-0061,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-hu-jintao-china,2,8,0.981293793007,0.0145246069358,0.00418160005734
+qevasion-test-0062,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-hamid-karzai-afghanistan,696,40,0.0870528321546,0.911711677658,0.00123549018749
+qevasion-test-0063,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-3,116,10,0.387679265372,0.611663488894,0.000657245734318
+qevasion-test-0064,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1134,100,25,0.0989640081621,0.753116608786,0.147919383052
+qevasion-test-0065,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-stephen-harper-canada,748,10,0.00740712140777,0.9912378623,0.00135501629212
+qevasion-test-0066,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-vladimir-v-putin-russia-strelna-russia,258,14,0.444978588108,0.363499051549,0.191522360343
+qevasion-test-0067,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-pervez-musharraf-pakistan,139,12,0.00816320199138,0.989741354885,0.00209544312357
+qevasion-test-0068,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-5,159,5,0.0637439450853,0.925934629734,0.0103214251806
+qevasion-test-0069,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-4,343,7,0.24426627277,0.678085723865,0.0776480033649
+qevasion-test-0070,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-chancellor-angela-merkel-germany-meseberg-germany,109,14,0.243655884241,0.592587438769,0.16375667699
+qevasion-test-0071,Clear Non-Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-5,83,9,0.30597793386,0.692036338583,0.0019857275564
+qevasion-test-0072,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-chicago,4,7,0.925573494563,0.0120098786646,0.0624166267721
+qevasion-test-0073,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-5,36,6,0.251099093102,0.742421176509,0.00647973038935
+qevasion-test-0074,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1134,354,9,0.034778554886,0.963646610486,0.00157483462802
+qevasion-test-0075,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-4,677,18,0.0838987582486,0.853878688789,0.0622225529625
+qevasion-test-0076,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-vladimir-v-putin-russia-strelna-russia,258,13,0.557617902208,0.410230470529,0.0321516272622
+qevasion-test-0077,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-4,233,9,0.00143635196643,0.976820881956,0.021742766078
+qevasion-test-0078,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1124,395,9,0.0199713181791,0.963567980541,0.0164607012795
+qevasion-test-0079,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-chicago,567,16,0.037049276429,0.921384729771,0.0415659937995
+qevasion-test-0080,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-secretary-state-condoleezza-rice-crawford-texas,144,10,0.98965614969,0.0101612532526,0.000182597057482
+qevasion-test-0081,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1132,522,8,0.690786930255,0.1034473905,0.205765679245
+qevasion-test-0082,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-tony-blair-the-united-kingdom-0,536,23,0.687087220082,0.309845984739,0.0030667951791
+qevasion-test-0083,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-0,382,12,0.709572207481,0.275773783672,0.0146540088469
+qevasion-test-0084,Clear Non-Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-chicago,120,9,0.472995243577,0.499914230749,0.0270905256741
+qevasion-test-0085,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-mahmoud-abbas-the-palestinian-authority-1,338,26,0.12385295601,0.871964666849,0.00418237714121
+qevasion-test-0086,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-chancellor-angela-merkel-germany-stralsund,232,8,0.0174877148502,0.981049921604,0.00146236354545
+qevasion-test-0087,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-hamid-karzai-afghanistan,383,10,0.511950454339,0.486482208367,0.00156733729316
+qevasion-test-0088,Clear Non-Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-pervez-musharraf-pakistan,222,43,0.176231253418,0.729793455475,0.0939752911063
+qevasion-test-0089,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1157,603,5,0.87833774635,0.114524681667,0.00713757198327
+qevasion-test-0090,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-3,383,14,0.0364093055053,0.956144964055,0.00744573043954
+qevasion-test-0091,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1132,356,13,0.740231901319,0.205817721092,0.0539503775886
+qevasion-test-0092,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-hamid-karzai-afghanistan-camp-david-maryland,184,12,0.0292283472787,0.920632502655,0.0501391500664
+qevasion-test-0093,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-0,520,23,0.0230623925828,0.968797925572,0.00813968184494
+qevasion-test-0094,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1135,33,17,0.08516534908,0.00675397045341,0.908080680467
+qevasion-test-0095,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-chicago,329,23,0.0678040240515,0.891556384372,0.0406395915766
+qevasion-test-0096,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-stephen-harper-canada,439,19,0.461056952576,0.5349763711,0.00396667632352
+qevasion-test-0097,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-vladimir-v-putin-russia-sochi,528,58,0.751107694459,0.221702547956,0.0271897575844
+qevasion-test-0098,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-4,677,21,0.0688477530321,0.920890717621,0.0102615293473
+qevasion-test-0099,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-toronto,1,25,0.0636937340245,0.787046187835,0.149260078141
+qevasion-test-0100,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-secretary-state-condoleezza-rice-crawford-texas,393,12,0.0932676817608,0.889975569668,0.0167567485715
+qevasion-test-0101,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-5,419,13,0.82546801769,0.173241104299,0.00129087801129
+qevasion-test-0102,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1130,273,14,0.121216801668,0.873335312323,0.0054478860083
+qevasion-test-0103,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-hamid-karzai-afghanistan-camp-david-maryland,184,14,0.0755177095065,0.898654897546,0.0258273929477
+qevasion-test-0104,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-tony-blair-the-united-kingdom-0,628,10,0.00119279722607,0.998336647101,0.000470555672516
+qevasion-test-0105,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-stephen-harper-canada-and-president,740,24,0.274354022002,0.720986909991,0.00465906800677
+qevasion-test-0106,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-4,222,25,0.0524035226683,0.913066420693,0.0345300566385
+qevasion-test-0107,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1134,354,12,0.56918787494,0.42718610035,0.00362602470956
+qevasion-test-0108,Clear Non-Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-secretary-state-condoleezza-rice-crawford-texas,165,5,0.013135506173,0.983478101525,0.003386392302
+qevasion-test-0109,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-4,91,15,0.0844866212524,0.843999177954,0.0715142007939
+qevasion-test-0110,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-thomas-yayi-boni-benin-cotonou,1012,22,0.528514340728,0.470249359921,0.00123629935054
+qevasion-test-0111,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-3,299,20,0.400453846625,0.572504488432,0.0270416649435
+qevasion-test-0112,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-5,9,4,0.031726611659,0.226535866043,0.741737522298
+qevasion-test-0113,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-hamid-karzai-afghanistan,696,43,0.161137941764,0.838190857387,0.000671200849131
+qevasion-test-0114,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-chicago,99,27,0.00610634011144,0.953920493363,0.039973166526
+qevasion-test-0115,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-david-cameron-the-united-kingdom-london,1178,13,0.00594644403845,0.99301188672,0.00104166924181
+qevasion-test-0116,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-0,520,35,0.377387699106,0.622102999006,0.000509301888066
+qevasion-test-0117,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-4,343,6,0.800336992801,0.0316549076469,0.168008099552
+qevasion-test-0118,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-4,318,23,0.269801808749,0.72741090916,0.00278728209091
+qevasion-test-0119,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-secretary-state-condoleezza-rice-crawford-texas,16,10,0.0101789031657,0.987972263257,0.00184883357751
+qevasion-test-0120,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-tony-blair-the-united-kingdom-0,837,14,0.103392136783,0.896197718812,0.000410144405454
+qevasion-test-0121,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-3,144,7,0.0685868168332,0.911747683563,0.0196654996033
+qevasion-test-0122,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-3,629,12,0.445765140947,0.550415007409,0.00381985164332
+qevasion-test-0123,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-tony-blair-the-united-kingdom-0,195,5,0.0322306956337,0.962298826019,0.0054704783477
+qevasion-test-0124,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-nuri-al-maliki-iraq,407,19,0.00190437591876,0.948106250087,0.0499893739943
+qevasion-test-0125,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-secretary-state-condoleezza-rice-crawford-texas,190,20,0.922984443322,0.0767347290573,0.000280827620415
+qevasion-test-0126,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-3,129,23,0.304222882745,0.618802351618,0.0769747656373
+qevasion-test-0127,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-ehud-olmert-israel-jerusalem,1064,18,0.0960969185281,0.902413709249,0.00148937222314
+qevasion-test-0128,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-5,29,10,0.00300087612973,0.995199567647,0.0017995562233
+qevasion-test-0129,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-gordon-brown-the-united-kingdom-camp,610,24,0.964594909638,0.0311142279337,0.00429086242821
+qevasion-test-0130,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-toronto,1,37,0.0135128509982,0.974145813372,0.0123413356295
+qevasion-test-0131,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-hamid-karzai-afghanistan,531,7,0.0409519650631,0.957080100892,0.00196793404525
+qevasion-test-0132,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-3,41,15,0.118953617382,0.866277141411,0.0147692412072
+qevasion-test-0133,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-chicago,1330,14,0.886079605936,0.113204711382,0.000715682681148
+qevasion-test-0134,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-5,197,17,0.285269479861,0.713170804685,0.00155971545391
+qevasion-test-0135,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1135,520,11,0.430159120435,0.520427545267,0.0494133342983
+qevasion-test-0136,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-3,188,20,0.774544520842,0.224854746242,0.000600732916067
+qevasion-test-0137,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1131,470,19,0.042055702122,0.949838443444,0.00810585443385
+qevasion-test-0138,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-3,116,16,0.0381891609519,0.960736098467,0.00107474058092
+qevasion-test-0139,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1122,384,4,0.147954096591,0.848163315521,0.00388258788765
+qevasion-test-0140,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1131,267,14,0.864525161237,0.132574493949,0.00290034481422
+qevasion-test-0141,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-vladimir-v-putin-russia-strelna-russia,614,7,0.417085474979,0.577060067773,0.00585445724887
+qevasion-test-0142,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-4,328,21,0.524111026758,0.469826302119,0.00606267112305
+qevasion-test-0143,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1113,134,9,0.0219040311763,0.977633231832,0.000462736991242
+qevasion-test-0144,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-lee-myung-bak-south-korea-seoul,278,17,0.490516118212,0.226232075044,0.283251806744
+qevasion-test-0145,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-chicago,147,5,0.1362649288,0.844779679224,0.0189553919764
+qevasion-test-0146,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-vladimir-v-putin-russia-strelna-russia,614,10,0.879268022894,0.11891097834,0.00182099876667
+qevasion-test-0147,Clear Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-5,3,6,0.0387178327706,0.15393909772,0.80734306951
+qevasion-test-0148,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-julia-e-gillard-australia-canberra,625,15,0.00306301329437,0.996834103152,0.000102883553239
+qevasion-test-0149,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-stephen-harper-canada,435,10,0.433333656202,0.408185234826,0.158481108972
+qevasion-test-0150,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-kapolei,106,13,0.509895652824,0.304628158074,0.185476189103
+qevasion-test-0151,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-3,497,27,0.375168906312,0.608907846093,0.0159232475952
+qevasion-test-0152,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-chicago,399,21,0.600009086059,0.266281117493,0.133709796448
+qevasion-test-0153,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-chicago,399,18,0.107718246663,0.718039283554,0.174242469784
+qevasion-test-0154,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-3,1,9,0.00376291262224,0.977051759331,0.0191853280469
+qevasion-test-0155,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1133,336,15,0.457111388264,0.542364235141,0.000524376594511
+qevasion-test-0156,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-john-w-howard-australia-sydney,15,15,0.00342195912169,0.990832431771,0.00574560910758
+qevasion-test-0157,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-5,85,12,0.00552235064937,0.0877607082403,0.90671694111
+qevasion-test-0158,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-nuri-al-maliki-iraq,274,37,0.624147808879,0.289859589995,0.0859926011267
+qevasion-test-0159,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-junichiro-koizumi-japan,214,4,0.149493429705,0.829823662505,0.0206829077901
+qevasion-test-0160,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-secretary-state-condoleezza-rice-crawford-texas,330,18,0.978343011774,0.0198357922266,0.00182119599988
+qevasion-test-0161,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-5,80,14,0.592681548811,0.397595243173,0.0097232080156
+qevasion-test-0162,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1132,522,9,0.814759618251,0.164497124319,0.0207432574302
+qevasion-test-0163,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-cannes,573,39,0.929526623217,0.0588066464792,0.0116667303036
+qevasion-test-0164,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-hamid-karzai-afghanistan,356,13,0.251019540806,0.748376840133,0.000603619060901
+qevasion-test-0165,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-4,276,20,0.0409381369982,0.958852621627,0.000209241375229
+qevasion-test-0166,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-3,104,25,0.0949110715837,0.900043237389,0.00504569102712
+qevasion-test-0167,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-chancellor-angela-merkel-germany-stralsund,11,15,0.00089611322723,0.720172602575,0.278931284198
+qevasion-test-0168,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-5,25,6,0.00623931419974,0.965502897156,0.0282577886439
+qevasion-test-0169,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-vladimir-v-putin-russia-sochi,341,14,0.246441229399,0.749170204425,0.00438856617626
+qevasion-test-0170,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-stephen-harper-canada,439,15,0.0780389487586,0.918807846157,0.00315320508405
+qevasion-test-0171,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-4,233,12,0.434981360765,0.529649856757,0.0353687824784
+qevasion-test-0172,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-tony-blair-the-united-kingdom-0,195,5,0.0278415782249,0.969003611333,0.00315481044178
+qevasion-test-0173,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-chicago,347,19,0.0161013739985,0.980752973365,0.00314565263694
+qevasion-test-0174,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-5,154,38,0.815082125479,0.180758355387,0.00415951913392
+qevasion-test-0175,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-vladimir-v-putin-russia-strelna-russia,426,15,0.604037484173,0.333671376368,0.0622911394586
+qevasion-test-0176,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1133,176,18,0.216983453637,0.736551135512,0.046465410851
+qevasion-test-0177,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1113,191,12,0.0390949659927,0.956499878683,0.00440515532458
+qevasion-test-0178,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-hamid-karzai-afghanistan-camp-david-maryland,504,20,0.092600081608,0.741765254464,0.165634663928
+qevasion-test-0179,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1131,228,13,0.483500832963,0.175859222916,0.340639944121
+qevasion-test-0180,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-thomas-yayi-boni-benin-cotonou,1012,11,0.78940790676,0.207039278428,0.00355281481248
+qevasion-test-0181,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-tony-blair-the-united-kingdom-0,195,12,0.318579062162,0.6618231409,0.019597796938
+qevasion-test-0182,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-secretary-state-condoleezza-rice-crawford-texas,298,22,0.0384894774633,0.961158166263,0.000352356274151
+qevasion-test-0183,Clear Non-Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-pervez-musharraf-pakistan,222,21,0.0390881902985,0.495638546174,0.465273263528
+qevasion-test-0184,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-3,3,9,0.750882740676,0.117830195381,0.131287063943
+qevasion-test-0185,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-pervez-musharraf-pakistan,242,5,0.0212279747974,0.58801456992,0.390757455282
+qevasion-test-0186,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1135,8,4,2.96131575795e-06,0.00440248423512,0.995594554449
+qevasion-test-0187,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-cannes,611,16,0.444330259272,0.555216992113,0.000452748614982
+qevasion-test-0188,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1129,130,9,0.856638570535,0.142470559598,0.00089086986726
+qevasion-test-0189,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-3,684,12,0.551716471675,0.423923414189,0.0243601141353
+qevasion-test-0190,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-toomas-ilves-estonia-tallinn,443,14,0.204983089082,0.79492409601,9.28149082405e-05
+qevasion-test-0191,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-stephen-harper-canada-and-president,740,15,0.0333940000711,0.966339829361,0.000266170567656
+qevasion-test-0192,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-3,129,24,0.18722484461,0.424708776183,0.388066379207
+qevasion-test-0193,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-lee-myung-bak-south-korea-seoul,98,9,0.14190067949,0.818359770361,0.0397395501494
+qevasion-test-0194,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1134,77,26,0.0213083174349,0.58915609603,0.389535586535
+qevasion-test-0195,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1130,71,14,0.71760683409,0.282365563148,2.76027622164e-05
+qevasion-test-0196,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-5,128,4,0.0735464458751,0.924236568117,0.00221698600759
+qevasion-test-0197,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-3,735,17,0.0456061529438,0.953451838963,0.000942008093582
+qevasion-test-0198,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-5,159,16,0.00702808044014,0.990222754767,0.00274916479245
+qevasion-test-0199,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-david-cameron-the-united-kingdom-london,1178,16,0.0340398082178,0.956677155669,0.0092830361131
+qevasion-test-0200,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-vladimir-v-putin-russia-sochi,341,16,0.666275145091,0.331500108887,0.00222474602235
+qevasion-test-0201,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-secretary-state-condoleezza-rice-crawford-texas,144,8,0.97398937315,0.0202506002246,0.00576002662512
+qevasion-test-0202,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-hamid-karzai-afghanistan-camp-david-maryland,184,38,0.0158433419313,0.952685313415,0.0314713446541
+qevasion-test-0203,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-chicago,399,10,0.267038396736,0.645917903607,0.0870436996565
+qevasion-test-0204,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-4,318,24,0.554130701988,0.444867289848,0.00100200816343
+qevasion-test-0205,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1157,603,3,0.556592898113,0.4295645195,0.0138425823869
+qevasion-test-0206,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-5,3,14,0.213031841244,0.219260696029,0.567707462727
+qevasion-test-0207,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1132,227,24,0.870116256795,0.0190573943595,0.110826348846
+qevasion-test-0208,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-secretary-state-condoleezza-rice-crawford-texas,605,15,0.424046232057,0.359075309128,0.216878458816
+qevasion-test-0209,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-5,65,20,0.540783050939,0.441050554836,0.0181663942253
+qevasion-test-0210,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-junichiro-koizumi-japan,320,28,0.307607971783,0.690298255637,0.00209377257924
+qevasion-test-0211,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-stephen-harper-canada,439,12,0.0752985065783,0.849060095937,0.0756413974844
+qevasion-test-0212,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-washington-dc,6,7,0.126956641008,0.0863564892912,0.786686869701
+qevasion-test-0213,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1108,758,10,0.827221742454,0.172736229959,4.20275867549e-05
+qevasion-test-0214,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-4,313,53,0.178023575918,0.61915520051,0.202821223572
+qevasion-test-0215,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-ehud-olmert-israel-jerusalem,1064,18,0.24485464175,0.75489323352,0.000252124730368
+qevasion-test-0216,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-chancellor-angela-merkel-germany-stralsund,232,7,0.00336219815423,0.993630110837,0.00300769100889
+qevasion-test-0217,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-john-w-howard-australia-sydney,279,33,0.156712933733,0.823714845298,0.019572220969
+qevasion-test-0218,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-3,429,19,0.957437856591,0.0422940961096,0.00026804729973
+qevasion-test-0219,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference,307,33,0.186145960945,0.545276838883,0.268577200171
+qevasion-test-0220,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-3,172,13,0.123643975322,0.86682065318,0.00953537149824
+qevasion-test-0221,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-vladimir-v-putin-russia-sochi,528,23,0.603967757047,0.317657515096,0.078374727857
+qevasion-test-0222,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-vladimir-v-putin-russia-sochi,528,22,0.589316730866,0.368315622346,0.0423676467884
+qevasion-test-0223,Clear Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-vladimir-v-putin-russia-sochi,341,15,0.162920667714,0.408448870183,0.428630462103
+qevasion-test-0224,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-washington-dc,22,5,0.0563549459179,0.932579234223,0.0110658198594
+qevasion-test-0225,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-4,222,15,0.135326214719,0.812339326193,0.052334459088
+qevasion-test-0226,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-stephen-harper-canada,1013,31,0.331429821169,0.647031563994,0.0215386148375
+qevasion-test-0227,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-lee-myung-bak-south-korea-0,254,10,0.577107088624,0.408796263633,0.0140966477425
+qevasion-test-0228,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1135,119,10,0.0842733135312,0.281986238365,0.633740448104
+qevasion-test-0229,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-stephen-harper-canada,435,15,0.646140778589,0.285045891917,0.0688133294939
+qevasion-test-0230,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1130,273,16,0.516416399607,0.478860164815,0.00472343557768
+qevasion-test-0231,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference,307,6,0.170533709173,0.816934326763,0.0125319640645
+qevasion-test-0232,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-4,296,38,0.00095971576398,0.994776999112,0.00426328512435
+qevasion-test-0233,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-secretary-state-condoleezza-rice-crawford-texas,233,11,0.599674517566,0.394996981371,0.00532850106328
+qevasion-test-0234,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-stephen-harper-canada,435,17,0.0749828801896,0.17797258689,0.74704453292
+qevasion-test-0235,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-4,446,8,0.290338727792,0.708467412884,0.00119385932328
+qevasion-test-0236,Clear Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1135,520,22,0.404049175905,0.0650185049648,0.53093231913
+qevasion-test-0237,Clear Non-Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-5,7,11,0.00324954179762,0.990464231305,0.0062862268969
+qevasion-test-0238,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-hamid-karzai-afghanistan,531,20,0.00477416101711,0.988837993991,0.00638784499175
+qevasion-test-0239,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-nuri-al-maliki-iraq-1,322,17,0.528522364771,0.467648054409,0.00382958081999
+qevasion-test-0240,Clear Non-Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1135,107,13,0.00245532584081,0.980062552545,0.0174821216143
+qevasion-test-0241,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-chicago,398,14,0.0818586924798,0.777447003343,0.140694304177
+qevasion-test-0242,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-chicago,137,5,0.568336822562,0.431480403193,0.000182774245252
+qevasion-test-0243,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-vladimir-v-putin-russia-strelna-russia,426,22,0.0892115702146,0.86856449281,0.0422239369758
+qevasion-test-0244,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-david-cameron-the-united-kingdom-london,1178,17,0.0022750472171,0.873822766404,0.123902186379
+qevasion-test-0245,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-secretary-state-condoleezza-rice-crawford-texas,144,17,0.960846085954,0.0388910791447,0.000262834901086
+qevasion-test-0246,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-5,29,20,0.000192559960025,0.926317790239,0.073489649801
+qevasion-test-0247,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-3,1,9,0.548432428695,0.416686756321,0.0348808149838
+qevasion-test-0248,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-4,87,15,0.0569615398871,0.938262761518,0.00477569859496
+qevasion-test-0249,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-3,35,8,0.553682570378,0.411087567934,0.0352298616876
+qevasion-test-0250,Clear Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1135,119,5,0.0111043149445,0.179028503036,0.80986718202
+qevasion-test-0251,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-vladimir-v-putin-russia-strelna-russia,426,18,0.256215304076,0.722020869339,0.0217638265859
+qevasion-test-0252,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-secretary-state-condoleezza-rice-crawford-texas,57,5,0.680654286925,0.203728375321,0.115617337754
+qevasion-test-0253,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-david-cameron-the-united-kingdom-london,936,11,0.0732132741653,0.921013950678,0.0057727751567
+qevasion-test-0254,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-chancellor-angela-merkel-germany-stralsund,11,10,1.22529355024e-05,0.996457937321,0.0035298097434
+qevasion-test-0255,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-vladimir-v-putin-russia-strelna-russia,490,29,0.0479953599845,0.948541391199,0.00346324881679
+qevasion-test-0256,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-ehud-olmert-israel-jerusalem,1064,28,0.161682602375,0.837996460355,0.000320937269449
+qevasion-test-0257,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-4,296,19,0.0544585621088,0.942808538705,0.00273289918661
+qevasion-test-0258,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-junichiro-koizumi-japan,168,23,0.0143115813644,0.0495359896437,0.936152428992
+qevasion-test-0259,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-4,526,5,0.501101054806,0.49836498455,0.00053396064357
+qevasion-test-0260,Clear Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-anders-fogh-rasmussen-denmark-crawford,10,15,0.015283828517,0.167820032754,0.816896138729
+qevasion-test-0261,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-chicago,425,24,0.0818667882206,0.872310497491,0.0458227142888
+qevasion-test-0262,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-cannes,611,16,0.0402232480156,0.959680384245,9.63677389256e-05
+qevasion-test-0263,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-chicago,120,24,0.940493638132,0.0508594356911,0.00864692617739
+qevasion-test-0264,Clear Non-Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-junichiro-koizumi-japan,214,3,0.0340803566158,0.912530487762,0.053389155622
+qevasion-test-0265,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1134,23,26,0.00105614687306,0.0778450259134,0.921098827214
+qevasion-test-0266,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-3,429,16,0.310961125222,0.684802752856,0.00423612192142
+qevasion-test-0267,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-felipe-de-jesus-calderon-hinojosa-mexico,565,10,0.00401701727491,0.995698375946,0.000284606779544
+qevasion-test-0268,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-nuri-al-maliki-iraq,362,10,0.634645917078,0.364623629756,0.000730453166579
+qevasion-test-0269,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-junichiro-koizumi-japan,320,15,0.510189125955,0.28305768351,0.206753190535
+qevasion-test-0270,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-4,498,17,0.925114566693,0.0717672071606,0.00311822614658
+qevasion-test-0271,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-stephen-harper-canada,1013,10,0.20730457777,0.772876825661,0.019818596569
+qevasion-test-0272,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1115,127,17,0.0695431356597,0.930055375997,0.000401488343444
+qevasion-test-0273,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1134,591,13,0.271848373151,0.721675575088,0.00647605176158
+qevasion-test-0274,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-pervez-musharraf-pakistan,139,22,0.388809569594,0.596298957384,0.0148914730213
+qevasion-test-0275,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-jakaya-mrisho-kikwete-tanzania-dar-es-salaam,263,17,0.563871520251,0.00935530100066,0.426773178748
+qevasion-test-0276,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-0,382,13,0.522466446096,0.472607060546,0.00492649335841
+qevasion-test-0277,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-gordon-brown-the-united-kingdom-camp,610,15,0.551287150453,0.435447708892,0.013265140655
+qevasion-test-0278,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1,311,23,0.0759477410555,0.924009901298,4.23576465304e-05
+qevasion-test-0279,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-hamid-karzai-afghanistan-camp-david-maryland,504,18,0.0278795068971,0.953314843341,0.018805649762
+qevasion-test-0280,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1122,384,13,0.0630209489567,0.933894407775,0.00308464326824
+qevasion-test-0281,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1132,5,4,0.437034548211,0.0655451606244,0.497420291165
+qevasion-test-0282,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1132,23,8,0.880037282019,0.119451798868,0.000510919113105
+qevasion-test-0283,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-nuri-al-maliki-iraq,407,18,0.00481575073093,0.958588486465,0.0365957628039
+qevasion-test-0284,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-hamid-karzai-afghanistan-camp-david-maryland,504,10,0.132838162211,0.727424233834,0.139737603955
+qevasion-test-0285,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-chicago,4,10,0.951979628961,0.0182572721114,0.0297630989272
+qevasion-test-0286,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-tony-blair-the-united-kingdom-0,195,11,0.227982912426,0.770565799667,0.00145128790732
+qevasion-test-0287,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1132,226,11,0.853520929839,0.0870439928572,0.0594350773036
+qevasion-test-0288,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-jakaya-mrisho-kikwete-tanzania-dar-es-salaam,263,20,0.91820573977,0.0678293653276,0.0139648949019
+qevasion-test-0289,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-port-spain,576,10,0.669096505693,0.326908330436,0.0039951638712
+qevasion-test-0290,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-3,497,9,0.0556231463528,0.916867625799,0.0275092278481
+qevasion-test-0291,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-5,232,27,0.116637176519,0.852624055827,0.0307387676541
+qevasion-test-0292,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-nuri-al-maliki-iraq,274,69,0.391320763778,0.593891587328,0.0147876488937
+qevasion-test-0293,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1108,758,5,0.860177062281,0.13981887156,4.06615975032e-06
+qevasion-test-0294,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1132,226,13,0.93607873291,0.0368147650946,0.0271065019959
+qevasion-test-0295,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1132,356,9,0.655805248344,0.336292232569,0.00790251908721
+qevasion-test-0296,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-pervez-musharraf-pakistan,470,27,0.0565893912693,0.916400318747,0.0270102899836
+qevasion-test-0297,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-chancellor-angela-merkel-germany-stralsund,11,11,0.00115257508857,0.922062771188,0.0767846537234
+qevasion-test-0298,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1135,59,4,0.418022723676,0.543029753413,0.0389475229113
+qevasion-test-0299,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-secretary-state-condoleezza-rice-crawford-texas,16,5,0.0493956149174,0.907481723073,0.0431226620096
+qevasion-test-0300,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1134,2,17,0.0107446677708,0.0797839805809,0.909471351648
+qevasion-test-0301,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1131,593,19,0.0051015188311,0.993282284963,0.00161619620638
+qevasion-test-0302,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-nuri-al-maliki-iraq,362,20,0.11955561179,0.879612352989,0.000832035220514
+qevasion-test-0303,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-3,735,3,0.339508092302,0.645199125366,0.015292782332
+qevasion-test-0304,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-secretary-state-condoleezza-rice-crawford-texas,538,10,0.705625690415,0.288829025526,0.00554528405963
+qevasion-test-0305,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-vladimir-v-putin-russia-strelna-russia,426,25,0.58466471857,0.297156666956,0.118178614474
+qevasion-test-0306,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-5,216,12,0.0977784682383,0.89047246951,0.0117490622515
+qevasion-test-0307,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-chicago,8,15,0.376000970874,0.59702486243,0.0269741666957

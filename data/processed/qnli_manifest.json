@@ -1,0 +1,36 @@
+{
+  "raw_files": [
+    {
+      "file": "QNLI.zip",
+      "bytes": 10627589,
+      "sha256": "e634e78627a29adaecd4f955359b22bf5e70f2cbd93b493f2d624138a0c0e5f5",
+      "upstream_urls": [
+        "https://dl.fbaipublicfiles.com/glue/data/QNLIv2.zip"
+      ]
+    },
+    {
+      "file": "squad-train-v1.1.json",
+      "bytes": 30288272,
+      "sha256": "3527663986b8295af4f7fcdff1ba1ff3f72d07d61a20f487cb238a6ef92fd955",
+      "upstream_urls": [
+        "https://rajpurkar.github.io/SQuAD-explorer/dataset/train-v1.1.json",
+        "https://raw.githubusercontent.com/rajpurkar/SQuAD-explorer/eee5fdbf62f8613a7812b03419e6b29617b74fd1/dataset/train-v1.1.json"
+      ]
+    },
+    {
+      "file": "squad-dev-v1.1.json",
+      "bytes": 4854279,
+      "sha256": "95aa6a52d5d6a735563366753ca50492a658031da74f301ac5238b03966972c9",
+      "upstream_urls": [
+        "https://rajpurkar.github.io/SQuAD-explorer/dataset/dev-v1.1.json",
+        "https://raw.githubusercontent.com/rajpurkar/SQuAD-explorer/eee5fdbf62f8613a7812b03419e6b29617b74fd1/dataset/dev-v1.1.json"
+      ]
+    }
+  ],
+  "generated_files": {
+    "qnli.csv": "c5a2f0711c5f7a1000e19006260f4e700fd385151cfacb91b83b61d648803827",
+    "qnli_duplicate_links.csv": "56a817368d37b90d9050575aaa0edcb8aac0288ce3dca21ec4b10538457ef4db",
+    "qnli_exclusions.csv": "c399d8912a209e1b57ac1a9fbd56d2f2d4fabbaf2e6528a8f69638e0160e78ce",
+    "qnli_stats.json": "43df70dadd5cfcb14ace2ee02d67aa4f3482987d83b93a5b61288fea30c0c38d"
+  }
+}

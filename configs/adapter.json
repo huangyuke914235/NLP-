@@ -1,0 +1,52 @@
+{
+  "schema": {
+    "text_a": "question",
+    "text_b": "answer",
+    "gold": "label",
+    "provenance": "group"
+  },
+  "source": {
+    "dataset_name": "ailsntua/QEvasion",
+    "text_a_column": "question",
+    "text_b_column": "interview_answer",
+    "label_column": "clarity_label",
+    "fine_label_column": "evasion_label",
+    "group_column": "url",
+    "label_mapping": {
+      "Clear Reply": "Clear Reply",
+      "Ambivalent": "Ambivalent",
+      "Clear Non-Reply": "Clear Non-Reply"
+    }
+  },
+  "target": {
+    "dataset_name": "GLUE/QNLI v2",
+    "text_a_column": "question",
+    "text_b_column": "sentence",
+    "label_column": "label",
+    "group_column": "normalized question → SQuAD 1.1 article or conservative unresolved-question key",
+    "label_mapping": {
+      "entailment": "entailment",
+      "not_entailment": "not_entailment"
+    }
+  },
+  "direct_transfer": {
+    "Clear Reply": "entailment",
+    "Ambivalent": "not_entailment",
+    "Clear Non-Reply": "not_entailment"
+  },
+  "aggregation": "Sum probability mass for each target label; mapping is fixed before training and target evaluation.",
+  "shared": [
+    "id, question, answer, label, group interchange format",
+    "TF-IDF and LR",
+    "frozen MiniLM pair features",
+    "ordered probabilities",
+    "classification metrics",
+    "CSV prediction schema"
+  ],
+  "direct_transfer_sensitivity": {
+    "Clear Reply": "entailment",
+    "Ambivalent": "entailment",
+    "Clear Non-Reply": "not_entailment"
+  },
+  "sensitivity_rationale": "Inclusive mapping tests whether counting Ambivalent as possible evidence is useful. Fixed before running; never used for selection or adaptation."
+}

@@ -1,8 +1,9 @@
+.venv/
+.wheelhouse/
 __pycache__/
-*.py[cod]
-.pytest_cache/
-.ipynb_checkpoints/
-report_render*/
-Thumbs.db
-.DS_Store
-.workbuddy-ai/
+*.pyc
+data/raw/
+data/.hf-data-audit/
+replay_data/
+configs/counterfactual.csv
+configs/counterfactual_reviewed.csv

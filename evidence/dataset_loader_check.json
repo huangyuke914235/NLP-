@@ -1,0 +1,13 @@
+{
+  "train": {
+    "rows": 3448,
+    "sha256": "eca7855ada118a526cc0361d745b0a55534ca35b8b604d2f9cec4257c5f9fcb3",
+    "rowwise_equal_to_pyarrow": true
+  },
+  "test": {
+    "rows": 308,
+    "sha256": "d1de67bd7b7ea68b7f49fcd1f468fd434bc2de3d84146c9217d36713c0546298",
+    "rowwise_equal_to_pyarrow": true
+  },
+  "loader": "datasets.load_dataset(\"parquet\", data_files=verified QEvasion revision files)"
+}

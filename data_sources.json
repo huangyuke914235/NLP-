@@ -1,0 +1,49 @@
+{
+  "qevasion": {
+    "dataset": "ailsntua/QEvasion",
+    "revision": "3afc18f0b582b3cfdb927822cff57ddc6e871f9c",
+    "license": "CC BY-NC-ND 4.0",
+    "files": {
+      "qevasion-train.parquet": {
+        "sha256": "eca7855ada118a526cc0361d745b0a55534ca35b8b604d2f9cec4257c5f9fcb3",
+        "download_urls": [
+          "https://huggingface.co/datasets/ailsntua/QEvasion/resolve/3afc18f0b582b3cfdb927822cff57ddc6e871f9c/data/train-00000-of-00001.parquet",
+          "https://hf-mirror.com/datasets/ailsntua/QEvasion/resolve/3afc18f0b582b3cfdb927822cff57ddc6e871f9c/data/train-00000-of-00001.parquet"
+        ]
+      },
+      "qevasion-test.parquet": {
+        "sha256": "d1de67bd7b7ea68b7f49fcd1f468fd434bc2de3d84146c9217d36713c0546298",
+        "download_urls": [
+          "https://huggingface.co/datasets/ailsntua/QEvasion/resolve/3afc18f0b582b3cfdb927822cff57ddc6e871f9c/data/test-00000-of-00001.parquet",
+          "https://hf-mirror.com/datasets/ailsntua/QEvasion/resolve/3afc18f0b582b3cfdb927822cff57ddc6e871f9c/data/test-00000-of-00001.parquet"
+        ]
+      }
+    }
+  },
+  "qnli": {
+    "dataset": "GLUE QNLI v2 (2019 archive)",
+    "license": "GLUE lists dataset-specific terms; underlying SQuAD is CC BY-SA 4.0",
+    "files": {
+      "QNLI.zip": {
+        "sha256": "e634e78627a29adaecd4f955359b22bf5e70f2cbd93b493f2d624138a0c0e5f5",
+        "download_urls": [
+          "https://dl.fbaipublicfiles.com/glue/data/QNLIv2.zip"
+        ]
+      },
+      "squad-train-v1.1.json": {
+        "sha256": "3527663986b8295af4f7fcdff1ba1ff3f72d07d61a20f487cb238a6ef92fd955",
+        "download_urls": [
+          "https://rajpurkar.github.io/SQuAD-explorer/dataset/train-v1.1.json",
+          "https://raw.githubusercontent.com/rajpurkar/SQuAD-explorer/eee5fdbf62f8613a7812b03419e6b29617b74fd1/dataset/train-v1.1.json"
+        ]
+      },
+      "squad-dev-v1.1.json": {
+        "sha256": "95aa6a52d5d6a735563366753ca50492a658031da74f301ac5238b03966972c9",
+        "download_urls": [
+          "https://rajpurkar.github.io/SQuAD-explorer/dataset/dev-v1.1.json",
+          "https://raw.githubusercontent.com/rajpurkar/SQuAD-explorer/eee5fdbf62f8613a7812b03419e6b29617b74fd1/dataset/dev-v1.1.json"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "seed": 20251125,
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "epochs": {"grouped": 5, "target": 3},
+  "max_wordpieces": 256,
+  "batch_size": 32,
+  "learning_rate": 0.00003,
+  "weight_decay": 0.01,
+  "warmup_fraction": 0.1,
+  "source_loss": "inverse square root train-only class frequency, normalized to mean 1",
+  "target_loss": "unweighted",
+  "selection": "maximum validation Macro-F1, first epoch in ties; test evaluated only from the selected epoch"
+}

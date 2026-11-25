@@ -1,0 +1,739 @@
+{
+  "method": "Refit the validation-selected TF-IDF+multinomial LR using the saved split, then use weight × pairwise coefficient difference.",
+  "model_input": "question + ' [SEP] ' + answer, with the original input characters recoverable by ID from the grouped CSV",
+  "interpretation": "Segments partition additive features of the same fixed input. This does not estimate how the model would behave after editing the input.",
+  "packages": {
+    "scikit-learn": "1.6.1",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3"
+  },
+  "selected": {
+    "ngram_top": 2,
+    "c": 1.0,
+    "class_weight": "balanced",
+    "validation_macro_f1": 0.5352792004375715,
+    "iterations": [
+      52
+    ],
+    "feature_count": 50000
+  },
+  "fitted_training_n": 2274,
+  "checked_test_n": 308,
+  "hard_predictions_identical": true,
+  "max_probability_absolute_difference": 4.990452495690079e-13,
+  "sha256": {
+    "data/processed/qevasion_grouped.csv": "9811501d43ac8c8a531e151a1c35740cb442afe825632a54b2efef08cf1833a1",
+    "results/run_1/predictions/grouped_tfidf.csv": "c64babcc6b84e114ed4476de14bb07bb9bbec37cb790bf454f2638528d325e31",
+    "results/run_1/configuration.json": "de0c0d2571f1c14c9d5f038310aa0ab942a4979da7d48592f7c5c730d799a0e8",
+    "results/run_1/selection.json": "c94f87f3fc9c802afd2dfc74654824965c8943106d424efa46a1bb10d45575b1"
+  },
+  "cases": [
+    {
+      "id": "qevasion-test-0119",
+      "gold": "Ambivalent",
+      "prediction": "Clear Reply",
+      "probabilities": {
+        "Clear Reply": 0.49177582645710893,
+        "Ambivalent": 0.33400367228321165,
+        "Clear Non-Reply": 0.1742205012596794
+      },
+      "input_locator": {
+        "table_path": "data/processed/qevasion_grouped.csv",
+        "split": "test",
+        "id": "qevasion-test-0119",
+        "input_sha256_utf8": "cd679206582c06bb1d12c536c8dc3babd6bae82c54eef558ea93ca4a72fef142",
+        "question_tokens_before_ngram": 10,
+        "answer_tokens_before_ngram": 15
+      },
+      "direction": "Clear Reply minus Ambivalent",
+      "units": "multinomial class logit difference = natural log probability ratio",
+      "intercept_pred_minus_gold": 0.02724083079934294,
+      "all_feature_contributions_sum": 0.3596301568002854,
+      "pred_minus_gold_margin": 0.3868709875996284,
+      "ln_probability_ratio": 0.38687098759962857,
+      "additive_check_residual": 5.551115123125783e-17,
+      "top_positive_toward_prediction": [
+        {
+          "term": "yes",
+          "normalized_tfidf": 0.08539882025974402,
+          "coefficient_pred_minus_gold": 2.5916189039411366,
+          "margin_contribution": 0.22132119695942393,
+          "found_in_segments": [
+            "closing_yes"
+          ]
+        },
+        {
+          "term": "so yes",
+          "normalized_tfidf": 0.20354042664032612,
+          "coefficient_pred_minus_gold": 0.2616336819349197,
+          "margin_contribution": 0.053253031244512944,
+          "found_in_segments": [
+            "cross_segment"
+          ]
+        },
+        {
+          "term": "fine",
+          "normalized_tfidf": 0.15518337952224892,
+          "coefficient_pred_minus_gold": 0.33273494433084494,
+          "margin_contribution": 0.05163493314640788,
+          "found_in_segments": [
+            "delegation_statement"
+          ]
+        },
+        {
+          "term": "directly",
+          "normalized_tfidf": 0.16630129156863274,
+          "coefficient_pred_minus_gold": 0.28858575125200775,
+          "margin_contribution": 0.04799218316151306,
+          "found_in_segments": [
+            "question"
+          ]
+        },
+        {
+          "term": "[sep] because",
+          "normalized_tfidf": 0.20354042664032612,
+          "coefficient_pred_minus_gold": 0.16764487850485912,
+          "margin_contribution": 0.034122510094944665,
+          "found_in_segments": [
+            "cross_segment"
+          ]
+        },
+        {
+          "term": "she doing",
+          "normalized_tfidf": 0.23949008755302498,
+          "coefficient_pred_minus_gold": 0.12962734748940224,
+          "margin_contribution": 0.031044464799503336,
+          "found_in_segments": [
+            "delegation_statement"
+          ]
+        },
+        {
+          "term": "she",
+          "normalized_tfidf": 0.13971813689879833,
+          "coefficient_pred_minus_gold": 0.2102784586531613,
+          "margin_contribution": 0.029379714472970695,
+          "found_in_segments": [
+            "delegation_statement"
+          ]
+        },
+        {
+          "term": "prime ministers",
+          "normalized_tfidf": 0.23416900247840627,
+          "coefficient_pred_minus_gold": 0.0937207109587396,
+          "margin_contribution": 0.02194648539677509,
+          "found_in_segments": [
+            "question"
+          ]
+        }
+      ],
+      "top_negative_toward_gold": [
+        {
+          "term": "with prime",
+          "normalized_tfidf": 0.1875712520602063,
+          "coefficient_pred_minus_gold": -0.2814931290520996,
+          "margin_contribution": -0.05280001866264756,
+          "found_in_segments": [
+            "question"
+          ]
+        },
+        {
+          "term": "of doing",
+          "normalized_tfidf": 0.17961386905962215,
+          "coefficient_pred_minus_gold": -0.19469234521956544,
+          "margin_contribution": -0.03496944540117778,
+          "found_in_segments": [
+            "delegation_statement"
+          ]
+        },
+        {
+          "term": "handling",
+          "normalized_tfidf": 0.21024244489770227,
+          "coefficient_pred_minus_gold": -0.12890704445073414,
+          "margin_contribution": -0.027101732189859132,
+          "found_in_segments": [
+            "delegation_statement"
+          ]
+        },
+        {
+          "term": "doing so",
+          "normalized_tfidf": 0.16771041481091303,
+          "coefficient_pred_minus_gold": -0.12539221048280147,
+          "margin_contribution": -0.02102957963412795,
+          "found_in_segments": [
+            "delegation_statement"
+          ]
+        },
+        {
+          "term": "and",
+          "normalized_tfidf": 0.06918853076428118,
+          "coefficient_pred_minus_gold": -0.2681490854521578,
+          "margin_contribution": -0.018552841248220483,
+          "found_in_segments": [
+            "delegation_statement",
+            "question"
+          ]
+        },
+        {
+          "term": "is",
+          "normalized_tfidf": 0.043476721809602686,
+          "coefficient_pred_minus_gold": -0.3980543824179502,
+          "margin_contribution": -0.017306099649478424,
+          "found_in_segments": [
+            "delegation_statement"
+          ]
+        },
+        {
+          "term": "olmert",
+          "normalized_tfidf": 0.24578359540991349,
+          "coefficient_pred_minus_gold": -0.06880808839265923,
+          "margin_contribution": -0.01691189935843092,
+          "found_in_segments": [
+            "question"
+          ]
+        },
+        {
+          "term": "and she",
+          "normalized_tfidf": 0.19022784914933671,
+          "coefficient_pred_minus_gold": -0.07833529207425904,
+          "margin_contribution": -0.014901554123771381,
+          "found_in_segments": [
+            "delegation_statement"
+          ]
+        }
+      ],
+      "other_feature_contributions_sum": 0.07250880779194746,
+      "segment_contributions": {
+        "pair_separator": {
+          "active_features": 1,
+          "margin_contribution": 0.01431732487771903
+        },
+        "cross_segment": {
+          "active_features": 2,
+          "margin_contribution": 0.0873755413394576
+        },
+        "multiple_segments": {
+          "active_features": 1,
+          "margin_contribution": -0.018552841248220483
+        },
+        "delegation_statement": {
+          "active_features": 20,
+          "margin_contribution": 0.050387403414961576
+        },
+        "question": {
+          "active_features": 12,
+          "margin_contribution": 0.004781531456943783
+        },
+        "closing_yes": {
+          "active_features": 1,
+          "margin_contribution": 0.22132119695942393
+        }
+      },
+      "focus_feature_contributions": [
+        {
+          "term": "condi",
+          "normalized_tfidf": 0.22549394859696764,
+          "coefficient_pred_minus_gold": -0.05013417894869656,
+          "margin_contribution": -0.01130495397080856,
+          "found_in_segments": [
+            "delegation_statement"
+          ]
+        },
+        {
+          "term": "directly",
+          "normalized_tfidf": 0.16630129156863274,
+          "coefficient_pred_minus_gold": 0.28858575125200775,
+          "margin_contribution": 0.04799218316151306,
+          "found_in_segments": [
+            "question"
+          ]
+        },
+        {
+          "term": "handling",
+          "normalized_tfidf": 0.21024244489770227,
+          "coefficient_pred_minus_gold": -0.12890704445073414,
+          "margin_contribution": -0.027101732189859132,
+          "found_in_segments": [
+            "delegation_statement"
+          ]
+        },
+        {
+          "term": "so yes",
+          "normalized_tfidf": 0.20354042664032612,
+          "coefficient_pred_minus_gold": 0.2616336819349197,
+          "margin_contribution": 0.053253031244512944,
+          "found_in_segments": [
+            "cross_segment"
+          ]
+        },
+        {
+          "term": "those conversations",
+          "normalized_tfidf": 0.23949008755302498,
+          "coefficient_pred_minus_gold": -0.022238527884471906,
+          "margin_contribution": -0.005325906990102564,
+          "found_in_segments": [
+            "delegation_statement"
+          ]
+        },
+        {
+          "term": "yes",
+          "normalized_tfidf": 0.08539882025974402,
+          "coefficient_pred_minus_gold": 2.5916189039411366,
+          "margin_contribution": 0.22132119695942393,
+          "found_in_segments": [
+            "closing_yes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qevasion-test-0240",
+      "gold": "Clear Non-Reply",
+      "prediction": "Ambivalent",
+      "probabilities": {
+        "Clear Reply": 0.3502932495966351,
+        "Ambivalent": 0.3897565916330963,
+        "Clear Non-Reply": 0.2599501587702686
+      },
+      "input_locator": {
+        "table_path": "data/processed/qevasion_grouped.csv",
+        "split": "test",
+        "id": "qevasion-test-0240",
+        "input_sha256_utf8": "afe880fe03ebecf1c6ee5438b541c05bfb2637dc6b5bb5feaad44ca8f86bce29",
+        "question_tokens_before_ngram": 13,
+        "answer_tokens_before_ngram": 100
+      },
+      "direction": "Ambivalent minus Clear Non-Reply",
+      "units": "multinomial class logit difference = natural log probability ratio",
+      "intercept_pred_minus_gold": -0.09760250556604806,
+      "all_feature_contributions_sum": 0.5026350102236934,
+      "pred_minus_gold_margin": 0.4050325046576453,
+      "ln_probability_ratio": 0.40503250465764534,
+      "additive_check_residual": -5.551115123125783e-17,
+      "top_positive_toward_prediction": [
+        {
+          "term": "taxes",
+          "normalized_tfidf": 0.1849505591993052,
+          "coefficient_pred_minus_gold": 0.4904889817737317,
+          "margin_contribution": 0.09071621146014949,
+          "found_in_segments": [
+            "fiscal_background_and_transcript"
+          ]
+        },
+        {
+          "term": "we",
+          "normalized_tfidf": 0.045747599770402596,
+          "coefficient_pred_minus_gold": 1.4002039207803705,
+          "margin_contribution": 0.06405596856480889,
+          "found_in_segments": [
+            "fiscal_background_and_transcript"
+          ]
+        },
+        {
+          "term": "and",
+          "normalized_tfidf": 0.03433114602145986,
+          "coefficient_pred_minus_gold": 1.4402828725406556,
+          "margin_contribution": 0.04944656160940091,
+          "found_in_segments": [
+            "fiscal_background_and_transcript"
+          ]
+        },
+        {
+          "term": "reasons",
+          "normalized_tfidf": 0.07170573291051043,
+          "coefficient_pred_minus_gold": 0.6030392749641582,
+          "margin_contribution": 0.04324137318512779,
+          "found_in_segments": [
+            "fiscal_background_and_transcript"
+          ]
+        },
+        {
+          "term": "why",
+          "normalized_tfidf": 0.04107716029007371,
+          "coefficient_pred_minus_gold": 0.9681675147783745,
+          "margin_contribution": 0.0397695721921936,
+          "found_in_segments": [
+            "fiscal_background_and_transcript"
+          ]
+        },
+        {
+          "term": "congress",
+          "normalized_tfidf": 0.08975459682727169,
+          "coefficient_pred_minus_gold": 0.4142756383932986,
+          "margin_contribution": 0.03718314289935111,
+          "found_in_segments": [
+            "fiscal_background_and_transcript"
+          ]
+        },
+        {
+          "term": "without",
+          "normalized_tfidf": 0.06463984273368198,
+          "coefficient_pred_minus_gold": 0.5698661825009714,
+          "margin_contribution": 0.03683606041610651,
+          "found_in_segments": [
+            "fiscal_background_and_transcript"
+          ]
+        },
+        {
+          "term": "this",
+          "normalized_tfidf": 0.0255051936661234,
+          "coefficient_pred_minus_gold": 1.4244040225672512,
+          "margin_contribution": 0.03632970045438295,
+          "found_in_segments": [
+            "fiscal_background_and_transcript"
+          ]
+        }
+      ],
+      "top_negative_toward_gold": [
+        {
+          "term": "comment on",
+          "normalized_tfidf": 0.14844764141190886,
+          "coefficient_pred_minus_gold": -0.4975917206176874,
+          "margin_contribution": -0.07386631731178919,
+          "found_in_segments": [
+            "explicit_refusal",
+            "pivot_to_other_comments"
+          ]
+        },
+        {
+          "term": "comment",
+          "normalized_tfidf": 0.13971547982371874,
+          "coefficient_pred_minus_gold": -0.4627426056826347,
+          "margin_contribution": -0.06465230518782718,
+          "found_in_segments": [
+            "explicit_refusal",
+            "pivot_to_other_comments"
+          ]
+        },
+        {
+          "term": "don",
+          "normalized_tfidf": 0.031207039362710614,
+          "coefficient_pred_minus_gold": -1.9853170087822634,
+          "margin_contribution": -0.06195586604052698,
+          "found_in_segments": [
+            "fiscal_background_and_transcript"
+          ]
+        },
+        {
+          "term": "budget that",
+          "normalized_tfidf": 0.1219570991100351,
+          "coefficient_pred_minus_gold": -0.2912968805942615,
+          "margin_contribution": -0.03552572253707841,
+          "found_in_segments": [
+            "fiscal_background_and_transcript"
+          ]
+        },
+        {
+          "term": "we don",
+          "normalized_tfidf": 0.05382479636442444,
+          "coefficient_pred_minus_gold": -0.6308968203754326,
+          "margin_contribution": -0.03395789288367052,
+          "found_in_segments": [
+            "fiscal_background_and_transcript"
+          ]
+        },
+        {
+          "term": "about",
+          "normalized_tfidf": 0.02705927427815454,
+          "coefficient_pred_minus_gold": -1.0882126850987248,
+          "margin_contribution": -0.02944624551905341,
+          "found_in_segments": [
+            "fiscal_background_and_transcript"
+          ]
+        },
+        {
+          "term": "the",
+          "normalized_tfidf": 0.06112169364647351,
+          "coefficient_pred_minus_gold": -0.4763596873598285,
+          "margin_contribution": -0.029115910876337338,
+          "found_in_segments": [
+            "explicit_refusal",
+            "fiscal_background_and_transcript",
+            "question"
+          ]
+        },
+        {
+          "term": "to",
+          "normalized_tfidf": 0.054049756179106664,
+          "coefficient_pred_minus_gold": -0.5174643904969304,
+          "margin_contribution": -0.027968824137729126,
+          "found_in_segments": [
+            "fiscal_background_and_transcript",
+            "question"
+          ]
+        }
+      ],
+      "other_feature_contributions_sum": 0.4615455039361843,
+      "segment_contributions": {
+        "fiscal_background_and_transcript": {
+          "active_features": 100,
+          "margin_contribution": 0.51471703254333
+        },
+        "pair_separator": {
+          "active_features": 1,
+          "margin_contribution": -0.02496171431297846
+        },
+        "pivot_to_other_comments": {
+          "active_features": 9,
+          "margin_contribution": 0.06384237684946181
+        },
+        "multiple_segments": {
+          "active_features": 11,
+          "margin_contribution": -0.13071801953353268
+        },
+        "explicit_refusal": {
+          "active_features": 10,
+          "margin_contribution": 0.08161864374561059
+        },
+        "question": {
+          "active_features": 6,
+          "margin_contribution": -0.0018633090681976945
+        }
+      },
+      "focus_feature_contributions": [
+        {
+          "term": "budget",
+          "normalized_tfidf": 0.14277097463196964,
+          "coefficient_pred_minus_gold": -0.17305779051447298,
+          "margin_contribution": -0.02470762941940654,
+          "found_in_segments": [
+            "fiscal_background_and_transcript"
+          ]
+        },
+        {
+          "term": "comment on",
+          "normalized_tfidf": 0.14844764141190886,
+          "coefficient_pred_minus_gold": -0.4975917206176874,
+          "margin_contribution": -0.07386631731178919,
+          "found_in_segments": [
+            "explicit_refusal",
+            "pivot_to_other_comments"
+          ]
+        },
+        {
+          "term": "decisions",
+          "normalized_tfidf": 0.063361901100816,
+          "coefficient_pred_minus_gold": 0.10175084428114192,
+          "margin_contribution": 0.006447126932266244,
+          "found_in_segments": [
+            "explicit_refusal"
+          ]
+        },
+        {
+          "term": "raise taxes",
+          "normalized_tfidf": 0.1836257568111996,
+          "coefficient_pred_minus_gold": 0.08061263267593052,
+          "margin_contribution": 0.014802555683660982,
+          "found_in_segments": [
+            "fiscal_background_and_transcript"
+          ]
+        },
+        {
+          "term": "taxes",
+          "normalized_tfidf": 0.1849505591993052,
+          "coefficient_pred_minus_gold": 0.4904889817737317,
+          "margin_contribution": 0.09071621146014949,
+          "found_in_segments": [
+            "fiscal_background_and_transcript"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qevasion-test-0000",
+      "gold": "Ambivalent",
+      "prediction": "Clear Reply",
+      "probabilities": {
+        "Clear Reply": 0.35163579384902066,
+        "Ambivalent": 0.33482901111183866,
+        "Clear Non-Reply": 0.3135351950391407
+      },
+      "input_locator": {
+        "table_path": "data/processed/qevasion_grouped.csv",
+        "split": "test",
+        "id": "qevasion-test-0000",
+        "input_sha256_utf8": "3f357a80c27c4d69a440227b404d5479847f9a79237a0844750b1efcefdcd63a",
+        "question_tokens_before_ngram": 9,
+        "answer_tokens_before_ngram": 51
+      },
+      "direction": "Clear Reply minus Ambivalent",
+      "units": "multinomial class logit difference = natural log probability ratio",
+      "intercept_pred_minus_gold": 0.02724083079934294,
+      "all_feature_contributions_sum": 0.021735145658490922,
+      "pred_minus_gold_margin": 0.04897597645783388,
+      "ln_probability_ratio": 0.04897597645783392,
+      "additive_check_residual": 2.0816681711721685e-17,
+      "top_positive_toward_prediction": [
+        {
+          "term": "tests",
+          "normalized_tfidf": 0.12481746693363316,
+          "coefficient_pred_minus_gold": 0.4703062898106116,
+          "margin_contribution": 0.05870243977711571,
+          "found_in_segments": [
+            "answer"
+          ]
+        },
+        {
+          "term": "regarding",
+          "normalized_tfidf": 0.10528569960324956,
+          "coefficient_pred_minus_gold": 0.34213634422480155,
+          "margin_contribution": 0.036022064361406446,
+          "found_in_segments": [
+            "question"
+          ]
+        },
+        {
+          "term": "clear",
+          "normalized_tfidf": 0.11564292940419892,
+          "coefficient_pred_minus_gold": 0.29455323025519825,
+          "margin_contribution": 0.03406299841218064,
+          "found_in_segments": [
+            "answer"
+          ]
+        },
+        {
+          "term": "together and",
+          "normalized_tfidf": 0.1117365389278984,
+          "coefficient_pred_minus_gold": 0.28793219511007495,
+          "margin_contribution": 0.032172546927512126,
+          "found_in_segments": [
+            "answer"
+          ]
+        },
+        {
+          "term": "the redline",
+          "normalized_tfidf": 0.16352374622243698,
+          "coefficient_pred_minus_gold": 0.1786390294300635,
+          "margin_contribution": 0.029211723313944154,
+          "found_in_segments": [
+            "question"
+          ]
+        },
+        {
+          "term": "about",
+          "normalized_tfidf": 0.03723533258516381,
+          "coefficient_pred_minus_gold": 0.6547336729495586,
+          "margin_contribution": 0.024379226066982687,
+          "found_in_segments": [
+            "question"
+          ]
+        },
+        {
+          "term": "caused",
+          "normalized_tfidf": 0.12481746693363316,
+          "coefficient_pred_minus_gold": 0.1889500173062157,
+          "margin_contribution": 0.02358426253722799,
+          "found_in_segments": [
+            "answer"
+          ]
+        },
+        {
+          "term": "it clear",
+          "normalized_tfidf": 0.10528569960324956,
+          "coefficient_pred_minus_gold": 0.20943550916490808,
+          "margin_contribution": 0.02205056410419013,
+          "found_in_segments": [
+            "answer"
+          ]
+        }
+      ],
+      "top_negative_toward_gold": [
+        {
+          "term": "[sep] well",
+          "normalized_tfidf": 0.05514042414930259,
+          "coefficient_pred_minus_gold": -1.195625285844811,
+          "margin_contribution": -0.06592728538511404,
+          "found_in_segments": [
+            "cross_segment"
+          ]
+        },
+        {
+          "term": "nbc",
+          "normalized_tfidf": 0.12481746693363316,
+          "coefficient_pred_minus_gold": -0.29566762621745957,
+          "margin_contribution": -0.03690448415874357,
+          "found_in_segments": [
+            "answer"
+          ]
+        },
+        {
+          "term": "world has",
+          "normalized_tfidf": 0.12406916999671186,
+          "coefficient_pred_minus_gold": -0.28427041949240206,
+          "margin_contribution": -0.03526919500103942,
+          "found_in_segments": [
+            "answer"
+          ]
+        },
+        {
+          "term": "to",
+          "normalized_tfidf": 0.06357389917797236,
+          "coefficient_pred_minus_gold": -0.471281362638431,
+          "margin_contribution": -0.029961193832833043,
+          "found_in_segments": [
+            "answer"
+          ]
+        },
+        {
+          "term": "nbc news",
+          "normalized_tfidf": 0.1255903025232223,
+          "coefficient_pred_minus_gold": -0.22886165497354202,
+          "margin_contribution": -0.028742804484092468,
+          "found_in_segments": [
+            "answer"
+          ]
+        },
+        {
+          "term": "well",
+          "normalized_tfidf": 0.03997905167714,
+          "coefficient_pred_minus_gold": -0.706704873392246,
+          "margin_contribution": -0.02825339065383528,
+          "found_in_segments": [
+            "answer"
+          ]
+        },
+        {
+          "term": "status",
+          "normalized_tfidf": 0.11940654111312136,
+          "coefficient_pred_minus_gold": -0.21491610949065132,
+          "margin_contribution": -0.02566238926376755,
+          "found_in_segments": [
+            "question"
+          ]
+        },
+        {
+          "term": "made",
+          "normalized_tfidf": 0.05627456469850375,
+          "coefficient_pred_minus_gold": -0.44252528635448135,
+          "margin_contribution": -0.024902917857679157,
+          "found_in_segments": [
+            "answer"
+          ]
+        }
+      ],
+      "other_feature_contributions_sum": 0.03717298079503557,
+      "segment_contributions": {
+        "pair_separator": {
+          "active_features": 1,
+          "margin_contribution": 0.009775864311586361
+        },
+        "cross_segment": {
+          "active_features": 1,
+          "margin_contribution": -0.06592728538511404
+        },
+        "question": {
+          "active_features": 12,
+          "margin_contribution": 0.18309024347164296
+        },
+        "answer": {
+          "active_features": 76,
+          "margin_contribution": -0.09358122725265788
+        },
+        "multiple_segments": {
+          "active_features": 1,
+          "margin_contribution": -0.011622449486966434
+        }
+      },
+      "focus_feature_contributions": []
+    }
+  ]
+}

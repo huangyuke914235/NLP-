@@ -1,0 +1,40 @@
+{
+  "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "executable": ".venv/Scripts/python.exe",
+  "command": [
+    "python",
+    "src/run_experiments.py",
+    "--data",
+    "replay_data/processed",
+    "--output",
+    "results/review_run_2",
+    "--device",
+    "auto"
+  ],
+  "started": "2026-11-25T20:29:40.643365+08:00",
+  "versions": {
+    "torch": "2.14.1+cu130",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "transformers": "4.53.3",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.15.3",
+    "huggingface-hub": "0.33.4"
+  },
+  "code_sha256": "ea9ea5137e2689c8ed2e5631538167001554d0e4d047a5bda1fb481199ac0c24",
+  "config_sha256": "3965861edf1f3f7b02cf2e8d755129334df6f321cd951552552bb1dbe3de4607",
+  "adapter_sha256": "59bf6fcacbdc4f3047335ca4160c1b8dc52a7b70529c306ece8f03e172c326e3",
+  "input_sha256": {
+    "qevasion_grouped.csv": "9811501d43ac8c8a531e151a1c35740cb442afe825632a54b2efef08cf1833a1",
+    "counterfactual_reviewed.csv": "bbc1deaf4fd85fe3825ab13bebdee2f20b384234b7f6adcb5af91c55c7ff0ad0",
+    "qevasion_official.csv": "222e47e8da33d0dea1acea688642fc4cdb950ca1dff70b8ef0d62bd304510339",
+    "qnli.csv": "c5a2f0711c5f7a1000e19006260f4e700fd385151cfacb91b83b61d648803827"
+  },
+  "device": "cuda",
+  "weights_sha256": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db",
+  "cuda_build": "13.0",
+  "gpu_name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "finished": "2026-11-25T20:30:49.532250+08:00",
+  "elapsed_seconds": 68.936
+}

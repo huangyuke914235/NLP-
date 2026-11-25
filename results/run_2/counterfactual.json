@@ -1,0 +1,38 @@
+{
+  "grouped_tfidf": {
+    "n": 12,
+    "original_correct_n": 7,
+    "paraphrase_stable_n": 12,
+    "paraphrase_gold_correct_n": 7,
+    "unrelated_expected_label_correct_n": 5,
+    "unrelated_gold_requires_change_n": 10,
+    "unrelated_changed_on_required_n": 2,
+    "unrelated_correct_and_changed_on_required_n": 0,
+    "unrelated_required_and_original_correct_n": 6,
+    "unrelated_correct_and_changed_on_required_and_original_correct_n": 0
+  },
+  "grouped_minilm": {
+    "n": 12,
+    "original_correct_n": 2,
+    "paraphrase_stable_n": 11,
+    "paraphrase_gold_correct_n": 3,
+    "unrelated_expected_label_correct_n": 11,
+    "unrelated_gold_requires_change_n": 10,
+    "unrelated_changed_on_required_n": 2,
+    "unrelated_correct_and_changed_on_required_n": 1,
+    "unrelated_required_and_original_correct_n": 1,
+    "unrelated_correct_and_changed_on_required_and_original_correct_n": 1
+  },
+  "grouped_minilm_interactions": {
+    "n": 12,
+    "original_correct_n": 3,
+    "paraphrase_stable_n": 8,
+    "paraphrase_gold_correct_n": 3,
+    "unrelated_expected_label_correct_n": 11,
+    "unrelated_gold_requires_change_n": 10,
+    "unrelated_changed_on_required_n": 3,
+    "unrelated_correct_and_changed_on_required_n": 2,
+    "unrelated_required_and_original_correct_n": 2,
+    "unrelated_correct_and_changed_on_required_and_original_correct_n": 2
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "grouped_pair": {
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "count": 308,
+    "accuracy": 0.6461038961038961,
+    "macro_precision": 0.3369855866431879,
+    "macro_recall": 0.47650204024201487,
+    "macro_f1": 0.3936036813344838,
+    "per_class": {
+      "Clear Reply": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 79
+      },
+      "Ambivalent": {
+        "precision": 0.6951672862453532,
+        "recall": 0.9077669902912622,
+        "f1": 0.7873684210526316,
+        "support": 206
+      },
+      "Clear Non-Reply": {
+        "precision": 0.3157894736842105,
+        "recall": 0.5217391304347826,
+        "f1": 0.39344262295081966,
+        "support": 23
+      }
+    },
+    "confusion_matrix": [
+      [
+        0,
+        71,
+        8
+      ],
+      [
+        1,
+        187,
+        18
+      ],
+      [
+        0,
+        11,
+        12
+      ]
+    ],
+    "prediction_file": "predictions/grouped_pair.csv",
+    "parameters": {
+      "best_epoch": 4,
+      "validation_macro_f1": 0.4353769037979564,
+      "learning_rate": 3e-05,
+      "batch_size": 32,
+      "train_count": 2274,
+      "validation_count": 584,
+      "model_parameters": 22714371,
+      "used_bfloat16": true,
+      "class_weights": {
+        "Clear Reply": 0.8511101007461548,
+        "Ambivalent": 0.6161543130874634,
+        "Clear Non-Reply": 1.5327355861663818
+      },
+      "max_wordpieces": 256
+    },
+    "split": "test"
+  },
+  "target_pair": {
+    "labels": [
+      "entailment",
+      "not_entailment"
+    ],
+    "count": 5463,
+    "accuracy": 0.8255537250594911,
+    "macro_precision": 0.8268587308117352,
+    "macro_recall": 0.8258912402338696,
+    "macro_f1": 0.825466681707713,
+    "per_class": {
+      "entailment": {
+        "precision": 0.8033298647242456,
+        "recall": 0.8571428571428571,
+        "f1": 0.8293643688451209,
+        "support": 2702
+      },
+      "not_entailment": {
+        "precision": 0.8503875968992248,
+        "recall": 0.7946396233248822,
+        "f1": 0.8215689945703052,
+        "support": 2761
+      }
+    },
+    "confusion_matrix": [
+      [
+        2316,
+        386
+      ],
+      [
+        567,
+        2194
+      ]
+    ],
+    "prediction_file": "predictions/target_pair.csv",
+    "parameters": {
+      "best_epoch": 3,
+      "validation_macro_f1": 0.7918753658114988,
+      "learning_rate": 3e-05,
+      "batch_size": 32,
+      "train_count": 12000,
+      "validation_count": 1999,
+      "model_parameters": 22713986,
+      "used_bfloat16": true,
+      "class_weights": {
+        "entailment": 1.0,
+        "not_entailment": 1.0
+      },
+      "max_wordpieces": 256
+    },
+    "split": "test"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "base_config": "configs/pair_finetuning.json",
+  "source_data": "qevasion_grouped.csv",
+  "candidates": [
+    {"key": "head", "answer_policy": "prefix", "loss_weighting": "inverse_square_root"},
+    {"key": "head_tail", "answer_policy": "prefix_and_suffix", "loss_weighting": "inverse_square_root"}
+  ],
+  "conditional_candidate": {"key": "head_inverse_frequency", "answer_policy": "prefix", "loss_weighting": "inverse_frequency"},
+  "conditional_candidate_rule": "If head_tail does not improve both validation Macro-F1 and Clear Reply recall over head, fit head_inverse_frequency. Only class weighting changes for this comparison.",
+  "head_tail_budget": "After accounting for the intact question and the three pair special tokens, take ceil(available_answer_tokens/2) from the prefix and floor(available_answer_tokens/2) from the suffix. An answer already inside its budget is unchanged.",
+  "selection_rule": "Select the maximum validation Macro-F1 across completed options, breaking exact ties by the order listed above; select the earliest epoch for an exact epoch tie. Evaluate the selected option once on the fixed test after all validation decisions."
+}

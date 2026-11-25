@@ -1,0 +1,110 @@
+[
+  {
+    "id": "qevasion-test-0281",
+    "phenomenon": "转录缺口和指代不明确",
+    "gold": "Ambivalent",
+    "prediction": "Clear Reply",
+    "confidence": 0.520897518267,
+    "group": "presidency.ucsb.edu/documents/the-presidents-news-conference-1132",
+    "answer_length": 5
+  },
+  {
+    "id": "qevasion-test-0119",
+    "phenomenon": "代答和孤立肯定词易混",
+    "gold": "Ambivalent",
+    "prediction": "Clear Reply",
+    "confidence": 0.491775826457,
+    "group": "presidency.ucsb.edu/documents/the-presidents-news-conference-with-secretary-state-condoleezza-rice-crawford-texas",
+    "answer_length": 16
+  },
+  {
+    "id": "qevasion-test-0000",
+    "phenomenon": "主题相关但信息槽缺失",
+    "gold": "Ambivalent",
+    "prediction": "Clear Reply",
+    "confidence": 0.351635793849,
+    "group": "presidency.ucsb.edu/documents/the-presidents-news-conference-3",
+    "answer_length": 52
+  },
+  {
+    "id": "qevasion-test-0051",
+    "phenomenon": "直接立场与转录尾句并存",
+    "gold": "Clear Reply",
+    "prediction": "Ambivalent",
+    "confidence": 0.371814758115,
+    "group": "presidency.ucsb.edu/documents/the-presidents-news-conference-5",
+    "answer_length": 36
+  },
+  {
+    "id": "qevasion-test-0193",
+    "phenomenon": "以过程叙述嵌入原因",
+    "gold": "Clear Reply",
+    "prediction": "Ambivalent",
+    "confidence": 0.419733908742,
+    "group": "presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-lee-myung-bak-south-korea-seoul",
+    "answer_length": 98
+  },
+  {
+    "id": "qevasion-test-0150",
+    "phenomenon": "反问开场后给出明确立场",
+    "gold": "Clear Reply",
+    "prediction": "Ambivalent",
+    "confidence": 0.435695303165,
+    "group": "presidency.ucsb.edu/documents/the-presidents-news-conference-kapolei",
+    "answer_length": 106
+  },
+  {
+    "id": "qevasion-test-0099",
+    "phenomenon": "应声与拒绝的边界",
+    "gold": "Ambivalent",
+    "prediction": "Clear Non-Reply",
+    "confidence": 0.553021009457,
+    "group": "presidency.ucsb.edu/documents/the-presidents-news-conference-toronto",
+    "answer_length": 1
+  },
+  {
+    "id": "qevasion-test-0167",
+    "phenomenon": "主题转移容易被识为拒答",
+    "gold": "Ambivalent",
+    "prediction": "Clear Non-Reply",
+    "confidence": 0.477329108997,
+    "group": "presidency.ucsb.edu/documents/the-presidents-news-conference-with-chancellor-angela-merkel-germany-stralsund",
+    "answer_length": 11
+  },
+  {
+    "id": "qevasion-test-0072",
+    "phenomenon": "澄清所指而无任命信息",
+    "gold": "Clear Non-Reply",
+    "prediction": "Ambivalent",
+    "confidence": 0.34812312614,
+    "group": "presidency.ucsb.edu/documents/the-presidents-news-conference-chicago",
+    "answer_length": 4
+  },
+  {
+    "id": "qevasion-test-0240",
+    "phenomenon": " 拒评证据被长背景稀释的假设",
+    "gold": "Clear Non-Reply",
+    "prediction": "Ambivalent",
+    "confidence": 0.389756591633,
+    "group": "presidency.ucsb.edu/documents/the-presidents-news-conference-1135",
+    "answer_length": 107
+  },
+  {
+    "id": "qevasion-test-0032",
+    "phenomenon": "拒绝语句与转题并存",
+    "gold": "Clear Non-Reply",
+    "prediction": "Ambivalent",
+    "confidence": 0.444454934451,
+    "group": "presidency.ucsb.edu/documents/the-presidents-news-conference-1129",
+    "answer_length": 130
+  },
+  {
+    "id": "qevasion-test-0298",
+    "phenomenon": "代词所指依赖采访上下文",
+    "gold": "Clear Reply",
+    "prediction": "Ambivalent",
+    "confidence": 0.396686384877,
+    "group": "presidency.ucsb.edu/documents/the-presidents-news-conference-1135",
+    "answer_length": 59
+  }
+]

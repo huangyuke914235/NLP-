@@ -1,0 +1,30 @@
+{
+  "raw_files": [
+    {
+      "file": "qevasion-train.parquet",
+      "bytes": 3898012,
+      "sha256": "eca7855ada118a526cc0361d745b0a55534ca35b8b604d2f9cec4257c5f9fcb3",
+      "upstream_urls": [
+        "https://huggingface.co/datasets/ailsntua/QEvasion/resolve/3afc18f0b582b3cfdb927822cff57ddc6e871f9c/data/train-00000-of-00001.parquet",
+        "https://hf-mirror.com/datasets/ailsntua/QEvasion/resolve/3afc18f0b582b3cfdb927822cff57ddc6e871f9c/data/train-00000-of-00001.parquet"
+      ]
+    },
+    {
+      "file": "qevasion-test.parquet",
+      "bytes": 258928,
+      "sha256": "d1de67bd7b7ea68b7f49fcd1f468fd434bc2de3d84146c9217d36713c0546298",
+      "upstream_urls": [
+        "https://huggingface.co/datasets/ailsntua/QEvasion/resolve/3afc18f0b582b3cfdb927822cff57ddc6e871f9c/data/test-00000-of-00001.parquet",
+        "https://hf-mirror.com/datasets/ailsntua/QEvasion/resolve/3afc18f0b582b3cfdb927822cff57ddc6e871f9c/data/test-00000-of-00001.parquet"
+      ]
+    }
+  ],
+  "generated_files": {
+    "qevasion_duplicate_links.csv": "dd93e55bedce5c84a615b0e68c6a82997deac6ec56225821d572a6db341c3327",
+    "qevasion_grouped.csv": "9811501d43ac8c8a531e151a1c35740cb442afe825632a54b2efef08cf1833a1",
+    "qevasion_grouped_exclusions.csv": "9d2e3f889e570950cfab34eff60acb935f9ecb510ced0b2c37c8c4a3bbad2fab",
+    "qevasion_official.csv": "222e47e8da33d0dea1acea688642fc4cdb950ca1dff70b8ef0d62bd304510339",
+    "qevasion_source_groups.csv": "06de03aa17946d3550b28146c49695ea3f9d043f72c04baa632e9d857f40cb58",
+    "qevasion_stats.json": "af2f39195295c5ccc87deee5b7153bbdbb63565fcfb5a546876aaa4c174935ff"
+  }
+}

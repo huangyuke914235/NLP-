@@ -1,0 +1,48 @@
+2026-11-25T18:42:16+08:00 [    0.07s] Started, Python=3.12.13, config_seed=20251125
+2026-11-25T18:42:25+08:00 [    8.88s] Encoder sentence-transformers/all-MiniLM-L6-v2@1110a243fdf4706b3f48f1d95db1a4f5529b4d41, torch=2.14.1+cu130, device=cuda, sha256=53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db
+2026-11-25T18:42:25+08:00 [    8.92s] Read grouped: {'train': 2274, 'validation': 584, 'test': 308}, labels={'Ambivalent': 1892, 'Clear Reply': 971, 'Clear Non-Reply': 303}
+2026-11-25T18:42:25+08:00 [    8.92s] grouped_majority n=308 accuracy=0.668831 macro_f1=0.267185
+2026-11-25T18:42:37+08:00 [   20.93s] grouped_tfidf n=308 accuracy=0.577922 macro_f1=0.424196
+2026-11-25T18:42:37+08:00 [   21.09s] grouped_tfidf_alternate_ngram n=308 accuracy=0.568182 macro_f1=0.453451
+2026-11-25T18:42:38+08:00 [   21.88s] grouped_tfidf_alternate_weight n=308 accuracy=0.685065 macro_f1=0.316071
+2026-11-25T18:42:38+08:00 [   21.88s] Encoding 4971 unseen texts; batch=64, max_wordpieces=256
+2026-11-25T18:42:43+08:00 [   26.74s] grouped_minilm n=308 accuracy=0.584416 macro_f1=0.384877
+2026-11-25T18:42:43+08:00 [   27.35s] grouped_minilm_interactions n=308 accuracy=0.555195 macro_f1=0.407725
+2026-11-25T18:42:44+08:00 [   27.96s] hierarchy_direct_coarse n=308 accuracy=0.584416 macro_f1=0.384877
+2026-11-25T18:42:44+08:00 [   27.96s] hierarchy_fine_to_coarse n=308 accuracy=0.584416 macro_f1=0.365984
+2026-11-25T18:42:44+08:00 [   27.98s] hierarchy_fine n=584 accuracy=0.270548 macro_f1=0.183511
+2026-11-25T18:42:44+08:00 [   27.98s] Encoding 24 unseen texts; batch=64, max_wordpieces=256
+2026-11-25T18:42:44+08:00 [   28.01s] Counterfactual fixed-answer audit: 12 examples
+2026-11-25T18:42:44+08:00 [   28.05s] Read official: {'train': 2800, 'validation': 648, 'test': 308}, labels={'Ambivalent': 2246, 'Clear Reply': 1131, 'Clear Non-Reply': 379}
+2026-11-25T18:42:44+08:00 [   28.06s] official_majority n=308 accuracy=0.668831 macro_f1=0.267185
+2026-11-25T18:42:58+08:00 [   42.18s] official_tfidf n=308 accuracy=0.535714 macro_f1=0.442438
+2026-11-25T18:42:58+08:00 [   42.35s] official_tfidf_alternate_ngram n=308 accuracy=0.529221 macro_f1=0.423192
+2026-11-25T18:43:00+08:00 [   43.65s] official_tfidf_alternate_weight n=308 accuracy=0.681818 macro_f1=0.353481
+2026-11-25T18:43:00+08:00 [   43.66s] Encoding 915 unseen texts; batch=64, max_wordpieces=256
+2026-11-25T18:43:01+08:00 [   45.06s] official_minilm n=308 accuracy=0.597403 macro_f1=0.431341
+2026-11-25T18:43:02+08:00 [   45.74s] official_minilm_interactions n=308 accuracy=0.561688 macro_f1=0.427572
+2026-11-25T18:43:02+08:00 [   45.83s] Read QNLI: {'train': 12000, 'test': 5463, 'validation': 1999}, labels={'entailment': 9860, 'not_entailment': 9602}
+2026-11-25T18:43:02+08:00 [   45.88s] target_majority n=5463 accuracy=0.494600 macro_f1=0.330925
+2026-11-25T18:43:08+08:00 [   51.93s] target_tfidf n=5463 accuracy=0.594911 macro_f1=0.594622
+2026-11-25T18:43:08+08:00 [   51.98s] Encoding 33741 unseen texts; batch=64, max_wordpieces=256
+2026-11-25T18:43:09+08:00 [   53.17s] Encoder progress 6400/33741
+2026-11-25T18:43:10+08:00 [   54.38s] Encoder progress 12800/33741
+2026-11-25T18:43:12+08:00 [   55.64s] Encoder progress 19200/33741
+2026-11-25T18:43:13+08:00 [   57.23s] Encoder progress 25600/33741
+2026-11-25T18:43:16+08:00 [   59.72s] Encoder progress 32000/33741
+2026-11-25T18:43:17+08:00 [   61.15s] target_direct n=5463 accuracy=0.497895 macro_f1=0.482508
+2026-11-25T18:43:18+08:00 [   62.41s] efficiency_minilm_010_seed20251125 n=5463 accuracy=0.544573 macro_f1=0.544136
+2026-11-25T18:43:19+08:00 [   62.51s] efficiency_adapted_010_seed20251125 n=5463 accuracy=0.542742 macro_f1=0.542364
+2026-11-25T18:43:19+08:00 [   63.05s] efficiency_minilm_030_seed20251125 n=5463 accuracy=0.552078 macro_f1=0.552064
+2026-11-25T18:43:19+08:00 [   63.25s] efficiency_adapted_030_seed20251125 n=5463 accuracy=0.552993 macro_f1=0.552985
+2026-11-25T18:43:20+08:00 [   63.95s] target_minilm n=5463 accuracy=0.578254 macro_f1=0.577485
+2026-11-25T18:43:21+08:00 [   64.59s] target_adapted n=5463 accuracy=0.578986 macro_f1=0.578192
+2026-11-25T18:43:21+08:00 [   64.91s] efficiency_minilm_010_seed20251126 n=5463 accuracy=0.541827 macro_f1=0.529450
+2026-11-25T18:43:21+08:00 [   65.01s] efficiency_adapted_010_seed20251126 n=5463 accuracy=0.543108 macro_f1=0.531303
+2026-11-25T18:43:22+08:00 [   65.53s] efficiency_minilm_030_seed20251126 n=5463 accuracy=0.561779 macro_f1=0.561701
+2026-11-25T18:43:22+08:00 [   65.76s] efficiency_adapted_030_seed20251126 n=5463 accuracy=0.560864 macro_f1=0.560783
+2026-11-25T18:43:22+08:00 [   66.34s] efficiency_minilm_010_seed20251127 n=5463 accuracy=0.539447 macro_f1=0.537220
+2026-11-25T18:43:22+08:00 [   66.44s] efficiency_adapted_010_seed20251127 n=5463 accuracy=0.538166 macro_f1=0.535849
+2026-11-25T18:43:23+08:00 [   66.95s] efficiency_minilm_030_seed20251127 n=5463 accuracy=0.556471 macro_f1=0.555001
+2026-11-25T18:43:23+08:00 [   67.10s] efficiency_adapted_030_seed20251127 n=5463 accuracy=0.555189 macro_f1=0.553762
+2026-11-25T18:43:24+08:00 [   67.48s] Completed

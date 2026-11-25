@@ -1,0 +1,35 @@
+{
+  "seed": 20251125,
+  "subset_seeds": [
+    20251125,
+    20251126,
+    20251127
+  ],
+  "fractions": [
+    0.1,
+    0.3,
+    1.0
+  ],
+  "candidates_c": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "max_lr_iterations": 1000,
+  "threads": 4,
+  "tfidf_max_features": 50000,
+  "tfidf_min_document_frequency": 2,
+  "minilm_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "minilm_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "minilm_max_tokens_per_text": 256,
+  "minilm_batch_size": 64,
+  "source_labels": [
+    "Clear Reply",
+    "Ambivalent",
+    "Clear Non-Reply"
+  ],
+  "target_labels": [
+    "entailment",
+    "not_entailment"
+  ]
+}
