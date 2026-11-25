@@ -1,3 +1,0 @@
-QEvasion official: Counter({'train': 2800, 'validation': 648, 'test': 308})
-QEvasion grouped: Counter({'train': 2274, 'validation': 584, 'test': 308})
-QNLI: Counter({'train': 12000, 'test': 5463, 'validation': 1999})

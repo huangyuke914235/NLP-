@@ -31,9 +31,9 @@
   "comparisons": {
     "sparse_vs_frozen": {
       "domain": "qevasion",
-      "baseline_predictions": "results/run_1/predictions/grouped_tfidf.csv",
+      "baseline_predictions": "results/review_run_1/predictions/grouped_tfidf.csv",
       "baseline_predictions_sha256": "c64babcc6b84e114ed4476de14bb07bb9bbec37cb790bf454f2638528d325e31",
-      "candidate_predictions": "results/run_1/predictions/grouped_minilm.csv",
+      "candidate_predictions": "results/review_run_1/predictions/grouped_minilm.csv",
       "candidate_predictions_sha256": "fed14aec302a763603e8d7fdd76966463eb28f3d2b292b4bfa0dc0789522e459",
       "n": 308,
       "group_unit": "interview URL",
@@ -165,9 +165,9 @@
     },
     "sparse_vs_interactions": {
       "domain": "qevasion",
-      "baseline_predictions": "results/run_1/predictions/grouped_tfidf.csv",
+      "baseline_predictions": "results/review_run_1/predictions/grouped_tfidf.csv",
       "baseline_predictions_sha256": "c64babcc6b84e114ed4476de14bb07bb9bbec37cb790bf454f2638528d325e31",
-      "candidate_predictions": "results/run_1/predictions/grouped_minilm_interactions.csv",
+      "candidate_predictions": "results/review_run_1/predictions/grouped_minilm_interactions.csv",
       "candidate_predictions_sha256": "5f8cdbffbf7f80b0564c0874649a8df3ca44e0e49e19a1e6509d123790805a4d",
       "n": 308,
       "group_unit": "interview URL",
@@ -299,7 +299,7 @@
     },
     "sparse_vs_joint": {
       "domain": "qevasion",
-      "baseline_predictions": "results/run_1/predictions/grouped_tfidf.csv",
+      "baseline_predictions": "results/review_run_1/predictions/grouped_tfidf.csv",
       "baseline_predictions_sha256": "c64babcc6b84e114ed4476de14bb07bb9bbec37cb790bf454f2638528d325e31",
       "candidate_predictions": "results/pair_run_1/predictions/grouped_pair.csv",
       "candidate_predictions_sha256": "4fcbf2672d5628fb7acdd03ee615988f3ce31bf9277a8c0adcad331b37222e33",
@@ -433,9 +433,9 @@
     },
     "frozen_vs_interactions": {
       "domain": "qevasion",
-      "baseline_predictions": "results/run_1/predictions/grouped_minilm.csv",
+      "baseline_predictions": "results/review_run_1/predictions/grouped_minilm.csv",
       "baseline_predictions_sha256": "fed14aec302a763603e8d7fdd76966463eb28f3d2b292b4bfa0dc0789522e459",
-      "candidate_predictions": "results/run_1/predictions/grouped_minilm_interactions.csv",
+      "candidate_predictions": "results/review_run_1/predictions/grouped_minilm_interactions.csv",
       "candidate_predictions_sha256": "5f8cdbffbf7f80b0564c0874649a8df3ca44e0e49e19a1e6509d123790805a4d",
       "n": 308,
       "group_unit": "interview URL",
@@ -567,9 +567,9 @@
     },
     "hierarchy_direct_vs_two_stage": {
       "domain": "qevasion",
-      "baseline_predictions": "results/run_1/predictions/hierarchy_direct_coarse.csv",
+      "baseline_predictions": "results/review_run_1/predictions/hierarchy_direct_coarse.csv",
       "baseline_predictions_sha256": "fed14aec302a763603e8d7fdd76966463eb28f3d2b292b4bfa0dc0789522e459",
-      "candidate_predictions": "results/run_1/predictions/hierarchy_fine_to_coarse.csv",
+      "candidate_predictions": "results/review_run_1/predictions/hierarchy_fine_to_coarse.csv",
       "candidate_predictions_sha256": "c6b0c1647e24a45ee415e6d43669cf5643b831d81e609fcb834f4ac99f1383b2",
       "n": 308,
       "group_unit": "interview URL",
@@ -835,7 +835,7 @@
     },
     "sparse_vs_head_tail": {
       "domain": "qevasion",
-      "baseline_predictions": "results/run_1/predictions/grouped_tfidf.csv",
+      "baseline_predictions": "results/review_run_1/predictions/grouped_tfidf.csv",
       "baseline_predictions_sha256": "c64babcc6b84e114ed4476de14bb07bb9bbec37cb790bf454f2638528d325e31",
       "candidate_predictions": "results/truncation_run_1/predictions/truncation_head_tail_test.csv",
       "candidate_predictions_sha256": "e4a9881e63fce4999730e5fb753872f244199bf16ac4940175e1c6afd5764f1c",
@@ -969,9 +969,9 @@
     },
     "direct_vs_target_frozen": {
       "domain": "qnli",
-      "baseline_predictions": "results/run_1/predictions/target_direct.csv",
+      "baseline_predictions": "results/review_run_1/predictions/target_direct.csv",
       "baseline_predictions_sha256": "e4bbfc0bc576b0deab41c61991fa7938186cb08eae774ddaac29603e31904473",
-      "candidate_predictions": "results/run_1/predictions/target_minilm.csv",
+      "candidate_predictions": "results/review_run_1/predictions/target_minilm.csv",
       "candidate_predictions_sha256": "c8874093ad530dede6753f492ffef983505338f5a9d441c028c84ba18603ca97",
       "n": 5463,
       "group_unit": "Wikipedia article with preprocessing grouping key",
@@ -1067,9 +1067,9 @@
     },
     "target_frozen_vs_adapted": {
       "domain": "qnli",
-      "baseline_predictions": "results/run_1/predictions/target_minilm.csv",
+      "baseline_predictions": "results/review_run_1/predictions/target_minilm.csv",
       "baseline_predictions_sha256": "c8874093ad530dede6753f492ffef983505338f5a9d441c028c84ba18603ca97",
-      "candidate_predictions": "results/run_1/predictions/target_adapted.csv",
+      "candidate_predictions": "results/review_run_1/predictions/target_adapted.csv",
       "candidate_predictions_sha256": "e13ffa6aa4f4968cda2ef8419a9a3918c857d8a61f95010aa96f486727ee80b0",
       "n": 5463,
       "group_unit": "Wikipedia article with preprocessing grouping key",
@@ -1165,7 +1165,7 @@
     },
     "target_sparse_vs_joint": {
       "domain": "qnli",
-      "baseline_predictions": "results/run_1/predictions/target_tfidf.csv",
+      "baseline_predictions": "results/review_run_1/predictions/target_tfidf.csv",
       "baseline_predictions_sha256": "9cc200377f0c2559d7f93dcdd51db6294d50834a4252091e1e1fa72eac5374bb",
       "candidate_predictions": "results/pair_run_1/predictions/target_pair.csv",
       "candidate_predictions_sha256": "b032280315b50fad07520d4522d461582e174b093ac653a7715f10b6d2f87fd6",
@@ -1274,20 +1274,20 @@
         "fixed_seed_comparisons": [
           {
             "seed": 20251125,
-            "baseline_predictions": "results/run_1/predictions/efficiency_minilm_010_seed20251125.csv",
-            "candidate_predictions": "results/run_1/predictions/efficiency_minilm_030_seed20251125.csv",
+            "baseline_predictions": "results/review_run_1/predictions/efficiency_minilm_010_seed20251125.csv",
+            "candidate_predictions": "results/review_run_1/predictions/efficiency_minilm_030_seed20251125.csv",
             "macro_f1_difference": 0.00792778632042812
           },
           {
             "seed": 20251126,
-            "baseline_predictions": "results/run_1/predictions/efficiency_minilm_010_seed20251126.csv",
-            "candidate_predictions": "results/run_1/predictions/efficiency_minilm_030_seed20251126.csv",
+            "baseline_predictions": "results/review_run_1/predictions/efficiency_minilm_010_seed20251126.csv",
+            "candidate_predictions": "results/review_run_1/predictions/efficiency_minilm_030_seed20251126.csv",
             "macro_f1_difference": 0.032251015267755534
           },
           {
             "seed": 20251127,
-            "baseline_predictions": "results/run_1/predictions/efficiency_minilm_010_seed20251127.csv",
-            "candidate_predictions": "results/run_1/predictions/efficiency_minilm_030_seed20251127.csv",
+            "baseline_predictions": "results/review_run_1/predictions/efficiency_minilm_010_seed20251127.csv",
+            "candidate_predictions": "results/review_run_1/predictions/efficiency_minilm_030_seed20251127.csv",
             "macro_f1_difference": 0.017780843443839456
           }
         ]
@@ -1301,20 +1301,20 @@
         "fixed_seed_comparisons": [
           {
             "seed": 20251125,
-            "baseline_predictions": "results/run_1/predictions/efficiency_minilm_030_seed20251125.csv",
-            "candidate_predictions": "results/run_1/predictions/target_minilm.csv",
+            "baseline_predictions": "results/review_run_1/predictions/efficiency_minilm_030_seed20251125.csv",
+            "candidate_predictions": "results/review_run_1/predictions/target_minilm.csv",
             "macro_f1_difference": 0.025421017684257308
           },
           {
             "seed": 20251126,
-            "baseline_predictions": "results/run_1/predictions/efficiency_minilm_030_seed20251126.csv",
-            "candidate_predictions": "results/run_1/predictions/target_minilm.csv",
+            "baseline_predictions": "results/review_run_1/predictions/efficiency_minilm_030_seed20251126.csv",
+            "candidate_predictions": "results/review_run_1/predictions/target_minilm.csv",
             "macro_f1_difference": 0.015784142908107923
           },
           {
             "seed": 20251127,
-            "baseline_predictions": "results/run_1/predictions/efficiency_minilm_030_seed20251127.csv",
-            "candidate_predictions": "results/run_1/predictions/target_minilm.csv",
+            "baseline_predictions": "results/review_run_1/predictions/efficiency_minilm_030_seed20251127.csv",
+            "candidate_predictions": "results/review_run_1/predictions/target_minilm.csv",
             "macro_f1_difference": 0.022484450704123415
           }
         ]
@@ -1328,20 +1328,20 @@
         "fixed_seed_comparisons": [
           {
             "seed": 20251125,
-            "baseline_predictions": "results/run_1/predictions/efficiency_minilm_010_seed20251125.csv",
-            "candidate_predictions": "results/run_1/predictions/target_minilm.csv",
+            "baseline_predictions": "results/review_run_1/predictions/efficiency_minilm_010_seed20251125.csv",
+            "candidate_predictions": "results/review_run_1/predictions/target_minilm.csv",
             "macro_f1_difference": 0.03334880400468543
           },
           {
             "seed": 20251126,
-            "baseline_predictions": "results/run_1/predictions/efficiency_minilm_010_seed20251126.csv",
-            "candidate_predictions": "results/run_1/predictions/target_minilm.csv",
+            "baseline_predictions": "results/review_run_1/predictions/efficiency_minilm_010_seed20251126.csv",
+            "candidate_predictions": "results/review_run_1/predictions/target_minilm.csv",
             "macro_f1_difference": 0.04803515817586346
           },
           {
             "seed": 20251127,
-            "baseline_predictions": "results/run_1/predictions/efficiency_minilm_010_seed20251127.csv",
-            "candidate_predictions": "results/run_1/predictions/target_minilm.csv",
+            "baseline_predictions": "results/review_run_1/predictions/efficiency_minilm_010_seed20251127.csv",
+            "candidate_predictions": "results/review_run_1/predictions/target_minilm.csv",
             "macro_f1_difference": 0.04026529414796287
           }
         ]
@@ -1355,20 +1355,20 @@
         "fixed_seed_comparisons": [
           {
             "seed": 20251125,
-            "baseline_predictions": "results/run_1/predictions/efficiency_minilm_010_seed20251125.csv",
-            "candidate_predictions": "results/run_1/predictions/efficiency_adapted_010_seed20251125.csv",
+            "baseline_predictions": "results/review_run_1/predictions/efficiency_minilm_010_seed20251125.csv",
+            "candidate_predictions": "results/review_run_1/predictions/efficiency_adapted_010_seed20251125.csv",
             "macro_f1_difference": -0.0017722051474060585
           },
           {
             "seed": 20251126,
-            "baseline_predictions": "results/run_1/predictions/efficiency_minilm_010_seed20251126.csv",
-            "candidate_predictions": "results/run_1/predictions/efficiency_adapted_010_seed20251126.csv",
+            "baseline_predictions": "results/review_run_1/predictions/efficiency_minilm_010_seed20251126.csv",
+            "candidate_predictions": "results/review_run_1/predictions/efficiency_adapted_010_seed20251126.csv",
             "macro_f1_difference": 0.0018531675334179099
           },
           {
             "seed": 20251127,
-            "baseline_predictions": "results/run_1/predictions/efficiency_minilm_010_seed20251127.csv",
-            "candidate_predictions": "results/run_1/predictions/efficiency_adapted_010_seed20251127.csv",
+            "baseline_predictions": "results/review_run_1/predictions/efficiency_minilm_010_seed20251127.csv",
+            "candidate_predictions": "results/review_run_1/predictions/efficiency_adapted_010_seed20251127.csv",
             "macro_f1_difference": -0.001371230050514205
           }
         ]
@@ -1382,20 +1382,20 @@
         "fixed_seed_comparisons": [
           {
             "seed": 20251125,
-            "baseline_predictions": "results/run_1/predictions/efficiency_minilm_030_seed20251125.csv",
-            "candidate_predictions": "results/run_1/predictions/efficiency_adapted_030_seed20251125.csv",
+            "baseline_predictions": "results/review_run_1/predictions/efficiency_minilm_030_seed20251125.csv",
+            "candidate_predictions": "results/review_run_1/predictions/efficiency_adapted_030_seed20251125.csv",
             "macro_f1_difference": 0.0009208327151295492
           },
           {
             "seed": 20251126,
-            "baseline_predictions": "results/run_1/predictions/efficiency_minilm_030_seed20251126.csv",
-            "candidate_predictions": "results/run_1/predictions/efficiency_adapted_030_seed20251126.csv",
+            "baseline_predictions": "results/review_run_1/predictions/efficiency_minilm_030_seed20251126.csv",
+            "candidate_predictions": "results/review_run_1/predictions/efficiency_adapted_030_seed20251126.csv",
             "macro_f1_difference": -0.0009175752584383856
           },
           {
             "seed": 20251127,
-            "baseline_predictions": "results/run_1/predictions/efficiency_minilm_030_seed20251127.csv",
-            "candidate_predictions": "results/run_1/predictions/efficiency_adapted_030_seed20251127.csv",
+            "baseline_predictions": "results/review_run_1/predictions/efficiency_minilm_030_seed20251127.csv",
+            "candidate_predictions": "results/review_run_1/predictions/efficiency_adapted_030_seed20251127.csv",
             "macro_f1_difference": -0.0012388640238533144
           }
         ]

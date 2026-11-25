@@ -13,7 +13,7 @@ from threadpoolctl import threadpool_limits
 
 
 ROOT = Path(__file__).resolve().parents[1]
-RUN = ROOT / "results" / "run_1"
+RUN = ROOT / "results" / "review_run_1"
 DATA = ROOT / "data" / "processed" / "qevasion_grouped.csv"
 PRED = RUN / "predictions" / "grouped_tfidf.csv"
 CASES = ("qevasion-test-0119", "qevasion-test-0240", "qevasion-test-0000")

@@ -1,7 +1,0 @@
-Executing the released-author scoring component on the fixed snapshot.
-Upstream Git revision: ff78482fe3ee63b76ce427ea4b8ee2b690fe8896
-Annotator   Injected records   Matched items   Induced selections
-Annotator1                31              36            4 (11.11%)
-Annotator2                31              36            3 (8.33%)
-Annotator3                31              36            3 (8.33%)
-Byte-identical to the archived reproduction: True

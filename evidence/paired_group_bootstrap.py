@@ -23,7 +23,7 @@ DOMAINS = {
     },
 }
 
-RUN = "results/run_1/predictions/"
+RUN = "results/review_run_1/predictions/"
 PAIR = "results/pair_run_1/predictions/"
 COMPARISONS = (
     ("qevasion", "sparse_vs_frozen", RUN+"grouped_tfidf.csv", RUN+"grouped_minilm.csv"),
@@ -127,9 +127,9 @@ class GroupedEvaluation:
 
 
 def efficiency_effects(audit):
-    path = ROOT / "results" / "run_1" / "data_efficiency.json"
+    path = ROOT / "results" / "review_run_1" / "data_efficiency.json"
     rows = json.loads(path.read_text(encoding="utf-8"))["runs"]
-    paths = {(row["fraction"], row["method"], row["seed"]): "results/run_1/" + row["prediction_file"] for row in rows}
+    paths = {(row["fraction"], row["method"], row["seed"]): "results/review_run_1/" + row["prediction_file"] for row in rows}
     seeds = sorted({row["seed"] for row in rows})
     saved = {}
 
