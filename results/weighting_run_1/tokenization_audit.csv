@@ -1,0 +1,2859 @@
+id,split,gold,question_wordpieces,answer_wordpieces,answer_wordpiece_budget,truncated
+qevasion-train-0000,train,Clear Reply,20,461,233,True
+qevasion-train-0001,train,Ambivalent,23,461,230,True
+qevasion-train-0002,train,Ambivalent,34,292,219,True
+qevasion-train-0003,train,Ambivalent,28,292,225,True
+qevasion-train-0004,train,Clear Reply,18,591,235,True
+qevasion-train-0005,train,Ambivalent,9,591,244,True
+qevasion-train-0006,train,Ambivalent,9,591,244,True
+qevasion-train-0007,train,Ambivalent,10,1533,243,True
+qevasion-train-0008,train,Clear Reply,33,369,220,True
+qevasion-train-0009,train,Clear Reply,51,369,202,True
+qevasion-train-0010,train,Clear Non-Reply,8,101,245,False
+qevasion-train-0011,train,Ambivalent,16,25,237,False
+qevasion-train-0012,validation,Clear Reply,22,1005,231,True
+qevasion-train-0013,validation,Ambivalent,21,1005,232,True
+qevasion-train-0014,validation,Ambivalent,37,1005,216,True
+qevasion-train-0015,validation,Ambivalent,10,8,243,False
+qevasion-train-0016,train,Clear Reply,19,120,234,False
+qevasion-train-0017,train,Clear Reply,23,244,230,True
+qevasion-train-0018,train,Ambivalent,17,211,236,False
+qevasion-train-0019,train,Ambivalent,10,211,243,False
+qevasion-train-0020,train,Ambivalent,12,211,241,False
+qevasion-train-0021,train,Ambivalent,19,52,234,False
+qevasion-train-0022,train,Ambivalent,16,103,237,False
+qevasion-train-0023,train,Ambivalent,3,162,250,False
+qevasion-train-0024,train,Clear Reply,27,244,226,True
+qevasion-train-0025,train,Clear Non-Reply,22,244,231,True
+qevasion-train-0026,train,Ambivalent,18,228,235,False
+qevasion-train-0027,train,Ambivalent,17,228,236,False
+qevasion-train-0028,train,Ambivalent,22,117,231,False
+qevasion-train-0029,train,Ambivalent,21,117,232,False
+qevasion-train-0030,train,Clear Reply,21,177,232,False
+qevasion-train-0031,train,Clear Non-Reply,31,177,222,False
+qevasion-train-0032,train,Ambivalent,27,220,226,False
+qevasion-train-0033,train,Clear Reply,22,1015,231,True
+qevasion-train-0034,train,Clear Reply,19,1015,234,True
+qevasion-train-0035,train,Ambivalent,28,1015,225,True
+qevasion-train-0036,train,Ambivalent,16,1015,237,True
+qevasion-train-0037,train,Ambivalent,39,15,214,False
+qevasion-train-0038,train,Ambivalent,40,15,213,False
+qevasion-train-0039,train,Ambivalent,25,15,228,False
+qevasion-train-0040,train,Clear Reply,29,1406,224,True
+qevasion-train-0041,train,Ambivalent,6,11,247,False
+qevasion-train-0042,train,Clear Reply,22,47,231,False
+qevasion-train-0043,train,Ambivalent,19,47,234,False
+qevasion-train-0044,train,Clear Reply,15,713,238,True
+qevasion-train-0045,train,Ambivalent,14,713,239,True
+qevasion-train-0046,train,Clear Reply,15,840,238,True
+qevasion-train-0047,train,Clear Non-Reply,23,73,230,False
+qevasion-train-0048,train,Ambivalent,23,73,230,False
+qevasion-train-0049,train,Clear Reply,15,168,238,False
+qevasion-train-0050,train,Clear Reply,21,63,232,False
+qevasion-train-0051,train,Ambivalent,10,5,243,False
+qevasion-train-0052,train,Ambivalent,17,35,236,False
+qevasion-train-0053,train,Ambivalent,16,35,237,False
+qevasion-train-0054,train,Ambivalent,7,35,246,False
+qevasion-train-0055,train,Ambivalent,25,31,228,False
+qevasion-train-0056,train,Ambivalent,25,31,228,False
+qevasion-train-0057,train,Ambivalent,22,31,231,False
+qevasion-train-0058,train,Clear Reply,9,77,244,False
+qevasion-train-0059,train,Clear Reply,16,673,237,True
+qevasion-train-0060,train,Clear Reply,20,673,233,True
+qevasion-train-0061,train,Clear Reply,10,194,243,False
+qevasion-train-0062,train,Ambivalent,11,194,242,False
+qevasion-train-0063,train,Ambivalent,10,73,243,False
+qevasion-train-0064,train,Ambivalent,24,73,229,False
+qevasion-train-0065,train,Clear Reply,36,606,217,True
+qevasion-train-0066,train,Ambivalent,24,606,229,True
+qevasion-train-0067,train,Clear Reply,16,562,237,True
+qevasion-train-0068,train,Ambivalent,28,562,225,True
+qevasion-train-0069,train,Ambivalent,26,562,227,True
+qevasion-train-0070,train,Clear Reply,10,229,243,False
+qevasion-train-0071,train,Clear Reply,15,229,238,False
+qevasion-train-0072,train,Clear Reply,6,300,247,True
+qevasion-train-0073,train,Ambivalent,5,300,248,True
+qevasion-train-0074,train,Ambivalent,12,300,241,True
+qevasion-train-0075,train,Ambivalent,8,7,245,False
+qevasion-train-0076,train,Ambivalent,12,7,241,False
+qevasion-train-0077,train,Ambivalent,14,7,239,False
+qevasion-train-0078,train,Ambivalent,28,2115,225,True
+qevasion-train-0079,train,Ambivalent,18,2115,235,True
+qevasion-train-0080,train,Ambivalent,19,2115,234,True
+qevasion-train-0081,train,Ambivalent,17,2115,236,True
+qevasion-train-0082,train,Ambivalent,9,2115,244,True
+qevasion-train-0083,train,Ambivalent,13,2115,240,True
+qevasion-train-0084,train,Clear Reply,5,1102,248,True
+qevasion-train-0085,train,Ambivalent,3,1102,250,True
+qevasion-train-0086,train,Clear Reply,46,399,207,True
+qevasion-train-0087,train,Clear Non-Reply,39,399,214,True
+qevasion-train-0088,train,Ambivalent,20,934,233,True
+qevasion-train-0089,train,Ambivalent,11,934,242,True
+qevasion-train-0090,train,Ambivalent,9,934,244,True
+qevasion-train-0091,train,Clear Reply,13,559,240,True
+qevasion-train-0092,train,Ambivalent,18,559,235,True
+qevasion-train-0093,train,Ambivalent,10,934,243,True
+qevasion-train-0094,train,Ambivalent,27,934,226,True
+qevasion-train-0095,train,Clear Reply,10,273,243,True
+qevasion-train-0096,train,Clear Reply,15,273,238,True
+qevasion-train-0097,train,Ambivalent,16,273,237,True
+qevasion-train-0098,train,Ambivalent,17,5,236,False
+qevasion-train-0099,train,Ambivalent,21,5,232,False
+qevasion-train-0100,train,Ambivalent,18,44,235,False
+qevasion-train-0101,train,Clear Non-Reply,18,44,235,False
+qevasion-train-0102,validation,Clear Reply,39,702,214,True
+qevasion-train-0103,validation,Clear Non-Reply,5,185,248,False
+qevasion-train-0104,validation,Ambivalent,15,185,238,False
+qevasion-train-0105,train,Clear Reply,9,137,244,False
+qevasion-train-0106,train,Ambivalent,12,137,241,False
+qevasion-train-0107,train,Ambivalent,21,1388,232,True
+qevasion-train-0108,train,Clear Reply,17,1388,236,True
+qevasion-train-0109,train,Clear Reply,6,79,247,False
+qevasion-train-0110,train,Clear Reply,10,79,243,False
+qevasion-train-0111,train,Ambivalent,6,79,247,False
+qevasion-train-0112,train,Ambivalent,9,45,244,False
+qevasion-train-0113,train,Ambivalent,13,45,240,False
+qevasion-train-0114,train,Clear Reply,11,257,242,True
+qevasion-train-0115,train,Clear Non-Reply,20,590,233,True
+qevasion-train-0116,train,Ambivalent,21,590,232,True
+qevasion-train-0117,validation,Ambivalent,15,111,238,False
+qevasion-train-0118,validation,Clear Reply,7,42,246,False
+qevasion-train-0119,validation,Ambivalent,5,42,248,False
+qevasion-train-0120,validation,Ambivalent,5,42,248,False
+qevasion-train-0121,validation,Ambivalent,10,223,243,False
+qevasion-train-0122,validation,Ambivalent,14,185,239,False
+qevasion-train-0123,validation,Ambivalent,9,721,244,True
+qevasion-train-0124,validation,Ambivalent,14,721,239,True
+qevasion-train-0125,validation,Clear Reply,10,52,243,False
+qevasion-train-0126,validation,Ambivalent,6,52,247,False
+qevasion-train-0127,validation,Clear Non-Reply,13,80,240,False
+qevasion-train-0128,validation,Ambivalent,7,80,246,False
+qevasion-train-0129,validation,Clear Reply,8,740,245,True
+qevasion-train-0130,validation,Clear Reply,18,740,235,True
+qevasion-train-0131,validation,Ambivalent,33,740,220,True
+qevasion-train-0132,validation,Ambivalent,22,887,231,True
+qevasion-train-0133,validation,Ambivalent,21,316,232,True
+qevasion-train-0134,validation,Clear Reply,17,316,236,True
+qevasion-train-0135,validation,Ambivalent,10,316,243,True
+qevasion-train-0136,validation,Ambivalent,18,68,235,False
+qevasion-train-0137,validation,Ambivalent,30,68,223,False
+qevasion-train-0138,validation,Ambivalent,11,292,242,True
+qevasion-train-0139,validation,Clear Reply,23,5,230,False
+qevasion-train-0140,validation,Ambivalent,24,5,229,False
+qevasion-train-0141,validation,Clear Reply,7,5,246,False
+qevasion-train-0142,validation,Ambivalent,20,25,233,False
+qevasion-train-0143,validation,Ambivalent,9,25,244,False
+qevasion-train-0144,validation,Clear Reply,16,52,237,False
+qevasion-train-0145,validation,Ambivalent,12,52,241,False
+qevasion-train-0146,validation,Clear Reply,18,191,235,False
+qevasion-train-0147,validation,Ambivalent,43,191,210,False
+qevasion-train-0148,train,Ambivalent,54,274,199,True
+qevasion-train-0149,train,Clear Non-Reply,19,20,234,False
+qevasion-train-0150,train,Clear Non-Reply,19,20,234,False
+qevasion-train-0151,train,Clear Reply,6,572,247,True
+qevasion-train-0152,train,Ambivalent,22,572,231,True
+qevasion-train-0153,train,Ambivalent,9,103,244,False
+qevasion-train-0154,train,Ambivalent,16,345,237,True
+qevasion-train-0155,train,Ambivalent,18,345,235,True
+qevasion-train-0156,train,Clear Reply,22,127,231,False
+qevasion-train-0157,train,Ambivalent,17,235,236,False
+qevasion-train-0158,train,Clear Non-Reply,15,235,238,False
+qevasion-train-0159,train,Clear Reply,20,2,233,False
+qevasion-train-0160,train,Ambivalent,15,2,238,False
+qevasion-train-0161,train,Clear Reply,18,123,235,False
+qevasion-train-0162,train,Clear Reply,17,15,236,False
+qevasion-train-0163,train,Clear Reply,21,2,232,False
+qevasion-train-0164,train,Clear Reply,13,568,240,True
+qevasion-train-0165,train,Ambivalent,15,568,238,True
+qevasion-train-0166,train,Ambivalent,33,161,220,False
+qevasion-train-0167,train,Ambivalent,19,77,234,False
+qevasion-train-0168,train,Ambivalent,16,77,237,False
+qevasion-train-0169,train,Clear Non-Reply,17,179,236,False
+qevasion-train-0170,train,Clear Non-Reply,33,179,220,False
+qevasion-train-0171,train,Ambivalent,19,67,234,False
+qevasion-train-0172,train,Clear Non-Reply,26,67,227,False
+qevasion-train-0173,train,Clear Non-Reply,22,96,231,False
+qevasion-train-0174,train,Clear Non-Reply,13,96,240,False
+qevasion-train-0175,train,Clear Reply,26,4,227,False
+qevasion-train-0176,train,Clear Reply,22,4,231,False
+qevasion-train-0177,train,Clear Non-Reply,19,38,234,False
+qevasion-train-0178,train,Ambivalent,6,38,247,False
+qevasion-train-0179,train,Clear Reply,35,335,218,True
+qevasion-train-0180,train,Ambivalent,20,118,233,False
+qevasion-train-0181,train,Ambivalent,18,19,235,False
+qevasion-train-0182,train,Clear Reply,28,50,225,False
+qevasion-train-0183,train,Clear Reply,17,50,236,False
+qevasion-train-0184,train,Ambivalent,31,50,222,False
+qevasion-train-0185,train,Clear Reply,28,237,225,True
+qevasion-train-0186,train,Ambivalent,27,237,226,True
+qevasion-train-0187,train,Clear Reply,10,364,243,True
+qevasion-train-0188,train,Clear Non-Reply,30,364,223,True
+qevasion-train-0189,train,Clear Non-Reply,18,364,235,True
+qevasion-train-0190,train,Ambivalent,12,73,241,False
+qevasion-train-0191,train,Ambivalent,11,73,242,False
+qevasion-train-0192,train,Clear Non-Reply,16,242,237,True
+qevasion-train-0193,train,Ambivalent,28,242,225,True
+qevasion-train-0194,train,Clear Reply,11,96,242,False
+qevasion-train-0195,train,Clear Reply,8,383,245,True
+qevasion-train-0196,train,Ambivalent,21,383,232,True
+qevasion-train-0197,train,Ambivalent,19,383,234,True
+qevasion-train-0198,train,Clear Reply,15,2,238,False
+qevasion-train-0199,train,Clear Reply,18,5,235,False
+qevasion-train-0200,train,Clear Reply,20,1108,233,True
+qevasion-train-0201,train,Ambivalent,11,1108,242,True
+qevasion-train-0202,train,Clear Reply,20,1108,233,True
+qevasion-train-0203,train,Ambivalent,11,1108,242,True
+qevasion-train-0204,train,Clear Reply,19,290,234,True
+qevasion-train-0205,train,Clear Reply,20,279,233,True
+qevasion-train-0206,train,Ambivalent,38,188,215,False
+qevasion-train-0207,train,Ambivalent,28,250,225,True
+qevasion-train-0208,train,Clear Reply,15,425,238,True
+qevasion-train-0209,train,Ambivalent,16,425,237,True
+qevasion-train-0210,train,Ambivalent,23,863,230,True
+qevasion-train-0211,train,Ambivalent,22,863,231,True
+qevasion-train-0212,train,Clear Reply,15,501,238,True
+qevasion-train-0213,train,Ambivalent,19,501,234,True
+qevasion-train-0214,train,Clear Non-Reply,16,501,237,True
+qevasion-train-0215,train,Clear Reply,6,109,247,False
+qevasion-train-0216,train,Clear Reply,15,109,238,False
+qevasion-train-0217,train,Clear Reply,14,109,239,False
+qevasion-train-0218,train,Ambivalent,45,917,208,True
+qevasion-train-0219,train,Ambivalent,63,917,190,True
+qevasion-train-0220,train,Clear Reply,12,614,241,True
+qevasion-train-0221,train,Ambivalent,33,614,220,True
+qevasion-train-0222,train,Clear Non-Reply,11,16,242,False
+qevasion-train-0223,train,Clear Non-Reply,49,397,204,True
+qevasion-train-0224,train,Ambivalent,19,397,234,True
+qevasion-train-0225,train,Clear Reply,19,100,234,False
+qevasion-train-0226,train,Ambivalent,22,100,231,False
+qevasion-train-0227,train,Clear Reply,10,47,243,False
+qevasion-train-0228,train,Clear Non-Reply,25,5,228,False
+qevasion-train-0229,train,Clear Non-Reply,18,5,235,False
+qevasion-train-0230,train,Clear Non-Reply,24,436,229,True
+qevasion-train-0231,train,Clear Reply,17,588,236,True
+qevasion-train-0232,train,Clear Reply,13,5,240,False
+qevasion-train-0233,train,Clear Reply,23,5,230,False
+qevasion-train-0234,train,Clear Non-Reply,14,3,239,False
+qevasion-train-0235,train,Clear Reply,13,276,240,True
+qevasion-train-0236,train,Ambivalent,14,276,239,True
+qevasion-train-0237,train,Clear Reply,12,347,241,True
+qevasion-train-0238,train,Clear Reply,14,433,239,True
+qevasion-train-0239,train,Ambivalent,20,200,233,False
+qevasion-train-0240,train,Clear Reply,15,32,238,False
+qevasion-train-0241,train,Clear Reply,18,153,235,False
+qevasion-train-0242,train,Ambivalent,8,72,245,False
+qevasion-train-0243,train,Clear Reply,3,2,250,False
+qevasion-train-0244,train,Clear Reply,9,48,244,False
+qevasion-train-0245,train,Ambivalent,12,48,241,False
+qevasion-train-0246,train,Ambivalent,11,38,242,False
+qevasion-train-0247,train,Clear Non-Reply,18,38,235,False
+qevasion-train-0248,train,Ambivalent,14,38,239,False
+qevasion-train-0249,train,Clear Reply,16,341,237,True
+qevasion-train-0250,train,Clear Reply,25,341,228,True
+qevasion-train-0251,train,Ambivalent,24,354,229,True
+qevasion-train-0252,train,Ambivalent,15,354,238,True
+qevasion-train-0253,train,Ambivalent,39,8,214,False
+qevasion-train-0254,train,Clear Reply,15,144,238,False
+qevasion-train-0255,train,Clear Non-Reply,11,144,242,False
+qevasion-train-0256,train,Ambivalent,25,683,228,True
+qevasion-train-0257,train,Ambivalent,24,683,229,True
+qevasion-train-0258,train,Clear Reply,31,612,222,True
+qevasion-train-0259,train,Ambivalent,24,612,229,True
+qevasion-train-0260,train,Ambivalent,23,681,230,True
+qevasion-train-0261,train,Ambivalent,54,358,199,True
+qevasion-train-0262,train,Ambivalent,23,398,230,True
+qevasion-train-0263,train,Ambivalent,32,398,221,True
+qevasion-train-0264,train,Clear Reply,21,572,232,True
+qevasion-train-0265,train,Clear Reply,40,572,213,True
+qevasion-train-0266,train,Clear Reply,10,405,243,True
+qevasion-train-0267,train,Clear Reply,11,405,242,True
+qevasion-train-0268,train,Clear Reply,9,405,244,True
+qevasion-train-0269,train,Clear Non-Reply,47,175,206,False
+qevasion-train-0270,train,Ambivalent,47,175,206,False
+qevasion-train-0271,train,Clear Reply,18,464,235,True
+qevasion-train-0272,train,Clear Reply,15,464,238,True
+qevasion-train-0273,train,Clear Reply,19,1026,234,True
+qevasion-train-0274,train,Ambivalent,33,1026,220,True
+qevasion-train-0275,train,Clear Reply,26,1026,227,True
+qevasion-train-0276,train,Clear Reply,45,444,208,True
+qevasion-train-0277,train,Clear Reply,40,444,213,True
+qevasion-train-0278,train,Clear Reply,31,402,222,True
+qevasion-train-0279,train,Ambivalent,15,402,238,True
+qevasion-train-0280,train,Clear Reply,30,229,223,True
+qevasion-train-0281,train,Clear Reply,23,609,230,True
+qevasion-train-0282,train,Clear Reply,10,609,243,True
+qevasion-train-0283,train,Ambivalent,36,251,217,True
+qevasion-train-0284,train,Ambivalent,30,251,223,True
+qevasion-train-0285,train,Clear Reply,22,361,231,True
+qevasion-train-0286,train,Ambivalent,12,787,241,True
+qevasion-train-0287,train,Ambivalent,32,787,221,True
+qevasion-train-0288,train,Ambivalent,5,1108,248,True
+qevasion-train-0289,train,Ambivalent,11,1108,242,True
+qevasion-train-0290,train,Ambivalent,11,1108,242,True
+qevasion-train-0291,train,Clear Non-Reply,47,273,206,True
+qevasion-train-0292,train,Ambivalent,28,273,225,True
+qevasion-train-0293,train,Ambivalent,9,336,244,True
+qevasion-train-0294,train,Ambivalent,21,336,232,True
+qevasion-train-0295,train,Ambivalent,14,568,239,True
+qevasion-train-0296,train,Ambivalent,16,68,237,False
+qevasion-train-0297,train,Ambivalent,11,68,242,False
+qevasion-train-0298,train,Clear Reply,15,2,238,False
+qevasion-train-0299,train,Ambivalent,8,2,245,False
+qevasion-train-0300,train,Clear Reply,12,395,241,True
+qevasion-train-0301,train,Clear Reply,7,177,246,False
+qevasion-train-0302,train,Ambivalent,25,133,228,False
+qevasion-train-0303,train,Ambivalent,25,260,228,True
+qevasion-train-0304,train,Ambivalent,13,260,240,True
+qevasion-train-0305,train,Clear Reply,5,11,248,False
+qevasion-train-0306,train,Clear Reply,26,113,227,False
+qevasion-train-0307,train,Clear Reply,13,15,240,False
+qevasion-train-0308,train,Clear Non-Reply,14,15,239,False
+qevasion-train-0309,train,Ambivalent,18,127,235,False
+qevasion-train-0310,train,Ambivalent,22,438,231,True
+qevasion-train-0311,train,Ambivalent,36,8,217,False
+qevasion-train-0312,train,Ambivalent,41,8,212,False
+qevasion-train-0313,train,Clear Reply,2,11,251,False
+qevasion-train-0314,train,Ambivalent,15,27,238,False
+qevasion-train-0315,train,Clear Non-Reply,10,294,243,True
+qevasion-train-0316,train,Ambivalent,20,294,233,True
+qevasion-train-0317,train,Ambivalent,21,7,232,False
+qevasion-train-0318,train,Clear Reply,14,179,239,False
+qevasion-train-0319,train,Ambivalent,11,179,242,False
+qevasion-train-0320,train,Clear Reply,22,923,231,True
+qevasion-train-0321,train,Clear Reply,35,489,218,True
+qevasion-train-0322,train,Ambivalent,22,489,231,True
+qevasion-train-0323,train,Clear Reply,13,583,240,True
+qevasion-train-0324,train,Ambivalent,33,583,220,True
+qevasion-train-0325,train,Clear Reply,13,2,240,False
+qevasion-train-0326,train,Clear Reply,4,52,249,False
+qevasion-train-0327,train,Clear Reply,12,248,241,True
+qevasion-train-0328,train,Clear Non-Reply,14,589,239,True
+qevasion-train-0329,train,Clear Non-Reply,13,589,240,True
+qevasion-train-0330,train,Ambivalent,9,589,244,True
+qevasion-train-0331,train,Ambivalent,40,402,213,True
+qevasion-train-0332,train,Ambivalent,18,8,235,False
+qevasion-train-0333,train,Clear Reply,41,96,212,False
+qevasion-train-0334,train,Clear Reply,8,264,245,True
+qevasion-train-0335,train,Ambivalent,13,264,240,True
+qevasion-train-0336,train,Clear Reply,15,563,238,True
+qevasion-train-0337,train,Ambivalent,20,563,233,True
+qevasion-train-0338,train,Clear Reply,10,563,243,True
+qevasion-train-0339,train,Ambivalent,15,563,238,True
+qevasion-train-0340,train,Clear Reply,7,713,246,True
+qevasion-train-0341,train,Ambivalent,13,17,240,False
+qevasion-train-0342,train,Clear Non-Reply,14,23,239,False
+qevasion-train-0343,validation,Clear Reply,11,1348,242,True
+qevasion-train-0344,validation,Clear Reply,22,1348,231,True
+qevasion-train-0345,validation,Ambivalent,25,1348,228,True
+qevasion-train-0346,validation,Ambivalent,21,1348,232,True
+qevasion-train-0347,validation,Ambivalent,25,1348,228,True
+qevasion-train-0348,validation,Ambivalent,15,1348,238,True
+qevasion-train-0349,validation,Clear Reply,21,200,232,False
+qevasion-train-0350,validation,Clear Reply,21,252,232,True
+qevasion-train-0351,validation,Clear Reply,10,252,243,True
+qevasion-train-0352,validation,Ambivalent,11,252,242,True
+qevasion-train-0353,train,Clear Reply,36,182,217,False
+qevasion-train-0354,train,Ambivalent,27,41,226,False
+qevasion-train-0355,train,Clear Reply,10,41,243,False
+qevasion-train-0356,train,Clear Reply,6,2,247,False
+qevasion-train-0357,train,Clear Reply,17,475,236,True
+qevasion-train-0358,train,Ambivalent,19,412,234,True
+qevasion-train-0359,train,Clear Reply,18,148,235,False
+qevasion-train-0360,train,Ambivalent,22,501,231,True
+qevasion-train-0361,train,Ambivalent,17,50,236,False
+qevasion-train-0362,train,Ambivalent,6,50,247,False
+qevasion-train-0363,train,Clear Reply,7,123,246,False
+qevasion-train-0364,train,Clear Reply,8,123,245,False
+qevasion-train-0365,train,Ambivalent,6,123,247,False
+qevasion-train-0366,train,Ambivalent,15,285,238,True
+qevasion-train-0367,train,Clear Reply,13,111,240,False
+qevasion-train-0368,train,Ambivalent,13,111,240,False
+qevasion-train-0369,train,Clear Non-Reply,10,10,243,False
+qevasion-train-0370,train,Clear Non-Reply,9,10,244,False
+qevasion-train-0371,train,Ambivalent,9,10,244,False
+qevasion-train-0372,train,Ambivalent,17,131,236,False
+qevasion-train-0373,train,Ambivalent,9,101,244,False
+qevasion-train-0374,train,Ambivalent,13,101,240,False
+qevasion-train-0375,train,Clear Reply,11,24,242,False
+qevasion-train-0376,train,Ambivalent,9,24,244,False
+qevasion-train-0377,train,Clear Reply,13,26,240,False
+qevasion-train-0378,train,Ambivalent,9,73,244,False
+qevasion-train-0379,train,Clear Reply,6,73,247,False
+qevasion-train-0380,train,Clear Non-Reply,20,18,233,False
+qevasion-train-0381,train,Clear Non-Reply,13,52,240,False
+qevasion-train-0382,train,Clear Reply,13,32,240,False
+qevasion-train-0383,train,Ambivalent,18,1330,235,True
+qevasion-train-0384,train,Ambivalent,11,1330,242,True
+qevasion-train-0385,train,Ambivalent,18,1330,235,True
+qevasion-train-0386,train,Clear Reply,16,361,237,True
+qevasion-train-0387,train,Ambivalent,30,511,223,True
+qevasion-train-0388,train,Clear Reply,35,75,218,False
+qevasion-train-0389,train,Clear Reply,13,227,240,False
+qevasion-train-0390,train,Ambivalent,30,529,223,True
+qevasion-train-0391,train,Clear Reply,23,262,230,True
+qevasion-train-0392,train,Clear Reply,6,262,247,True
+qevasion-train-0393,train,Ambivalent,10,76,243,False
+qevasion-train-0394,train,Ambivalent,7,76,246,False
+qevasion-train-0395,train,Ambivalent,9,379,244,True
+qevasion-train-0396,train,Clear Reply,9,11,244,False
+qevasion-train-0397,train,Clear Reply,13,473,240,True
+qevasion-train-0398,train,Clear Reply,12,473,241,True
+qevasion-train-0399,train,Clear Reply,37,353,216,True
+qevasion-train-0400,train,Ambivalent,8,59,245,False
+qevasion-train-0401,train,Clear Non-Reply,6,11,247,False
+qevasion-train-0402,train,Clear Reply,13,22,240,False
+qevasion-train-0403,train,Clear Reply,8,22,245,False
+qevasion-train-0404,train,Clear Reply,9,22,244,False
+qevasion-train-0405,train,Ambivalent,9,229,244,False
+qevasion-train-0406,train,Ambivalent,24,161,229,False
+qevasion-train-0407,train,Ambivalent,4,22,249,False
+qevasion-train-0408,train,Clear Reply,6,9,247,False
+qevasion-train-0409,train,Ambivalent,6,158,247,False
+qevasion-train-0410,train,Ambivalent,6,158,247,False
+qevasion-train-0411,train,Ambivalent,6,158,247,False
+qevasion-train-0412,train,Ambivalent,7,158,246,False
+qevasion-train-0413,train,Ambivalent,2,17,251,False
+qevasion-train-0414,train,Ambivalent,29,169,224,False
+qevasion-train-0415,train,Ambivalent,12,169,241,False
+qevasion-train-0416,train,Ambivalent,38,957,215,True
+qevasion-train-0417,train,Ambivalent,7,7,246,False
+qevasion-train-0418,train,Ambivalent,7,7,246,False
+qevasion-train-0419,train,Ambivalent,8,23,245,False
+qevasion-train-0420,train,Clear Reply,11,194,242,False
+qevasion-train-0421,train,Ambivalent,8,194,245,False
+qevasion-train-0422,train,Ambivalent,12,14,241,False
+qevasion-train-0423,train,Ambivalent,10,14,243,False
+qevasion-train-0424,train,Clear Reply,20,5,233,False
+qevasion-train-0425,train,Ambivalent,11,5,242,False
+qevasion-train-0426,train,Ambivalent,15,5,238,False
+qevasion-train-0427,train,Clear Reply,25,100,228,False
+qevasion-train-0428,train,Clear Non-Reply,13,100,240,False
+qevasion-train-0429,train,Clear Non-Reply,1,3,252,False
+qevasion-train-0430,train,Ambivalent,20,72,233,False
+qevasion-train-0431,train,Ambivalent,24,72,229,False
+qevasion-train-0432,train,Ambivalent,13,216,240,False
+qevasion-train-0433,train,Ambivalent,5,44,248,False
+qevasion-train-0434,train,Ambivalent,5,44,248,False
+qevasion-train-0435,train,Ambivalent,28,362,225,True
+qevasion-train-0436,train,Clear Reply,9,142,244,False
+qevasion-train-0437,train,Ambivalent,20,42,233,False
+qevasion-train-0438,train,Ambivalent,8,96,245,False
+qevasion-train-0439,train,Clear Reply,17,651,236,True
+qevasion-train-0440,train,Ambivalent,15,651,238,True
+qevasion-train-0441,train,Clear Reply,17,235,236,False
+qevasion-train-0442,train,Ambivalent,9,235,244,False
+qevasion-train-0443,train,Clear Reply,21,1043,232,True
+qevasion-train-0444,train,Ambivalent,11,1043,242,True
+qevasion-train-0445,train,Ambivalent,16,1043,237,True
+qevasion-train-0446,train,Ambivalent,29,530,224,True
+qevasion-train-0447,train,Clear Non-Reply,14,16,239,False
+qevasion-train-0448,train,Clear Non-Reply,17,3,236,False
+qevasion-train-0449,train,Clear Non-Reply,17,3,236,False
+qevasion-train-0450,train,Clear Non-Reply,4,21,249,False
+qevasion-train-0451,train,Clear Non-Reply,3,21,250,False
+qevasion-train-0452,train,Ambivalent,7,107,246,False
+qevasion-train-0453,train,Clear Reply,3,45,250,False
+qevasion-train-0454,train,Clear Reply,8,45,245,False
+qevasion-train-0455,train,Ambivalent,8,45,245,False
+qevasion-train-0456,train,Ambivalent,9,212,244,False
+qevasion-train-0457,train,Ambivalent,11,212,242,False
+qevasion-train-0458,train,Clear Reply,6,96,247,False
+qevasion-train-0459,train,Ambivalent,18,58,235,False
+qevasion-train-0460,train,Ambivalent,18,58,235,False
+qevasion-train-0461,train,Ambivalent,50,81,203,False
+qevasion-train-0462,train,Clear Non-Reply,12,119,241,False
+qevasion-train-0463,train,Clear Non-Reply,4,116,249,False
+qevasion-train-0464,train,Ambivalent,8,116,245,False
+qevasion-train-0465,train,Ambivalent,9,113,244,False
+qevasion-train-0466,train,Ambivalent,16,808,237,True
+qevasion-train-0467,train,Clear Reply,5,12,248,False
+qevasion-train-0468,train,Clear Reply,11,1050,242,True
+qevasion-train-0469,train,Clear Non-Reply,20,12,233,False
+qevasion-train-0470,train,Ambivalent,10,2,243,False
+qevasion-train-0471,train,Clear Non-Reply,29,112,224,False
+qevasion-train-0472,train,Clear Reply,6,4,247,False
+qevasion-train-0473,train,Clear Reply,22,17,231,False
+qevasion-train-0474,train,Clear Reply,12,2,241,False
+qevasion-train-0475,train,Clear Reply,12,76,241,False
+qevasion-train-0476,train,Clear Reply,4,3,249,False
+qevasion-train-0477,train,Clear Reply,6,3,247,False
+qevasion-train-0478,train,Clear Reply,11,138,242,False
+qevasion-train-0479,train,Clear Reply,11,293,242,True
+qevasion-train-0480,train,Ambivalent,11,293,242,True
+qevasion-train-0481,train,Ambivalent,9,20,244,False
+qevasion-train-0482,validation,Clear Reply,11,193,242,False
+qevasion-train-0483,validation,Clear Non-Reply,42,217,211,True
+qevasion-train-0484,validation,Clear Reply,10,209,243,False
+qevasion-train-0485,validation,Clear Reply,5,209,248,False
+qevasion-train-0486,validation,Ambivalent,8,41,245,False
+qevasion-train-0487,validation,Clear Reply,12,134,241,False
+qevasion-train-0488,validation,Clear Reply,7,25,246,False
+qevasion-train-0489,validation,Ambivalent,23,173,230,False
+qevasion-train-0490,validation,Ambivalent,10,173,243,False
+qevasion-train-0491,validation,Clear Reply,9,36,244,False
+qevasion-train-0492,validation,Clear Reply,7,22,246,False
+qevasion-train-0493,validation,Ambivalent,26,22,227,False
+qevasion-train-0494,validation,Ambivalent,12,513,241,True
+qevasion-train-0495,validation,Ambivalent,8,206,245,False
+qevasion-train-0496,train,Clear Reply,29,121,224,False
+qevasion-train-0497,train,Ambivalent,12,75,241,False
+qevasion-train-0498,train,Clear Reply,9,155,244,False
+qevasion-train-0499,train,Ambivalent,17,38,236,False
+qevasion-train-0500,train,Ambivalent,17,98,236,False
+qevasion-train-0501,train,Clear Reply,20,156,233,False
+qevasion-train-0502,train,Ambivalent,19,156,234,False
+qevasion-train-0503,train,Clear Non-Reply,12,281,241,True
+qevasion-train-0504,train,Clear Non-Reply,15,281,238,True
+qevasion-train-0505,train,Clear Non-Reply,26,275,227,True
+qevasion-train-0506,train,Clear Non-Reply,24,99,229,False
+qevasion-train-0507,train,Ambivalent,7,30,246,False
+qevasion-train-0508,train,Clear Reply,9,202,244,False
+qevasion-train-0509,train,Ambivalent,8,202,245,False
+qevasion-train-0510,train,Ambivalent,9,202,244,False
+qevasion-train-0511,train,Ambivalent,5,853,248,True
+qevasion-train-0512,train,Ambivalent,6,853,247,True
+qevasion-train-0513,train,Ambivalent,1,853,252,True
+qevasion-train-0514,train,Clear Reply,14,78,239,False
+qevasion-train-0515,train,Clear Reply,12,31,241,False
+qevasion-train-0516,train,Clear Reply,5,11,248,False
+qevasion-train-0517,train,Clear Reply,7,280,246,True
+qevasion-train-0518,train,Ambivalent,4,280,249,True
+qevasion-train-0519,train,Ambivalent,23,727,230,True
+qevasion-train-0520,train,Clear Reply,10,47,243,False
+qevasion-train-0521,train,Ambivalent,6,250,247,True
+qevasion-train-0522,train,Ambivalent,8,205,245,False
+qevasion-train-0523,train,Clear Reply,49,457,204,True
+qevasion-train-0524,train,Ambivalent,14,122,239,False
+qevasion-train-0525,train,Clear Reply,12,8,241,False
+qevasion-train-0526,train,Ambivalent,13,48,240,False
+qevasion-train-0527,train,Ambivalent,8,85,245,False
+qevasion-train-0528,train,Clear Reply,15,199,238,False
+qevasion-train-0529,train,Ambivalent,43,91,210,False
+qevasion-train-0530,train,Clear Non-Reply,24,91,229,False
+qevasion-train-0531,train,Ambivalent,26,321,227,True
+qevasion-train-0532,train,Clear Reply,4,481,249,True
+qevasion-train-0533,train,Clear Reply,12,10,241,False
+qevasion-train-0534,train,Clear Reply,20,29,233,False
+qevasion-train-0535,train,Ambivalent,37,256,216,True
+qevasion-train-0536,train,Clear Reply,18,248,235,True
+qevasion-train-0537,train,Ambivalent,15,248,238,True
+qevasion-train-0538,train,Clear Reply,10,2,243,False
+qevasion-train-0539,train,Clear Reply,8,12,245,False
+qevasion-train-0540,train,Clear Reply,27,251,226,True
+qevasion-train-0541,train,Clear Reply,30,251,223,True
+qevasion-train-0542,train,Ambivalent,11,199,242,False
+qevasion-train-0543,train,Ambivalent,16,362,237,True
+qevasion-train-0544,train,Clear Reply,18,174,235,False
+qevasion-train-0545,train,Ambivalent,31,174,222,False
+qevasion-train-0546,train,Ambivalent,8,296,245,True
+qevasion-train-0547,train,Ambivalent,10,41,243,False
+qevasion-train-0548,train,Clear Reply,10,28,243,False
+qevasion-train-0549,validation,Ambivalent,11,556,242,True
+qevasion-train-0550,validation,Ambivalent,10,556,243,True
+qevasion-train-0551,validation,Clear Non-Reply,17,556,236,True
+qevasion-train-0552,validation,Ambivalent,5,178,248,False
+qevasion-train-0553,train,Ambivalent,7,500,246,True
+qevasion-train-0554,train,Ambivalent,17,148,236,False
+qevasion-train-0555,train,Ambivalent,25,148,228,False
+qevasion-train-0556,train,Clear Non-Reply,9,218,244,False
+qevasion-train-0557,train,Ambivalent,32,394,221,True
+qevasion-train-0558,train,Clear Non-Reply,20,55,233,False
+qevasion-train-0559,train,Ambivalent,12,40,241,False
+qevasion-train-0560,train,Ambivalent,19,381,234,True
+qevasion-train-0561,train,Clear Non-Reply,10,6,243,False
+qevasion-train-0562,train,Ambivalent,13,121,240,False
+qevasion-train-0563,train,Clear Reply,17,13,236,False
+qevasion-train-0564,train,Clear Reply,5,68,248,False
+qevasion-train-0565,train,Ambivalent,7,68,246,False
+qevasion-train-0566,train,Clear Non-Reply,13,33,240,False
+qevasion-train-0567,train,Clear Reply,11,110,242,False
+qevasion-train-0568,train,Ambivalent,20,110,233,False
+qevasion-train-0569,train,Clear Reply,10,16,243,False
+qevasion-train-0570,train,Clear Reply,13,185,240,False
+qevasion-train-0571,validation,Clear Non-Reply,11,132,242,False
+qevasion-train-0572,validation,Ambivalent,13,122,240,False
+qevasion-train-0573,validation,Ambivalent,12,122,241,False
+qevasion-train-0574,validation,Clear Reply,15,8,238,False
+qevasion-train-0575,validation,Clear Reply,9,356,244,True
+qevasion-train-0576,train,Ambivalent,14,171,239,False
+qevasion-train-0577,train,Ambivalent,11,10,242,False
+qevasion-train-0578,train,Clear Non-Reply,25,60,228,False
+qevasion-train-0579,train,Clear Reply,21,9,232,False
+qevasion-train-0580,train,Ambivalent,27,50,226,False
+qevasion-train-0581,validation,Clear Non-Reply,17,10,236,False
+qevasion-train-0582,validation,Clear Reply,20,67,233,False
+qevasion-train-0583,validation,Ambivalent,14,255,239,True
+qevasion-train-0584,validation,Ambivalent,7,228,246,False
+qevasion-train-0585,validation,Clear Non-Reply,24,3,229,False
+qevasion-train-0586,validation,Clear Reply,17,315,236,True
+qevasion-train-0587,validation,Ambivalent,13,315,240,True
+qevasion-train-0588,validation,Clear Reply,13,64,240,False
+qevasion-train-0589,validation,Clear Reply,17,90,236,False
+qevasion-train-0590,validation,Ambivalent,13,90,240,False
+qevasion-train-0591,validation,Clear Reply,12,105,241,False
+qevasion-train-0592,validation,Clear Non-Reply,17,4,236,False
+qevasion-train-0593,validation,Ambivalent,14,129,239,False
+qevasion-train-0594,validation,Clear Non-Reply,8,4,245,False
+qevasion-train-0595,validation,Clear Reply,9,5,244,False
+qevasion-train-0596,validation,Clear Reply,29,168,224,False
+qevasion-train-0597,validation,Ambivalent,10,51,243,False
+qevasion-train-0598,validation,Ambivalent,11,194,242,False
+qevasion-train-0599,validation,Clear Reply,20,359,233,True
+qevasion-train-0600,validation,Clear Reply,12,359,241,True
+qevasion-train-0601,train,Clear Reply,28,623,225,True
+qevasion-train-0602,train,Clear Reply,31,560,222,True
+qevasion-train-0603,train,Ambivalent,9,560,244,True
+qevasion-train-0604,train,Ambivalent,17,1024,236,True
+qevasion-train-0605,train,Clear Reply,8,295,245,True
+qevasion-train-0606,train,Ambivalent,18,86,235,False
+qevasion-train-0607,train,Ambivalent,25,91,228,False
+qevasion-train-0608,train,Clear Reply,13,2,240,False
+qevasion-train-0609,train,Clear Reply,7,504,246,True
+qevasion-train-0610,train,Ambivalent,11,504,242,True
+qevasion-train-0611,train,Ambivalent,11,504,242,True
+qevasion-train-0612,train,Ambivalent,28,217,225,False
+qevasion-train-0613,train,Ambivalent,27,217,226,False
+qevasion-train-0614,train,Ambivalent,22,181,231,False
+qevasion-train-0615,train,Ambivalent,12,35,241,False
+qevasion-train-0616,train,Ambivalent,16,35,237,False
+qevasion-train-0617,train,Ambivalent,7,395,246,True
+qevasion-train-0618,train,Ambivalent,16,395,237,True
+qevasion-train-0619,train,Ambivalent,8,395,245,True
+qevasion-train-0620,train,Ambivalent,24,109,229,False
+qevasion-train-0621,train,Clear Reply,13,3,240,False
+qevasion-train-0622,train,Ambivalent,16,366,237,True
+qevasion-train-0623,train,Clear Reply,11,376,242,True
+qevasion-train-0624,train,Ambivalent,25,376,228,True
+qevasion-train-0625,train,Clear Reply,10,118,243,False
+qevasion-train-0626,train,Clear Reply,9,76,244,False
+qevasion-train-0627,train,Ambivalent,11,76,242,False
+qevasion-train-0628,train,Clear Non-Reply,8,22,245,False
+qevasion-train-0629,train,Clear Non-Reply,10,8,243,False
+qevasion-train-0630,train,Clear Reply,8,7,245,False
+qevasion-train-0631,train,Clear Reply,14,126,239,False
+qevasion-train-0632,train,Ambivalent,14,49,239,False
+qevasion-train-0633,train,Clear Reply,5,10,248,False
+qevasion-train-0634,train,Clear Reply,8,10,245,False
+qevasion-train-0635,train,Clear Non-Reply,8,22,245,False
+qevasion-train-0636,train,Clear Non-Reply,11,9,242,False
+qevasion-train-0637,train,Clear Non-Reply,6,9,247,False
+qevasion-train-0638,train,Clear Non-Reply,5,29,248,False
+qevasion-train-0639,train,Clear Non-Reply,13,103,240,False
+qevasion-train-0640,train,Ambivalent,12,80,241,False
+qevasion-train-0641,train,Clear Reply,15,111,238,False
+qevasion-train-0642,train,Clear Non-Reply,11,18,242,False
+qevasion-train-0643,train,Ambivalent,9,35,244,False
+qevasion-train-0644,train,Ambivalent,9,35,244,False
+qevasion-train-0645,train,Clear Reply,12,24,241,False
+qevasion-train-0646,train,Ambivalent,7,24,246,False
+qevasion-train-0647,train,Ambivalent,9,131,244,False
+qevasion-train-0648,train,Ambivalent,13,87,240,False
+qevasion-train-0649,train,Ambivalent,7,108,246,False
+qevasion-train-0650,train,Clear Reply,11,129,242,False
+qevasion-train-0651,train,Ambivalent,18,424,235,True
+qevasion-train-0652,train,Clear Reply,20,98,233,False
+qevasion-train-0653,train,Clear Reply,16,249,237,True
+qevasion-train-0654,train,Clear Reply,18,249,235,True
+qevasion-train-0655,train,Clear Reply,19,31,234,False
+qevasion-train-0656,train,Ambivalent,8,31,245,False
+qevasion-train-0657,train,Ambivalent,20,4,233,False
+qevasion-train-0658,train,Ambivalent,9,4,244,False
+qevasion-train-0659,train,Clear Reply,25,568,228,True
+qevasion-train-0660,train,Clear Reply,22,11,231,False
+qevasion-train-0661,train,Clear Reply,21,105,232,False
+qevasion-train-0662,train,Clear Reply,9,57,244,False
+qevasion-train-0663,train,Ambivalent,26,103,227,False
+qevasion-train-0664,train,Ambivalent,19,103,234,False
+qevasion-train-0665,train,Ambivalent,16,2,237,False
+qevasion-train-0666,train,Clear Reply,12,94,241,False
+qevasion-train-0667,train,Clear Reply,21,92,232,False
+qevasion-train-0668,train,Clear Reply,5,72,248,False
+qevasion-train-0669,train,Ambivalent,17,48,236,False
+qevasion-train-0670,train,Ambivalent,17,27,236,False
+qevasion-train-0671,train,Ambivalent,6,13,247,False
+qevasion-train-0672,train,Ambivalent,8,52,245,False
+qevasion-train-0673,train,Ambivalent,15,7,238,False
+qevasion-train-0674,validation,Clear Reply,11,6,242,False
+qevasion-train-0675,validation,Ambivalent,6,43,247,False
+qevasion-train-0676,validation,Ambivalent,9,43,244,False
+qevasion-train-0677,validation,Ambivalent,10,65,243,False
+qevasion-train-0678,validation,Clear Reply,23,248,230,True
+qevasion-train-0679,validation,Clear Reply,9,164,244,False
+qevasion-train-0680,validation,Ambivalent,13,164,240,False
+qevasion-train-0681,validation,Clear Reply,14,14,239,False
+qevasion-train-0682,validation,Ambivalent,9,14,244,False
+qevasion-train-0683,validation,Clear Non-Reply,12,23,241,False
+qevasion-train-0684,validation,Ambivalent,17,24,236,False
+qevasion-train-0685,train,Ambivalent,13,7,240,False
+qevasion-train-0686,train,Clear Reply,25,142,228,False
+qevasion-train-0687,train,Ambivalent,21,7,232,False
+qevasion-train-0688,train,Clear Reply,12,118,241,False
+qevasion-train-0689,train,Clear Reply,15,118,238,False
+qevasion-train-0690,train,Clear Reply,10,54,243,False
+qevasion-train-0691,train,Ambivalent,32,54,221,False
+qevasion-train-0692,train,Clear Non-Reply,17,50,236,False
+qevasion-train-0693,train,Clear Non-Reply,14,50,239,False
+qevasion-train-0694,train,Clear Reply,16,89,237,False
+qevasion-train-0695,train,Ambivalent,14,89,239,False
+qevasion-train-0696,train,Clear Non-Reply,24,144,229,False
+qevasion-train-0697,train,Ambivalent,28,144,225,False
+qevasion-train-0698,train,Clear Reply,33,2,220,False
+qevasion-train-0699,train,Ambivalent,18,539,235,True
+qevasion-train-0700,train,Ambivalent,27,16,226,False
+qevasion-train-0701,train,Ambivalent,34,16,219,False
+qevasion-train-0702,train,Ambivalent,10,125,243,False
+qevasion-train-0703,train,Ambivalent,7,60,246,False
+qevasion-train-0704,train,Ambivalent,22,617,231,True
+qevasion-train-0705,validation,Clear Non-Reply,9,22,244,False
+qevasion-train-0706,validation,Clear Reply,16,8,237,False
+qevasion-train-0707,validation,Ambivalent,8,71,245,False
+qevasion-train-0708,validation,Ambivalent,27,71,226,False
+qevasion-train-0709,validation,Ambivalent,21,368,232,True
+qevasion-train-0710,validation,Ambivalent,25,368,228,True
+qevasion-train-0711,validation,Ambivalent,13,5,240,False
+qevasion-train-0712,validation,Ambivalent,30,123,223,False
+qevasion-train-0713,validation,Clear Reply,20,342,233,True
+qevasion-train-0714,validation,Ambivalent,18,1202,235,True
+qevasion-train-0715,validation,Ambivalent,12,1202,241,True
+qevasion-train-0716,validation,Ambivalent,4,166,249,False
+qevasion-train-0717,validation,Clear Reply,9,166,244,False
+qevasion-train-0718,train,Clear Reply,22,342,231,True
+qevasion-train-0719,train,Ambivalent,33,102,220,False
+qevasion-train-0720,train,Ambivalent,12,109,241,False
+qevasion-train-0721,train,Clear Reply,22,592,231,True
+qevasion-train-0722,train,Clear Reply,17,592,236,True
+qevasion-train-0723,train,Ambivalent,12,143,241,False
+qevasion-train-0724,validation,Clear Reply,15,59,238,False
+qevasion-train-0725,validation,Ambivalent,10,59,243,False
+qevasion-train-0726,validation,Clear Non-Reply,7,14,246,False
+qevasion-train-0727,validation,Clear Reply,17,168,236,False
+qevasion-train-0728,validation,Clear Reply,10,168,243,False
+qevasion-train-0729,validation,Ambivalent,21,557,232,True
+qevasion-train-0730,validation,Ambivalent,25,275,228,True
+qevasion-train-0731,validation,Ambivalent,12,37,241,False
+qevasion-train-0732,train,Clear Reply,15,174,238,False
+qevasion-train-0733,train,Clear Reply,10,174,243,False
+qevasion-train-0734,train,Clear Reply,17,170,236,False
+qevasion-train-0735,train,Clear Reply,30,251,223,True
+qevasion-train-0736,train,Ambivalent,15,120,238,False
+qevasion-train-0737,train,Ambivalent,24,1123,229,True
+qevasion-train-0738,train,Clear Reply,15,392,238,True
+qevasion-train-0739,train,Ambivalent,11,260,242,True
+qevasion-train-0740,train,Clear Reply,9,229,244,False
+qevasion-train-0741,train,Clear Reply,20,229,233,False
+qevasion-train-0742,train,Clear Reply,22,339,231,True
+qevasion-train-0743,train,Clear Reply,12,82,241,False
+qevasion-train-0744,train,Ambivalent,19,256,234,True
+qevasion-train-0745,train,Ambivalent,14,254,239,True
+qevasion-train-0746,train,Ambivalent,7,254,246,True
+qevasion-train-0747,train,Ambivalent,9,254,244,True
+qevasion-train-0748,train,Clear Non-Reply,28,380,225,True
+qevasion-train-0749,validation,Ambivalent,7,240,246,False
+qevasion-train-0750,validation,Clear Reply,18,350,235,True
+qevasion-train-0751,validation,Clear Reply,18,350,235,True
+qevasion-train-0752,validation,Ambivalent,18,141,235,False
+qevasion-train-0753,validation,Ambivalent,7,141,246,False
+qevasion-train-0754,validation,Clear Non-Reply,15,27,238,False
+qevasion-train-0755,validation,Clear Non-Reply,8,27,245,False
+qevasion-train-0756,validation,Clear Non-Reply,15,27,238,False
+qevasion-train-0757,validation,Clear Non-Reply,8,27,245,False
+qevasion-train-0758,validation,Ambivalent,27,143,226,False
+qevasion-train-0759,validation,Clear Reply,11,84,242,False
+qevasion-train-0760,validation,Ambivalent,9,146,244,False
+qevasion-train-0761,validation,Clear Reply,26,146,227,False
+qevasion-train-0762,train,Clear Reply,13,55,240,False
+qevasion-train-0763,train,Clear Reply,9,55,244,False
+qevasion-train-0764,train,Clear Reply,10,174,243,False
+qevasion-train-0765,train,Clear Reply,15,174,238,False
+qevasion-train-0766,train,Ambivalent,12,15,241,False
+qevasion-train-0767,train,Ambivalent,15,15,238,False
+qevasion-train-0768,train,Clear Reply,27,421,226,True
+qevasion-train-0769,train,Clear Reply,18,303,235,True
+qevasion-train-0770,train,Clear Reply,25,116,228,False
+qevasion-train-0771,train,Clear Non-Reply,17,96,236,False
+qevasion-train-0772,train,Clear Non-Reply,8,96,245,False
+qevasion-train-0773,train,Ambivalent,22,235,231,True
+qevasion-train-0774,train,Clear Reply,7,5,246,False
+qevasion-train-0775,train,Ambivalent,55,118,198,False
+qevasion-train-0776,validation,Clear Reply,12,705,241,True
+qevasion-train-0777,validation,Ambivalent,9,705,244,True
+qevasion-train-0778,validation,Clear Reply,10,344,243,True
+qevasion-train-0779,validation,Clear Reply,12,30,241,False
+qevasion-train-0780,validation,Ambivalent,14,30,239,False
+qevasion-train-0781,validation,Clear Reply,4,5,249,False
+qevasion-train-0782,validation,Clear Reply,5,5,248,False
+qevasion-train-0783,validation,Clear Reply,5,5,248,False
+qevasion-train-0784,validation,Clear Reply,4,5,249,False
+qevasion-train-0785,validation,Clear Non-Reply,13,45,240,False
+qevasion-train-0786,validation,Ambivalent,12,162,241,False
+qevasion-train-0787,validation,Ambivalent,23,162,230,False
+qevasion-train-0788,validation,Clear Reply,4,54,249,False
+qevasion-train-0789,validation,Ambivalent,9,649,244,True
+qevasion-train-0790,train,Ambivalent,16,1116,237,True
+qevasion-train-0791,train,Ambivalent,17,205,236,False
+qevasion-train-0792,train,Ambivalent,20,336,233,True
+qevasion-train-0793,train,Clear Non-Reply,18,76,235,False
+qevasion-train-0794,train,Ambivalent,10,76,243,False
+qevasion-train-0795,train,Clear Reply,11,132,242,False
+qevasion-train-0796,train,Clear Reply,32,132,221,False
+qevasion-train-0797,train,Ambivalent,27,402,226,True
+qevasion-train-0798,train,Ambivalent,29,168,224,False
+qevasion-train-0799,train,Clear Reply,13,19,240,False
+qevasion-train-0800,train,Ambivalent,17,240,236,True
+qevasion-train-0801,train,Ambivalent,9,240,244,False
+qevasion-train-0802,train,Ambivalent,10,240,243,False
+qevasion-train-0803,train,Ambivalent,9,163,244,False
+qevasion-train-0804,train,Ambivalent,48,231,205,True
+qevasion-train-0805,train,Ambivalent,13,231,240,False
+qevasion-train-0806,train,Ambivalent,12,259,241,True
+qevasion-train-0807,train,Ambivalent,7,259,246,True
+qevasion-train-0808,train,Ambivalent,36,320,217,True
+qevasion-train-0809,train,Ambivalent,64,400,189,True
+qevasion-train-0810,train,Clear Reply,5,91,248,False
+qevasion-train-0811,train,Clear Reply,8,91,245,False
+qevasion-train-0812,train,Ambivalent,14,308,239,True
+qevasion-train-0813,train,Ambivalent,25,308,228,True
+qevasion-train-0814,train,Ambivalent,18,100,235,False
+qevasion-train-0815,train,Ambivalent,9,100,244,False
+qevasion-train-0816,train,Ambivalent,7,313,246,True
+qevasion-train-0817,train,Ambivalent,7,313,246,True
+qevasion-train-0818,train,Ambivalent,14,313,239,True
+qevasion-train-0819,train,Clear Reply,6,141,247,False
+qevasion-train-0820,train,Clear Reply,5,141,248,False
+qevasion-train-0821,train,Ambivalent,5,141,248,False
+qevasion-train-0822,train,Clear Reply,25,155,228,False
+qevasion-train-0823,train,Ambivalent,11,33,242,False
+qevasion-train-0824,train,Ambivalent,11,33,242,False
+qevasion-train-0825,train,Clear Non-Reply,5,60,248,False
+qevasion-train-0826,train,Clear Non-Reply,30,60,223,False
+qevasion-train-0827,train,Ambivalent,7,32,246,False
+qevasion-train-0828,train,Ambivalent,18,32,235,False
+qevasion-train-0829,train,Ambivalent,9,14,244,False
+qevasion-train-0830,validation,Ambivalent,19,349,234,True
+qevasion-train-0831,validation,Clear Non-Reply,9,247,244,True
+qevasion-train-0832,validation,Ambivalent,7,111,246,False
+qevasion-train-0833,validation,Clear Non-Reply,13,167,240,False
+qevasion-train-0834,validation,Ambivalent,14,167,239,False
+qevasion-train-0835,validation,Ambivalent,8,202,245,False
+qevasion-train-0836,validation,Ambivalent,7,202,246,False
+qevasion-train-0837,validation,Clear Reply,4,2,249,False
+qevasion-train-0838,validation,Clear Reply,11,3,242,False
+qevasion-train-0839,validation,Ambivalent,20,8,233,False
+qevasion-train-0840,validation,Clear Reply,6,60,247,False
+qevasion-train-0841,validation,Ambivalent,11,302,242,True
+qevasion-train-0842,validation,Clear Non-Reply,19,445,234,True
+qevasion-train-0843,validation,Ambivalent,27,265,226,True
+qevasion-train-0844,validation,Ambivalent,13,265,240,True
+qevasion-train-0845,validation,Ambivalent,9,136,244,False
+qevasion-train-0846,validation,Ambivalent,20,136,233,False
+qevasion-train-0847,validation,Ambivalent,12,92,241,False
+qevasion-train-0848,train,Ambivalent,7,22,246,False
+qevasion-train-0849,train,Ambivalent,12,5,241,False
+qevasion-train-0850,train,Clear Reply,19,98,234,False
+qevasion-train-0851,train,Ambivalent,22,98,231,False
+qevasion-train-0852,train,Clear Reply,13,48,240,False
+qevasion-train-0853,train,Clear Reply,11,220,242,False
+qevasion-train-0854,train,Ambivalent,8,220,245,False
+qevasion-train-0855,train,Ambivalent,20,220,233,False
+qevasion-train-0856,train,Ambivalent,11,111,242,False
+qevasion-train-0857,train,Clear Non-Reply,12,111,241,False
+qevasion-train-0858,train,Clear Reply,17,102,236,False
+qevasion-train-0859,train,Ambivalent,16,102,237,False
+qevasion-train-0860,train,Clear Reply,18,195,235,False
+qevasion-train-0861,train,Ambivalent,17,195,236,False
+qevasion-train-0862,train,Clear Reply,31,415,222,True
+qevasion-train-0863,train,Ambivalent,41,415,212,True
+qevasion-train-0864,train,Clear Reply,12,90,241,False
+qevasion-train-0865,train,Clear Non-Reply,7,90,246,False
+qevasion-train-0866,train,Clear Reply,21,4,232,False
+qevasion-train-0867,train,Clear Reply,21,104,232,False
+qevasion-train-0868,train,Ambivalent,20,104,233,False
+qevasion-train-0869,train,Ambivalent,8,45,245,False
+qevasion-train-0870,train,Ambivalent,30,21,223,False
+qevasion-train-0871,train,Ambivalent,28,21,225,False
+qevasion-train-0872,train,Ambivalent,2,5,251,False
+qevasion-train-0873,train,Clear Reply,25,89,228,False
+qevasion-train-0874,train,Ambivalent,13,89,240,False
+qevasion-train-0875,train,Clear Reply,6,8,247,False
+qevasion-train-0876,train,Clear Reply,8,19,245,False
+qevasion-train-0877,train,Ambivalent,8,15,245,False
+qevasion-train-0878,train,Clear Reply,17,325,236,True
+qevasion-train-0879,train,Ambivalent,26,325,227,True
+qevasion-train-0880,train,Clear Reply,7,2,246,False
+qevasion-train-0881,train,Clear Reply,18,138,235,False
+qevasion-train-0882,train,Ambivalent,8,138,245,False
+qevasion-train-0883,train,Clear Reply,15,71,238,False
+qevasion-train-0884,train,Ambivalent,48,263,205,True
+qevasion-train-0885,train,Ambivalent,30,263,223,True
+qevasion-train-0886,train,Ambivalent,9,28,244,False
+qevasion-train-0887,train,Ambivalent,10,28,243,False
+qevasion-train-0888,train,Clear Reply,7,68,246,False
+qevasion-train-0889,train,Clear Reply,10,365,243,True
+qevasion-train-0890,train,Ambivalent,10,365,243,True
+qevasion-train-0891,train,Ambivalent,6,365,247,True
+qevasion-train-0892,train,Ambivalent,24,121,229,False
+qevasion-train-0893,train,Clear Reply,21,137,232,False
+qevasion-train-0894,train,Ambivalent,29,137,224,False
+qevasion-train-0895,train,Ambivalent,7,8,246,False
+qevasion-train-0896,train,Clear Reply,10,383,243,True
+qevasion-train-0897,train,Ambivalent,6,383,247,True
+qevasion-train-0898,train,Ambivalent,10,103,243,False
+qevasion-train-0899,train,Clear Reply,8,19,245,False
+qevasion-train-0900,train,Ambivalent,22,288,231,True
+qevasion-train-0901,train,Clear Reply,11,27,242,False
+qevasion-train-0902,train,Clear Reply,6,137,247,False
+qevasion-train-0903,train,Ambivalent,7,137,246,False
+qevasion-train-0904,train,Ambivalent,10,154,243,False
+qevasion-train-0905,train,Clear Reply,12,190,241,False
+qevasion-train-0906,train,Ambivalent,18,230,235,False
+qevasion-train-0907,train,Ambivalent,23,139,230,False
+qevasion-train-0908,train,Ambivalent,12,328,241,True
+qevasion-train-0909,train,Ambivalent,7,184,246,False
+qevasion-train-0910,train,Ambivalent,33,184,220,False
+qevasion-train-0911,train,Ambivalent,9,147,244,False
+qevasion-train-0912,train,Ambivalent,24,147,229,False
+qevasion-train-0913,train,Ambivalent,15,139,238,False
+qevasion-train-0914,train,Clear Reply,18,139,235,False
+qevasion-train-0915,train,Clear Reply,30,638,223,True
+qevasion-train-0916,train,Ambivalent,21,638,232,True
+qevasion-train-0917,train,Ambivalent,25,48,228,False
+qevasion-train-0918,train,Clear Reply,12,58,241,False
+qevasion-train-0919,train,Clear Reply,22,163,231,False
+qevasion-train-0920,train,Clear Reply,14,405,239,True
+qevasion-train-0921,train,Ambivalent,8,110,245,False
+qevasion-train-0922,train,Ambivalent,10,110,243,False
+qevasion-train-0923,train,Clear Reply,23,302,230,True
+qevasion-train-0924,train,Ambivalent,5,217,248,False
+qevasion-train-0925,train,Clear Reply,13,229,240,False
+qevasion-train-0926,train,Ambivalent,8,229,245,False
+qevasion-train-0927,train,Ambivalent,17,646,236,True
+qevasion-train-0928,train,Clear Reply,22,257,231,True
+qevasion-train-0929,train,Ambivalent,13,207,240,False
+qevasion-train-0930,train,Clear Reply,9,4,244,False
+qevasion-train-0931,train,Ambivalent,3,28,250,False
+qevasion-train-0932,train,Ambivalent,7,311,246,True
+qevasion-train-0933,train,Ambivalent,11,311,242,True
+qevasion-train-0934,train,Clear Reply,27,211,226,False
+qevasion-train-0935,train,Ambivalent,12,33,241,False
+qevasion-train-0936,train,Clear Reply,8,2,245,False
+qevasion-train-0937,train,Clear Reply,9,2,244,False
+qevasion-train-0938,train,Clear Non-Reply,6,8,247,False
+qevasion-train-0939,train,Ambivalent,22,425,231,True
+qevasion-train-0940,train,Ambivalent,17,425,236,True
+qevasion-train-0941,train,Ambivalent,16,609,237,True
+qevasion-train-0942,train,Ambivalent,16,609,237,True
+qevasion-train-0943,train,Ambivalent,12,671,241,True
+qevasion-train-0944,train,Ambivalent,21,671,232,True
+qevasion-train-0945,train,Clear Non-Reply,30,253,223,True
+qevasion-train-0946,train,Ambivalent,17,32,236,False
+qevasion-train-0947,train,Clear Reply,18,4,235,False
+qevasion-train-0948,train,Ambivalent,28,451,225,True
+qevasion-train-0949,train,Ambivalent,6,451,247,True
+qevasion-train-0950,train,Clear Reply,11,282,242,True
+qevasion-train-0951,train,Clear Reply,9,282,244,True
+qevasion-train-0952,train,Ambivalent,15,282,238,True
+qevasion-train-0953,train,Ambivalent,5,325,248,True
+qevasion-train-0954,train,Ambivalent,7,325,246,True
+qevasion-train-0955,train,Ambivalent,17,2,236,False
+qevasion-train-0956,train,Ambivalent,5,608,248,True
+qevasion-train-0957,train,Ambivalent,11,86,242,False
+qevasion-train-0958,train,Ambivalent,11,86,242,False
+qevasion-train-0959,train,Clear Reply,14,60,239,False
+qevasion-train-0960,train,Clear Reply,9,212,244,False
+qevasion-train-0961,train,Ambivalent,11,212,242,False
+qevasion-train-0962,train,Ambivalent,13,212,240,False
+qevasion-train-0963,train,Clear Reply,8,98,245,False
+qevasion-train-0964,train,Ambivalent,8,98,245,False
+qevasion-train-0965,train,Clear Non-Reply,21,134,232,False
+qevasion-train-0966,train,Clear Non-Reply,16,134,237,False
+qevasion-train-0967,train,Clear Reply,10,7,243,False
+qevasion-train-0968,train,Ambivalent,9,127,244,False
+qevasion-train-0969,train,Ambivalent,11,33,242,False
+qevasion-train-0970,train,Ambivalent,19,33,234,False
+qevasion-train-0971,train,Clear Reply,13,157,240,False
+qevasion-train-0972,train,Ambivalent,39,236,214,True
+qevasion-train-0973,train,Ambivalent,35,471,218,True
+qevasion-train-0974,validation,Clear Reply,21,24,232,False
+qevasion-train-0975,validation,Ambivalent,7,246,246,False
+qevasion-train-0976,validation,Clear Non-Reply,11,427,242,True
+qevasion-train-0977,validation,Ambivalent,14,331,239,True
+qevasion-train-0978,validation,Clear Reply,21,60,232,False
+qevasion-train-0979,validation,Ambivalent,5,188,248,False
+qevasion-train-0980,validation,Ambivalent,9,36,244,False
+qevasion-train-0981,validation,Ambivalent,17,36,236,False
+qevasion-train-0982,validation,Ambivalent,25,36,228,False
+qevasion-train-0983,validation,Clear Reply,10,134,243,False
+qevasion-train-0984,validation,Ambivalent,10,200,243,False
+qevasion-train-0985,validation,Clear Reply,6,15,247,False
+qevasion-train-0986,validation,Clear Reply,5,15,248,False
+qevasion-train-0987,validation,Clear Non-Reply,11,22,242,False
+qevasion-train-0988,validation,Clear Non-Reply,9,13,244,False
+qevasion-train-0989,validation,Clear Non-Reply,12,13,241,False
+qevasion-train-0990,validation,Clear Non-Reply,26,13,227,False
+qevasion-train-0991,validation,Clear Non-Reply,9,13,244,False
+qevasion-train-0992,validation,Clear Reply,9,287,244,True
+qevasion-train-0993,validation,Ambivalent,19,21,234,False
+qevasion-train-0994,validation,Clear Non-Reply,7,36,246,False
+qevasion-train-0995,validation,Clear Non-Reply,6,26,247,False
+qevasion-train-0996,validation,Clear Reply,15,10,238,False
+qevasion-train-0997,train,Ambivalent,9,426,244,True
+qevasion-train-0998,train,Ambivalent,9,426,244,True
+qevasion-train-0999,train,Clear Reply,8,211,245,False
+qevasion-train-1000,train,Clear Reply,7,211,246,False
+qevasion-train-1001,train,Ambivalent,12,314,241,True
+qevasion-train-1002,validation,Ambivalent,28,10,225,False
+qevasion-train-1003,validation,Clear Non-Reply,27,66,226,False
+qevasion-train-1004,validation,Clear Reply,29,993,224,True
+qevasion-train-1005,validation,Clear Reply,31,993,222,True
+qevasion-train-1006,train,Ambivalent,44,1004,209,True
+qevasion-train-1007,train,Clear Reply,30,266,223,True
+qevasion-train-1008,train,Clear Non-Reply,27,206,226,False
+qevasion-train-1009,train,Clear Reply,10,334,243,True
+qevasion-train-1010,train,Ambivalent,14,334,239,True
+qevasion-train-1011,train,Clear Reply,8,242,245,False
+qevasion-train-1012,train,Clear Reply,5,49,248,False
+qevasion-train-1013,train,Clear Reply,7,49,246,False
+qevasion-train-1014,train,Ambivalent,8,49,245,False
+qevasion-train-1015,train,Ambivalent,12,49,241,False
+qevasion-train-1016,train,Clear Non-Reply,19,6,234,False
+qevasion-train-1017,train,Ambivalent,20,446,233,True
+qevasion-train-1018,train,Ambivalent,27,446,226,True
+qevasion-train-1019,train,Ambivalent,23,925,230,True
+qevasion-train-1020,train,Clear Non-Reply,19,522,234,True
+qevasion-train-1021,train,Ambivalent,61,697,192,True
+qevasion-train-1022,train,Ambivalent,23,77,230,False
+qevasion-train-1023,train,Clear Reply,27,300,226,True
+qevasion-train-1024,train,Clear Reply,13,653,240,True
+qevasion-train-1025,train,Ambivalent,24,887,229,True
+qevasion-train-1026,train,Ambivalent,21,887,232,True
+qevasion-train-1027,train,Ambivalent,10,880,243,True
+qevasion-train-1028,train,Ambivalent,22,880,231,True
+qevasion-train-1029,train,Clear Non-Reply,7,414,246,True
+qevasion-train-1030,train,Ambivalent,29,414,224,True
+qevasion-train-1031,train,Clear Reply,18,2,235,False
+qevasion-train-1032,train,Clear Non-Reply,8,3,245,False
+qevasion-train-1033,train,Clear Reply,12,521,241,True
+qevasion-train-1034,train,Ambivalent,15,119,238,False
+qevasion-train-1035,train,Ambivalent,19,119,234,False
+qevasion-train-1036,train,Clear Reply,9,3,244,False
+qevasion-train-1037,train,Clear Reply,9,323,244,True
+qevasion-train-1038,train,Clear Reply,11,120,242,False
+qevasion-train-1039,train,Clear Reply,26,787,227,True
+qevasion-train-1040,train,Clear Reply,3,11,250,False
+qevasion-train-1041,train,Clear Reply,8,11,245,False
+qevasion-train-1042,train,Clear Reply,13,49,240,False
+qevasion-train-1043,train,Clear Reply,23,210,230,False
+qevasion-train-1044,train,Clear Reply,37,414,216,True
+qevasion-train-1045,train,Ambivalent,29,414,224,True
+qevasion-train-1046,train,Clear Reply,10,236,243,False
+qevasion-train-1047,train,Ambivalent,7,124,246,False
+qevasion-train-1048,train,Clear Reply,17,366,236,True
+qevasion-train-1049,train,Ambivalent,5,211,248,False
+qevasion-train-1050,train,Clear Reply,10,223,243,False
+qevasion-train-1051,train,Ambivalent,18,223,235,False
+qevasion-train-1052,train,Ambivalent,25,476,228,True
+qevasion-train-1053,train,Ambivalent,26,476,227,True
+qevasion-train-1054,train,Ambivalent,14,155,239,False
+qevasion-train-1055,train,Clear Non-Reply,5,8,248,False
+qevasion-train-1056,train,Ambivalent,20,111,233,False
+qevasion-train-1057,train,Ambivalent,13,90,240,False
+qevasion-train-1058,train,Ambivalent,11,90,242,False
+qevasion-train-1059,train,Clear Reply,12,2,241,False
+qevasion-train-1060,train,Clear Reply,14,17,239,False
+qevasion-train-1061,train,Clear Reply,20,347,233,True
+qevasion-train-1062,train,Ambivalent,7,16,246,False
+qevasion-train-1063,train,Ambivalent,7,16,246,False
+qevasion-train-1064,train,Ambivalent,7,11,246,False
+qevasion-train-1065,train,Ambivalent,4,11,249,False
+qevasion-train-1066,train,Clear Reply,56,358,197,True
+qevasion-train-1067,validation,Ambivalent,17,322,236,True
+qevasion-train-1068,validation,Clear Non-Reply,19,75,234,False
+qevasion-train-1069,train,Ambivalent,14,635,239,True
+qevasion-train-1070,train,Clear Reply,9,8,244,False
+qevasion-train-1071,train,Clear Reply,7,13,246,False
+qevasion-train-1072,train,Clear Reply,9,13,244,False
+qevasion-train-1073,train,Clear Reply,12,90,241,False
+qevasion-train-1074,train,Clear Reply,10,90,243,False
+qevasion-train-1075,train,Clear Reply,10,228,243,False
+qevasion-train-1076,train,Clear Reply,28,228,225,True
+qevasion-train-1077,train,Clear Non-Reply,9,117,244,False
+qevasion-train-1078,train,Ambivalent,20,148,233,False
+qevasion-train-1079,train,Ambivalent,14,148,239,False
+qevasion-train-1080,validation,Clear Reply,9,32,244,False
+qevasion-train-1081,train,Clear Reply,15,193,238,False
+qevasion-train-1082,train,Clear Reply,24,193,229,False
+qevasion-train-1083,train,Clear Reply,22,834,231,True
+qevasion-train-1084,train,Clear Reply,14,834,239,True
+qevasion-train-1085,train,Clear Non-Reply,17,53,236,False
+qevasion-train-1086,train,Ambivalent,19,53,234,False
+qevasion-train-1087,train,Ambivalent,32,173,221,False
+qevasion-train-1088,train,Ambivalent,8,173,245,False
+qevasion-train-1089,train,Clear Reply,5,65,248,False
+qevasion-train-1090,train,Clear Reply,11,14,242,False
+qevasion-train-1091,train,Clear Reply,17,14,236,False
+qevasion-train-1092,train,Clear Reply,11,14,242,False
+qevasion-train-1093,train,Clear Reply,9,117,244,False
+qevasion-train-1094,train,Ambivalent,10,117,243,False
+qevasion-train-1095,train,Ambivalent,7,198,246,False
+qevasion-train-1096,train,Ambivalent,9,11,244,False
+qevasion-train-1097,validation,Clear Reply,22,249,231,True
+qevasion-train-1098,train,Clear Reply,14,49,239,False
+qevasion-train-1099,train,Clear Reply,10,675,243,True
+qevasion-train-1100,train,Clear Reply,20,280,233,True
+qevasion-train-1101,train,Ambivalent,20,280,233,True
+qevasion-train-1102,train,Ambivalent,24,280,229,True
+qevasion-train-1103,train,Ambivalent,4,128,249,False
+qevasion-train-1104,train,Ambivalent,7,128,246,False
+qevasion-train-1105,train,Clear Reply,45,594,208,True
+qevasion-train-1106,train,Clear Reply,24,594,229,True
+qevasion-train-1107,train,Ambivalent,29,348,224,True
+qevasion-train-1108,train,Clear Reply,10,2,243,False
+qevasion-train-1109,train,Clear Reply,13,2,240,False
+qevasion-train-1110,train,Clear Reply,11,28,242,False
+qevasion-train-1111,train,Clear Reply,11,18,242,False
+qevasion-train-1112,train,Clear Reply,18,47,235,False
+qevasion-train-1113,train,Ambivalent,6,512,247,True
+qevasion-train-1114,train,Clear Non-Reply,13,138,240,False
+qevasion-train-1115,train,Clear Reply,10,2,243,False
+qevasion-train-1116,train,Ambivalent,15,1092,238,True
+qevasion-train-1117,train,Ambivalent,15,239,238,True
+qevasion-train-1118,train,Clear Reply,10,5,243,False
+qevasion-train-1119,train,Ambivalent,20,184,233,False
+qevasion-train-1120,train,Ambivalent,7,184,246,False
+qevasion-train-1121,train,Ambivalent,27,145,226,False
+qevasion-train-1122,train,Ambivalent,19,33,234,False
+qevasion-train-1123,train,Clear Reply,21,335,232,True
+qevasion-train-1124,train,Clear Reply,7,261,246,True
+qevasion-train-1125,train,Clear Reply,9,261,244,True
+qevasion-train-1126,train,Ambivalent,18,469,235,True
+qevasion-train-1127,train,Clear Reply,14,114,239,False
+qevasion-train-1128,train,Ambivalent,13,88,240,False
+qevasion-train-1129,train,Ambivalent,13,783,240,True
+qevasion-train-1130,train,Clear Reply,3,2,250,False
+qevasion-train-1131,train,Ambivalent,28,423,225,True
+qevasion-train-1132,train,Clear Non-Reply,24,5,229,False
+qevasion-train-1133,train,Clear Reply,16,4,237,False
+qevasion-train-1134,train,Clear Reply,9,93,244,False
+qevasion-train-1135,train,Clear Non-Reply,10,112,243,False
+qevasion-train-1136,train,Clear Non-Reply,4,112,249,False
+qevasion-train-1137,train,Clear Reply,5,13,248,False
+qevasion-train-1138,train,Ambivalent,4,13,249,False
+qevasion-train-1139,train,Ambivalent,4,13,249,False
+qevasion-train-1140,train,Ambivalent,16,13,237,False
+qevasion-train-1141,train,Clear Reply,16,2,237,False
+qevasion-train-1142,train,Ambivalent,35,182,218,False
+qevasion-train-1143,validation,Clear Reply,22,267,231,True
+qevasion-train-1144,validation,Ambivalent,9,73,244,False
+qevasion-train-1145,validation,Ambivalent,15,73,238,False
+qevasion-train-1146,validation,Clear Reply,11,558,242,True
+qevasion-train-1147,validation,Ambivalent,13,558,240,True
+qevasion-train-1148,validation,Clear Reply,30,464,223,True
+qevasion-train-1149,validation,Clear Reply,6,464,247,True
+qevasion-train-1150,validation,Ambivalent,5,464,248,True
+qevasion-train-1151,validation,Clear Non-Reply,11,6,242,False
+qevasion-train-1152,validation,Ambivalent,23,905,230,True
+qevasion-train-1153,validation,Clear Reply,6,24,247,False
+qevasion-train-1154,validation,Clear Reply,8,836,245,True
+qevasion-train-1155,validation,Clear Reply,14,836,239,True
+qevasion-train-1156,validation,Clear Reply,11,71,242,False
+qevasion-train-1157,validation,Ambivalent,23,22,230,False
+qevasion-train-1158,validation,Clear Reply,15,231,238,False
+qevasion-train-1159,train,Ambivalent,15,521,238,True
+qevasion-train-1160,train,Ambivalent,21,439,232,True
+qevasion-train-1161,train,Ambivalent,15,439,238,True
+qevasion-train-1162,train,Ambivalent,25,93,228,False
+qevasion-train-1163,train,Clear Non-Reply,2,9,251,False
+qevasion-train-1164,train,Clear Non-Reply,8,9,245,False
+qevasion-train-1165,train,Clear Non-Reply,4,9,249,False
+qevasion-train-1166,train,Clear Reply,7,30,246,False
+qevasion-train-1167,train,Ambivalent,20,594,233,True
+qevasion-train-1168,train,Clear Reply,2,93,251,False
+qevasion-train-1169,train,Clear Non-Reply,3,93,250,False
+qevasion-train-1170,train,Ambivalent,15,290,238,True
+qevasion-train-1171,train,Clear Reply,13,12,240,False
+qevasion-train-1172,train,Ambivalent,26,439,227,True
+qevasion-train-1173,train,Ambivalent,15,79,238,False
+qevasion-train-1174,train,Ambivalent,14,664,239,True
+qevasion-train-1175,train,Ambivalent,11,664,242,True
+qevasion-train-1176,train,Ambivalent,19,270,234,True
+qevasion-train-1177,train,Ambivalent,32,270,221,True
+qevasion-train-1178,train,Ambivalent,23,482,230,True
+qevasion-train-1179,train,Ambivalent,15,251,238,True
+qevasion-train-1180,train,Ambivalent,9,251,244,True
+qevasion-train-1181,train,Ambivalent,36,187,217,False
+qevasion-train-1182,train,Clear Reply,12,187,241,False
+qevasion-train-1183,train,Clear Non-Reply,19,126,234,False
+qevasion-train-1184,train,Ambivalent,16,112,237,False
+qevasion-train-1185,train,Clear Reply,8,91,245,False
+qevasion-train-1186,train,Clear Reply,21,79,232,False
+qevasion-train-1187,train,Ambivalent,15,79,238,False
+qevasion-train-1188,train,Ambivalent,12,84,241,False
+qevasion-train-1189,train,Ambivalent,21,84,232,False
+qevasion-train-1190,train,Ambivalent,13,84,240,False
+qevasion-train-1191,train,Ambivalent,12,22,241,False
+qevasion-train-1192,train,Ambivalent,11,80,242,False
+qevasion-train-1193,train,Ambivalent,11,145,242,False
+qevasion-train-1194,train,Clear Reply,22,8,231,False
+qevasion-train-1195,train,Ambivalent,20,103,233,False
+qevasion-train-1196,train,Ambivalent,12,405,241,True
+qevasion-train-1197,train,Ambivalent,9,405,244,True
+qevasion-train-1198,train,Ambivalent,18,192,235,False
+qevasion-train-1199,train,Ambivalent,10,7,243,False
+qevasion-train-1200,train,Clear Reply,17,7,236,False
+qevasion-train-1201,train,Ambivalent,12,89,241,False
+qevasion-train-1202,train,Ambivalent,7,73,246,False
+qevasion-train-1203,train,Clear Reply,28,167,225,False
+qevasion-train-1204,train,Clear Reply,12,207,241,False
+qevasion-train-1205,train,Ambivalent,17,207,236,False
+qevasion-train-1206,train,Clear Reply,8,9,245,False
+qevasion-train-1207,train,Ambivalent,26,320,227,True
+qevasion-train-1208,train,Ambivalent,19,320,234,True
+qevasion-train-1209,train,Ambivalent,10,156,243,False
+qevasion-train-1210,train,Ambivalent,10,156,243,False
+qevasion-train-1211,train,Clear Non-Reply,17,23,236,False
+qevasion-train-1212,train,Ambivalent,25,335,228,True
+qevasion-train-1213,train,Ambivalent,15,335,238,True
+qevasion-train-1214,train,Ambivalent,11,24,242,False
+qevasion-train-1215,train,Ambivalent,8,17,245,False
+qevasion-train-1216,train,Clear Non-Reply,21,6,232,False
+qevasion-train-1217,train,Clear Reply,38,144,215,False
+qevasion-train-1218,train,Clear Non-Reply,15,51,238,False
+qevasion-train-1219,train,Clear Non-Reply,23,256,230,True
+qevasion-train-1250,train,Ambivalent,30,135,223,False
+qevasion-train-1251,train,Clear Reply,10,251,243,True
+qevasion-train-1252,train,Ambivalent,18,251,235,True
+qevasion-train-1253,train,Clear Non-Reply,15,6,238,False
+qevasion-train-1254,train,Clear Non-Reply,20,6,233,False
+qevasion-train-1255,train,Ambivalent,22,362,231,True
+qevasion-train-1256,train,Ambivalent,26,224,227,False
+qevasion-train-1257,train,Clear Reply,8,27,245,False
+qevasion-train-1258,validation,Clear Reply,7,43,246,False
+qevasion-train-1259,train,Clear Non-Reply,10,9,243,False
+qevasion-train-1260,train,Ambivalent,11,482,242,True
+qevasion-train-1261,train,Clear Non-Reply,13,251,240,True
+qevasion-train-1262,train,Ambivalent,10,251,243,True
+qevasion-train-1263,train,Ambivalent,8,187,245,False
+qevasion-train-1264,train,Ambivalent,12,187,241,False
+qevasion-train-1265,train,Ambivalent,41,187,212,False
+qevasion-train-1266,train,Ambivalent,12,84,241,False
+qevasion-train-1267,train,Ambivalent,24,84,229,False
+qevasion-train-1268,train,Ambivalent,20,84,233,False
+qevasion-train-1269,train,Ambivalent,13,22,240,False
+qevasion-train-1270,train,Ambivalent,11,80,242,False
+qevasion-train-1271,train,Ambivalent,11,145,242,False
+qevasion-train-1272,train,Clear Reply,22,8,231,False
+qevasion-train-1273,train,Ambivalent,34,103,219,False
+qevasion-train-1274,train,Ambivalent,11,405,242,True
+qevasion-train-1275,train,Ambivalent,14,405,239,True
+qevasion-train-1276,train,Ambivalent,18,192,235,False
+qevasion-train-1277,train,Ambivalent,8,192,245,False
+qevasion-train-1278,train,Clear Reply,17,7,236,False
+qevasion-train-1279,train,Ambivalent,10,7,243,False
+qevasion-train-1280,train,Clear Reply,3,89,250,False
+qevasion-train-1281,train,Clear Reply,9,89,244,False
+qevasion-train-1282,train,Clear Reply,8,73,245,False
+qevasion-train-1283,train,Clear Reply,28,167,225,False
+qevasion-train-1284,train,Ambivalent,30,207,223,False
+qevasion-train-1285,train,Ambivalent,19,207,234,False
+qevasion-train-1286,train,Clear Reply,14,9,239,False
+qevasion-train-1287,train,Ambivalent,26,320,227,True
+qevasion-train-1288,train,Ambivalent,19,320,234,True
+qevasion-train-1289,train,Clear Reply,8,156,245,False
+qevasion-train-1290,train,Ambivalent,7,156,246,False
+qevasion-train-1291,train,Ambivalent,8,156,245,False
+qevasion-train-1292,train,Clear Non-Reply,14,23,239,False
+qevasion-train-1293,train,Ambivalent,25,335,228,True
+qevasion-train-1294,train,Clear Non-Reply,25,335,228,True
+qevasion-train-1295,train,Ambivalent,9,24,244,False
+qevasion-train-1296,train,Ambivalent,7,17,246,False
+qevasion-train-1297,train,Clear Non-Reply,23,6,230,False
+qevasion-train-1298,train,Clear Reply,22,144,231,False
+qevasion-train-1299,train,Clear Non-Reply,7,51,246,False
+qevasion-train-1300,train,Clear Non-Reply,8,51,245,False
+qevasion-train-1383,train,Clear Reply,18,433,235,True
+qevasion-train-1384,train,Ambivalent,40,433,213,True
+qevasion-train-1385,train,Ambivalent,14,113,239,False
+qevasion-train-1386,train,Clear Reply,11,47,242,False
+qevasion-train-1387,train,Clear Non-Reply,19,291,234,True
+qevasion-train-1388,train,Ambivalent,14,15,239,False
+qevasion-train-1389,train,Ambivalent,13,269,240,True
+qevasion-train-1390,train,Ambivalent,20,210,233,False
+qevasion-train-1391,train,Ambivalent,15,266,238,True
+qevasion-train-1392,train,Ambivalent,6,80,247,False
+qevasion-train-1393,train,Clear Reply,9,604,244,True
+qevasion-train-1394,train,Clear Reply,13,21,240,False
+qevasion-train-1395,train,Ambivalent,9,74,244,False
+qevasion-train-1396,train,Ambivalent,21,80,232,False
+qevasion-train-1397,train,Ambivalent,15,243,238,True
+qevasion-train-1398,train,Clear Reply,5,34,248,False
+qevasion-train-1399,train,Clear Non-Reply,13,42,240,False
+qevasion-train-1400,train,Clear Reply,19,5,234,False
+qevasion-train-1401,train,Ambivalent,9,46,244,False
+qevasion-train-1402,train,Ambivalent,10,46,243,False
+qevasion-train-1403,train,Ambivalent,8,207,245,False
+qevasion-train-1404,train,Ambivalent,15,78,238,False
+qevasion-train-1405,train,Ambivalent,21,660,232,True
+qevasion-train-1406,train,Ambivalent,23,8,230,False
+qevasion-train-1407,train,Clear Reply,13,400,240,True
+qevasion-train-1408,train,Clear Reply,7,112,246,False
+qevasion-train-1409,train,Ambivalent,8,141,245,False
+qevasion-train-1410,train,Ambivalent,13,6,240,False
+qevasion-train-1411,train,Ambivalent,13,10,240,False
+qevasion-train-1412,train,Ambivalent,7,12,246,False
+qevasion-train-1413,train,Ambivalent,11,12,242,False
+qevasion-train-1414,train,Clear Non-Reply,8,12,245,False
+qevasion-train-1415,train,Ambivalent,19,253,234,True
+qevasion-train-1416,train,Ambivalent,4,4,249,False
+qevasion-train-1417,train,Ambivalent,4,4,249,False
+qevasion-train-1418,train,Ambivalent,11,429,242,True
+qevasion-train-1419,train,Clear Reply,18,675,235,True
+qevasion-train-1420,train,Clear Reply,15,675,238,True
+qevasion-train-1421,train,Ambivalent,6,419,247,True
+qevasion-train-1422,train,Ambivalent,8,13,245,False
+qevasion-train-1423,train,Ambivalent,15,292,238,True
+qevasion-train-1424,train,Ambivalent,14,1012,239,True
+qevasion-train-1425,train,Ambivalent,11,1012,242,True
+qevasion-train-1426,train,Clear Reply,15,306,238,True
+qevasion-train-1427,train,Clear Reply,26,306,227,True
+qevasion-train-1428,train,Clear Reply,15,306,238,True
+qevasion-train-1429,train,Clear Reply,26,306,227,True
+qevasion-train-1430,train,Ambivalent,31,253,222,True
+qevasion-train-1431,train,Ambivalent,17,253,236,True
+qevasion-train-1432,train,Clear Reply,7,514,246,True
+qevasion-train-1433,train,Ambivalent,20,514,233,True
+qevasion-train-1434,train,Ambivalent,7,1119,246,True
+qevasion-train-1435,train,Ambivalent,14,524,239,True
+qevasion-train-1436,train,Ambivalent,8,524,245,True
+qevasion-train-1437,train,Ambivalent,15,524,238,True
+qevasion-train-1438,validation,Ambivalent,46,491,207,True
+qevasion-train-1439,validation,Clear Reply,10,491,243,True
+qevasion-train-1440,validation,Clear Reply,11,19,242,False
+qevasion-train-1441,validation,Ambivalent,11,345,242,True
+qevasion-train-1442,validation,Ambivalent,14,345,239,True
+qevasion-train-1443,validation,Ambivalent,12,345,241,True
+qevasion-train-1444,validation,Ambivalent,4,345,249,True
+qevasion-train-1445,validation,Clear Reply,7,66,246,False
+qevasion-train-1446,train,Ambivalent,46,544,207,True
+qevasion-train-1447,train,Ambivalent,26,544,227,True
+qevasion-train-1448,train,Clear Reply,13,332,240,True
+qevasion-train-1449,train,Ambivalent,16,332,237,True
+qevasion-train-1450,train,Ambivalent,34,1167,219,True
+qevasion-train-1451,train,Ambivalent,24,1167,229,True
+qevasion-train-1452,train,Clear Reply,13,328,240,True
+qevasion-train-1453,train,Clear Reply,43,328,210,True
+qevasion-train-1454,train,Ambivalent,13,328,240,True
+qevasion-train-1455,train,Ambivalent,12,328,241,True
+qevasion-train-1456,train,Ambivalent,57,328,196,True
+qevasion-train-1457,train,Clear Reply,13,786,240,True
+qevasion-train-1458,train,Ambivalent,20,786,233,True
+qevasion-train-1459,train,Clear Reply,21,349,232,True
+qevasion-train-1460,train,Clear Reply,16,349,237,True
+qevasion-train-1461,train,Ambivalent,89,719,164,True
+qevasion-train-1462,train,Ambivalent,65,719,188,True
+qevasion-train-1463,train,Ambivalent,89,719,164,True
+qevasion-train-1464,train,Ambivalent,65,719,188,True
+qevasion-train-1465,train,Ambivalent,22,714,231,True
+qevasion-train-1466,train,Ambivalent,19,714,234,True
+qevasion-train-1467,train,Ambivalent,31,33,222,False
+qevasion-train-1468,train,Clear Reply,11,15,242,False
+qevasion-train-1469,train,Ambivalent,18,70,235,False
+qevasion-train-1470,train,Clear Non-Reply,9,313,244,True
+qevasion-train-1471,train,Clear Reply,5,197,248,False
+qevasion-train-1472,train,Ambivalent,4,2,249,False
+qevasion-train-1473,train,Ambivalent,8,2,245,False
+qevasion-train-1474,train,Ambivalent,20,463,233,True
+qevasion-train-1475,train,Ambivalent,19,463,234,True
+qevasion-train-1476,train,Ambivalent,22,436,231,True
+qevasion-train-1477,train,Ambivalent,27,148,226,False
+qevasion-train-1478,train,Clear Reply,3,2,250,False
+qevasion-train-1479,train,Clear Reply,4,2,249,False
+qevasion-train-1480,train,Ambivalent,5,327,248,True
+qevasion-train-1481,train,Ambivalent,3,327,250,True
+qevasion-train-1482,train,Ambivalent,18,130,235,False
+qevasion-train-1483,train,Clear Reply,19,130,234,False
+qevasion-train-1484,train,Ambivalent,11,335,242,True
+qevasion-train-1485,train,Ambivalent,6,335,247,True
+qevasion-train-1486,train,Clear Reply,11,335,242,True
+qevasion-train-1487,train,Ambivalent,6,335,247,True
+qevasion-train-1488,train,Ambivalent,4,4,249,False
+qevasion-train-1489,train,Clear Reply,16,376,237,True
+qevasion-train-1490,train,Ambivalent,10,376,243,True
+qevasion-train-1491,train,Ambivalent,12,58,241,False
+qevasion-train-1492,train,Clear Reply,8,2,245,False
+qevasion-train-1493,train,Clear Reply,12,2,241,False
+qevasion-train-1494,train,Ambivalent,13,47,240,False
+qevasion-train-1495,train,Ambivalent,19,47,234,False
+qevasion-train-1496,train,Clear Reply,34,320,219,True
+qevasion-train-1497,train,Ambivalent,5,320,248,True
+qevasion-train-1498,train,Clear Reply,22,328,231,True
+qevasion-train-1499,train,Ambivalent,10,327,243,True
+qevasion-train-1500,train,Ambivalent,9,327,244,True
+qevasion-train-1501,train,Clear Reply,6,222,247,False
+qevasion-train-1502,train,Clear Non-Reply,7,5,246,False
+qevasion-train-1503,train,Clear Reply,14,95,239,False
+qevasion-train-1504,train,Ambivalent,23,95,230,False
+qevasion-train-1505,train,Clear Reply,22,44,231,False
+qevasion-train-1506,validation,Clear Reply,39,231,214,True
+qevasion-train-1507,validation,Clear Reply,7,2,246,False
+qevasion-train-1508,validation,Ambivalent,13,2,240,False
+qevasion-train-1509,validation,Clear Reply,12,113,241,False
+qevasion-train-1510,validation,Clear Reply,7,14,246,False
+qevasion-train-1511,validation,Clear Reply,12,102,241,False
+qevasion-train-1512,validation,Clear Reply,65,249,188,True
+qevasion-train-1513,validation,Clear Reply,65,249,188,True
+qevasion-train-1514,validation,Clear Reply,7,147,246,False
+qevasion-train-1515,validation,Clear Reply,14,2,239,False
+qevasion-train-1516,validation,Ambivalent,8,275,245,True
+qevasion-train-1517,validation,Ambivalent,21,246,232,True
+qevasion-train-1518,validation,Clear Reply,7,2,246,False
+qevasion-train-1519,validation,Ambivalent,6,2,247,False
+qevasion-train-1520,validation,Ambivalent,9,2,244,False
+qevasion-train-1521,validation,Ambivalent,16,134,237,False
+qevasion-train-1522,validation,Ambivalent,10,134,243,False
+qevasion-train-1523,validation,Ambivalent,16,134,237,False
+qevasion-train-1524,validation,Ambivalent,10,134,243,False
+qevasion-train-1525,validation,Ambivalent,13,134,240,False
+qevasion-train-1526,validation,Ambivalent,11,134,242,False
+qevasion-train-1527,validation,Clear Reply,10,119,243,False
+qevasion-train-1528,validation,Clear Reply,10,372,243,True
+qevasion-train-1529,validation,Ambivalent,14,265,239,True
+qevasion-train-1530,validation,Clear Reply,9,1018,244,True
+qevasion-train-1531,validation,Clear Reply,13,244,240,True
+qevasion-train-1532,validation,Clear Non-Reply,16,237,237,False
+qevasion-train-1533,validation,Clear Non-Reply,5,237,248,False
+qevasion-train-1534,validation,Ambivalent,18,52,235,False
+qevasion-train-1535,validation,Clear Reply,10,2,243,False
+qevasion-train-1536,validation,Clear Reply,8,245,245,False
+qevasion-train-1537,validation,Clear Reply,6,245,247,False
+qevasion-train-1538,validation,Ambivalent,25,854,228,True
+qevasion-train-1539,validation,Ambivalent,22,854,231,True
+qevasion-train-1540,validation,Ambivalent,22,854,231,True
+qevasion-train-1541,validation,Clear Reply,7,394,246,True
+qevasion-train-1542,validation,Ambivalent,15,394,238,True
+qevasion-train-1543,validation,Ambivalent,7,57,246,False
+qevasion-train-1544,validation,Ambivalent,17,366,236,True
+qevasion-train-1545,validation,Ambivalent,28,366,225,True
+qevasion-train-1546,validation,Clear Non-Reply,17,267,236,True
+qevasion-train-1547,validation,Clear Non-Reply,15,267,238,True
+qevasion-train-1548,validation,Clear Reply,56,176,197,False
+qevasion-train-1549,validation,Clear Reply,16,105,237,False
+qevasion-train-1550,validation,Clear Non-Reply,15,18,238,False
+qevasion-train-1551,validation,Ambivalent,18,446,235,True
+qevasion-train-1552,validation,Ambivalent,22,446,231,True
+qevasion-train-1553,validation,Ambivalent,8,372,245,True
+qevasion-train-1554,validation,Ambivalent,23,372,230,True
+qevasion-train-1555,validation,Ambivalent,17,401,236,True
+qevasion-train-1556,validation,Ambivalent,8,401,245,True
+qevasion-train-1557,validation,Clear Non-Reply,11,4,242,False
+qevasion-train-1558,validation,Ambivalent,21,291,232,True
+qevasion-train-1559,validation,Clear Reply,6,28,247,False
+qevasion-train-1560,validation,Ambivalent,9,241,244,False
+qevasion-train-1561,validation,Clear Reply,8,241,245,False
+qevasion-train-1562,validation,Clear Reply,13,5,240,False
+qevasion-train-1563,validation,Clear Reply,14,5,239,False
+qevasion-train-1564,validation,Ambivalent,22,179,231,False
+qevasion-train-1565,validation,Clear Reply,3,101,250,False
+qevasion-train-1566,validation,Clear Reply,18,10,235,False
+qevasion-train-1567,validation,Ambivalent,27,10,226,False
+qevasion-train-1568,validation,Clear Non-Reply,8,2,245,False
+qevasion-train-1569,validation,Clear Non-Reply,12,26,241,False
+qevasion-train-1570,validation,Clear Non-Reply,4,36,249,False
+qevasion-train-1571,validation,Clear Reply,10,41,243,False
+qevasion-train-1572,validation,Clear Non-Reply,13,321,240,True
+qevasion-train-1573,validation,Clear Non-Reply,12,321,241,True
+qevasion-train-1574,validation,Clear Reply,6,10,247,False
+qevasion-train-1575,validation,Clear Reply,7,308,246,True
+qevasion-train-1576,validation,Ambivalent,12,308,241,True
+qevasion-train-1577,validation,Clear Reply,14,184,239,False
+qevasion-train-1578,validation,Ambivalent,9,184,244,False
+qevasion-train-1579,validation,Ambivalent,11,184,242,False
+qevasion-train-1580,validation,Ambivalent,6,798,247,True
+qevasion-train-1581,validation,Ambivalent,11,58,242,False
+qevasion-train-1582,validation,Ambivalent,14,155,239,False
+qevasion-train-1583,validation,Ambivalent,33,236,220,True
+qevasion-train-1584,validation,Ambivalent,10,42,243,False
+qevasion-train-1585,validation,Ambivalent,8,279,245,True
+qevasion-train-1586,validation,Ambivalent,29,24,224,False
+qevasion-train-1587,validation,Ambivalent,12,365,241,True
+qevasion-train-1588,train,Ambivalent,19,117,234,False
+qevasion-train-1589,train,Ambivalent,17,117,236,False
+qevasion-train-1590,train,Ambivalent,8,188,245,False
+qevasion-train-1591,train,Clear Reply,22,570,231,True
+qevasion-train-1592,train,Ambivalent,13,570,240,True
+qevasion-train-1593,train,Clear Reply,21,17,232,False
+qevasion-train-1594,train,Clear Reply,24,847,229,True
+qevasion-train-1595,train,Ambivalent,32,847,221,True
+qevasion-train-1596,train,Ambivalent,12,847,241,True
+qevasion-train-1597,train,Clear Non-Reply,20,394,233,True
+qevasion-train-1598,train,Ambivalent,16,73,237,False
+qevasion-train-1599,train,Ambivalent,11,73,242,False
+qevasion-train-1600,train,Ambivalent,19,73,234,False
+qevasion-train-1601,train,Clear Reply,9,17,244,False
+qevasion-train-1602,train,Clear Reply,13,361,240,True
+qevasion-train-1603,train,Ambivalent,13,361,240,True
+qevasion-train-1604,train,Ambivalent,20,139,233,False
+qevasion-train-1605,train,Clear Non-Reply,24,79,229,False
+qevasion-train-1606,train,Ambivalent,8,79,245,False
+qevasion-train-1607,train,Ambivalent,38,142,215,False
+qevasion-train-1608,train,Clear Reply,21,207,232,False
+qevasion-train-1609,train,Ambivalent,4,41,249,False
+qevasion-train-1610,train,Ambivalent,9,546,244,True
+qevasion-train-1611,train,Ambivalent,21,130,232,False
+qevasion-train-1612,train,Clear Non-Reply,24,73,229,False
+qevasion-train-1613,train,Ambivalent,16,73,237,False
+qevasion-train-1614,train,Ambivalent,9,406,244,True
+qevasion-train-1615,train,Ambivalent,38,406,215,True
+qevasion-train-1616,train,Ambivalent,9,409,244,True
+qevasion-train-1617,validation,Ambivalent,12,1075,241,True
+qevasion-train-1618,validation,Ambivalent,12,1075,241,True
+qevasion-train-1619,validation,Ambivalent,9,1362,244,True
+qevasion-train-1620,validation,Ambivalent,10,1362,243,True
+qevasion-train-1621,validation,Ambivalent,7,1362,246,True
+qevasion-train-1622,validation,Ambivalent,13,1362,240,True
+qevasion-train-1623,validation,Ambivalent,15,474,238,True
+qevasion-train-1624,validation,Clear Non-Reply,18,474,235,True
+qevasion-train-1625,validation,Clear Reply,17,652,236,True
+qevasion-train-1626,validation,Clear Reply,15,652,238,True
+qevasion-train-1627,validation,Clear Reply,16,652,237,True
+qevasion-train-1628,validation,Ambivalent,17,652,236,True
+qevasion-train-1629,validation,Ambivalent,12,652,241,True
+qevasion-train-1630,validation,Ambivalent,15,652,238,True
+qevasion-train-1631,train,Ambivalent,44,1356,209,True
+qevasion-train-1632,train,Ambivalent,56,1356,197,True
+qevasion-train-1633,train,Ambivalent,22,1356,231,True
+qevasion-train-1634,train,Clear Reply,27,473,226,True
+qevasion-train-1635,train,Ambivalent,7,473,246,True
+qevasion-train-1636,train,Clear Reply,7,260,246,True
+qevasion-train-1637,train,Ambivalent,8,260,245,True
+qevasion-train-1638,train,Ambivalent,13,260,240,True
+qevasion-train-1639,validation,Clear Non-Reply,7,3,246,False
+qevasion-train-1640,validation,Clear Reply,8,251,245,True
+qevasion-train-1641,validation,Ambivalent,10,102,243,False
+qevasion-train-1642,validation,Ambivalent,10,102,243,False
+qevasion-train-1643,validation,Ambivalent,20,607,233,True
+qevasion-train-1644,validation,Ambivalent,16,509,237,True
+qevasion-train-1645,validation,Clear Reply,12,404,241,True
+qevasion-train-1646,validation,Ambivalent,18,404,235,True
+qevasion-train-1647,validation,Clear Reply,30,404,223,True
+qevasion-train-1648,validation,Ambivalent,13,707,240,True
+qevasion-train-1649,train,Clear Reply,20,180,233,False
+qevasion-train-1650,train,Clear Reply,2,180,251,False
+qevasion-train-1651,train,Ambivalent,9,180,244,False
+qevasion-train-1652,train,Clear Non-Reply,11,16,242,False
+qevasion-train-1653,train,Ambivalent,7,16,246,False
+qevasion-train-1654,train,Ambivalent,6,402,247,True
+qevasion-train-1655,train,Ambivalent,8,306,245,True
+qevasion-train-1656,train,Ambivalent,11,306,242,True
+qevasion-train-1657,train,Ambivalent,21,306,232,True
+qevasion-train-1658,train,Ambivalent,7,511,246,True
+qevasion-train-1659,train,Ambivalent,16,511,237,True
+qevasion-train-1660,train,Ambivalent,18,5,235,False
+qevasion-train-1661,train,Clear Reply,20,217,233,False
+qevasion-train-1662,train,Clear Reply,15,207,238,False
+qevasion-train-1663,train,Ambivalent,22,529,231,True
+qevasion-train-1664,train,Clear Reply,23,59,230,False
+qevasion-train-1665,validation,Clear Non-Reply,14,256,239,True
+qevasion-train-1666,validation,Ambivalent,13,256,240,True
+qevasion-train-1667,validation,Clear Non-Reply,11,9,242,False
+qevasion-train-1668,validation,Ambivalent,16,248,237,True
+qevasion-train-1669,validation,Ambivalent,11,248,242,True
+qevasion-train-1670,validation,Clear Reply,30,760,223,True
+qevasion-train-1671,validation,Ambivalent,23,760,230,True
+qevasion-train-1672,validation,Ambivalent,29,360,224,True
+qevasion-train-1673,validation,Ambivalent,51,360,202,True
+qevasion-train-1674,validation,Ambivalent,27,314,226,True
+qevasion-train-1675,validation,Ambivalent,16,314,237,True
+qevasion-train-1676,validation,Ambivalent,35,314,218,True
+qevasion-train-1677,validation,Ambivalent,22,1122,231,True
+qevasion-train-1678,validation,Ambivalent,29,1122,224,True
+qevasion-train-1679,validation,Ambivalent,29,1122,224,True
+qevasion-train-1680,validation,Clear Reply,8,16,245,False
+qevasion-train-1681,validation,Ambivalent,28,29,225,False
+qevasion-train-1682,validation,Ambivalent,11,6,242,False
+qevasion-train-1683,validation,Clear Reply,21,3,232,False
+qevasion-train-1684,validation,Clear Reply,10,285,243,True
+qevasion-train-1685,validation,Ambivalent,6,285,247,True
+qevasion-train-1686,train,Ambivalent,19,422,234,True
+qevasion-train-1687,train,Ambivalent,13,272,240,True
+qevasion-train-1688,train,Ambivalent,11,272,242,True
+qevasion-train-1689,train,Ambivalent,35,402,218,True
+qevasion-train-1690,train,Ambivalent,31,11,222,False
+qevasion-train-1691,train,Ambivalent,15,392,238,True
+qevasion-train-1692,train,Ambivalent,21,157,232,False
+qevasion-train-1693,train,Ambivalent,20,303,233,True
+qevasion-train-1694,train,Ambivalent,9,303,244,True
+qevasion-train-1695,train,Clear Reply,7,47,246,False
+qevasion-train-1696,train,Ambivalent,14,47,239,False
+qevasion-train-1697,train,Ambivalent,28,58,225,False
+qevasion-train-1698,train,Ambivalent,6,269,247,True
+qevasion-train-1699,train,Ambivalent,5,117,248,False
+qevasion-train-1700,train,Clear Non-Reply,6,132,247,False
+qevasion-train-1701,train,Ambivalent,10,82,243,False
+qevasion-train-1702,train,Ambivalent,19,247,234,True
+qevasion-train-1703,train,Clear Reply,14,20,239,False
+qevasion-train-1704,train,Clear Reply,12,20,241,False
+qevasion-train-1705,train,Ambivalent,17,15,236,False
+qevasion-train-1706,train,Ambivalent,19,138,234,False
+qevasion-train-1707,train,Clear Reply,24,60,229,False
+qevasion-train-1708,train,Ambivalent,35,112,218,False
+qevasion-train-1709,train,Clear Reply,11,28,242,False
+qevasion-train-1710,train,Ambivalent,9,732,244,True
+qevasion-train-1711,train,Ambivalent,24,732,229,True
+qevasion-train-1712,validation,Ambivalent,23,716,230,True
+qevasion-train-1713,validation,Ambivalent,29,716,224,True
+qevasion-train-1714,validation,Ambivalent,16,716,237,True
+qevasion-train-1715,validation,Ambivalent,15,716,238,True
+qevasion-train-1716,validation,Ambivalent,23,716,230,True
+qevasion-train-1717,validation,Clear Non-Reply,29,716,224,True
+qevasion-train-1718,validation,Ambivalent,16,716,237,True
+qevasion-train-1719,validation,Ambivalent,15,716,238,True
+qevasion-train-1720,validation,Ambivalent,20,833,233,True
+qevasion-train-1721,validation,Ambivalent,22,833,231,True
+qevasion-train-1722,validation,Ambivalent,15,833,238,True
+qevasion-train-1723,validation,Ambivalent,8,833,245,True
+qevasion-train-1724,validation,Ambivalent,11,833,242,True
+qevasion-train-1725,validation,Ambivalent,15,833,238,True
+qevasion-train-1726,validation,Ambivalent,20,624,233,True
+qevasion-train-1727,validation,Ambivalent,16,624,237,True
+qevasion-train-1728,validation,Ambivalent,69,624,184,True
+qevasion-train-1729,validation,Ambivalent,16,557,237,True
+qevasion-train-1730,validation,Ambivalent,17,557,236,True
+qevasion-train-1731,validation,Ambivalent,16,557,237,True
+qevasion-train-1732,validation,Ambivalent,17,557,236,True
+qevasion-train-1733,validation,Clear Reply,15,742,238,True
+qevasion-train-1734,validation,Ambivalent,12,742,241,True
+qevasion-train-1735,validation,Ambivalent,16,742,237,True
+qevasion-train-1736,train,Ambivalent,15,2563,238,True
+qevasion-train-1737,train,Ambivalent,21,2563,232,True
+qevasion-train-1738,train,Ambivalent,29,2563,224,True
+qevasion-train-1739,train,Ambivalent,8,182,245,False
+qevasion-train-1740,train,Ambivalent,16,512,237,True
+qevasion-train-1741,train,Ambivalent,23,512,230,True
+qevasion-train-1742,train,Ambivalent,25,512,228,True
+qevasion-train-1743,train,Ambivalent,24,512,229,True
+qevasion-train-1744,train,Clear Reply,9,621,244,True
+qevasion-train-1745,train,Ambivalent,12,621,241,True
+qevasion-train-1746,train,Ambivalent,21,79,232,False
+qevasion-train-1747,train,Ambivalent,10,64,243,False
+qevasion-train-1748,train,Ambivalent,11,64,242,False
+qevasion-train-1749,train,Ambivalent,35,64,218,False
+qevasion-train-1750,train,Ambivalent,21,64,232,False
+qevasion-train-1751,train,Clear Non-Reply,22,24,231,False
+qevasion-train-1752,train,Ambivalent,17,558,236,True
+qevasion-train-1753,train,Clear Reply,20,810,233,True
+qevasion-train-1754,train,Ambivalent,18,810,235,True
+qevasion-train-1755,train,Ambivalent,28,810,225,True
+qevasion-train-1756,train,Clear Reply,20,810,233,True
+qevasion-train-1757,train,Clear Reply,18,810,235,True
+qevasion-train-1758,train,Ambivalent,28,810,225,True
+qevasion-train-1759,train,Ambivalent,22,15,231,False
+qevasion-train-1760,train,Ambivalent,16,15,237,False
+qevasion-train-1761,train,Ambivalent,15,15,238,False
+qevasion-train-1762,train,Ambivalent,14,15,239,False
+qevasion-train-1763,train,Ambivalent,24,15,229,False
+qevasion-train-1764,train,Ambivalent,22,2,231,False
+qevasion-train-1765,train,Ambivalent,30,2,223,False
+qevasion-train-1766,train,Ambivalent,8,2,245,False
+qevasion-train-1767,train,Ambivalent,12,915,241,True
+qevasion-train-1768,train,Clear Reply,54,930,199,True
+qevasion-train-1769,train,Clear Reply,25,930,228,True
+qevasion-train-1770,train,Clear Reply,28,930,225,True
+qevasion-train-1771,train,Clear Non-Reply,41,13,212,False
+qevasion-train-1772,train,Ambivalent,36,13,217,False
+qevasion-train-1773,train,Ambivalent,26,13,227,False
+qevasion-train-1774,train,Ambivalent,8,232,245,False
+qevasion-train-1775,train,Clear Reply,20,1367,233,True
+qevasion-train-1776,train,Ambivalent,23,1367,230,True
+qevasion-train-1777,train,Ambivalent,30,1473,223,True
+qevasion-train-1778,train,Ambivalent,13,1473,240,True
+qevasion-train-1779,train,Clear Non-Reply,36,1473,217,True
+qevasion-train-1780,train,Ambivalent,19,1809,234,True
+qevasion-train-1781,train,Ambivalent,18,1809,235,True
+qevasion-train-1782,train,Clear Reply,13,1809,240,True
+qevasion-train-1783,train,Ambivalent,16,1809,237,True
+qevasion-train-1784,train,Ambivalent,15,1809,238,True
+qevasion-train-1785,train,Ambivalent,9,986,244,True
+qevasion-train-1786,train,Ambivalent,4,986,249,True
+qevasion-train-1787,train,Ambivalent,7,986,246,True
+qevasion-train-1788,train,Ambivalent,9,986,244,True
+qevasion-train-1789,train,Ambivalent,52,1106,201,True
+qevasion-train-1790,train,Ambivalent,29,1106,224,True
+qevasion-train-1791,train,Ambivalent,52,1106,201,True
+qevasion-train-1792,train,Ambivalent,29,1106,224,True
+qevasion-train-1793,train,Clear Reply,13,784,240,True
+qevasion-train-1794,train,Ambivalent,18,784,235,True
+qevasion-train-1795,train,Clear Reply,61,1411,192,True
+qevasion-train-1796,train,Clear Reply,58,1411,195,True
+qevasion-train-1797,train,Ambivalent,15,1049,238,True
+qevasion-train-1798,train,Clear Reply,31,1049,222,True
+qevasion-train-1799,train,Ambivalent,19,1049,234,True
+qevasion-train-1800,train,Ambivalent,11,1031,242,True
+qevasion-train-1801,train,Ambivalent,12,1031,241,True
+qevasion-train-1802,train,Ambivalent,15,1031,238,True
+qevasion-train-1803,train,Ambivalent,6,1031,247,True
+qevasion-train-1804,train,Clear Reply,12,1031,241,True
+qevasion-train-1805,train,Clear Reply,11,1031,242,True
+qevasion-train-1806,train,Ambivalent,6,1031,247,True
+qevasion-train-1807,train,Ambivalent,15,1031,238,True
+qevasion-train-1808,train,Clear Reply,5,658,248,True
+qevasion-train-1809,train,Ambivalent,13,658,240,True
+qevasion-train-1810,train,Clear Reply,9,658,244,True
+qevasion-train-1811,train,Ambivalent,15,828,238,True
+qevasion-train-1812,train,Ambivalent,47,828,206,True
+qevasion-train-1813,train,Ambivalent,10,147,243,False
+qevasion-train-1814,train,Ambivalent,12,778,241,True
+qevasion-train-1815,train,Ambivalent,20,778,233,True
+qevasion-train-1816,train,Clear Reply,5,1106,248,True
+qevasion-train-1817,train,Clear Reply,13,1106,240,True
+qevasion-train-1818,train,Ambivalent,10,325,243,True
+qevasion-train-1819,train,Clear Reply,13,980,240,True
+qevasion-train-1820,train,Clear Reply,14,980,239,True
+qevasion-train-1821,train,Ambivalent,20,651,233,True
+qevasion-train-1822,train,Ambivalent,17,651,236,True
+qevasion-train-1823,train,Ambivalent,17,10,236,False
+qevasion-train-1824,train,Ambivalent,16,10,237,False
+qevasion-train-1825,train,Clear Reply,6,358,247,True
+qevasion-train-1826,train,Clear Reply,19,358,234,True
+qevasion-train-1827,train,Ambivalent,26,78,227,False
+qevasion-train-1828,train,Clear Reply,5,654,248,True
+qevasion-train-1829,train,Clear Reply,6,654,247,True
+qevasion-train-1830,train,Clear Reply,12,654,241,True
+qevasion-train-1831,train,Ambivalent,19,654,234,True
+qevasion-train-1832,train,Ambivalent,21,2,232,False
+qevasion-train-1833,train,Ambivalent,24,2,229,False
+qevasion-train-1834,train,Ambivalent,21,1333,232,True
+qevasion-train-1835,train,Clear Reply,19,861,234,True
+qevasion-train-1836,train,Ambivalent,20,861,233,True
+qevasion-train-1837,train,Clear Non-Reply,6,19,247,False
+qevasion-train-1838,train,Clear Reply,23,1143,230,True
+qevasion-train-1839,train,Clear Reply,30,1143,223,True
+qevasion-train-1840,train,Ambivalent,17,1143,236,True
+qevasion-train-1841,train,Clear Reply,17,501,236,True
+qevasion-train-1842,train,Ambivalent,25,501,228,True
+qevasion-train-1843,train,Clear Reply,15,501,238,True
+qevasion-train-1844,train,Ambivalent,14,78,239,False
+qevasion-train-1845,train,Clear Non-Reply,15,78,238,False
+qevasion-train-1846,train,Ambivalent,18,2,235,False
+qevasion-train-1847,train,Ambivalent,23,2,230,False
+qevasion-train-1848,train,Clear Reply,26,1171,227,True
+qevasion-train-1849,train,Ambivalent,35,1171,218,True
+qevasion-train-1850,train,Clear Reply,15,664,238,True
+qevasion-train-1851,train,Clear Reply,24,1090,229,True
+qevasion-train-1852,train,Ambivalent,21,1090,232,True
+qevasion-train-1853,train,Clear Reply,11,1508,242,True
+qevasion-train-1854,train,Clear Reply,38,1508,215,True
+qevasion-train-1855,train,Ambivalent,22,1508,231,True
+qevasion-train-1856,train,Ambivalent,27,1508,226,True
+qevasion-train-1857,train,Clear Reply,10,1041,243,True
+qevasion-train-1858,train,Clear Reply,6,1041,247,True
+qevasion-train-1859,train,Clear Reply,10,1041,243,True
+qevasion-train-1860,train,Ambivalent,8,1041,245,True
+qevasion-train-1861,train,Ambivalent,22,1041,231,True
+qevasion-train-1862,train,Clear Reply,20,342,233,True
+qevasion-train-1863,train,Ambivalent,30,342,223,True
+qevasion-train-1864,train,Ambivalent,36,1517,217,True
+qevasion-train-1865,train,Ambivalent,31,1517,222,True
+qevasion-train-1866,train,Ambivalent,36,1517,217,True
+qevasion-train-1867,train,Ambivalent,10,2092,243,True
+qevasion-train-1868,train,Ambivalent,11,2092,242,True
+qevasion-train-1869,train,Ambivalent,16,2092,237,True
+qevasion-train-1870,train,Clear Reply,14,1732,239,True
+qevasion-train-1871,train,Clear Reply,13,1732,240,True
+qevasion-train-1872,train,Ambivalent,21,1732,232,True
+qevasion-train-1873,train,Ambivalent,27,1732,226,True
+qevasion-train-1874,train,Clear Non-Reply,15,1732,238,True
+qevasion-train-1875,train,Ambivalent,32,1732,221,True
+qevasion-train-1876,train,Ambivalent,34,1732,219,True
+qevasion-train-1877,train,Ambivalent,21,1732,232,True
+qevasion-train-1878,train,Clear Reply,13,1732,240,True
+qevasion-train-1879,train,Ambivalent,27,1732,226,True
+qevasion-train-1880,train,Ambivalent,14,1732,239,True
+qevasion-train-1881,train,Ambivalent,15,1732,238,True
+qevasion-train-1882,train,Ambivalent,32,1732,221,True
+qevasion-train-1883,train,Ambivalent,34,1732,219,True
+qevasion-train-1884,train,Ambivalent,15,1502,238,True
+qevasion-train-1885,train,Ambivalent,22,1502,231,True
+qevasion-train-1886,train,Clear Reply,13,1186,240,True
+qevasion-train-1887,train,Ambivalent,29,765,224,True
+qevasion-train-1888,train,Ambivalent,24,765,229,True
+qevasion-train-1889,validation,Clear Reply,15,751,238,True
+qevasion-train-1890,validation,Clear Reply,32,751,221,True
+qevasion-train-1891,validation,Ambivalent,28,751,225,True
+qevasion-train-1892,validation,Ambivalent,12,324,241,True
+qevasion-train-1893,validation,Clear Reply,13,377,240,True
+qevasion-train-1894,validation,Ambivalent,11,871,242,True
+qevasion-train-1895,validation,Clear Reply,17,871,236,True
+qevasion-train-1896,validation,Clear Reply,28,871,225,True
+qevasion-train-1897,validation,Ambivalent,17,871,236,True
+qevasion-train-1898,validation,Clear Reply,10,362,243,True
+qevasion-train-1899,train,Ambivalent,14,864,239,True
+qevasion-train-1900,train,Ambivalent,10,864,243,True
+qevasion-train-1901,train,Ambivalent,10,864,243,True
+qevasion-train-1902,train,Ambivalent,12,864,241,True
+qevasion-train-1903,train,Ambivalent,32,624,221,True
+qevasion-train-1904,train,Ambivalent,15,624,238,True
+qevasion-train-1905,train,Ambivalent,20,624,233,True
+qevasion-train-1906,train,Ambivalent,9,891,244,True
+qevasion-train-1907,train,Ambivalent,7,891,246,True
+qevasion-train-1908,train,Ambivalent,12,891,241,True
+qevasion-train-1909,train,Ambivalent,30,1924,223,True
+qevasion-train-1910,train,Ambivalent,16,1924,237,True
+qevasion-train-1911,train,Ambivalent,37,1924,216,True
+qevasion-train-1912,train,Clear Reply,15,750,238,True
+qevasion-train-1913,train,Ambivalent,40,750,213,True
+qevasion-train-1914,train,Clear Non-Reply,6,1033,247,True
+qevasion-train-1915,train,Clear Non-Reply,9,1033,244,True
+qevasion-train-1916,train,Clear Reply,11,1003,242,True
+qevasion-train-1917,validation,Clear Reply,11,728,242,True
+qevasion-train-1918,validation,Ambivalent,12,728,241,True
+qevasion-train-1919,validation,Ambivalent,7,728,246,True
+qevasion-train-1920,train,Ambivalent,15,1462,238,True
+qevasion-train-1921,train,Ambivalent,31,1462,222,True
+qevasion-train-1922,train,Ambivalent,33,1462,220,True
+qevasion-train-1923,train,Ambivalent,31,1462,222,True
+qevasion-train-1924,train,Ambivalent,11,778,242,True
+qevasion-train-1925,train,Ambivalent,8,1204,245,True
+qevasion-train-1926,train,Clear Reply,12,843,241,True
+qevasion-train-1927,train,Ambivalent,20,843,233,True
+qevasion-train-1928,train,Clear Reply,38,423,215,True
+qevasion-train-1929,train,Ambivalent,16,11,237,False
+qevasion-train-1930,train,Ambivalent,8,11,245,False
+qevasion-train-1931,train,Ambivalent,25,11,228,False
+qevasion-train-1932,train,Ambivalent,34,11,219,False
+qevasion-train-1933,train,Ambivalent,8,504,245,True
+qevasion-train-1934,train,Clear Reply,6,228,247,False
+qevasion-train-1935,validation,Ambivalent,22,1714,231,True
+qevasion-train-1936,train,Clear Reply,23,1262,230,True
+qevasion-train-1937,train,Clear Reply,14,1262,239,True
+qevasion-train-1938,train,Ambivalent,16,1262,237,True
+qevasion-train-1939,train,Ambivalent,13,1262,240,True
+qevasion-train-1940,train,Ambivalent,20,1262,233,True
+qevasion-train-1941,train,Clear Reply,10,1027,243,True
+qevasion-train-1942,train,Ambivalent,27,2,226,False
+qevasion-train-1943,train,Ambivalent,23,1184,230,True
+qevasion-train-1944,train,Ambivalent,33,1184,220,True
+qevasion-train-1945,train,Clear Reply,23,540,230,True
+qevasion-train-1946,train,Ambivalent,24,540,229,True
+qevasion-train-1947,train,Ambivalent,9,540,244,True
+qevasion-train-1948,train,Ambivalent,47,482,206,True
+qevasion-train-1949,train,Ambivalent,44,482,209,True
+qevasion-train-1950,train,Clear Reply,11,2,242,False
+qevasion-train-1951,train,Ambivalent,29,969,224,True
+qevasion-train-1952,train,Clear Reply,4,5,249,False
+qevasion-train-1953,train,Ambivalent,38,226,215,True
+qevasion-train-1954,train,Ambivalent,10,226,243,False
+qevasion-train-1955,train,Ambivalent,16,226,237,False
+qevasion-train-1956,train,Ambivalent,16,226,237,False
+qevasion-train-1957,train,Ambivalent,5,31,248,False
+qevasion-train-1958,train,Ambivalent,25,705,228,True
+qevasion-train-1959,train,Ambivalent,32,991,221,True
+qevasion-train-1960,train,Ambivalent,48,991,205,True
+qevasion-train-1961,train,Ambivalent,7,129,246,False
+qevasion-train-1962,train,Ambivalent,22,754,231,True
+qevasion-train-1963,train,Ambivalent,41,754,212,True
+qevasion-train-1964,train,Clear Non-Reply,9,1257,244,True
+qevasion-train-1965,train,Clear Non-Reply,12,1257,241,True
+qevasion-train-1966,train,Clear Non-Reply,15,1257,238,True
+qevasion-train-1967,train,Clear Non-Reply,14,1257,239,True
+qevasion-train-1968,train,Ambivalent,18,2,235,False
+qevasion-train-1969,train,Ambivalent,17,2,236,False
+qevasion-train-1970,train,Ambivalent,15,421,238,True
+qevasion-train-1971,train,Clear Reply,10,1679,243,True
+qevasion-train-1972,train,Ambivalent,14,631,239,True
+qevasion-train-1973,train,Ambivalent,14,631,239,True
+qevasion-train-1974,train,Clear Non-Reply,19,631,234,True
+qevasion-train-1975,train,Ambivalent,19,863,234,True
+qevasion-train-1976,train,Ambivalent,52,863,201,True
+qevasion-train-1977,train,Clear Reply,4,12,249,False
+qevasion-train-1978,train,Ambivalent,28,1241,225,True
+qevasion-train-1979,train,Ambivalent,19,1241,234,True
+qevasion-train-1980,train,Ambivalent,22,1241,231,True
+qevasion-train-1981,train,Ambivalent,27,782,226,True
+qevasion-train-1982,train,Clear Reply,19,782,234,True
+qevasion-train-1983,train,Clear Reply,10,782,243,True
+qevasion-train-1984,train,Ambivalent,56,1425,197,True
+qevasion-train-1985,train,Ambivalent,98,1425,155,True
+qevasion-train-1986,train,Clear Reply,13,127,240,False
+qevasion-train-1987,train,Ambivalent,17,379,236,True
+qevasion-train-1988,validation,Ambivalent,23,1269,230,True
+qevasion-train-1989,validation,Clear Reply,30,1269,223,True
+qevasion-train-1990,validation,Ambivalent,11,1269,242,True
+qevasion-train-1991,train,Clear Reply,26,674,227,True
+qevasion-train-1992,train,Clear Reply,12,674,241,True
+qevasion-train-1993,train,Clear Non-Reply,7,387,246,True
+qevasion-train-1994,train,Clear Non-Reply,21,28,232,False
+qevasion-train-1995,train,Clear Non-Reply,17,28,236,False
+qevasion-train-1996,train,Clear Non-Reply,33,28,220,False
+qevasion-train-1997,train,Ambivalent,12,178,241,False
+qevasion-train-1998,train,Ambivalent,19,178,234,False
+qevasion-train-1999,train,Ambivalent,19,178,234,False
+qevasion-train-2000,train,Ambivalent,17,178,236,False
+qevasion-train-2001,train,Ambivalent,21,597,232,True
+qevasion-train-2002,train,Ambivalent,23,597,230,True
+qevasion-train-2003,train,Clear Reply,11,792,242,True
+qevasion-train-2004,train,Ambivalent,23,792,230,True
+qevasion-train-2005,train,Ambivalent,35,792,218,True
+qevasion-train-2006,train,Ambivalent,14,19,239,False
+qevasion-train-2007,train,Clear Reply,26,1292,227,True
+qevasion-train-2008,validation,Clear Reply,14,400,239,True
+qevasion-train-2009,validation,Clear Reply,8,400,245,True
+qevasion-train-2010,validation,Clear Reply,10,400,243,True
+qevasion-train-2011,validation,Ambivalent,9,400,244,True
+qevasion-train-2012,validation,Ambivalent,25,400,228,True
+qevasion-train-2013,validation,Ambivalent,11,157,242,False
+qevasion-train-2014,validation,Clear Reply,12,12,241,False
+qevasion-train-2015,validation,Clear Reply,60,438,193,True
+qevasion-train-2016,validation,Clear Reply,15,515,238,True
+qevasion-train-2017,validation,Ambivalent,11,515,242,True
+qevasion-train-2018,validation,Ambivalent,28,515,225,True
+qevasion-train-2019,validation,Clear Reply,12,128,241,False
+qevasion-train-2020,validation,Clear Reply,6,440,247,True
+qevasion-train-2021,validation,Clear Reply,16,440,237,True
+qevasion-train-2022,validation,Ambivalent,5,2,248,False
+qevasion-train-2023,validation,Clear Reply,9,101,244,False
+qevasion-train-2024,train,Clear Reply,17,1183,236,True
+qevasion-train-2025,train,Ambivalent,17,628,236,True
+qevasion-train-2026,train,Ambivalent,30,628,223,True
+qevasion-train-2027,train,Ambivalent,28,439,225,True
+qevasion-train-2028,train,Clear Reply,25,1025,228,True
+qevasion-train-2029,train,Ambivalent,18,1025,235,True
+qevasion-train-2030,train,Ambivalent,6,1025,247,True
+qevasion-train-2031,train,Ambivalent,10,1025,243,True
+qevasion-train-2032,train,Ambivalent,13,1025,240,True
+qevasion-train-2033,train,Clear Non-Reply,21,61,232,False
+qevasion-train-2034,train,Clear Non-Reply,22,61,231,False
+qevasion-train-2035,train,Ambivalent,18,293,235,True
+qevasion-train-2036,train,Ambivalent,23,123,230,False
+qevasion-train-2037,train,Ambivalent,18,277,235,True
+qevasion-train-2038,train,Clear Reply,14,420,239,True
+qevasion-train-2039,train,Ambivalent,25,2,228,False
+qevasion-train-2040,train,Ambivalent,32,2,221,False
+qevasion-train-2041,train,Ambivalent,18,631,235,True
+qevasion-train-2042,train,Clear Reply,10,101,243,False
+qevasion-train-2043,train,Clear Non-Reply,16,148,237,False
+qevasion-train-2044,train,Ambivalent,21,572,232,True
+qevasion-train-2045,train,Ambivalent,20,572,233,True
+qevasion-train-2046,train,Clear Reply,18,572,235,True
+qevasion-train-2047,train,Ambivalent,14,572,239,True
+qevasion-train-2048,train,Ambivalent,11,573,242,True
+qevasion-train-2049,train,Ambivalent,17,573,236,True
+qevasion-train-2050,train,Ambivalent,18,573,235,True
+qevasion-train-2051,train,Ambivalent,11,363,242,True
+qevasion-train-2052,train,Ambivalent,16,363,237,True
+qevasion-train-2053,train,Ambivalent,11,196,242,False
+qevasion-train-2054,train,Ambivalent,12,196,241,False
+qevasion-train-2055,train,Ambivalent,12,196,241,False
+qevasion-train-2056,train,Ambivalent,24,405,229,True
+qevasion-train-2057,train,Ambivalent,41,405,212,True
+qevasion-train-2058,train,Clear Non-Reply,22,42,231,False
+qevasion-train-2059,train,Clear Reply,29,625,224,True
+qevasion-train-2060,train,Ambivalent,23,625,230,True
+qevasion-train-2061,train,Ambivalent,26,625,227,True
+qevasion-train-2062,train,Ambivalent,26,184,227,False
+qevasion-train-2063,train,Clear Non-Reply,31,50,222,False
+qevasion-train-2064,train,Clear Non-Reply,6,424,247,True
+qevasion-train-2065,train,Ambivalent,32,200,221,False
+qevasion-train-2066,train,Clear Reply,17,942,236,True
+qevasion-train-2067,train,Ambivalent,13,778,240,True
+qevasion-train-2068,train,Ambivalent,5,778,248,True
+qevasion-train-2069,train,Clear Non-Reply,6,4,247,False
+qevasion-train-2070,train,Ambivalent,10,299,243,True
+qevasion-train-2071,train,Ambivalent,20,565,233,True
+qevasion-train-2072,train,Clear Reply,5,847,248,True
+qevasion-train-2073,train,Ambivalent,9,847,244,True
+qevasion-train-2074,train,Ambivalent,5,8,248,False
+qevasion-train-2075,train,Ambivalent,8,8,245,False
+qevasion-train-2076,train,Ambivalent,5,8,248,False
+qevasion-train-2077,train,Ambivalent,7,11,246,False
+qevasion-train-2078,validation,Ambivalent,38,536,215,True
+qevasion-train-2079,validation,Ambivalent,29,536,224,True
+qevasion-train-2080,validation,Ambivalent,20,536,233,True
+qevasion-train-2081,validation,Clear Non-Reply,16,536,237,True
+qevasion-train-2082,validation,Ambivalent,15,315,238,True
+qevasion-train-2083,validation,Ambivalent,20,1220,233,True
+qevasion-train-2084,validation,Ambivalent,24,1220,229,True
+qevasion-train-2085,validation,Ambivalent,10,527,243,True
+qevasion-train-2086,validation,Ambivalent,6,527,247,True
+qevasion-train-2087,train,Ambivalent,18,860,235,True
+qevasion-train-2088,train,Ambivalent,46,530,207,True
+qevasion-train-2089,train,Clear Reply,43,530,210,True
+qevasion-train-2090,train,Ambivalent,41,530,212,True
+qevasion-train-2091,train,Ambivalent,13,888,240,True
+qevasion-train-2092,train,Ambivalent,15,888,238,True
+qevasion-train-2093,validation,Ambivalent,6,6,247,False
+qevasion-train-2094,validation,Ambivalent,10,1298,243,True
+qevasion-train-2095,validation,Clear Reply,15,330,238,True
+qevasion-train-2096,validation,Ambivalent,20,330,233,True
+qevasion-train-2097,validation,Clear Reply,19,896,234,True
+qevasion-train-2098,validation,Ambivalent,15,896,238,True
+qevasion-train-2099,validation,Ambivalent,15,896,238,True
+qevasion-train-2100,validation,Ambivalent,10,896,243,True
+qevasion-train-2101,validation,Ambivalent,14,969,239,True
+qevasion-train-2102,train,Clear Non-Reply,17,5,236,False
+qevasion-train-2103,train,Clear Reply,5,2,248,False
+qevasion-train-2104,train,Ambivalent,16,753,237,True
+qevasion-train-2105,train,Ambivalent,28,753,225,True
+qevasion-train-2106,validation,Ambivalent,3,31,250,False
+qevasion-train-2107,validation,Clear Reply,47,893,206,True
+qevasion-train-2108,validation,Ambivalent,20,555,233,True
+qevasion-train-2109,validation,Ambivalent,24,555,229,True
+qevasion-train-2110,validation,Ambivalent,17,250,236,True
+qevasion-train-2111,validation,Ambivalent,7,250,246,True
+qevasion-train-2112,train,Ambivalent,37,820,216,True
+qevasion-train-2113,train,Ambivalent,5,820,248,True
+qevasion-train-2114,train,Ambivalent,28,820,225,True
+qevasion-train-2115,train,Ambivalent,15,820,238,True
+qevasion-train-2116,train,Ambivalent,20,820,233,True
+qevasion-train-2117,train,Ambivalent,18,1052,235,True
+qevasion-train-2118,train,Clear Reply,13,1052,240,True
+qevasion-train-2119,validation,Clear Reply,7,660,246,True
+qevasion-train-2120,validation,Ambivalent,15,192,238,False
+qevasion-train-2121,train,Clear Reply,24,806,229,True
+qevasion-train-2122,train,Ambivalent,34,806,219,True
+qevasion-train-2123,train,Ambivalent,16,806,237,True
+qevasion-train-2124,train,Clear Reply,54,800,199,True
+qevasion-train-2125,train,Ambivalent,29,800,224,True
+qevasion-train-2126,validation,Ambivalent,16,1517,237,True
+qevasion-train-2127,validation,Clear Reply,14,1517,239,True
+qevasion-train-2128,train,Ambivalent,10,431,243,True
+qevasion-train-2129,train,Ambivalent,16,341,237,True
+qevasion-train-2130,train,Ambivalent,24,925,229,True
+qevasion-train-2131,train,Ambivalent,21,925,232,True
+qevasion-train-2132,train,Ambivalent,10,466,243,True
+qevasion-train-2133,train,Ambivalent,6,466,247,True
+qevasion-train-2134,train,Ambivalent,6,22,247,False
+qevasion-train-2135,train,Clear Non-Reply,27,12,226,False
+qevasion-train-2136,train,Clear Reply,11,567,242,True
+qevasion-train-2137,train,Clear Reply,9,25,244,False
+qevasion-train-2138,train,Ambivalent,13,31,240,False
+qevasion-train-2139,train,Clear Reply,8,17,245,False
+qevasion-train-2140,train,Clear Reply,41,275,212,True
+qevasion-train-2141,train,Clear Reply,32,140,221,False
+qevasion-train-2142,train,Clear Reply,9,3,244,False
+qevasion-train-2143,train,Ambivalent,21,19,232,False
+qevasion-train-2144,train,Ambivalent,17,19,236,False
+qevasion-train-2145,train,Ambivalent,14,19,239,False
+qevasion-train-2146,train,Ambivalent,24,19,229,False
+qevasion-train-2147,train,Ambivalent,22,19,231,False
+qevasion-train-2148,train,Ambivalent,19,19,234,False
+qevasion-train-2149,train,Ambivalent,25,546,228,True
+qevasion-train-2150,train,Clear Reply,11,546,242,True
+qevasion-train-2151,train,Ambivalent,50,255,203,True
+qevasion-train-2152,train,Ambivalent,14,433,239,True
+qevasion-train-2153,train,Ambivalent,22,551,231,True
+qevasion-train-2154,train,Ambivalent,24,551,229,True
+qevasion-train-2155,train,Ambivalent,22,551,231,True
+qevasion-train-2156,train,Ambivalent,26,390,227,True
+qevasion-train-2157,train,Ambivalent,32,390,221,True
+qevasion-train-2158,train,Ambivalent,28,390,225,True
+qevasion-train-2159,train,Ambivalent,15,240,238,True
+qevasion-train-2160,train,Ambivalent,14,240,239,True
+qevasion-train-2161,train,Ambivalent,19,240,234,True
+qevasion-train-2162,train,Ambivalent,21,240,232,True
+qevasion-train-2163,train,Ambivalent,21,336,232,True
+qevasion-train-2164,train,Clear Non-Reply,13,3,240,False
+qevasion-train-2165,train,Clear Reply,14,23,239,False
+qevasion-train-2166,train,Ambivalent,17,747,236,True
+qevasion-train-2167,train,Clear Reply,11,2,242,False
+qevasion-train-2168,train,Clear Reply,24,496,229,True
+qevasion-train-2169,train,Ambivalent,13,52,240,False
+qevasion-train-2170,train,Clear Reply,9,231,244,False
+qevasion-train-2171,train,Clear Non-Reply,23,30,230,False
+qevasion-train-2172,train,Clear Reply,14,299,239,True
+qevasion-train-2173,train,Clear Reply,23,299,230,True
+qevasion-train-2174,train,Ambivalent,26,247,227,True
+qevasion-train-2175,train,Clear Reply,15,454,238,True
+qevasion-train-2176,train,Clear Non-Reply,16,454,237,True
+qevasion-train-2177,train,Ambivalent,7,189,246,False
+qevasion-train-2178,train,Ambivalent,14,72,239,False
+qevasion-train-2179,train,Ambivalent,10,767,243,True
+qevasion-train-2180,train,Ambivalent,9,767,244,True
+qevasion-train-2181,train,Clear Reply,14,452,239,True
+qevasion-train-2182,train,Ambivalent,18,452,235,True
+qevasion-train-2183,train,Clear Non-Reply,9,17,244,False
+qevasion-train-2184,train,Ambivalent,6,77,247,False
+qevasion-train-2185,train,Ambivalent,9,998,244,True
+qevasion-train-2186,train,Ambivalent,17,257,236,True
+qevasion-train-2187,train,Clear Reply,11,23,242,False
+qevasion-train-2188,train,Clear Reply,19,696,234,True
+qevasion-train-2189,train,Clear Reply,13,328,240,True
+qevasion-train-2190,train,Ambivalent,8,441,245,True
+qevasion-train-2191,train,Ambivalent,29,744,224,True
+qevasion-train-2192,train,Ambivalent,14,744,239,True
+qevasion-train-2193,train,Ambivalent,16,744,237,True
+qevasion-train-2194,train,Ambivalent,11,744,242,True
+qevasion-train-2195,train,Ambivalent,23,627,230,True
+qevasion-train-2196,train,Clear Non-Reply,30,627,223,True
+qevasion-train-2197,train,Ambivalent,11,627,242,True
+qevasion-train-2198,train,Clear Non-Reply,26,627,227,True
+qevasion-train-2199,train,Clear Reply,5,286,248,True
+qevasion-train-2200,train,Ambivalent,32,286,221,True
+qevasion-train-2201,train,Clear Reply,9,662,244,True
+qevasion-train-2202,train,Clear Non-Reply,8,662,245,True
+qevasion-train-2203,train,Clear Non-Reply,11,662,242,True
+qevasion-train-2204,train,Ambivalent,13,662,240,True
+qevasion-train-2205,train,Clear Reply,28,989,225,True
+qevasion-train-2206,train,Ambivalent,29,989,224,True
+qevasion-train-2207,train,Ambivalent,48,989,205,True
+qevasion-train-2208,train,Clear Reply,14,698,239,True
+qevasion-train-2209,train,Ambivalent,21,698,232,True
+qevasion-train-2210,train,Clear Reply,9,698,244,True
+qevasion-train-2211,train,Clear Non-Reply,15,698,238,True
+qevasion-train-2212,train,Ambivalent,14,468,239,True
+qevasion-train-2213,train,Clear Reply,15,650,238,True
+qevasion-train-2214,train,Clear Reply,8,650,245,True
+qevasion-train-2215,train,Clear Reply,10,650,243,True
+qevasion-train-2216,train,Ambivalent,16,650,237,True
+qevasion-train-2217,train,Clear Reply,19,178,234,False
+qevasion-train-2218,train,Clear Non-Reply,28,120,225,False
+qevasion-train-2219,train,Clear Reply,25,717,228,True
+qevasion-train-2220,train,Ambivalent,11,717,242,True
+qevasion-train-2221,train,Clear Reply,14,394,239,True
+qevasion-train-2222,train,Ambivalent,14,394,239,True
+qevasion-train-2223,train,Ambivalent,21,59,232,False
+qevasion-train-2224,train,Ambivalent,16,386,237,True
+qevasion-train-2225,train,Ambivalent,28,15,225,False
+qevasion-train-2226,train,Ambivalent,7,149,246,False
+qevasion-train-2227,train,Ambivalent,27,1055,226,True
+qevasion-train-2228,train,Ambivalent,16,1055,237,True
+qevasion-train-2229,train,Clear Reply,10,277,243,True
+qevasion-train-2230,train,Clear Non-Reply,33,138,220,False
+qevasion-train-2231,train,Ambivalent,12,306,241,True
+qevasion-train-2232,train,Clear Reply,26,332,227,True
+qevasion-train-2233,train,Clear Reply,22,844,231,True
+qevasion-train-2240,validation,Clear Non-Reply,4,112,249,False
+qevasion-train-2241,validation,Clear Reply,57,731,196,True
+qevasion-train-2242,validation,Ambivalent,42,731,211,True
+qevasion-train-2243,validation,Ambivalent,3,1139,250,True
+qevasion-train-2244,validation,Ambivalent,38,1139,215,True
+qevasion-train-2245,validation,Ambivalent,7,1139,246,True
+qevasion-train-2246,validation,Ambivalent,10,403,243,True
+qevasion-train-2247,validation,Ambivalent,4,403,249,True
+qevasion-train-2248,validation,Ambivalent,15,455,238,True
+qevasion-train-2249,validation,Ambivalent,24,455,229,True
+qevasion-train-2250,validation,Clear Reply,16,398,237,True
+qevasion-train-2251,validation,Clear Reply,36,363,217,True
+qevasion-train-2252,validation,Ambivalent,6,309,247,True
+qevasion-train-2253,validation,Ambivalent,5,254,248,True
+qevasion-train-2254,validation,Ambivalent,29,276,224,True
+qevasion-train-2255,validation,Ambivalent,28,276,225,True
+qevasion-train-2256,validation,Ambivalent,6,164,247,False
+qevasion-train-2257,validation,Ambivalent,4,164,249,False
+qevasion-train-2258,validation,Ambivalent,19,475,234,True
+qevasion-train-2259,validation,Ambivalent,15,564,238,True
+qevasion-train-2260,validation,Ambivalent,23,148,230,False
+qevasion-train-2261,validation,Ambivalent,8,496,245,True
+qevasion-train-2262,validation,Clear Reply,6,110,247,False
+qevasion-train-2263,validation,Ambivalent,11,110,242,False
+qevasion-train-2264,validation,Ambivalent,4,110,249,False
+qevasion-train-2265,validation,Ambivalent,12,347,241,True
+qevasion-train-2266,validation,Clear Reply,7,714,246,True
+qevasion-train-2267,validation,Clear Reply,22,730,231,True
+qevasion-train-2268,validation,Ambivalent,10,730,243,True
+qevasion-train-2269,validation,Clear Non-Reply,9,64,244,False
+qevasion-train-2270,validation,Ambivalent,19,578,234,True
+qevasion-train-2271,validation,Ambivalent,23,578,230,True
+qevasion-train-2272,validation,Ambivalent,16,490,237,True
+qevasion-train-2273,validation,Ambivalent,20,490,233,True
+qevasion-train-2274,validation,Clear Non-Reply,7,36,246,False
+qevasion-train-2275,train,Ambivalent,12,757,241,True
+qevasion-train-2276,train,Ambivalent,14,757,239,True
+qevasion-train-2277,train,Ambivalent,10,82,243,False
+qevasion-train-2278,train,Ambivalent,14,419,239,True
+qevasion-train-2279,train,Ambivalent,20,419,233,True
+qevasion-train-2280,train,Ambivalent,10,456,243,True
+qevasion-train-2281,train,Ambivalent,9,456,244,True
+qevasion-train-2282,train,Clear Non-Reply,51,650,202,True
+qevasion-train-2283,train,Ambivalent,47,650,206,True
+qevasion-train-2284,train,Clear Reply,18,419,235,True
+qevasion-train-2285,train,Ambivalent,24,419,229,True
+qevasion-train-2286,train,Clear Reply,16,419,237,True
+qevasion-train-2287,train,Ambivalent,23,419,230,True
+qevasion-train-2288,train,Ambivalent,11,419,242,True
+qevasion-train-2289,train,Clear Reply,71,900,182,True
+qevasion-train-2290,train,Clear Reply,25,900,228,True
+qevasion-train-2291,train,Ambivalent,29,1398,224,True
+qevasion-train-2292,train,Ambivalent,20,1398,233,True
+qevasion-train-2293,train,Ambivalent,20,1398,233,True
+qevasion-train-2294,train,Ambivalent,4,431,249,True
+qevasion-train-2295,train,Ambivalent,14,487,239,True
+qevasion-train-2296,train,Ambivalent,14,487,239,True
+qevasion-train-2297,train,Ambivalent,20,487,233,True
+qevasion-train-2298,train,Clear Non-Reply,18,487,235,True
+qevasion-train-2299,train,Clear Reply,15,611,238,True
+qevasion-train-2300,train,Ambivalent,17,611,236,True
+qevasion-train-2301,train,Ambivalent,14,611,239,True
+qevasion-train-2302,train,Ambivalent,8,390,245,True
+qevasion-train-2303,train,Clear Reply,16,207,237,False
+qevasion-train-2304,train,Clear Non-Reply,40,256,213,True
+qevasion-train-2310,validation,Ambivalent,36,14,217,False
+qevasion-train-2311,validation,Clear Reply,10,68,243,False
+qevasion-train-2312,validation,Ambivalent,13,962,240,True
+qevasion-train-2313,validation,Ambivalent,11,962,242,True
+qevasion-train-2314,validation,Ambivalent,12,962,241,True
+qevasion-train-2315,train,Ambivalent,14,20,239,False
+qevasion-train-2316,train,Ambivalent,9,483,244,True
+qevasion-train-2317,validation,Ambivalent,29,1025,224,True
+qevasion-train-2318,validation,Clear Reply,19,1025,234,True
+qevasion-train-2319,train,Clear Non-Reply,21,15,232,False
+qevasion-train-2320,train,Clear Non-Reply,13,15,240,False
+qevasion-train-2321,train,Clear Non-Reply,18,15,235,False
+qevasion-train-2322,train,Clear Non-Reply,14,15,239,False
+qevasion-train-2323,train,Ambivalent,9,463,244,True
+qevasion-train-2324,train,Clear Reply,14,353,239,True
+qevasion-train-2325,train,Clear Non-Reply,20,353,233,True
+qevasion-train-2326,train,Ambivalent,25,353,228,True
+qevasion-train-2327,train,Ambivalent,37,353,216,True
+qevasion-train-2328,train,Ambivalent,14,818,239,True
+qevasion-train-2329,train,Ambivalent,23,818,230,True
+qevasion-train-2330,train,Ambivalent,14,818,239,True
+qevasion-train-2331,train,Clear Non-Reply,17,395,236,True
+qevasion-train-2332,train,Ambivalent,40,395,213,True
+qevasion-train-2333,train,Ambivalent,16,395,237,True
+qevasion-train-2334,train,Ambivalent,13,1285,240,True
+qevasion-train-2335,train,Ambivalent,17,649,236,True
+qevasion-train-2336,train,Clear Reply,22,1400,231,True
+qevasion-train-2337,train,Ambivalent,20,1400,233,True
+qevasion-train-2338,train,Ambivalent,18,1400,235,True
+qevasion-train-2339,train,Ambivalent,14,16,239,False
+qevasion-train-2340,train,Clear Reply,48,846,205,True
+qevasion-train-2341,train,Ambivalent,45,846,208,True
+qevasion-train-2346,validation,Clear Reply,12,442,241,True
+qevasion-train-2347,validation,Clear Reply,39,442,214,True
+qevasion-train-2348,train,Ambivalent,24,607,229,True
+qevasion-train-2349,train,Ambivalent,27,607,226,True
+qevasion-train-2350,train,Ambivalent,11,97,242,False
+qevasion-train-2351,train,Clear Reply,41,309,212,True
+qevasion-train-2352,train,Clear Non-Reply,42,309,211,True
+qevasion-train-2353,train,Ambivalent,9,400,244,True
+qevasion-train-2354,train,Ambivalent,21,400,232,True
+qevasion-train-2355,train,Ambivalent,16,908,237,True
+qevasion-train-2356,train,Ambivalent,50,727,203,True
+qevasion-train-2357,train,Ambivalent,34,727,219,True
+qevasion-train-2358,train,Ambivalent,14,330,239,True
+qevasion-train-2359,train,Ambivalent,21,330,232,True
+qevasion-train-2360,train,Clear Reply,22,783,231,True
+qevasion-train-2361,train,Ambivalent,14,783,239,True
+qevasion-train-2362,train,Ambivalent,19,300,234,True
+qevasion-train-2363,train,Ambivalent,8,470,245,True
+qevasion-train-2364,train,Ambivalent,6,125,247,False
+qevasion-train-2365,train,Ambivalent,26,6,227,False
+qevasion-train-2366,train,Ambivalent,28,321,225,True
+qevasion-train-2367,train,Ambivalent,13,321,240,True
+qevasion-train-2368,train,Ambivalent,20,366,233,True
+qevasion-train-2369,train,Ambivalent,12,366,241,True
+qevasion-train-2370,train,Ambivalent,49,360,204,True
+qevasion-train-2371,validation,Ambivalent,43,596,210,True
+qevasion-train-2372,validation,Ambivalent,20,596,233,True
+qevasion-train-2373,validation,Clear Non-Reply,31,596,222,True
+qevasion-train-2374,validation,Ambivalent,21,116,232,False
+qevasion-train-2416,validation,Ambivalent,11,171,242,False
+qevasion-train-2417,validation,Ambivalent,36,370,217,True
+qevasion-train-2418,validation,Clear Non-Reply,12,12,241,False
+qevasion-train-2419,validation,Ambivalent,24,20,229,False
+qevasion-train-2420,validation,Ambivalent,40,20,213,False
+qevasion-train-2421,validation,Ambivalent,15,20,238,False
+qevasion-train-2422,validation,Clear Reply,17,243,236,True
+qevasion-train-2423,validation,Ambivalent,14,243,239,True
+qevasion-train-2424,validation,Ambivalent,25,303,228,True
+qevasion-train-2425,train,Clear Reply,19,158,234,False
+qevasion-train-2426,train,Ambivalent,17,637,236,True
+qevasion-train-2427,train,Ambivalent,40,974,213,True
+qevasion-train-2428,train,Ambivalent,35,974,218,True
+qevasion-train-2429,train,Ambivalent,7,974,246,True
+qevasion-train-2430,train,Ambivalent,32,405,221,True
+qevasion-train-2431,train,Ambivalent,17,19,236,False
+qevasion-train-2432,train,Clear Non-Reply,9,173,244,False
+qevasion-train-2433,train,Ambivalent,23,173,230,False
+qevasion-train-2434,train,Ambivalent,20,123,233,False
+qevasion-train-2435,train,Ambivalent,32,1049,221,True
+qevasion-train-2436,train,Clear Non-Reply,40,1049,213,True
+qevasion-train-2437,train,Ambivalent,30,990,223,True
+qevasion-train-2438,train,Clear Reply,18,990,235,True
+qevasion-train-2439,train,Ambivalent,8,19,245,False
+qevasion-train-2440,train,Clear Non-Reply,7,675,246,True
+qevasion-train-2441,train,Clear Non-Reply,6,675,247,True
+qevasion-train-2442,train,Ambivalent,7,675,246,True
+qevasion-train-2443,train,Ambivalent,6,127,247,False
+qevasion-train-2444,train,Ambivalent,21,164,232,False
+qevasion-train-2445,train,Clear Reply,26,418,227,True
+qevasion-train-2446,train,Ambivalent,45,418,208,True
+qevasion-train-2447,train,Clear Non-Reply,20,322,233,True
+qevasion-train-2448,train,Ambivalent,42,528,211,True
+qevasion-train-2449,train,Ambivalent,16,46,237,False
+qevasion-train-2450,train,Clear Non-Reply,13,18,240,False
+qevasion-train-2451,train,Clear Non-Reply,10,18,243,False
+qevasion-train-2452,train,Ambivalent,23,529,230,True
+qevasion-train-2453,train,Clear Non-Reply,43,529,210,True
+qevasion-train-2454,train,Ambivalent,30,780,223,True
+qevasion-train-2455,train,Ambivalent,16,780,237,True
+qevasion-train-2456,train,Ambivalent,8,228,245,False
+qevasion-train-2457,train,Ambivalent,23,969,230,True
+qevasion-train-2458,validation,Ambivalent,32,712,221,True
+qevasion-train-2459,validation,Ambivalent,34,712,219,True
+qevasion-train-2460,train,Ambivalent,27,586,226,True
+qevasion-train-2461,train,Ambivalent,31,586,222,True
+qevasion-train-2462,validation,Ambivalent,22,352,231,True
+qevasion-train-2463,validation,Ambivalent,31,352,222,True
+qevasion-train-2464,validation,Ambivalent,33,51,220,False
+qevasion-train-2465,validation,Ambivalent,23,51,230,False
+qevasion-train-2466,validation,Ambivalent,20,51,233,False
+qevasion-train-2467,validation,Ambivalent,13,51,240,False
+qevasion-train-2468,validation,Clear Reply,8,543,245,True
+qevasion-train-2469,validation,Ambivalent,8,1750,245,True
+qevasion-train-2470,validation,Clear Reply,17,1750,236,True
+qevasion-train-2471,validation,Clear Non-Reply,12,1750,241,True
+qevasion-train-2472,validation,Ambivalent,17,1750,236,True
+qevasion-train-2473,train,Ambivalent,23,569,230,True
+qevasion-train-2474,train,Ambivalent,22,569,231,True
+qevasion-train-2475,train,Clear Non-Reply,7,12,246,False
+qevasion-train-2476,train,Ambivalent,21,155,232,False
+qevasion-train-2477,train,Ambivalent,11,155,242,False
+qevasion-train-2478,train,Ambivalent,15,155,238,False
+qevasion-train-2479,train,Clear Reply,8,455,245,True
+qevasion-train-2480,train,Ambivalent,17,455,236,True
+qevasion-train-2481,train,Ambivalent,29,24,224,False
+qevasion-train-2482,train,Clear Reply,6,375,247,True
+qevasion-train-2483,train,Clear Reply,7,375,246,True
+qevasion-train-2498,train,Ambivalent,10,354,243,True
+qevasion-train-2499,train,Ambivalent,32,354,221,True
+qevasion-train-2500,train,Clear Reply,34,457,219,True
+qevasion-train-2501,train,Ambivalent,13,457,240,True
+qevasion-train-2502,train,Ambivalent,35,457,218,True
+qevasion-train-2503,train,Ambivalent,7,59,246,False
+qevasion-train-2504,train,Clear Reply,32,600,221,True
+qevasion-train-2505,train,Ambivalent,26,600,227,True
+qevasion-train-2506,train,Ambivalent,11,372,242,True
+qevasion-train-2507,train,Ambivalent,55,772,198,True
+qevasion-train-2508,train,Ambivalent,16,784,237,True
+qevasion-train-2509,train,Ambivalent,12,270,241,True
+qevasion-train-2510,train,Ambivalent,27,270,226,True
+qevasion-train-2511,train,Ambivalent,17,567,236,True
+qevasion-train-2512,train,Ambivalent,21,567,232,True
+qevasion-train-2513,train,Ambivalent,22,147,231,False
+qevasion-train-2514,train,Clear Reply,39,134,214,False
+qevasion-train-2515,train,Clear Reply,21,611,232,True
+qevasion-train-2516,train,Ambivalent,16,25,237,False
+qevasion-train-2517,train,Ambivalent,22,25,231,False
+qevasion-train-2518,train,Clear Reply,8,1023,245,True
+qevasion-train-2519,train,Ambivalent,37,332,216,True
+qevasion-train-2520,train,Ambivalent,47,357,206,True
+qevasion-train-2521,train,Clear Reply,21,357,232,True
+qevasion-train-2522,train,Ambivalent,22,438,231,True
+qevasion-train-2523,train,Ambivalent,20,438,233,True
+qevasion-train-2524,train,Clear Reply,24,632,229,True
+qevasion-train-2525,train,Clear Reply,11,632,242,True
+qevasion-train-2526,train,Ambivalent,13,632,240,True
+qevasion-train-2527,train,Ambivalent,15,632,238,True
+qevasion-train-2528,train,Clear Reply,17,170,236,False
+qevasion-train-2529,train,Ambivalent,18,25,235,False
+qevasion-train-2530,train,Clear Reply,21,367,232,True
+qevasion-train-2534,train,Ambivalent,26,866,227,True
+qevasion-train-2535,train,Clear Reply,23,866,230,True
+qevasion-train-2536,train,Ambivalent,25,866,228,True
+qevasion-train-2537,train,Clear Reply,18,322,235,True
+qevasion-train-2560,train,Ambivalent,33,439,220,True
+qevasion-train-2561,train,Ambivalent,15,52,238,False
+qevasion-train-2562,train,Ambivalent,93,649,160,True
+qevasion-train-2563,train,Ambivalent,64,649,189,True
+qevasion-train-2564,train,Ambivalent,25,454,228,True
+qevasion-train-2565,train,Ambivalent,28,873,225,True
+qevasion-train-2566,train,Ambivalent,30,873,223,True
+qevasion-train-2567,train,Ambivalent,26,1185,227,True
+qevasion-train-2568,train,Ambivalent,43,1185,210,True
+qevasion-train-2569,train,Ambivalent,12,550,241,True
+qevasion-train-2570,train,Ambivalent,9,550,244,True
+qevasion-train-2571,train,Ambivalent,30,550,223,True
+qevasion-train-2572,train,Ambivalent,19,550,234,True
+qevasion-train-2573,train,Ambivalent,7,169,246,False
+qevasion-train-2574,train,Ambivalent,6,169,247,False
+qevasion-train-2575,train,Ambivalent,8,432,245,True
+qevasion-train-2576,train,Ambivalent,19,432,234,True
+qevasion-train-2577,train,Clear Reply,17,766,236,True
+qevasion-train-2578,train,Ambivalent,8,766,245,True
+qevasion-train-2579,train,Ambivalent,14,766,239,True
+qevasion-train-2580,train,Ambivalent,33,732,220,True
+qevasion-train-2581,train,Ambivalent,19,732,234,True
+qevasion-train-2582,train,Clear Reply,16,529,237,True
+qevasion-train-2583,train,Ambivalent,26,529,227,True
+qevasion-train-2584,train,Ambivalent,22,529,231,True
+qevasion-train-2585,train,Clear Reply,50,381,203,True
+qevasion-train-2586,train,Clear Non-Reply,80,381,173,True
+qevasion-train-2595,validation,Ambivalent,12,340,241,True
+qevasion-train-2596,validation,Clear Reply,5,13,248,False
+qevasion-train-2597,validation,Clear Reply,11,262,242,True
+qevasion-train-2598,validation,Clear Non-Reply,12,679,241,True
+qevasion-train-2599,train,Ambivalent,7,253,246,True
+qevasion-train-2600,train,Ambivalent,26,253,227,True
+qevasion-train-2601,train,Ambivalent,18,300,235,True
+qevasion-train-2602,train,Ambivalent,29,300,224,True
+qevasion-train-2603,train,Ambivalent,38,166,215,False
+qevasion-train-2604,train,Ambivalent,32,188,221,False
+qevasion-train-2605,train,Ambivalent,21,188,232,False
+qevasion-train-2606,train,Clear Reply,21,321,232,True
+qevasion-train-2607,train,Ambivalent,10,321,243,True
+qevasion-train-2608,train,Ambivalent,9,974,244,True
+qevasion-train-2609,train,Ambivalent,9,224,244,False
+qevasion-train-2610,train,Ambivalent,22,630,231,True
+qevasion-train-2611,train,Ambivalent,25,389,228,True
+qevasion-train-2612,train,Ambivalent,5,124,248,False
+qevasion-train-2613,train,Ambivalent,5,124,248,False
+qevasion-train-2614,train,Ambivalent,17,369,236,True
+qevasion-train-2615,train,Clear Reply,7,317,246,True
+qevasion-train-2616,train,Ambivalent,6,63,247,False
+qevasion-train-2617,train,Ambivalent,15,63,238,False
+qevasion-train-2618,train,Clear Non-Reply,5,78,248,False
+qevasion-train-2619,train,Clear Non-Reply,7,78,246,False
+qevasion-train-2620,train,Ambivalent,3,51,250,False
+qevasion-train-2621,train,Clear Non-Reply,15,15,238,False
+qevasion-train-2622,validation,Clear Non-Reply,9,36,244,False
+qevasion-train-2623,validation,Clear Non-Reply,11,36,242,False
+qevasion-train-2624,validation,Clear Non-Reply,10,36,243,False
+qevasion-train-2625,validation,Clear Reply,5,606,248,True
+qevasion-train-2626,validation,Clear Reply,10,606,243,True
+qevasion-train-2627,validation,Clear Reply,10,606,243,True
+qevasion-train-2628,validation,Clear Reply,20,4,233,False
+qevasion-train-2629,validation,Ambivalent,21,4,232,False
+qevasion-train-2630,validation,Clear Reply,21,449,232,True
+qevasion-train-2631,validation,Ambivalent,24,449,229,True
+qevasion-train-2632,validation,Ambivalent,12,264,241,True
+qevasion-train-2633,validation,Ambivalent,7,138,246,False
+qevasion-train-2634,validation,Ambivalent,10,138,243,False
+qevasion-train-2635,validation,Clear Reply,13,148,240,False
+qevasion-train-2636,validation,Ambivalent,14,148,239,False
+qevasion-train-2637,train,Clear Non-Reply,11,5,242,False
+qevasion-train-2638,train,Clear Reply,19,323,234,True
+qevasion-train-2639,train,Clear Reply,20,323,233,True
+qevasion-train-2640,train,Clear Reply,24,2,229,False
+qevasion-train-2641,train,Ambivalent,15,40,238,False
+qevasion-train-2642,train,Clear Non-Reply,9,22,244,False
+qevasion-train-2643,train,Clear Non-Reply,14,22,239,False
+qevasion-train-2689,train,Ambivalent,13,53,240,False
+qevasion-train-2690,train,Ambivalent,20,53,233,False
+qevasion-train-2691,validation,Clear Reply,36,287,217,True
+qevasion-train-2692,validation,Ambivalent,18,287,235,True
+qevasion-train-2693,validation,Ambivalent,15,14,238,False
+qevasion-train-2694,validation,Ambivalent,14,14,239,False
+qevasion-train-2695,train,Ambivalent,21,728,232,True
+qevasion-train-2696,train,Ambivalent,16,728,237,True
+qevasion-train-2697,validation,Ambivalent,13,64,240,False
+qevasion-train-2698,validation,Ambivalent,17,116,236,False
+qevasion-train-2699,validation,Clear Non-Reply,31,8,222,False
+qevasion-train-2700,validation,Clear Reply,23,36,230,False
+qevasion-train-2701,validation,Ambivalent,16,568,237,True
+qevasion-train-2702,validation,Ambivalent,13,568,240,True
+qevasion-train-2703,validation,Clear Reply,16,120,237,False
+qevasion-train-2704,validation,Clear Reply,8,3,245,False
+qevasion-train-2705,validation,Clear Reply,18,150,235,False
+qevasion-train-2706,validation,Ambivalent,48,829,205,True
+qevasion-train-2707,train,Clear Non-Reply,13,25,240,False
+qevasion-train-2708,train,Clear Non-Reply,19,25,234,False
+qevasion-train-2709,train,Clear Non-Reply,8,25,245,False
+qevasion-train-2710,train,Clear Non-Reply,8,25,245,False
+qevasion-train-2711,train,Clear Non-Reply,7,25,246,False
+qevasion-train-2712,train,Clear Reply,11,488,242,True
+qevasion-train-2713,train,Ambivalent,14,488,239,True
+qevasion-train-2714,train,Ambivalent,13,488,240,True
+qevasion-train-2715,train,Clear Reply,16,810,237,True
+qevasion-train-2716,train,Ambivalent,30,810,223,True
+qevasion-train-2717,train,Ambivalent,9,516,244,True
+qevasion-train-2718,train,Ambivalent,17,467,236,True
+qevasion-train-2719,train,Clear Reply,15,467,238,True
+qevasion-train-2720,train,Ambivalent,11,467,242,True
+qevasion-train-2721,train,Ambivalent,17,467,236,True
+qevasion-train-2722,train,Clear Non-Reply,18,654,235,True
+qevasion-train-2723,train,Clear Non-Reply,7,654,246,True
+qevasion-train-2724,train,Clear Non-Reply,23,173,230,False
+qevasion-train-2725,train,Ambivalent,28,173,225,False
+qevasion-train-2726,train,Clear Non-Reply,32,326,221,True
+qevasion-train-2727,train,Ambivalent,30,326,223,True
+qevasion-train-2728,train,Clear Reply,23,218,230,False
+qevasion-train-2729,train,Clear Reply,20,172,233,False
+qevasion-train-2730,train,Ambivalent,16,172,237,False
+qevasion-train-2731,train,Clear Reply,12,14,241,False
+qevasion-train-2732,train,Ambivalent,6,252,247,True
+qevasion-train-2733,train,Clear Non-Reply,6,252,247,True
+qevasion-train-2734,train,Clear Reply,17,99,236,False
+qevasion-train-2735,train,Ambivalent,26,99,227,False
+qevasion-train-2736,train,Clear Reply,11,263,242,True
+qevasion-train-2737,train,Ambivalent,10,224,243,False
+qevasion-train-2738,train,Clear Non-Reply,9,224,244,False
+qevasion-train-2739,train,Clear Reply,8,63,245,False
+qevasion-train-2740,train,Clear Reply,21,202,232,False
+qevasion-train-2741,train,Ambivalent,18,202,235,False
+qevasion-train-2742,train,Ambivalent,16,360,237,True
+qevasion-train-2743,train,Ambivalent,7,14,246,False
+qevasion-train-2744,train,Clear Reply,17,580,236,True
+qevasion-train-2745,train,Ambivalent,28,460,225,True
+qevasion-train-2746,train,Clear Non-Reply,10,525,243,True
+qevasion-train-2747,train,Clear Non-Reply,10,14,243,False
+qevasion-train-2748,train,Clear Non-Reply,9,14,244,False
+qevasion-train-2749,train,Clear Non-Reply,7,8,246,False
+qevasion-train-2750,train,Clear Reply,16,666,237,True
+qevasion-train-2751,train,Ambivalent,15,666,238,True
+qevasion-train-2752,train,Clear Reply,5,702,248,True
+qevasion-train-2753,train,Ambivalent,14,702,239,True
+qevasion-train-2754,train,Clear Reply,15,219,238,False
+qevasion-train-2755,train,Ambivalent,17,219,236,False
+qevasion-train-2756,train,Clear Reply,13,223,240,False
+qevasion-train-2757,train,Clear Reply,14,293,239,True
+qevasion-train-2758,train,Ambivalent,12,293,241,True
+qevasion-train-2759,train,Ambivalent,23,115,230,False
+qevasion-train-2760,train,Ambivalent,22,115,231,False
+qevasion-train-2761,train,Ambivalent,7,342,246,True
+qevasion-train-2762,train,Clear Reply,25,458,228,True
+qevasion-train-2763,train,Ambivalent,24,458,229,True
+qevasion-train-2764,train,Ambivalent,20,938,233,True
+qevasion-train-2765,train,Ambivalent,11,938,242,True
+qevasion-train-2766,train,Ambivalent,41,1234,212,True
+qevasion-train-2767,train,Ambivalent,27,94,226,False
+qevasion-train-2768,train,Clear Reply,13,595,240,True
+qevasion-train-2769,train,Clear Reply,20,595,233,True
+qevasion-train-2770,train,Ambivalent,35,595,218,True
+qevasion-train-2771,train,Ambivalent,12,595,241,True
+qevasion-train-2772,train,Clear Reply,11,529,242,True
+qevasion-train-2773,train,Clear Reply,16,529,237,True
+qevasion-train-2774,train,Ambivalent,21,529,232,True
+qevasion-train-2775,train,Clear Reply,12,555,241,True
+qevasion-train-2776,train,Clear Reply,16,555,237,True
+qevasion-train-2777,train,Clear Reply,23,301,230,True
+qevasion-train-2778,train,Ambivalent,8,453,245,True
+qevasion-train-2779,train,Ambivalent,40,453,213,True
+qevasion-train-2780,train,Clear Reply,11,126,242,False
+qevasion-train-2781,train,Ambivalent,15,337,238,True
+qevasion-train-2782,train,Ambivalent,9,337,244,True
+qevasion-train-2783,train,Clear Reply,22,247,231,True
+qevasion-train-2784,train,Ambivalent,26,118,227,False
+qevasion-train-2785,train,Clear Reply,7,60,246,False
+qevasion-train-2786,train,Ambivalent,10,288,243,True
+qevasion-train-2787,train,Ambivalent,9,288,244,True
+qevasion-train-2788,train,Clear Reply,9,192,244,False
+qevasion-train-2789,train,Clear Reply,16,373,237,True
+qevasion-train-2790,train,Clear Non-Reply,13,373,240,True
+qevasion-train-2791,train,Ambivalent,18,129,235,False
+qevasion-train-2792,train,Ambivalent,13,222,240,False
+qevasion-train-2793,train,Clear Reply,13,156,240,False
+qevasion-train-2794,train,Clear Reply,18,156,235,False
+qevasion-train-2795,train,Clear Reply,8,2,245,False
+qevasion-train-2796,train,Clear Reply,13,2,240,False
+qevasion-train-2797,train,Ambivalent,21,219,232,False
+qevasion-train-2798,train,Ambivalent,29,219,224,False
+qevasion-train-2799,train,Clear Non-Reply,6,10,247,False
+qevasion-train-2800,train,Clear Reply,37,424,216,True
+qevasion-train-2801,train,Ambivalent,23,424,230,True
+qevasion-train-2802,train,Ambivalent,7,424,246,True
+qevasion-train-2803,train,Ambivalent,11,721,242,True
+qevasion-train-2804,train,Ambivalent,11,721,242,True
+qevasion-train-2805,train,Clear Non-Reply,21,438,232,True
+qevasion-train-2806,train,Ambivalent,19,438,234,True
+qevasion-train-2807,train,Clear Reply,9,207,244,False
+qevasion-train-2808,train,Clear Reply,20,287,233,True
+qevasion-train-2809,train,Clear Reply,29,287,224,True
+qevasion-train-2810,train,Ambivalent,17,287,236,True
+qevasion-train-2811,train,Ambivalent,26,475,227,True
+qevasion-train-2812,train,Clear Reply,25,475,228,True
+qevasion-train-2813,train,Ambivalent,28,475,225,True
+qevasion-train-2814,train,Ambivalent,25,475,228,True
+qevasion-train-2815,train,Ambivalent,11,326,242,True
+qevasion-train-2816,train,Clear Reply,16,326,237,True
+qevasion-train-2817,train,Ambivalent,10,326,243,True
+qevasion-train-2818,train,Clear Reply,11,414,242,True
+qevasion-train-2819,train,Clear Reply,22,414,231,True
+qevasion-train-2820,train,Ambivalent,17,174,236,False
+qevasion-train-2821,train,Ambivalent,22,174,231,False
+qevasion-train-2822,train,Ambivalent,12,226,241,False
+qevasion-train-2823,train,Ambivalent,13,226,240,False
+qevasion-train-2824,train,Clear Reply,15,716,238,True
+qevasion-train-2825,train,Ambivalent,43,716,210,True
+qevasion-train-2826,train,Ambivalent,30,716,223,True
+qevasion-train-2827,train,Ambivalent,33,716,220,True
+qevasion-train-2828,train,Ambivalent,43,832,210,True
+qevasion-train-2829,train,Ambivalent,20,832,233,True
+qevasion-train-2830,train,Ambivalent,13,830,240,True
+qevasion-train-2831,train,Clear Reply,18,830,235,True
+qevasion-train-2832,train,Ambivalent,13,536,240,True
+qevasion-train-2833,train,Ambivalent,12,536,241,True
+qevasion-train-2834,train,Ambivalent,12,536,241,True
+qevasion-train-2835,train,Ambivalent,68,780,185,True
+qevasion-train-2836,train,Clear Reply,26,780,227,True
+qevasion-train-2837,train,Ambivalent,38,660,215,True
+qevasion-train-2838,train,Clear Reply,19,2,234,False
+qevasion-train-2839,train,Ambivalent,19,298,234,True
+qevasion-train-2840,train,Clear Reply,22,297,231,True
+qevasion-train-2841,train,Clear Reply,41,888,212,True
+qevasion-train-2842,train,Clear Reply,24,888,229,True
+qevasion-train-2843,train,Clear Reply,35,768,218,True
+qevasion-train-2844,train,Clear Reply,40,768,213,True
+qevasion-train-2851,validation,Ambivalent,43,544,210,True
+qevasion-train-2852,validation,Ambivalent,43,544,210,True
+qevasion-train-2853,validation,Ambivalent,31,434,222,True
+qevasion-train-2854,validation,Ambivalent,16,434,237,True
+qevasion-train-2855,validation,Ambivalent,21,434,232,True
+qevasion-train-2889,train,Ambivalent,14,1767,239,True
+qevasion-train-2890,train,Ambivalent,11,1767,242,True
+qevasion-train-2891,train,Ambivalent,65,205,188,True
+qevasion-train-2892,train,Ambivalent,20,385,233,True
+qevasion-train-2893,train,Ambivalent,26,385,227,True
+qevasion-train-2894,train,Ambivalent,19,1226,234,True
+qevasion-train-2895,train,Clear Reply,14,1226,239,True
+qevasion-train-2896,train,Ambivalent,41,1226,212,True
+qevasion-train-2897,train,Ambivalent,12,1226,241,True
+qevasion-train-2898,train,Ambivalent,12,1226,241,True
+qevasion-train-2899,train,Ambivalent,23,142,230,False
+qevasion-train-2900,train,Ambivalent,25,323,228,True
+qevasion-train-2901,train,Clear Reply,13,323,240,True
+qevasion-train-2902,train,Clear Reply,30,732,223,True
+qevasion-train-2903,train,Clear Reply,7,732,246,True
+qevasion-train-2904,train,Clear Reply,13,350,240,True
+qevasion-train-2905,train,Ambivalent,23,350,230,True
+qevasion-train-2906,train,Ambivalent,23,350,230,True
+qevasion-train-2907,train,Ambivalent,38,2,215,False
+qevasion-train-2908,train,Clear Reply,7,866,246,True
+qevasion-train-2909,train,Clear Reply,10,866,243,True
+qevasion-train-2910,train,Ambivalent,25,1191,228,True
+qevasion-train-2915,validation,Ambivalent,7,554,246,True
+qevasion-train-2916,validation,Ambivalent,5,554,248,True
+qevasion-train-2917,validation,Ambivalent,4,554,249,True
+qevasion-train-2918,validation,Ambivalent,4,554,249,True
+qevasion-train-2919,validation,Ambivalent,20,5,233,False
+qevasion-train-2920,validation,Ambivalent,14,1080,239,True
+qevasion-train-2921,validation,Ambivalent,6,1080,247,True
+qevasion-train-2922,validation,Ambivalent,15,540,238,True
+qevasion-train-2923,validation,Ambivalent,16,540,237,True
+qevasion-train-2924,validation,Ambivalent,27,866,226,True
+qevasion-train-2925,validation,Ambivalent,14,866,239,True
+qevasion-train-2926,validation,Ambivalent,16,390,237,True
+qevasion-train-2927,validation,Ambivalent,10,390,243,True
+qevasion-train-2928,validation,Clear Reply,47,263,206,True
+qevasion-train-2929,validation,Ambivalent,22,263,231,True
+qevasion-train-2930,validation,Clear Non-Reply,15,420,238,True
+qevasion-train-2931,validation,Ambivalent,29,604,224,True
+qevasion-train-2932,train,Clear Reply,33,733,220,True
+qevasion-train-2933,train,Clear Reply,22,733,231,True
+qevasion-train-2934,train,Ambivalent,21,733,232,True
+qevasion-train-2935,train,Clear Reply,24,193,229,False
+qevasion-train-2936,train,Clear Reply,23,193,230,False
+qevasion-train-2937,train,Ambivalent,24,193,229,False
+qevasion-train-2992,train,Ambivalent,27,2,226,False
+qevasion-train-2993,train,Clear Reply,9,729,244,True
+qevasion-train-3046,train,Clear Reply,14,289,239,True
+qevasion-train-3047,train,Ambivalent,20,289,233,True
+qevasion-train-3048,train,Clear Reply,6,274,247,True
+qevasion-train-3049,train,Ambivalent,12,274,241,True
+qevasion-train-3050,train,Clear Reply,13,797,240,True
+qevasion-train-3051,train,Ambivalent,14,797,239,True
+qevasion-train-3052,train,Ambivalent,9,797,244,True
+qevasion-train-3053,train,Clear Reply,23,506,230,True
+qevasion-train-3151,validation,Clear Reply,18,299,235,True
+qevasion-train-3152,validation,Clear Reply,27,299,226,True
+qevasion-train-3153,validation,Clear Reply,20,705,233,True
+qevasion-train-3154,validation,Ambivalent,16,705,237,True
+qevasion-train-3155,validation,Clear Non-Reply,28,59,225,False
+qevasion-train-3156,validation,Ambivalent,14,179,239,False
+qevasion-train-3157,validation,Clear Reply,24,174,229,False
+qevasion-train-3158,validation,Clear Reply,17,174,236,False
+qevasion-train-3159,validation,Ambivalent,30,492,223,True
+qevasion-train-3160,validation,Clear Reply,13,437,240,True
+qevasion-train-3161,validation,Clear Reply,40,117,213,False
+qevasion-train-3162,validation,Ambivalent,26,117,227,False
+qevasion-train-3163,validation,Clear Reply,7,210,246,False
+qevasion-train-3164,validation,Ambivalent,18,193,235,False
+qevasion-train-3165,validation,Ambivalent,11,193,242,False
+qevasion-train-3166,validation,Ambivalent,17,847,236,True
+qevasion-train-3167,validation,Ambivalent,30,285,223,True
+qevasion-train-3168,validation,Clear Reply,7,871,246,True
+qevasion-train-3169,validation,Ambivalent,9,871,244,True
+qevasion-train-3170,validation,Clear Reply,7,259,246,True
+qevasion-train-3171,validation,Clear Reply,8,856,245,True
+qevasion-train-3172,validation,Ambivalent,10,856,243,True
+qevasion-train-3173,validation,Clear Non-Reply,12,4,241,False
+qevasion-train-3174,train,Ambivalent,12,445,241,True
+qevasion-train-3175,train,Ambivalent,21,445,232,True
+qevasion-train-3176,train,Ambivalent,6,445,247,True
+qevasion-train-3177,train,Ambivalent,79,505,174,True
+qevasion-train-3178,train,Ambivalent,47,505,206,True
+qevasion-train-3179,train,Ambivalent,34,883,219,True
+qevasion-train-3180,train,Ambivalent,11,669,242,True
+qevasion-train-3181,train,Ambivalent,20,669,233,True
+qevasion-train-3182,train,Ambivalent,28,669,225,True
+qevasion-train-3183,train,Clear Reply,20,322,233,True
+qevasion-train-3184,train,Ambivalent,12,322,241,True
+qevasion-train-3185,train,Clear Reply,11,322,242,True
+qevasion-train-3186,train,Ambivalent,29,518,224,True
+qevasion-train-3187,train,Ambivalent,51,518,202,True
+qevasion-train-3188,train,Clear Reply,11,450,242,True
+qevasion-train-3189,train,Clear Reply,12,450,241,True
+qevasion-train-3190,train,Ambivalent,14,450,239,True
+qevasion-train-3191,train,Ambivalent,16,450,237,True
+qevasion-train-3192,train,Clear Non-Reply,6,3,247,False
+qevasion-train-3193,train,Clear Reply,20,5,233,False
+qevasion-train-3194,train,Clear Reply,5,886,248,True
+qevasion-train-3195,train,Clear Reply,18,371,235,True
+qevasion-train-3196,train,Ambivalent,11,371,242,True
+qevasion-train-3197,train,Ambivalent,6,371,247,True
+qevasion-train-3198,train,Ambivalent,6,371,247,True
+qevasion-train-3199,train,Clear Reply,10,523,243,True
+qevasion-train-3200,train,Ambivalent,21,523,232,True
+qevasion-train-3201,train,Clear Reply,14,477,239,True
+qevasion-train-3202,train,Ambivalent,33,477,220,True
+qevasion-train-3203,train,Ambivalent,21,548,232,True
+qevasion-train-3204,train,Ambivalent,24,123,229,False
+qevasion-train-3205,train,Clear Reply,20,565,233,True
+qevasion-train-3206,train,Clear Reply,5,168,248,False
+qevasion-train-3207,train,Ambivalent,8,168,245,False
+qevasion-train-3208,train,Ambivalent,23,190,230,False
+qevasion-train-3209,train,Clear Reply,25,465,228,True
+qevasion-train-3210,train,Ambivalent,42,465,211,True
+qevasion-train-3211,train,Ambivalent,8,465,245,True
+qevasion-train-3212,train,Clear Reply,7,236,246,False
+qevasion-train-3213,train,Ambivalent,9,124,244,False
+qevasion-train-3214,train,Clear Reply,17,124,236,False
+qevasion-train-3215,train,Ambivalent,12,1777,241,True
+qevasion-train-3216,train,Ambivalent,20,1777,233,True
+qevasion-train-3217,train,Ambivalent,21,613,232,True
+qevasion-train-3218,train,Ambivalent,26,613,227,True
+qevasion-train-3219,train,Ambivalent,15,340,238,True
+qevasion-train-3220,train,Ambivalent,11,340,242,True
+qevasion-train-3221,train,Clear Non-Reply,21,33,232,False
+qevasion-train-3222,train,Ambivalent,29,155,224,False
+qevasion-train-3223,train,Clear Reply,12,681,241,True
+qevasion-train-3224,train,Clear Reply,28,681,225,True
+qevasion-train-3225,train,Clear Non-Reply,31,185,222,False
+qevasion-train-3226,train,Ambivalent,14,185,239,False
+qevasion-train-3227,train,Ambivalent,27,434,226,True
+qevasion-train-3228,train,Ambivalent,23,434,230,True
+qevasion-train-3229,train,Clear Non-Reply,4,1125,249,True
+qevasion-train-3230,train,Ambivalent,20,832,233,True
+qevasion-train-3231,train,Ambivalent,16,832,237,True
+qevasion-train-3232,train,Ambivalent,17,303,236,True
+qevasion-train-3233,train,Clear Reply,6,550,247,True
+qevasion-train-3234,train,Clear Reply,11,550,242,True
+qevasion-train-3235,train,Ambivalent,10,550,243,True
+qevasion-train-3236,train,Ambivalent,5,550,248,True
+qevasion-train-3237,train,Ambivalent,9,748,244,True
+qevasion-train-3238,train,Clear Reply,20,185,233,False
+qevasion-train-3239,train,Clear Reply,29,322,224,True
+qevasion-train-3240,train,Clear Reply,10,322,243,True
+qevasion-train-3241,train,Ambivalent,15,754,238,True
+qevasion-train-3242,train,Clear Reply,14,726,239,True
+qevasion-train-3243,train,Clear Reply,10,726,243,True
+qevasion-train-3244,train,Clear Reply,18,298,235,True
+qevasion-train-3245,train,Ambivalent,15,298,238,True
+qevasion-train-3246,train,Ambivalent,27,109,226,False
+qevasion-train-3247,train,Ambivalent,12,402,241,True
+qevasion-train-3248,train,Clear Non-Reply,12,122,241,False
+qevasion-train-3249,train,Clear Non-Reply,10,164,243,False
+qevasion-train-3250,train,Clear Reply,15,522,238,True
+qevasion-train-3251,train,Clear Reply,13,402,240,True
+qevasion-train-3252,train,Ambivalent,17,402,236,True
+qevasion-train-3253,train,Clear Non-Reply,12,41,241,False
+qevasion-train-3254,train,Clear Reply,11,759,242,True
+qevasion-train-3255,train,Clear Non-Reply,24,6,229,False
+qevasion-train-3256,train,Ambivalent,18,137,235,False
+qevasion-train-3257,train,Ambivalent,10,137,243,False
+qevasion-train-3258,train,Ambivalent,6,137,247,False
+qevasion-train-3259,train,Clear Reply,16,1165,237,True
+qevasion-train-3260,train,Clear Reply,30,604,223,True
+qevasion-train-3261,train,Ambivalent,34,604,219,True
+qevasion-train-3262,train,Ambivalent,86,490,167,True
+qevasion-train-3263,train,Ambivalent,27,490,226,True
+qevasion-train-3264,train,Clear Reply,8,319,245,True
+qevasion-train-3265,train,Clear Reply,5,319,248,True
+qevasion-train-3266,train,Ambivalent,9,319,244,True
+qevasion-train-3267,train,Ambivalent,14,702,239,True
+qevasion-train-3268,train,Ambivalent,12,702,241,True
+qevasion-train-3269,train,Ambivalent,17,702,236,True
+qevasion-train-3270,train,Clear Reply,13,215,240,False
+qevasion-train-3271,train,Clear Reply,15,215,238,False
+qevasion-train-3272,train,Ambivalent,10,215,243,False
+qevasion-train-3273,train,Clear Reply,25,272,228,True
+qevasion-train-3274,train,Clear Reply,73,529,180,True
+qevasion-train-3275,train,Clear Reply,53,529,200,True
+qevasion-train-3276,train,Ambivalent,17,271,236,True
+qevasion-train-3277,train,Ambivalent,19,636,234,True
+qevasion-train-3278,train,Ambivalent,8,368,245,True
+qevasion-train-3279,train,Clear Reply,41,863,212,True
+qevasion-train-3280,train,Ambivalent,24,863,229,True
+qevasion-train-3281,train,Ambivalent,26,290,227,True
+qevasion-train-3282,train,Ambivalent,15,290,238,True
+qevasion-train-3283,train,Ambivalent,21,290,232,True
+qevasion-train-3284,train,Clear Non-Reply,20,6,233,False
+qevasion-train-3285,train,Ambivalent,14,1681,239,True
+qevasion-train-3286,train,Clear Reply,8,458,245,True
+qevasion-train-3287,train,Ambivalent,7,458,246,True
+qevasion-train-3288,train,Ambivalent,18,458,235,True
+qevasion-train-3289,train,Ambivalent,14,458,239,True
+qevasion-train-3290,train,Clear Reply,8,396,245,True
+qevasion-train-3291,train,Ambivalent,14,396,239,True
+qevasion-train-3292,train,Clear Reply,24,225,229,False
+qevasion-train-3293,train,Clear Reply,18,225,235,False
+qevasion-train-3294,train,Clear Reply,25,710,228,True
+qevasion-train-3295,train,Ambivalent,24,710,229,True
+qevasion-train-3296,train,Clear Reply,20,620,233,True
+qevasion-train-3297,train,Clear Reply,18,620,235,True
+qevasion-train-3298,train,Ambivalent,11,620,242,True
+qevasion-train-3299,train,Ambivalent,17,620,236,True
+qevasion-train-3300,train,Clear Reply,21,571,232,True
+qevasion-train-3301,train,Ambivalent,31,571,222,True
+qevasion-train-3302,train,Clear Reply,22,1406,231,True
+qevasion-train-3303,train,Ambivalent,26,1406,227,True
+qevasion-train-3304,train,Ambivalent,24,1406,229,True
+qevasion-train-3305,train,Clear Reply,5,332,248,True
+qevasion-train-3306,train,Ambivalent,11,332,242,True
+qevasion-train-3341,train,Ambivalent,28,208,225,False
+qevasion-train-3342,train,Clear Reply,22,45,231,False
+qevasion-train-3343,train,Ambivalent,7,45,246,False
+qevasion-train-3344,train,Clear Reply,18,726,235,True
+qevasion-train-3345,train,Ambivalent,34,726,219,True
+qevasion-train-3361,train,Ambivalent,11,1622,242,True
+qevasion-train-3362,train,Ambivalent,16,1622,237,True
+qevasion-train-3363,train,Ambivalent,20,1622,233,True
+qevasion-train-3364,train,Ambivalent,21,719,232,True
+qevasion-train-3365,train,Ambivalent,43,1477,210,True
+qevasion-train-3366,train,Ambivalent,42,1477,211,True
+qevasion-train-3367,train,Ambivalent,27,1477,226,True
+qevasion-train-3368,train,Clear Reply,13,334,240,True
+qevasion-train-3369,train,Clear Reply,14,334,239,True
+qevasion-train-3370,train,Ambivalent,20,334,233,True
+qevasion-train-3371,train,Ambivalent,8,897,245,True
+qevasion-train-3372,train,Clear Reply,10,897,243,True
+qevasion-train-3373,train,Ambivalent,16,430,237,True
+qevasion-train-3374,train,Ambivalent,28,430,225,True
+qevasion-train-3375,train,Ambivalent,26,430,227,True
+qevasion-train-3376,train,Clear Non-Reply,10,14,243,False
+qevasion-train-3377,train,Ambivalent,17,14,236,False
+qevasion-train-3378,train,Ambivalent,8,14,245,False
+qevasion-train-3379,train,Clear Reply,15,179,238,False
+qevasion-train-3380,train,Clear Non-Reply,9,16,244,False
+qevasion-train-3381,train,Clear Reply,26,813,227,True
+qevasion-train-3382,train,Ambivalent,24,813,229,True
+qevasion-train-3383,train,Clear Reply,5,273,248,True
+qevasion-train-3419,train,Clear Reply,15,570,238,True
+qevasion-train-3420,train,Clear Reply,13,702,240,True
+qevasion-train-3421,train,Clear Reply,8,702,245,True
+qevasion-train-3422,train,Ambivalent,12,702,241,True
+qevasion-train-3423,train,Clear Reply,30,347,223,True
+qevasion-train-3424,train,Ambivalent,24,331,229,True
+qevasion-train-3425,train,Ambivalent,32,90,221,False
+qevasion-train-3426,train,Ambivalent,22,23,231,False
+qevasion-train-3427,train,Ambivalent,28,23,225,False
+qevasion-train-3428,train,Ambivalent,14,232,239,False
+qevasion-train-3429,train,Ambivalent,24,232,229,True
+qevasion-train-3430,train,Ambivalent,5,34,248,False
+qevasion-train-3431,train,Ambivalent,13,34,240,False
+qevasion-train-3432,train,Clear Non-Reply,23,13,230,False
+qevasion-train-3433,train,Ambivalent,22,13,231,False
+qevasion-train-3434,train,Clear Non-Reply,4,42,249,False
+qevasion-train-3435,train,Clear Reply,35,472,218,True
+qevasion-train-3436,train,Ambivalent,14,485,239,True
+qevasion-train-3437,train,Ambivalent,12,485,241,True
+qevasion-train-3438,train,Clear Reply,9,521,244,True
+qevasion-train-3439,train,Ambivalent,10,521,243,True
+qevasion-train-3440,train,Ambivalent,14,335,239,True
+qevasion-train-3441,train,Ambivalent,12,335,241,True
+qevasion-train-3442,train,Ambivalent,8,91,245,False
+qevasion-train-3443,train,Ambivalent,45,565,208,True
+qevasion-train-3444,train,Clear Reply,25,133,228,False
+qevasion-train-3445,train,Clear Reply,19,247,234,True
+qevasion-train-3446,train,Ambivalent,23,247,230,True
+qevasion-train-3447,train,Ambivalent,26,234,227,True

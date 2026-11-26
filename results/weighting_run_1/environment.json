@@ -1,0 +1,21 @@
+{
+  "python": "3.12.13",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "torch": "2.14.1+cu130",
+  "transformers": "4.53.3",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "selection_rule": "Within each seed and weighting, select the earliest epoch attaining maximum validation Macro-F1. Compare weightings by paired seed on the unchanged grouped validation split.",
+  "base_weight_sha256": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db",
+  "data_sha256": "9811501d43ac8c8a531e151a1c35740cb442afe825632a54b2efef08cf1833a1",
+  "input_code_and_config_sha256": {
+    "src/run_source_class_weighting.py": "f707e9400f05292edb8e49ed868b8cef0ac9f016fd455811a3dea310fb72ff25",
+    "src/run_source_truncation.py": "59981004946b606ad6eddc4c1ad732ad935e804532a359d63f86e5b0675ead56",
+    "src/run_experiments.py": "ea9ea5137e2689c8ed2e5631538167001554d0e4d047a5bda1fb481199ac0c24",
+    "configs/source_class_weighting.json": "6b68e9e3c25429775c72eb9fa5a7fbe5997f97f91c82606dfd26e24fa693fd5f",
+    "configs/source_truncation.json": "2e8b64d06fe070a317ebf3de0e69f04d02d0c9006276501212dc2a34a11c7e27",
+    "configs/pair_finetuning.json": "ccf6c447ea0468d9ea8b0f3902c576ff27f77d36a4f6874cd8693f1c63920543",
+    "configs/experiment.json": "3965861edf1f3f7b02cf2e8d755129334df6f321cd951552552bb1dbe3de4607"
+  },
+  "elapsed_seconds": 183.81482030000006
+}

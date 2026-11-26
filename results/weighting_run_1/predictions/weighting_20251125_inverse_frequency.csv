@@ -1,0 +1,585 @@
+id,gold,prediction,group,answer_length,question_length,prob_Clear Reply,prob_Ambivalent,prob_Clear Non-Reply
+qevasion-train-0012,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-yoon-suk-yeol-south-korea-and-prime-minister,808,19,0.491637378931,0.454690247774,0.0536723360419
+qevasion-train-0013,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-yoon-suk-yeol-south-korea-and-prime-minister,808,19,0.496356338263,0.451937615871,0.0517060793936
+qevasion-train-0014,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-yoon-suk-yeol-south-korea-and-prime-minister,808,32,0.485336184502,0.45415365696,0.0605101175606
+qevasion-train-0015,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-yoon-suk-yeol-south-korea-and-prime-minister,5,8,0.487714201212,0.449303388596,0.0629823505878
+qevasion-train-0102,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,545,32,0.367061585188,0.382990509272,0.249947890639
+qevasion-train-0103,Clear Non-Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,150,5,0.478411853313,0.482164084911,0.039424136281
+qevasion-train-0104,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,150,9,0.47496637702,0.484334230423,0.040699377656
+qevasion-train-0117,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,85,14,0.478912472725,0.478912472725,0.0421751178801
+qevasion-train-0118,Clear Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,32,6,0.318378180265,0.302614212036,0.379007637501
+qevasion-train-0119,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,32,4,0.305088430643,0.292114138603,0.402797400951
+qevasion-train-0120,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,32,4,0.269564777613,0.261016070843,0.469419181347
+qevasion-train-0121,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,173,10,0.495260119438,0.461633205414,0.0431066304445
+qevasion-train-0122,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,136,11,0.469895482063,0.469895482063,0.0602090544999
+qevasion-train-0123,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,557,8,0.485409379005,0.477883815765,0.0367067754269
+qevasion-train-0124,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,557,12,0.48429402709,0.478651851416,0.0370541252196
+qevasion-train-0125,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,40,9,0.486156374216,0.427358865738,0.0864847302437
+qevasion-train-0126,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,40,3,0.456037938595,0.403238832951,0.140723183751
+qevasion-train-0127,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,58,10,0.491870641708,0.40381231904,0.1043170169
+qevasion-train-0128,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,58,6,0.493446886539,0.435465335846,0.071087770164
+qevasion-train-0129,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,597,7,0.482677340508,0.478921115398,0.0384015738964
+qevasion-train-0130,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,597,17,0.482821583748,0.479064226151,0.0381141155958
+qevasion-train-0131,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,597,27,0.483725041151,0.478089511395,0.0381854325533
+qevasion-train-0132,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,695,19,0.482990384102,0.477363407612,0.0396462641656
+qevasion-train-0133,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,245,15,0.483089089394,0.464582234621,0.0523286908865
+qevasion-train-0134,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,245,16,0.487404167652,0.466904580593,0.0456912219524
+qevasion-train-0135,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,245,9,0.486165910959,0.467541188002,0.0462928488851
+qevasion-train-0136,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,45,13,0.0917273908854,0.0939026474953,0.814370036125
+qevasion-train-0137,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,45,23,0.0935385897756,0.0984112620354,0.808050096035
+qevasion-train-0138,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,225,6,0.481989502907,0.480110436678,0.0379000902176
+qevasion-train-0139,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,2,20,0.414598971605,0.421127915382,0.164273113012
+qevasion-train-0140,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,2,20,0.427301675081,0.432338565588,0.140359774232
+qevasion-train-0141,Clear Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,2,6,0.195004418492,0.199628800154,0.605366826057
+qevasion-train-0142,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,17,15,0.46035015583,0.447932988405,0.0917168483138
+qevasion-train-0143,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,17,7,0.462532103062,0.418679863214,0.118788070977
+qevasion-train-0144,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,35,14,0.507192015648,0.449347227812,0.043460752815
+qevasion-train-0145,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,35,8,0.507821500301,0.448150902987,0.0440276376903
+qevasion-train-0146,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,145,16,0.500384271145,0.459178417921,0.0404372513294
+qevasion-train-0147,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,145,40,0.499379992485,0.456470251083,0.0441496968269
+qevasion-train-0343,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-yoon-suk-yeol-south-korea-and-prime-minister,1057,7,0.470372080803,0.466711580753,0.0629163011909
+qevasion-train-0344,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-yoon-suk-yeol-south-korea-and-prime-minister,1057,14,0.466335326433,0.462706267834,0.070958301425
+qevasion-train-0345,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-yoon-suk-yeol-south-korea-and-prime-minister,1057,19,0.450602650642,0.443616718054,0.105780601501
+qevasion-train-0346,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-yoon-suk-yeol-south-korea-and-prime-minister,1057,16,0.461286365986,0.459488004446,0.079225666821
+qevasion-train-0347,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-yoon-suk-yeol-south-korea-and-prime-minister,1057,20,0.447703272104,0.445957869291,0.106338851154
+qevasion-train-0348,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-yoon-suk-yeol-south-korea-and-prime-minister,1057,12,0.461712509394,0.459912478924,0.0783749893308
+qevasion-train-0349,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,158,18,0.480889678001,0.479014903307,0.0400954522192
+qevasion-train-0350,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,190,18,0.48538556695,0.475997388363,0.0386170372367
+qevasion-train-0351,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,190,9,0.489435315132,0.472527563572,0.0380372032523
+qevasion-train-0352,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1270,190,8,0.490338623524,0.471554040909,0.0381074026227
+qevasion-train-0482,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1259,149,8,0.496953099966,0.465024203062,0.0380226895213
+qevasion-train-0483,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1259,163,33,0.48719021678,0.474049091339,0.0387606173754
+qevasion-train-0484,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1259,158,9,0.48928925395,0.472386568785,0.0383240953088
+qevasion-train-0485,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1259,158,4,0.490265488625,0.471483707428,0.0382508523762
+qevasion-train-0486,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1259,30,7,0.511540591717,0.442701488733,0.0457579009235
+qevasion-train-0487,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1259,101,11,0.495728045702,0.444367736578,0.0599041804671
+qevasion-train-0488,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1259,17,6,0.464342445135,0.457143485546,0.0785141289234
+qevasion-train-0489,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1259,141,17,0.487628132105,0.474475175142,0.0378967523575
+qevasion-train-0490,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1259,141,9,0.487628132105,0.474475175142,0.0378967523575
+qevasion-train-0491,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1259,25,8,0.502409517765,0.452119648457,0.045470867306
+qevasion-train-0492,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1259,15,6,0.460553139448,0.442909628153,0.0965371802449
+qevasion-train-0493,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1259,15,21,0.434133946896,0.422423928976,0.143442064524
+qevasion-train-0494,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1259,410,9,0.488747954369,0.473710745573,0.0375412628055
+qevasion-train-0495,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1259,157,7,0.299105197191,0.353121042252,0.347773730755
+qevasion-train-0549,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1259,411,10,0.474553465843,0.478275448084,0.0471710637212
+qevasion-train-0550,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1259,411,9,0.475021868944,0.480621278286,0.0443568490446
+qevasion-train-0551,Clear Non-Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1259,411,15,0.477297514677,0.479165583849,0.0435368940234
+qevasion-train-0552,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1259,149,4,0.441544115543,0.443272233009,0.115183658898
+qevasion-train-0571,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,88,10,0.125060498714,0.146782785654,0.728156805038
+qevasion-train-0572,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,98,12,0.483664423227,0.476165920496,0.0401695817709
+qevasion-train-0573,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,98,11,0.485691547394,0.474440515041,0.0398679897189
+qevasion-train-0574,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,5,14,0.519078493118,0.420362561941,0.060558963567
+qevasion-train-0575,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,276,8,0.488676160574,0.47364115715,0.037682659924
+qevasion-train-0581,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,8,14,0.39810192585,0.389640182257,0.21225784719
+qevasion-train-0582,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,49,17,0.472845047712,0.472845047712,0.0543098300695
+qevasion-train-0583,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,192,10,0.478089511395,0.483725041151,0.0381854325533
+qevasion-train-0584,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,169,6,0.480484902859,0.471191495657,0.0483236387372
+qevasion-train-0585,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,2,20,0.11390812695,0.131620585918,0.754471302032
+qevasion-train-0586,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,246,15,0.492291122675,0.46974748373,0.0379614159465
+qevasion-train-0587,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,246,8,0.491604715586,0.47092846036,0.0374668352306
+qevasion-train-0588,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,45,10,0.484662264585,0.443017154932,0.0723205581307
+qevasion-train-0589,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,72,16,0.465188473463,0.457976430655,0.0768350884318
+qevasion-train-0590,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,72,11,0.473455786705,0.466115534306,0.0604287385941
+qevasion-train-0591,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,74,11,0.481598824263,0.445406109095,0.0729951262474
+qevasion-train-0592,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,3,16,0.398212969303,0.366313993931,0.235473021865
+qevasion-train-0593,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,101,11,0.456075698137,0.477963209152,0.0659610852599
+qevasion-train-0594,Clear Non-Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,3,7,0.370115399361,0.379818588495,0.250066041946
+qevasion-train-0595,Clear Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,3,7,0.115971252322,0.10683773458,0.777190983295
+qevasion-train-0596,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,126,26,0.505890190601,0.455251902342,0.038857974112
+qevasion-train-0597,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,41,9,0.501590132713,0.454922497272,0.0434873811901
+qevasion-train-0598,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,142,10,0.498001009226,0.462378263474,0.0396207198501
+qevasion-train-0599,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,289,19,0.484999626875,0.473764628172,0.0412357002497
+qevasion-train-0600,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,289,9,0.473795592785,0.468275725842,0.0579287298024
+qevasion-train-0674,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-bedminster-new-jersey,4,9,0.514241099358,0.431346148252,0.0544127449393
+qevasion-train-0675,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-bedminster-new-jersey,36,5,0.487184405327,0.47219529748,0.0406202897429
+qevasion-train-0676,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-bedminster-new-jersey,36,8,0.488342612982,0.467803567648,0.0438537858427
+qevasion-train-0677,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-bedminster-new-jersey,50,9,0.212619543076,0.225010067225,0.562370359898
+qevasion-train-0678,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-bedminster-new-jersey,182,21,0.489652276039,0.472737014294,0.0376107245684
+qevasion-train-0679,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-bedminster-new-jersey,119,6,0.489215940237,0.472315758467,0.038468323648
+qevasion-train-0680,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-bedminster-new-jersey,119,10,0.487483203411,0.474334180355,0.0381826348603
+qevasion-train-0681,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-bedminster-new-jersey,10,13,0.495032578707,0.457830280066,0.0471371337771
+qevasion-train-0682,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-bedminster-new-jersey,10,7,0.501632153988,0.449660152197,0.0487076416612
+qevasion-train-0683,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-bedminster-new-jersey,16,9,0.247644081712,0.237228482962,0.51512748003
+qevasion-train-0684,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-bedminster-new-jersey,15,13,0.482892632484,0.466210901737,0.0508965067565
+qevasion-train-0705,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1248,18,9,0.172039911151,0.171034812927,0.656925261021
+qevasion-train-0706,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1248,5,15,0.502099215984,0.416254907846,0.0816458910704
+qevasion-train-0707,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1248,50,7,0.500719368458,0.457694590092,0.0415860414505
+qevasion-train-0708,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1248,50,24,0.506001889706,0.451808869839,0.0421892516315
+qevasion-train-0709,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1248,278,15,0.474374681711,0.481844991446,0.0437803454697
+qevasion-train-0710,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1248,278,21,0.476160138845,0.479894727468,0.0439451299608
+qevasion-train-0711,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1248,3,10,0.385647088289,0.309876143932,0.304476708174
+qevasion-train-0712,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1248,94,22,0.458070278168,0.45450553298,0.0874242410064
+qevasion-train-0713,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1248,260,18,0.490628421307,0.471832752228,0.0375387817621
+qevasion-train-0714,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1248,928,14,0.480110377073,0.481989443302,0.0379000864923
+qevasion-train-0715,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1248,928,11,0.480322510004,0.482202410698,0.0374750867486
+qevasion-train-0716,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1248,125,3,0.485225200653,0.464817255735,0.0499576441944
+qevasion-train-0717,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1248,125,8,0.480593234301,0.463990956545,0.0554158128798
+qevasion-train-0724,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1246,41,14,0.458627015352,0.398462057114,0.142910927534
+qevasion-train-0725,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1246,41,8,0.475060284138,0.400040894747,0.124898858368
+qevasion-train-0726,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1246,10,6,0.0762194618583,0.078332349658,0.845448195934
+qevasion-train-0727,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1246,127,12,0.494023680687,0.467732220888,0.0382441170514
+qevasion-train-0728,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1246,127,9,0.494316756725,0.468009710312,0.0376735292375
+qevasion-train-0729,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1246,397,9,0.44700846076,0.4126085639,0.140383005142
+qevasion-train-0730,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1246,214,22,0.480110377073,0.481989443302,0.0379000864923
+qevasion-train-0731,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1246,29,10,0.479646235704,0.475913584232,0.0444401167333
+qevasion-train-0749,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1244,181,6,0.486967772245,0.473832637072,0.0391996055841
+qevasion-train-0750,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1244,273,15,0.493862599134,0.465756803751,0.0403806641698
+qevasion-train-0751,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1244,273,16,0.493348568678,0.46709305048,0.0395584143698
+qevasion-train-0752,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1244,104,16,0.511726200581,0.444595426321,0.0436783358455
+qevasion-train-0753,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1244,104,4,0.509598731995,0.446219563484,0.0441817194223
+qevasion-train-0754,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1244,20,12,0.0921406745911,0.0961861312389,0.811673164368
+qevasion-train-0755,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1244,20,7,0.0944181978703,0.0962804406881,0.809301376343
+qevasion-train-0756,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1244,20,12,0.0921406745911,0.0961861312389,0.811673164368
+qevasion-train-0757,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1244,20,7,0.0944181978703,0.0962804406881,0.809301376343
+qevasion-train-0758,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1244,119,23,0.476484745741,0.480221867561,0.0432933159173
+qevasion-train-0759,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1244,61,9,0.411312043667,0.402569502592,0.186118468642
+qevasion-train-0760,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1244,110,7,0.492148309946,0.455162763596,0.0526889152825
+qevasion-train-0761,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1244,110,19,0.493303209543,0.450915634632,0.0557811781764
+qevasion-train-0776,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1242,543,10,0.488667488098,0.469946950674,0.0413855686784
+qevasion-train-0777,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1242,543,8,0.488667488098,0.469946950674,0.0413855686784
+qevasion-train-0778,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1242,266,4,0.488056570292,0.47489207983,0.037051409483
+qevasion-train-0779,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1242,19,11,0.522576808929,0.415010273457,0.0624129027128
+qevasion-train-0780,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1242,19,11,0.523090839386,0.418676674366,0.0582324452698
+qevasion-train-0781,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1242,3,3,0.449888855219,0.34292653203,0.207184553146
+qevasion-train-0782,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1242,3,4,0.494225680828,0.373790472746,0.131983861327
+qevasion-train-0783,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1242,3,5,0.508949220181,0.386432677507,0.104618147016
+qevasion-train-0784,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1242,3,4,0.496438771486,0.364623934031,0.138937279582
+qevasion-train-0785,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1242,29,10,0.500560045242,0.450455278158,0.0489847324789
+qevasion-train-0786,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1242,116,9,0.477398067713,0.484915971756,0.0376859754324
+qevasion-train-0787,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1242,116,18,0.474040478468,0.483390063047,0.0425694324076
+qevasion-train-0788,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1242,41,4,0.501830041409,0.458709806204,0.0394602045417
+qevasion-train-0789,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1242,501,8,0.472483485937,0.485581219196,0.0419352985919
+qevasion-train-0830,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1240,258,16,0.48133674264,0.47946023941,0.039203055203
+qevasion-train-0831,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1240,185,8,0.476489722729,0.463637202978,0.0598731078207
+qevasion-train-0832,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1240,87,6,0.479234725237,0.446695894003,0.0740694403648
+qevasion-train-0833,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1240,126,11,0.0891403108835,0.0975197926164,0.81333988905
+qevasion-train-0834,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1240,126,12,0.0952022597194,0.104559227824,0.800238549709
+qevasion-train-0835,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1240,164,8,0.483318537474,0.479557305574,0.0371242240071
+qevasion-train-0836,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1240,164,6,0.481227189302,0.481227189302,0.0375456772745
+qevasion-train-0837,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1240,1,3,0.434170812368,0.332524776459,0.233304455876
+qevasion-train-0838,Clear Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1240,2,7,0.133226379752,0.123696506023,0.743077039719
+qevasion-train-0839,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1240,5,16,0.49576368928,0.442667156458,0.0615692026913
+qevasion-train-0840,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1240,37,5,0.502309679985,0.453799009323,0.0438913293183
+qevasion-train-0841,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1240,219,5,0.487450122833,0.468776196241,0.0437736362219
+qevasion-train-0842,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1240,349,17,0.489821135998,0.471056371927,0.0391224510968
+qevasion-train-0843,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1240,200,21,0.483248263597,0.47948756814,0.0372641049325
+qevasion-train-0844,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1240,200,12,0.484555751085,0.477043449879,0.0384007245302
+qevasion-train-0845,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1240,101,8,0.113449580967,0.120295621455,0.766254782677
+qevasion-train-0846,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1240,101,15,0.0973430871964,0.106493674219,0.796163260937
+qevasion-train-0847,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1240,73,11,0.0771664381027,0.0834368169308,0.83939665556
+qevasion-train-0974,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-davos-switzerland,17,20,0.503764867783,0.444570928812,0.0516642406583
+qevasion-train-0975,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-davos-switzerland,198,7,0.48989585042,0.471128225327,0.0389758758247
+qevasion-train-0976,Clear Non-Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-davos-switzerland,326,7,0.4621527493,0.471267879009,0.0665794089437
+qevasion-train-0977,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-davos-switzerland,248,10,0.476456850767,0.482073158026,0.0414700247347
+qevasion-train-0978,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-davos-switzerland,46,20,0.455178916454,0.390858978033,0.153962045908
+qevasion-train-0979,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-davos-switzerland,140,4,0.481637269258,0.472321599722,0.0460411272943
+qevasion-train-0980,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-davos-switzerland,29,5,0.453229308128,0.381657361984,0.165113404393
+qevasion-train-0981,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-davos-switzerland,29,13,0.476477533579,0.418033331633,0.10548914969
+qevasion-train-0982,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-davos-switzerland,29,18,0.460084825754,0.436451196671,0.103463970125
+qevasion-train-0983,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-davos-switzerland,102,9,0.431129574776,0.429448783398,0.139421612024
+qevasion-train-0984,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-davos-switzerland,156,8,0.493139922619,0.463262081146,0.0435980185866
+qevasion-train-0985,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-davos-switzerland,10,5,0.50052690506,0.438276052475,0.0611970424652
+qevasion-train-0986,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-davos-switzerland,10,4,0.493820220232,0.442657589912,0.0635222494602
+qevasion-train-0987,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-davos-switzerland,13,10,0.331826359034,0.281033575535,0.387140095234
+qevasion-train-0988,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-davos-switzerland,7,8,0.0879634097219,0.0904018431902,0.821634709835
+qevasion-train-0989,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-davos-switzerland,7,11,0.072370134294,0.0764380991459,0.851191759109
+qevasion-train-0990,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-davos-switzerland,7,19,0.068087130785,0.072762042284,0.859150767326
+qevasion-train-0991,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-davos-switzerland,7,7,0.0780710875988,0.0793005228043,0.842628359795
+qevasion-train-0992,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-davos-switzerland,206,8,0.484555751085,0.477043449879,0.0384007245302
+qevasion-train-0993,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-davos-switzerland,12,15,0.499305844307,0.430428534746,0.0702655240893
+qevasion-train-0994,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-davos-switzerland,24,4,0.0835668072104,0.0822712257504,0.834161937237
+qevasion-train-0995,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-davos-switzerland,16,5,0.0691243708134,0.0721592977643,0.858716309071
+qevasion-train-0996,Clear Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-davos-switzerland,7,10,0.268901616335,0.253598362207,0.47750005126
+qevasion-train-1002,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-sergio-mattarella-italy,7,22,0.446709573269,0.428758144379,0.124532274902
+qevasion-train-1003,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-sergio-mattarella-italy,53,22,0.0915361493826,0.102115951478,0.80634790659
+qevasion-train-1004,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-sergio-mattarella-italy,760,23,0.49093401432,0.464806973934,0.0442590415478
+qevasion-train-1005,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-sergio-mattarella-italy,760,28,0.488725692034,0.466345340014,0.0449289605021
+qevasion-train-1067,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,227,15,0.481288313866,0.471979379654,0.046732287854
+qevasion-train-1068,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1255,63,16,0.124092668295,0.12753264606,0.748374581337
+qevasion-train-1080,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1248,20,8,0.501035809517,0.456198304892,0.0427658595145
+qevasion-train-1097,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-davos-switzerland,171,19,0.491055458784,0.47224342823,0.0367011129856
+qevasion-train-1143,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-andrzej-duda-poland-0,210,21,0.482298493385,0.444314211607,0.0733872801065
+qevasion-train-1144,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-andrzej-duda-poland-0,55,8,0.367453098297,0.353548794985,0.27899813652
+qevasion-train-1145,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-andrzej-duda-poland-0,55,14,0.31225463748,0.295420318842,0.392324984074
+qevasion-train-1146,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-andrzej-duda-poland-0,463,10,0.479534715414,0.479534715414,0.0409306325018
+qevasion-train-1147,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-andrzej-duda-poland-0,463,10,0.482531964779,0.478776872158,0.0386911034584
+qevasion-train-1148,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-andrzej-duda-poland-0,351,22,0.49189043045,0.471202164888,0.0369074046612
+qevasion-train-1149,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-andrzej-duda-poland-0,351,5,0.494328141212,0.458968102932,0.0467037521303
+qevasion-train-1150,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-andrzej-duda-poland-0,351,3,0.495839983225,0.458577007055,0.0455829836428
+qevasion-train-1151,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-andrzej-duda-poland-0,5,10,0.0820672288537,0.0890831276774,0.828849613667
+qevasion-train-1152,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-andrzej-duda-poland-0,730,21,0.477468162775,0.484987199306,0.0375445708632
+qevasion-train-1153,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-andrzej-duda-poland-0,16,5,0.502718508244,0.436769425869,0.0605120696127
+qevasion-train-1154,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-andrzej-duda-poland-0,710,7,0.471484988928,0.477042704821,0.0514722876251
+qevasion-train-1155,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-andrzej-duda-poland-0,710,13,0.478504300117,0.476638823748,0.0448569096625
+qevasion-train-1156,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-andrzej-duda-poland-0,51,9,0.476840019226,0.460367381573,0.0627926066518
+qevasion-train-1157,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-andrzej-duda-poland-0,16,21,0.0928310677409,0.0957778468728,0.811391055584
+qevasion-train-1158,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-andrzej-duda-poland-0,186,14,0.470101237297,0.479373127222,0.0505255535245
+qevasion-train-1258,Clear Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-andrzej-duda-poland-0,34,7,0.316139996052,0.278720259666,0.405139744282
+qevasion-train-1438,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-giuseppe-conte-italy,390,42,0.476379483938,0.481994867325,0.0416255779564
+qevasion-train-1439,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-giuseppe-conte-italy,390,9,0.481156408787,0.481156408787,0.0376870818436
+qevasion-train-1440,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-giuseppe-conte-italy,15,9,0.482124567032,0.461847037077,0.0560284033418
+qevasion-train-1441,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-giuseppe-conte-italy,276,8,0.488531798124,0.473501265049,0.0379669852555
+qevasion-train-1442,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-giuseppe-conte-italy,276,11,0.488313227892,0.473289400339,0.0383973419666
+qevasion-train-1443,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-giuseppe-conte-italy,276,12,0.479967743158,0.481846272945,0.0381859950721
+qevasion-train-1444,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-giuseppe-conte-italy,276,3,0.487410336733,0.47426328063,0.0383263453841
+qevasion-train-1445,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-giuseppe-conte-italy,41,4,0.497379392385,0.460000753403,0.042619921267
+qevasion-train-1506,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,186,34,0.45333173871,0.446303486824,0.100364811718
+qevasion-train-1507,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,1,6,0.477769374847,0.407860398293,0.114370211959
+qevasion-train-1508,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,1,11,0.520057439804,0.405021160841,0.0749213844538
+qevasion-train-1509,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,82,11,0.484583348036,0.446419119835,0.0689975246787
+qevasion-train-1510,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,8,6,0.494789153337,0.412605166435,0.0926056802273
+qevasion-train-1511,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,79,9,0.491909831762,0.467553704977,0.0405364558101
+qevasion-train-1512,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,208,59,0.486352831125,0.455105006695,0.0585421398282
+qevasion-train-1513,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,208,59,0.486352831125,0.455105006695,0.0585421398282
+qevasion-train-1514,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,111,6,0.499126464128,0.463423222303,0.0374503359199
+qevasion-train-1515,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,1,13,0.494032353163,0.406379938126,0.0995876789093
+qevasion-train-1516,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,225,7,0.488619267941,0.471739709377,0.0396410375834
+qevasion-train-1517,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,187,18,0.490843117237,0.472039222717,0.0371176749468
+qevasion-train-1518,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,1,6,0.473555088043,0.391824960709,0.134619966149
+qevasion-train-1519,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,1,5,0.483809709549,0.387993484735,0.128196820617
+qevasion-train-1520,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,1,8,0.473291695118,0.390842884779,0.135865449905
+qevasion-train-1521,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,97,15,0.489787429571,0.465536385775,0.0446761697531
+qevasion-train-1522,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,97,9,0.492414146662,0.464390784502,0.0431950725615
+qevasion-train-1523,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,97,15,0.489787429571,0.465536385775,0.0446761697531
+qevasion-train-1524,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,97,9,0.492414146662,0.464390784502,0.0431950725615
+qevasion-train-1525,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,98,8,0.492804855108,0.459344625473,0.047850523144
+qevasion-train-1526,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,98,10,0.478444188833,0.47287017107,0.0486855991185
+qevasion-train-1527,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,89,9,0.4333512187,0.464917987585,0.101730771363
+qevasion-train-1528,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,289,7,0.48429402709,0.478651851416,0.0370541252196
+qevasion-train-1529,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,214,13,0.489821135998,0.471056371927,0.0391224510968
+qevasion-train-1530,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,795,8,0.48321351409,0.477583914995,0.0392024740577
+qevasion-train-1531,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,177,12,0.490343302488,0.469720095396,0.0399366021156
+qevasion-train-1532,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,173,13,0.505028545856,0.45447653532,0.0404949560761
+qevasion-train-1533,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,173,4,0.509262025356,0.44942215085,0.0413157567382
+qevasion-train-1534,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,41,13,0.492733478546,0.461075663567,0.0461908131838
+qevasion-train-1535,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,1,10,0.397970288992,0.311152637005,0.290877103806
+qevasion-train-1536,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,197,7,0.495102852583,0.463292837143,0.0416042804718
+qevasion-train-1537,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,197,5,0.494860202074,0.463065773249,0.0420740693808
+qevasion-train-1538,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,661,18,0.481507450342,0.481507450342,0.0369851104915
+qevasion-train-1539,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,661,19,0.480532258749,0.482412993908,0.037054669112
+qevasion-train-1540,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,661,19,0.480532258749,0.482412993908,0.037054669112
+qevasion-train-1541,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,289,6,0.497026771307,0.465093135834,0.0378800667822
+qevasion-train-1542,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,289,12,0.498003333807,0.464190155268,0.0378065258265
+qevasion-train-1543,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,42,6,0.504797875881,0.448976546526,0.0462255701423
+qevasion-train-1544,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,285,16,0.493802249432,0.463884294033,0.042313400656
+qevasion-train-1545,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,285,27,0.493862599134,0.465756803751,0.0403806641698
+qevasion-train-1546,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,202,15,0.495976597071,0.465926915407,0.0380965024233
+qevasion-train-1547,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,202,11,0.495220303535,0.46703723073,0.0377423912287
+qevasion-train-1548,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,134,44,0.491842836142,0.454880267382,0.0532769076526
+qevasion-train-1549,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,78,15,0.505601942539,0.453218668699,0.0411793626845
+qevasion-train-1550,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,12,14,0.0873406156898,0.0839946568012,0.828664720058
+qevasion-train-1551,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,353,16,0.487151116133,0.475866287947,0.0369826704264
+qevasion-train-1552,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,353,19,0.484223812819,0.478582441807,0.0371937602758
+qevasion-train-1553,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,291,7,0.492899149656,0.468494027853,0.0386068448424
+qevasion-train-1554,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,291,18,0.491168290377,0.470510363579,0.0383212901652
+qevasion-train-1555,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,302,16,0.502416312695,0.457455247641,0.0401284396648
+qevasion-train-1556,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,302,7,0.501042425632,0.457989871502,0.0409677214921
+qevasion-train-1557,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,3,10,0.228363335133,0.203110545874,0.568526089191
+qevasion-train-1558,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,226,20,0.503937244415,0.457051217556,0.0390115603805
+qevasion-train-1559,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,20,5,0.520670175552,0.43165075779,0.0476790368557
+qevasion-train-1560,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,171,8,0.503885388374,0.446417719126,0.0496968999505
+qevasion-train-1561,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,171,7,0.506841719151,0.447286278009,0.0458720102906
+qevasion-train-1562,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,3,12,0.523055374622,0.420286804438,0.0566578768194
+qevasion-train-1563,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,3,13,0.518618583679,0.416721761227,0.0646596550941
+qevasion-train-1564,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,146,18,0.475926935673,0.468548387289,0.05552463606
+qevasion-train-1565,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,78,3,0.480142503977,0.433772623539,0.0860848128796
+qevasion-train-1566,Clear Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,7,15,0.231454879045,0.218709483743,0.549835622311
+qevasion-train-1567,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,7,22,0.302542924881,0.265563011169,0.431894034147
+qevasion-train-1568,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,1,7,0.0916017889977,0.091960310936,0.816437900066
+qevasion-train-1569,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,21,10,0.491738587618,0.445987522602,0.0622738078237
+qevasion-train-1570,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,26,3,0.452852338552,0.395757049322,0.151390567422
+qevasion-train-1571,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,30,7,0.503916561604,0.442971050739,0.0531124100089
+qevasion-train-1572,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,242,12,0.494010180235,0.456884711981,0.0491050742567
+qevasion-train-1573,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,242,6,0.499089300632,0.459782600403,0.0411280877888
+qevasion-train-1574,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,7,5,0.404820203781,0.378071606159,0.217108264565
+qevasion-train-1575,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-charlevoix-canada,224,6,0.496123671532,0.466065078974,0.037811242044
+qevasion-train-1576,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-charlevoix-canada,224,8,0.494461685419,0.468146920204,0.0373913124204
+qevasion-train-1577,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-charlevoix-canada,150,12,0.495604157448,0.465577036142,0.0388187170029
+qevasion-train-1578,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-charlevoix-canada,150,8,0.495453357697,0.465435355902,0.0391112715006
+qevasion-train-1579,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-charlevoix-canada,150,10,0.495828449726,0.465787708759,0.0383838303387
+qevasion-train-1580,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-charlevoix-canada,589,5,0.482202410698,0.480322510004,0.0374750867486
+qevasion-train-1581,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-charlevoix-canada,42,10,0.493390530348,0.463497519493,0.0431119836867
+qevasion-train-1582,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-charlevoix-canada,129,13,0.449661076069,0.46940356493,0.0809353291988
+qevasion-train-1583,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-charlevoix-canada,182,27,0.481297641993,0.481297641993,0.0374047718942
+qevasion-train-1584,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-charlevoix-canada,26,8,0.505266904831,0.454691022635,0.0400420688093
+qevasion-train-1585,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-charlevoix-canada,214,8,0.460823386908,0.446645349264,0.0925312265754
+qevasion-train-1586,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-charlevoix-canada,17,21,0.072413213551,0.0758883953094,0.851698458195
+qevasion-train-1587,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-charlevoix-canada,261,11,0.486724197865,0.475449234247,0.0378265045583
+qevasion-train-1617,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-emmanuel-macron-france,863,11,0.440851360559,0.454845488071,0.104303151369
+qevasion-train-1618,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-emmanuel-macron-france,863,9,0.435305893421,0.449124008417,0.115570083261
+qevasion-train-1619,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-emmanuel-macron-france,1093,7,0.477995842695,0.476132333279,0.0458718687296
+qevasion-train-1620,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-emmanuel-macron-france,1093,8,0.479859650135,0.474269121885,0.0458711981773
+qevasion-train-1621,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-emmanuel-macron-france,1093,7,0.474311083555,0.474311083555,0.0513778477907
+qevasion-train-1622,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-emmanuel-macron-france,1093,13,0.478027284145,0.478027284145,0.0439454466105
+qevasion-train-1623,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-emmanuel-macron-france,361,11,0.410966575146,0.435766100883,0.153267353773
+qevasion-train-1624,Clear Non-Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-emmanuel-macron-france,361,14,0.453138053417,0.474884569645,0.0719774588943
+qevasion-train-1625,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-emmanuel-macron-france,547,15,0.4008487463,0.422142118216,0.177009135485
+qevasion-train-1626,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-emmanuel-macron-france,547,11,0.378427803516,0.403621822596,0.217950373888
+qevasion-train-1627,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-emmanuel-macron-france,547,14,0.397845715284,0.424747139215,0.177407100797
+qevasion-train-1628,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-emmanuel-macron-france,547,15,0.403955638409,0.424998790026,0.171045586467
+qevasion-train-1629,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-emmanuel-macron-france,547,10,0.434629112482,0.449302405119,0.1160684973
+qevasion-train-1630,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-emmanuel-macron-france,547,13,0.380330592394,0.404859811068,0.214809581637
+qevasion-train-1639,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-kersti-kaljulaid-estonia-president-raimonds,2,6,0.362621665001,0.361914128065,0.275464206934
+qevasion-train-1640,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-kersti-kaljulaid-estonia-president-raimonds,187,8,0.483868867159,0.47823163867,0.0378995388746
+qevasion-train-1641,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-kersti-kaljulaid-estonia-president-raimonds,81,7,0.494032174349,0.462290942669,0.0436769016087
+qevasion-train-1642,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-kersti-kaljulaid-estonia-president-raimonds,81,7,0.494449853897,0.462681800127,0.0428683273494
+qevasion-train-1643,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-malcolm-b-turnbull-australia,488,17,0.476241767406,0.479977011681,0.0437813065946
+qevasion-train-1644,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-malcolm-b-turnbull-australia,388,14,0.480508506298,0.480508506298,0.0389830209315
+qevasion-train-1645,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-malcolm-b-turnbull-australia,313,10,0.486867547035,0.47558927536,0.0375431925058
+qevasion-train-1646,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-malcolm-b-turnbull-australia,313,15,0.487843483686,0.474684715271,0.0374717898667
+qevasion-train-1647,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-malcolm-b-turnbull-australia,313,23,0.488056570292,0.47489207983,0.037051409483
+qevasion-train-1648,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-malcolm-b-turnbull-australia,548,10,0.484336525202,0.47682762146,0.0388357974589
+qevasion-train-1665,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-moon-jae-south-korea-seoul-south-korea,209,12,0.496505409479,0.464605271816,0.038889311254
+qevasion-train-1666,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-moon-jae-south-korea-seoul-south-korea,209,12,0.496505409479,0.464605271816,0.038889311254
+qevasion-train-1667,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-moon-jae-south-korea-seoul-south-korea,6,10,0.0734697729349,0.0758019536734,0.850728273392
+qevasion-train-1668,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-moon-jae-south-korea-seoul-south-korea,197,13,0.282180726528,0.295867294073,0.421951979399
+qevasion-train-1669,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-moon-jae-south-korea-seoul-south-korea,197,10,0.328889995813,0.350700378418,0.320409625769
+qevasion-train-1670,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-moon-jae-south-korea-seoul-south-korea,615,24,0.499721616507,0.460365146399,0.0399132147431
+qevasion-train-1671,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-moon-jae-south-korea-seoul-south-korea,615,22,0.492144554853,0.469607651234,0.03824775666
+qevasion-train-1672,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-moon-jae-south-korea-seoul-south-korea,274,26,0.459059476852,0.443201094866,0.0977393984795
+qevasion-train-1673,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-moon-jae-south-korea-seoul-south-korea,274,41,0.486133277416,0.449599772692,0.0642669349909
+qevasion-train-1674,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-shinzo-abe-japan-tokyo-japan-0,250,19,0.45506888628,0.467683881521,0.0772472545505
+qevasion-train-1675,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-shinzo-abe-japan-tokyo-japan-0,250,12,0.46391543746,0.462106823921,0.0739777833223
+qevasion-train-1676,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-shinzo-abe-japan-tokyo-japan-0,250,27,0.457659810781,0.475890904665,0.0664492622018
+qevasion-train-1677,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-shinzo-abe-japan-tokyo-japan-0,900,21,0.475909680128,0.481519550085,0.0425706729293
+qevasion-train-1678,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-shinzo-abe-japan-tokyo-japan-0,900,24,0.474217414856,0.472368627787,0.0534139573574
+qevasion-train-1679,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-shinzo-abe-japan-tokyo-japan-0,900,24,0.473526865244,0.475380182266,0.0510929264128
+qevasion-train-1680,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-alexios-tsipras-greece,12,6,0.498806357384,0.450634002686,0.050559733063
+qevasion-train-1681,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-alexios-tsipras-greece,25,22,0.101624161005,0.105260439217,0.793115496635
+qevasion-train-1682,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-alexios-tsipras-greece,5,10,0.433422684669,0.358618915081,0.207958459854
+qevasion-train-1683,Clear Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-alexios-tsipras-greece,2,18,0.194158390164,0.175407499075,0.63043409586
+qevasion-train-1684,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-alexios-tsipras-greece,233,9,0.486361354589,0.475094795227,0.0385438166559
+qevasion-train-1685,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-alexios-tsipras-greece,233,5,0.487263858318,0.474120736122,0.0386153385043
+qevasion-train-1712,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1084,579,15,0.464215308428,0.469687312841,0.0660974159837
+qevasion-train-1713,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1084,579,16,0.468660444021,0.479774415493,0.0515652112663
+qevasion-train-1714,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1084,579,12,0.463967531919,0.46760648489,0.0684259459376
+qevasion-train-1715,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1084,579,13,0.460049659014,0.469123333693,0.0708270296454
+qevasion-train-1716,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1084,579,15,0.468279600143,0.47195237875,0.0597680807114
+qevasion-train-1717,Clear Non-Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1084,579,16,0.47171613574,0.479144543409,0.0491392724216
+qevasion-train-1718,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1084,579,12,0.46750497818,0.471171706915,0.0613233149052
+qevasion-train-1719,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1084,579,13,0.464927136898,0.470407515764,0.0646652802825
+qevasion-train-1720,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1084,698,18,0.476069062948,0.485458642244,0.038472276181
+qevasion-train-1721,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1084,698,18,0.47946023941,0.48133674264,0.039203055203
+qevasion-train-1722,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1084,698,14,0.477043449879,0.484555751085,0.0384007245302
+qevasion-train-1723,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1084,698,6,0.47870439291,0.482458919287,0.0388366580009
+qevasion-train-1724,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1084,698,8,0.482238173485,0.47848534584,0.0392764694989
+qevasion-train-1725,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1084,698,14,0.477043449879,0.484555751085,0.0384007245302
+qevasion-train-1726,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1084,497,19,0.155096918344,0.176435679197,0.668467402458
+qevasion-train-1727,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1084,497,15,0.148885115981,0.170697614551,0.680417239666
+qevasion-train-1728,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1084,497,52,0.471560776234,0.455270528793,0.0731686279178
+qevasion-train-1729,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1084,452,14,0.472264289856,0.483463704586,0.0442719496787
+qevasion-train-1730,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1084,452,16,0.46782758832,0.484567165375,0.0476052761078
+qevasion-train-1731,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1084,452,14,0.472264289856,0.483463704586,0.0442719496787
+qevasion-train-1732,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1084,452,16,0.46782758832,0.484567165375,0.0476052761078
+qevasion-train-1733,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1084,591,13,0.458946198225,0.464356124401,0.0766976103187
+qevasion-train-1734,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1084,591,10,0.483932167292,0.4708789289,0.0451888777316
+qevasion-train-1735,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1084,591,14,0.446033626795,0.454830825329,0.0991355553269
+qevasion-train-1889,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1142,613,12,0.478788584471,0.480662465096,0.0405489169061
+qevasion-train-1890,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1142,613,30,0.479164391756,0.481039762497,0.0397958382964
+qevasion-train-1891,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1142,613,25,0.476839333773,0.482460141182,0.0407005697489
+qevasion-train-1892,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1142,256,10,0.469200640917,0.489801049232,0.0409982986748
+qevasion-train-1893,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1142,292,12,0.487491428852,0.472492873669,0.0400157310069
+qevasion-train-1894,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-issy-les-moulineaux-france,734,9,0.469396024942,0.491922795773,0.0386811718345
+qevasion-train-1895,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-issy-les-moulineaux-france,734,15,0.470766365528,0.489519566298,0.0397140756249
+qevasion-train-1896,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-issy-les-moulineaux-france,734,26,0.470083206892,0.490722358227,0.0391944311559
+qevasion-train-1897,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-issy-les-moulineaux-france,734,13,0.470323443413,0.489059001207,0.0406176187098
+qevasion-train-1898,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-issy-les-moulineaux-france,292,9,0.474879056215,0.486140489578,0.0389804467559
+qevasion-train-1917,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-park-geun-hye-south-korea,611,10,0.520182549953,0.42456060648,0.0552568510175
+qevasion-train-1918,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-park-geun-hye-south-korea,611,11,0.518292844296,0.418089956045,0.0636172145605
+qevasion-train-1919,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-park-geun-hye-south-korea,611,7,0.519653558731,0.425788879395,0.0545575469732
+qevasion-train-1935,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-xi-jinping-china,1393,18,0.308664530516,0.340203851461,0.351131647825
+qevasion-train-1988,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-chancellor-angela-merkel-germany-3,1019,19,0.475853264332,0.485238611698,0.0389081276953
+qevasion-train-1989,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-chancellor-angela-merkel-germany-3,1019,28,0.475788980722,0.483281552792,0.0409294292331
+qevasion-train-1990,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-chancellor-angela-merkel-germany-3,1019,10,0.47436645627,0.485615760088,0.0400177836418
+qevasion-train-2008,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-brisbane-australia,350,11,0.482821583748,0.479064226151,0.0381141155958
+qevasion-train-2009,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-brisbane-australia,350,7,0.481918007135,0.480039209127,0.0380427837372
+qevasion-train-2010,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-brisbane-australia,350,9,0.482131659985,0.480252057314,0.0376162454486
+qevasion-train-2011,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-brisbane-australia,350,8,0.477583914995,0.48321351409,0.0392024740577
+qevasion-train-2012,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-brisbane-australia,350,20,0.480252057314,0.482131659985,0.0376162454486
+qevasion-train-2013,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-brisbane-australia,131,10,0.443921625614,0.452677190304,0.103401228786
+qevasion-train-2014,Clear Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-brisbane-australia,10,10,0.196572303772,0.183583751321,0.619843959808
+qevasion-train-2015,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-brisbane-australia,367,53,0.477799385786,0.472232848406,0.0499677807093
+qevasion-train-2016,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-brisbane-australia,421,13,0.475559562445,0.483048528433,0.0413919240236
+qevasion-train-2017,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-brisbane-australia,421,10,0.476609438658,0.484114944935,0.0392756052315
+qevasion-train-2018,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-brisbane-australia,421,25,0.479606539011,0.481483638287,0.0389098450541
+qevasion-train-2019,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-brisbane-australia,96,10,0.496364116669,0.459061741829,0.0445741266012
+qevasion-train-2020,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-brisbane-australia,347,5,0.477510720491,0.483139425516,0.0393498763442
+qevasion-train-2021,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-brisbane-australia,347,13,0.476314872503,0.483815729618,0.0398694500327
+qevasion-train-2022,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-brisbane-australia,1,4,0.474896728992,0.386088341475,0.139014974236
+qevasion-train-2023,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-brisbane-australia,75,8,0.507677197456,0.4208791852,0.0714435875416
+qevasion-train-2078,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-bronislaw-komorowski-poland-warsaw-poland,449,36,0.475780785084,0.485164672136,0.0390544608235
+qevasion-train-2079,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-bronislaw-komorowski-poland-warsaw-poland,449,25,0.475997388363,0.48538556695,0.0386170372367
+qevasion-train-2080,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-bronislaw-komorowski-poland-warsaw-poland,449,17,0.476682454348,0.484189093113,0.0391284786165
+qevasion-train-2081,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-bronislaw-komorowski-poland-warsaw-poland,449,11,0.482604831457,0.47884914279,0.0385460779071
+qevasion-train-2082,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-bronislaw-komorowski-poland-warsaw-poland,275,11,0.104285664856,0.119097977877,0.776616334915
+qevasion-train-2083,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-bronislaw-komorowski-poland-warsaw-poland,1035,17,0.462308138609,0.480724394321,0.0569675341249
+qevasion-train-2084,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-bronislaw-komorowski-poland-warsaw-poland,1035,19,0.448831826448,0.481526255608,0.0696419402957
+qevasion-train-2085,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-bronislaw-komorowski-poland-warsaw-poland,448,9,0.481918007135,0.480039209127,0.0380427837372
+qevasion-train-2086,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-bronislaw-komorowski-poland-warsaw-poland,448,5,0.485238611698,0.475853264332,0.0389081276953
+qevasion-train-2093,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-najib-razak-malaysia-kuala-lumpur,4,5,0.441916614771,0.35457020998,0.203513145447
+qevasion-train-2094,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-najib-razak-malaysia-kuala-lumpur,1052,8,0.484993070364,0.470071405172,0.0449355095625
+qevasion-train-2095,Clear Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-park-geun-hye-south-korea-seoul-south-korea,283,13,0.315514653921,0.298286020756,0.386199295521
+qevasion-train-2096,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-park-geun-hye-south-korea-seoul-south-korea,283,16,0.412690371275,0.368131399155,0.219178199768
+qevasion-train-2097,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-park-geun-hye-south-korea-seoul-south-korea,735,18,0.482733845711,0.475249767303,0.0420163609087
+qevasion-train-2098,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-park-geun-hye-south-korea-seoul-south-korea,735,14,0.485739767551,0.472637742758,0.041622530669
+qevasion-train-2099,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-park-geun-hye-south-korea-seoul-south-korea,735,10,0.48249489069,0.475014537573,0.0424905978143
+qevasion-train-2100,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-park-geun-hye-south-korea-seoul-south-korea,735,7,0.481561392546,0.477813839912,0.0406247526407
+qevasion-train-2101,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-park-geun-hye-south-korea-seoul-south-korea,823,13,0.393188714981,0.398601263762,0.208210080862
+qevasion-train-2106,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1149,24,3,0.0844815820456,0.0885359346867,0.826982498169
+qevasion-train-2107,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1149,717,42,0.476145893335,0.481758534908,0.0420955903828
+qevasion-train-2108,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1149,456,17,0.474334180355,0.487483203411,0.0381826348603
+qevasion-train-2109,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1149,456,20,0.471534490585,0.484605908394,0.0438595414162
+qevasion-train-2110,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1149,198,14,0.470118790865,0.483150959015,0.0467302463949
+qevasion-train-2111,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1149,198,5,0.478776872158,0.482531964779,0.0386911034584
+qevasion-train-2119,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-herman-van-rompuy-the-european-council-and,550,6,0.458901256323,0.490409761667,0.0506890527904
+qevasion-train-2120,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-herman-van-rompuy-the-european-council-and,155,12,0.474595159292,0.474595159292,0.0508096925914
+qevasion-train-2126,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-enrique-pena-nieto-mexico-and-prime-minister,1319,13,0.453269183636,0.469487845898,0.0772428959608
+qevasion-train-2127,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-enrique-pena-nieto-mexico-and-prime-minister,1319,14,0.472441017628,0.472441017628,0.0551179461181
+qevasion-train-2240,Clear Non-Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-hamid-karzai-afghanistan-3,90,4,0.457197576761,0.486684292555,0.0561181530356
+qevasion-train-2241,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-hamid-karzai-afghanistan-3,634,54,0.476563602686,0.485962957144,0.0374734401703
+qevasion-train-2242,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-hamid-karzai-afghanistan-3,634,38,0.476282566786,0.485676378012,0.0380411148071
+qevasion-train-2243,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-new-conference,956,2,0.484483003616,0.476971805096,0.0385452322662
+qevasion-train-2244,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-new-conference,956,35,0.480508506298,0.480508506298,0.0389830209315
+qevasion-train-2245,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-new-conference,956,6,0.486434459686,0.475166201591,0.0383993163705
+qevasion-train-2246,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-new-conference,333,9,0.48574835062,0.476353168488,0.0378984250128
+qevasion-train-2247,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-new-conference,333,3,0.48553147912,0.476140469313,0.0383280329406
+qevasion-train-2248,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-new-conference,384,12,0.482990384102,0.477363407612,0.0396462641656
+qevasion-train-2249,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-new-conference,384,23,0.482458919287,0.47870439291,0.0388366580009
+qevasion-train-2250,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-new-conference,329,15,0.483318537474,0.479557305574,0.0371242240071
+qevasion-train-2251,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-new-conference,307,33,0.47274145484,0.476449221373,0.0508093237877
+qevasion-train-2252,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-new-conference,247,4,0.429859727621,0.446983397007,0.123156875372
+qevasion-train-2253,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-new-conference,202,4,0.484101980925,0.47473859787,0.0411593802273
+qevasion-train-2254,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1156,236,26,0.281981885433,0.307736903429,0.410281211138
+qevasion-train-2255,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1156,236,27,0.292354345322,0.318823158741,0.388822466135
+qevasion-train-2256,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1156,127,5,0.426162153482,0.467134296894,0.106703542173
+qevasion-train-2257,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1156,127,3,0.430085778236,0.470515280962,0.0993988886476
+qevasion-train-2258,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1156,411,16,0.47364115715,0.488676160574,0.037682659924
+qevasion-train-2259,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1156,458,12,0.475496858358,0.479226231575,0.0452769398689
+qevasion-train-2260,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1156,120,15,0.455467641354,0.464450925589,0.0800813883543
+qevasion-train-2261,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1156,412,7,0.484772652388,0.477256983519,0.0379703305662
+qevasion-train-2262,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1156,86,5,0.483314484358,0.45759293437,0.0590925589204
+qevasion-train-2263,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1156,86,10,0.490574508905,0.460852086544,0.0485734529793
+qevasion-train-2264,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1156,86,3,0.489182502031,0.454190552235,0.0566269829869
+qevasion-train-2265,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1156,305,11,0.486652135849,0.475378870964,0.0379689373076
+qevasion-train-2266,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1156,588,6,0.461286365986,0.459488004446,0.079225666821
+qevasion-train-2267,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1156,601,20,0.486214369535,0.47495123744,0.0388343781233
+qevasion-train-2268,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1156,601,5,0.482749581337,0.478992760181,0.0382575839758
+qevasion-train-2269,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1156,51,6,0.192703828216,0.229737117887,0.577559053898
+qevasion-train-2270,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1156,486,18,0.480302929878,0.476565182209,0.0431318134069
+qevasion-train-2271,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1156,486,22,0.477779388428,0.479649305344,0.0425712950528
+qevasion-train-2272,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1156,421,14,0.479347527027,0.483107119799,0.0375453978777
+qevasion-train-2273,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1156,421,18,0.478372693062,0.484011590481,0.0376156903803
+qevasion-train-2274,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1156,30,4,0.073514200747,0.078561745584,0.847924113274
+qevasion-train-2310,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-sentosa-island-singapore,9,27,0.246799826622,0.246799826622,0.506400346756
+qevasion-train-2311,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-emmanuel-macron-france,53,6,0.470602482557,0.466940224171,0.062457267195
+qevasion-train-2312,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-malcolm-b-turnbull-australia,751,11,0.482060700655,0.480181336403,0.0377579107881
+qevasion-train-2313,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-malcolm-b-turnbull-australia,751,8,0.467197567225,0.472704738379,0.0600976608694
+qevasion-train-2314,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-malcolm-b-turnbull-australia,751,9,0.479896038771,0.481774240732,0.0383297242224
+qevasion-train-2317,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1142,824,28,0.481918007135,0.480039209127,0.0380427837372
+qevasion-train-2318,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1142,824,16,0.482458919287,0.47870439291,0.0388366580009
+qevasion-train-2346,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1156,352,11,0.336764484644,0.388845711946,0.274389833212
+qevasion-train-2347,Clear Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1156,352,32,0.207148075104,0.251336634159,0.541515350342
+qevasion-train-2371,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-stephen-j-harper-canada,503,35,0.176108360291,0.218742772937,0.605148911476
+qevasion-train-2372,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-stephen-j-harper-canada,503,18,0.119943656027,0.142436608672,0.737619698048
+qevasion-train-2373,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-stephen-j-harper-canada,503,28,0.281218320131,0.33402633667,0.384755402803
+qevasion-train-2374,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-stephen-j-harper-canada,92,20,0.379805803299,0.396481305361,0.223712846637
+qevasion-train-2416,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1110,135,10,0.080485239625,0.0873658955097,0.832148849964
+qevasion-train-2417,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1110,325,28,0.480322510004,0.482202410698,0.0374750867486
+qevasion-train-2418,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1110,8,11,0.0780809298158,0.0824699029326,0.839449167252
+qevasion-train-2419,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1110,16,20,0.4606577456,0.457072854042,0.0822693929076
+qevasion-train-2420,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1110,16,30,0.459697365761,0.427648961544,0.112653687596
+qevasion-train-2421,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1110,16,13,0.47577431798,0.432352185249,0.0918734669685
+qevasion-train-2422,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1110,196,16,0.453918367624,0.483193606138,0.0628879740834
+qevasion-train-2423,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1110,196,13,0.454486608505,0.474440991879,0.0710724443197
+qevasion-train-2424,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1110,250,23,0.400617808104,0.46200978756,0.137372389436
+qevasion-train-2458,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-chancellor-angela-merkel-germany-1,599,29,0.483760714531,0.470712065697,0.0455271601677
+qevasion-train-2459,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-chancellor-angela-merkel-germany-1,599,31,0.483470290899,0.474119156599,0.0424105077982
+qevasion-train-2462,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-sebastian-pinera-echenique-chile-santiago,294,21,0.480508506298,0.480508506298,0.0389830209315
+qevasion-train-2463,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-sebastian-pinera-echenique-chile-santiago,294,24,0.48162946105,0.479751825333,0.0386187359691
+qevasion-train-2464,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-sebastian-pinera-echenique-chile-santiago,38,28,0.442236930132,0.448324650526,0.109438352287
+qevasion-train-2465,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-sebastian-pinera-echenique-chile-santiago,38,17,0.436820209026,0.41600343585,0.147176280618
+qevasion-train-2466,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-sebastian-pinera-echenique-chile-santiago,38,15,0.465364634991,0.447536796331,0.0870985239744
+qevasion-train-2467,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-sebastian-pinera-echenique-chile-santiago,38,12,0.43756493926,0.454995542765,0.107439547777
+qevasion-train-2468,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-sebastian-pinera-echenique-chile-santiago,450,7,0.487643241882,0.472640037537,0.039716694504
+qevasion-train-2469,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-sebastian-pinera-echenique-chile-santiago,1447,7,0.480392694473,0.482272863388,0.037334445864
+qevasion-train-2470,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-sebastian-pinera-echenique-chile-santiago,1447,16,0.479277074337,0.483036100864,0.0376868098974
+qevasion-train-2471,Clear Non-Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-sebastian-pinera-echenique-chile-santiago,1447,11,0.479277074337,0.483036100864,0.0376868098974
+qevasion-train-2472,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-sebastian-pinera-echenique-chile-santiago,1447,14,0.480392694473,0.482272863388,0.037334445864
+qevasion-train-2595,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-dmitry-medvedev-russia,280,11,0.455064982176,0.465856552124,0.0790784358978
+qevasion-train-2596,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1118,6,4,0.511028707027,0.418721914291,0.0702493339777
+qevasion-train-2597,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1118,208,6,0.481227189302,0.481227189302,0.0375456772745
+qevasion-train-2598,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1118,531,11,0.0857284963131,0.0945228412747,0.819748699665
+qevasion-train-2622,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-felipe-de-jesus-calderon-hinojosa-mexico-and,23,6,0.0731389373541,0.0766489505768,0.850212156773
+qevasion-train-2623,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-felipe-de-jesus-calderon-hinojosa-mexico-and,23,9,0.0873694866896,0.090142890811,0.822487711906
+qevasion-train-2624,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-felipe-de-jesus-calderon-hinojosa-mexico-and,23,9,0.0850877985358,0.0884773135185,0.826434910297
+qevasion-train-2625,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1121,479,4,0.485458642244,0.476069062948,0.038472276181
+qevasion-train-2626,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1121,479,9,0.487863212824,0.469173461199,0.0429633557796
+qevasion-train-2627,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1121,479,9,0.484525859356,0.473301827908,0.0421723388135
+qevasion-train-2628,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1121,2,13,0.518119812012,0.426193714142,0.0556864961982
+qevasion-train-2629,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1121,2,17,0.487336039543,0.419290214777,0.0933737456799
+qevasion-train-2630,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1121,351,20,0.46784773469,0.492219179869,0.0399330928922
+qevasion-train-2631,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1121,351,22,0.465043693781,0.489269047976,0.0456872284412
+qevasion-train-2632,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1121,212,11,0.113919079304,0.128583952785,0.757497012615
+qevasion-train-2633,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1121,94,6,0.486577391624,0.457097172737,0.0563254244626
+qevasion-train-2634,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1121,94,8,0.491761296988,0.449506223202,0.0587325133383
+qevasion-train-2635,Clear Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1121,134,12,0.192863836884,0.198985978961,0.608150184155
+qevasion-train-2636,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1121,134,13,0.195922464132,0.1982319206,0.605845630169
+qevasion-train-2691,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-london,247,20,0.491819381714,0.471134096384,0.0370465070009
+qevasion-train-2692,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-london,247,16,0.489173352718,0.474123060703,0.0367035381496
+qevasion-train-2693,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-london,11,12,0.466148972511,0.441340982914,0.0925100967288
+qevasion-train-2694,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-london,11,13,0.466876506805,0.474228709936,0.0588947609067
+qevasion-train-2697,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1123,49,12,0.44386819005,0.474344491959,0.081787250936
+qevasion-train-2698,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1123,93,14,0.467090219259,0.430303692818,0.102606110275
+qevasion-train-2699,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1123,4,23,0.0957349762321,0.0995486229658,0.804716467857
+qevasion-train-2700,Clear Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1123,26,19,0.0706188157201,0.0757629275322,0.853618323803
+qevasion-train-2701,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1123,431,11,0.489746153355,0.470984250307,0.0392695590854
+qevasion-train-2702,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1123,431,11,0.490722358227,0.470083206892,0.0391944311559
+qevasion-train-2703,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1123,95,15,0.499415129423,0.458289086819,0.042295794934
+qevasion-train-2704,Clear Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1123,2,7,0.130537450314,0.121199928224,0.748262584209
+qevasion-train-2705,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1123,118,17,0.498307079077,0.462662428617,0.0390304252505
+qevasion-train-2706,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1123,675,43,0.451870918274,0.484786719084,0.0633422657847
+qevasion-train-2851,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-european-union-leaders-kranj-slovenia,449,36,0.45778760314,0.489219635725,0.0529927574098
+qevasion-train-2852,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-european-union-leaders-kranj-slovenia,449,36,0.452011525631,0.471857219934,0.0761311650276
+qevasion-train-2853,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-european-union-leaders-kranj-slovenia,371,29,0.477114886045,0.48462831974,0.0382567383349
+qevasion-train-2854,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-european-union-leaders-kranj-slovenia,371,15,0.481774240732,0.479896038771,0.0383297242224
+qevasion-train-2855,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-european-union-leaders-kranj-slovenia,371,18,0.481774240732,0.479896038771,0.0383297242224
+qevasion-train-2915,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-traian-basescu-romania-neptun-romania,442,5,0.475378870964,0.486652135849,0.0379689373076
+qevasion-train-2916,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-traian-basescu-romania-neptun-romania,442,4,0.473289400339,0.488313227892,0.0383973419666
+qevasion-train-2917,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-traian-basescu-romania-neptun-romania,442,3,0.475378870964,0.486652135849,0.0379689373076
+qevasion-train-2918,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-traian-basescu-romania-neptun-romania,442,3,0.476563602686,0.485962957144,0.0374734401703
+qevasion-train-2919,Ambivalent,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-traian-basescu-romania-neptun-romania,1,16,0.164245963097,0.168140947819,0.667613089085
+qevasion-train-2920,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-traian-basescu-romania-neptun-romania,878,13,0.478442877531,0.484082579613,0.0374745428562
+qevasion-train-2921,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-traian-basescu-romania-neptun-romania,878,5,0.478372693062,0.484011590481,0.0376156903803
+qevasion-train-2922,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-traian-basescu-romania-neptun-romania,442,14,0.437785089016,0.457006186247,0.105208799243
+qevasion-train-2923,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-traian-basescu-romania-neptun-romania,442,14,0.442742347717,0.460379183292,0.0968784093857
+qevasion-train-2924,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-viktor-yushchenko-ukraine-kiev-ukraine,715,22,0.472044914961,0.487029224634,0.0409258417785
+qevasion-train-2925,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-viktor-yushchenko-ukraine-kiev-ukraine,715,7,0.46861538291,0.4872828722,0.0441018231213
+qevasion-train-2926,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-viktor-yushchenko-ukraine-kiev-ukraine,307,13,0.481989502907,0.480110436678,0.0379000902176
+qevasion-train-2927,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-viktor-yushchenko-ukraine-kiev-ukraine,307,8,0.481410294771,0.479533493519,0.0390561819077
+qevasion-train-2928,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-viktor-yushchenko-ukraine-kiev-ukraine,209,39,0.464243769646,0.446458846331,0.0892973914742
+qevasion-train-2929,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-viktor-yushchenko-ukraine-kiev-ukraine,209,20,0.489967942238,0.462083786726,0.0479481965303
+qevasion-train-2930,Clear Non-Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-viktor-yushchenko-ukraine-kiev-ukraine,327,13,0.342198580503,0.341280817986,0.316520571709
+qevasion-train-2931,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-viktor-yushchenko-ukraine-kiev-ukraine,514,23,0.463239520788,0.461433559656,0.075326949358
+qevasion-train-3151,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1136,232,17,0.486165910959,0.467541188002,0.0462928488851
+qevasion-train-3152,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1136,232,25,0.479722052813,0.464962542057,0.0553153604269
+qevasion-train-3153,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1136,575,19,0.481483638287,0.479606539011,0.0389098450541
+qevasion-train-3154,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1136,575,15,0.481774240732,0.479896038771,0.0383297242224
+qevasion-train-3155,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1136,47,24,0.074470281601,0.079894952476,0.845634818077
+qevasion-train-3156,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1136,141,11,0.481188774109,0.479312807322,0.0394983775914
+qevasion-train-3157,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1136,135,21,0.491825193167,0.46383535862,0.0443393848836
+qevasion-train-3158,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1136,135,14,0.494286775589,0.464339464903,0.041373770684
+qevasion-train-3159,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1136,404,23,0.438073635101,0.484903305769,0.0770231336355
+qevasion-train-3160,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1136,365,10,0.492372184992,0.467993170023,0.0396346487105
+qevasion-train-3161,Clear Reply,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1136,87,37,0.473916739225,0.485155373812,0.040927939117
+qevasion-train-3162,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1136,87,20,0.472749173641,0.483960092068,0.0432907938957
+qevasion-train-3163,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1136,156,6,0.487151116133,0.475866287947,0.0369826704264
+qevasion-train-3164,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1136,150,15,0.427250623703,0.43909445405,0.133654937148
+qevasion-train-3165,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1136,150,10,0.439150571823,0.446066170931,0.114783227444
+qevasion-train-3166,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1136,699,15,0.480834722519,0.473380088806,0.0457852110267
+qevasion-train-3167,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1136,240,25,0.434948563576,0.485220193863,0.0798312723637
+qevasion-train-3168,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1136,713,5,0.480654329062,0.480654329062,0.0386913903058
+qevasion-train-3169,Ambivalent,Ambivalent,presidency.ucsb.edu/documents/the-presidents-news-conference-1136,713,7,0.475561887026,0.484941482544,0.0394966453314
+qevasion-train-3170,Clear Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1136,199,5,0.245714828372,0.238154962659,0.516130208969
+qevasion-train-3171,Clear Reply,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1136,704,8,0.484023988247,0.474662125111,0.0413138158619
+qevasion-train-3172,Ambivalent,Clear Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1136,704,10,0.484411090612,0.475041747093,0.0405471362174
+qevasion-train-3173,Clear Non-Reply,Clear Non-Reply,presidency.ucsb.edu/documents/the-presidents-news-conference-1136,3,9,0.0814395993948,0.0863540321589,0.832206368446

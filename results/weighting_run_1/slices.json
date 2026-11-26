@@ -1,0 +1,658 @@
+{
+  "weighting_20251125_inverse_square_root": {
+    "all": {
+      "labels": [
+        "Clear Reply",
+        "Ambivalent",
+        "Clear Non-Reply"
+      ],
+      "count": 584,
+      "accuracy": 0.6095890410958904,
+      "macro_precision": 0.6113205634944765,
+      "macro_recall": 0.5086063760707199,
+      "macro_f1": 0.4563093880492373,
+      "per_class": {
+        "Clear Reply": {
+          "precision": 0.6923076923076923,
+          "recall": 0.04864864864864865,
+          "f1": 0.09090909090909091,
+          "support": 185
+        },
+        "Ambivalent": {
+          "precision": 0.6185770750988142,
+          "recall": 0.9287833827893175,
+          "f1": 0.7425860023724793,
+          "support": 337
+        },
+        "Clear Non-Reply": {
+          "precision": 0.5230769230769231,
+          "recall": 0.5483870967741935,
+          "f1": 0.5354330708661418,
+          "support": 62
+        }
+      },
+      "confusion_matrix": [
+        [
+          9,
+          165,
+          11
+        ],
+        [
+          4,
+          313,
+          20
+        ],
+        [
+          0,
+          28,
+          34
+        ]
+      ],
+      "prediction_counts": {
+        "Clear Reply": 13,
+        "Ambivalent": 506,
+        "Clear Non-Reply": 65
+      }
+    },
+    "truncated": {
+      "labels": [
+        "Clear Reply",
+        "Ambivalent",
+        "Clear Non-Reply"
+      ],
+      "count": 320,
+      "accuracy": 0.65,
+      "macro_precision": 0.27530077848549184,
+      "macro_recall": 0.3466220611467336,
+      "macro_f1": 0.2918426501035197,
+      "per_class": {
+        "Clear Reply": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 92
+        },
+        "Ambivalent": {
+          "precision": 0.6592356687898089,
+          "recall": 0.981042654028436,
+          "f1": 0.7885714285714286,
+          "support": 211
+        },
+        "Clear Non-Reply": {
+          "precision": 0.16666666666666666,
+          "recall": 0.058823529411764705,
+          "f1": 0.08695652173913043,
+          "support": 17
+        }
+      },
+      "confusion_matrix": [
+        [
+          0,
+          91,
+          1
+        ],
+        [
+          0,
+          207,
+          4
+        ],
+        [
+          0,
+          16,
+          1
+        ]
+      ],
+      "prediction_counts": {
+        "Clear Reply": 0,
+        "Ambivalent": 314,
+        "Clear Non-Reply": 6
+      }
+    },
+    "not_truncated": {
+      "labels": [
+        "Clear Reply",
+        "Ambivalent",
+        "Clear Non-Reply"
+      ],
+      "count": 264,
+      "accuracy": 0.5606060606060606,
+      "macro_precision": 0.6012376865131102,
+      "macro_recall": 0.5571257893838539,
+      "macro_f1": 0.4903644573455894,
+      "per_class": {
+        "Clear Reply": {
+          "precision": 0.6923076923076923,
+          "recall": 0.0967741935483871,
+          "f1": 0.16981132075471697,
+          "support": 93
+        },
+        "Ambivalent": {
+          "precision": 0.5520833333333334,
+          "recall": 0.8412698412698413,
+          "f1": 0.6666666666666666,
+          "support": 126
+        },
+        "Clear Non-Reply": {
+          "precision": 0.559322033898305,
+          "recall": 0.7333333333333333,
+          "f1": 0.6346153846153846,
+          "support": 45
+        }
+      },
+      "confusion_matrix": [
+        [
+          9,
+          74,
+          10
+        ],
+        [
+          4,
+          106,
+          16
+        ],
+        [
+          0,
+          12,
+          33
+        ]
+      ],
+      "prediction_counts": {
+        "Clear Reply": 13,
+        "Ambivalent": 192,
+        "Clear Non-Reply": 59
+      }
+    }
+  },
+  "weighting_20251125_inverse_frequency": {
+    "all": {
+      "labels": [
+        "Clear Reply",
+        "Ambivalent",
+        "Clear Non-Reply"
+      ],
+      "count": 584,
+      "accuracy": 0.5085616438356164,
+      "macro_precision": 0.5410575516060748,
+      "macro_recall": 0.5635349430027329,
+      "macro_f1": 0.5049203470593185,
+      "per_class": {
+        "Clear Reply": {
+          "precision": 0.4074074074074074,
+          "recall": 0.772972972972973,
+          "f1": 0.5335820895522388,
+          "support": 185
+        },
+        "Ambivalent": {
+          "precision": 0.7727272727272727,
+          "recall": 0.35311572700296734,
+          "f1": 0.4847250509164969,
+          "support": 337
+        },
+        "Clear Non-Reply": {
+          "precision": 0.4430379746835443,
+          "recall": 0.5645161290322581,
+          "f1": 0.49645390070921985,
+          "support": 62
+        }
+      },
+      "confusion_matrix": [
+        [
+          143,
+          27,
+          15
+        ],
+        [
+          189,
+          119,
+          29
+        ],
+        [
+          19,
+          8,
+          35
+        ]
+      ],
+      "prediction_counts": {
+        "Clear Reply": 351,
+        "Ambivalent": 154,
+        "Clear Non-Reply": 79
+      }
+    },
+    "truncated": {
+      "labels": [
+        "Clear Reply",
+        "Ambivalent",
+        "Clear Non-Reply"
+      ],
+      "count": 320,
+      "accuracy": 0.51875,
+      "macro_precision": 0.42660873163666463,
+      "macro_recall": 0.43316444649155766,
+      "macro_f1": 0.39789574824531626,
+      "per_class": {
+        "Clear Reply": {
+          "precision": 0.3687150837988827,
+          "recall": 0.717391304347826,
+          "f1": 0.4870848708487085,
+          "support": 92
+        },
+        "Ambivalent": {
+          "precision": 0.7777777777777778,
+          "recall": 0.46445497630331756,
+          "f1": 0.5816023738872403,
+          "support": 211
+        },
+        "Clear Non-Reply": {
+          "precision": 0.13333333333333333,
+          "recall": 0.11764705882352941,
+          "f1": 0.125,
+          "support": 17
+        }
+      },
+      "confusion_matrix": [
+        [
+          66,
+          23,
+          3
+        ],
+        [
+          103,
+          98,
+          10
+        ],
+        [
+          10,
+          5,
+          2
+        ]
+      ],
+      "prediction_counts": {
+        "Clear Reply": 179,
+        "Ambivalent": 126,
+        "Clear Non-Reply": 15
+      }
+    },
+    "not_truncated": {
+      "labels": [
+        "Clear Reply",
+        "Ambivalent",
+        "Clear Non-Reply"
+      ],
+      "count": 264,
+      "accuracy": 0.4962121212121212,
+      "macro_precision": 0.5710998062015503,
+      "macro_recall": 0.5759856630824373,
+      "macro_f1": 0.4864546451183114,
+      "per_class": {
+        "Clear Reply": {
+          "precision": 0.4476744186046512,
+          "recall": 0.8279569892473119,
+          "f1": 0.5811320754716981,
+          "support": 93
+        },
+        "Ambivalent": {
+          "precision": 0.75,
+          "recall": 0.16666666666666666,
+          "f1": 0.2727272727272727,
+          "support": 126
+        },
+        "Clear Non-Reply": {
+          "precision": 0.515625,
+          "recall": 0.7333333333333333,
+          "f1": 0.6055045871559633,
+          "support": 45
+        }
+      },
+      "confusion_matrix": [
+        [
+          77,
+          4,
+          12
+        ],
+        [
+          86,
+          21,
+          19
+        ],
+        [
+          9,
+          3,
+          33
+        ]
+      ],
+      "prediction_counts": {
+        "Clear Reply": 172,
+        "Ambivalent": 28,
+        "Clear Non-Reply": 64
+      }
+    }
+  },
+  "weighting_20251126_inverse_square_root": {
+    "all": {
+      "labels": [
+        "Clear Reply",
+        "Ambivalent",
+        "Clear Non-Reply"
+      ],
+      "count": 584,
+      "accuracy": 0.6061643835616438,
+      "macro_precision": 0.592620439988861,
+      "macro_recall": 0.505491640774497,
+      "macro_f1": 0.4559451985922574,
+      "per_class": {
+        "Clear Reply": {
+          "precision": 0.6842105263157895,
+          "recall": 0.07027027027027027,
+          "f1": 0.12745098039215685,
+          "support": 185
+        },
+        "Ambivalent": {
+          "precision": 0.6222222222222222,
+          "recall": 0.913946587537092,
+          "f1": 0.7403846153846154,
+          "support": 337
+        },
+        "Clear Non-Reply": {
+          "precision": 0.4714285714285714,
+          "recall": 0.532258064516129,
+          "f1": 0.5,
+          "support": 62
+        }
+      },
+      "confusion_matrix": [
+        [
+          13,
+          159,
+          13
+        ],
+        [
+          5,
+          308,
+          24
+        ],
+        [
+          1,
+          28,
+          33
+        ]
+      ],
+      "prediction_counts": {
+        "Clear Reply": 19,
+        "Ambivalent": 495,
+        "Clear Non-Reply": 70
+      }
+    },
+    "truncated": {
+      "labels": [
+        "Clear Reply",
+        "Ambivalent",
+        "Clear Non-Reply"
+      ],
+      "count": 320,
+      "accuracy": 0.653125,
+      "macro_precision": 0.2867724867724868,
+      "macro_recall": 0.3482018399776972,
+      "macro_f1": 0.2939278718746399,
+      "per_class": {
+        "Clear Reply": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 92
+        },
+        "Ambivalent": {
+          "precision": 0.6603174603174603,
+          "recall": 0.985781990521327,
+          "f1": 0.7908745247148289,
+          "support": 211
+        },
+        "Clear Non-Reply": {
+          "precision": 0.2,
+          "recall": 0.058823529411764705,
+          "f1": 0.09090909090909091,
+          "support": 17
+        }
+      },
+      "confusion_matrix": [
+        [
+          0,
+          91,
+          1
+        ],
+        [
+          0,
+          208,
+          3
+        ],
+        [
+          0,
+          16,
+          1
+        ]
+      ],
+      "prediction_counts": {
+        "Clear Reply": 0,
+        "Ambivalent": 315,
+        "Clear Non-Reply": 5
+      }
+    },
+    "not_truncated": {
+      "labels": [
+        "Clear Reply",
+        "Ambivalent",
+        "Clear Non-Reply"
+      ],
+      "count": 264,
+      "accuracy": 0.5492424242424242,
+      "macro_precision": 0.5773579247263458,
+      "macro_recall": 0.5481822836661546,
+      "macro_f1": 0.48918527006762297,
+      "per_class": {
+        "Clear Reply": {
+          "precision": 0.6842105263157895,
+          "recall": 0.13978494623655913,
+          "f1": 0.23214285714285715,
+          "support": 93
+        },
+        "Ambivalent": {
+          "precision": 0.5555555555555556,
+          "recall": 0.7936507936507936,
+          "f1": 0.6535947712418301,
+          "support": 126
+        },
+        "Clear Non-Reply": {
+          "precision": 0.49230769230769234,
+          "recall": 0.7111111111111111,
+          "f1": 0.5818181818181818,
+          "support": 45
+        }
+      },
+      "confusion_matrix": [
+        [
+          13,
+          68,
+          12
+        ],
+        [
+          5,
+          100,
+          21
+        ],
+        [
+          1,
+          12,
+          32
+        ]
+      ],
+      "prediction_counts": {
+        "Clear Reply": 19,
+        "Ambivalent": 180,
+        "Clear Non-Reply": 65
+      }
+    }
+  },
+  "weighting_20251126_inverse_frequency": {
+    "all": {
+      "labels": [
+        "Clear Reply",
+        "Ambivalent",
+        "Clear Non-Reply"
+      ],
+      "count": 584,
+      "accuracy": 0.4914383561643836,
+      "macro_precision": 0.44833436443016755,
+      "macro_recall": 0.5055304466905883,
+      "macro_f1": 0.461448754789272,
+      "per_class": {
+        "Clear Reply": {
+          "precision": 0.36683417085427134,
+          "recall": 0.3945945945945946,
+          "f1": 0.3802083333333333,
+          "support": 185
+        },
+        "Ambivalent": {
+          "precision": 0.6507352941176471,
+          "recall": 0.5252225519287834,
+          "f1": 0.5812807881773399,
+          "support": 337
+        },
+        "Clear Non-Reply": {
+          "precision": 0.3274336283185841,
+          "recall": 0.5967741935483871,
+          "f1": 0.4228571428571429,
+          "support": 62
+        }
+      },
+      "confusion_matrix": [
+        [
+          73,
+          82,
+          30
+        ],
+        [
+          114,
+          177,
+          46
+        ],
+        [
+          12,
+          13,
+          37
+        ]
+      ],
+      "prediction_counts": {
+        "Clear Reply": 199,
+        "Ambivalent": 272,
+        "Clear Non-Reply": 113
+      }
+    },
+    "truncated": {
+      "labels": [
+        "Clear Reply",
+        "Ambivalent",
+        "Clear Non-Reply"
+      ],
+      "count": 320,
+      "accuracy": 0.534375,
+      "macro_precision": 0.34172686618507053,
+      "macro_recall": 0.34129889334674735,
+      "macro_f1": 0.34127131140190325,
+      "per_class": {
+        "Clear Reply": {
+          "precision": 0.3058823529411765,
+          "recall": 0.2826086956521739,
+          "f1": 0.2937853107344633,
+          "support": 92
+        },
+        "Ambivalent": {
+          "precision": 0.6666666666666666,
+          "recall": 0.6824644549763034,
+          "f1": 0.6744730679156908,
+          "support": 211
+        },
+        "Clear Non-Reply": {
+          "precision": 0.05263157894736842,
+          "recall": 0.058823529411764705,
+          "f1": 0.05555555555555555,
+          "support": 17
+        }
+      },
+      "confusion_matrix": [
+        [
+          26,
+          61,
+          5
+        ],
+        [
+          54,
+          144,
+          13
+        ],
+        [
+          5,
+          11,
+          1
+        ]
+      ],
+      "prediction_counts": {
+        "Clear Reply": 85,
+        "Ambivalent": 216,
+        "Clear Non-Reply": 19
+      }
+    },
+    "not_truncated": {
+      "labels": [
+        "Clear Reply",
+        "Ambivalent",
+        "Clear Non-Reply"
+      ],
+      "count": 264,
+      "accuracy": 0.4393939393939394,
+      "macro_precision": 0.4615150464814519,
+      "macro_recall": 0.5224270353302611,
+      "macro_f1": 0.4449097514471303,
+      "per_class": {
+        "Clear Reply": {
+          "precision": 0.41228070175438597,
+          "recall": 0.5053763440860215,
+          "f1": 0.45410628019323673,
+          "support": 93
+        },
+        "Ambivalent": {
+          "precision": 0.5892857142857143,
+          "recall": 0.2619047619047619,
+          "f1": 0.3626373626373626,
+          "support": 126
+        },
+        "Clear Non-Reply": {
+          "precision": 0.3829787234042553,
+          "recall": 0.8,
+          "f1": 0.5179856115107914,
+          "support": 45
+        }
+      },
+      "confusion_matrix": [
+        [
+          47,
+          21,
+          25
+        ],
+        [
+          60,
+          33,
+          33
+        ],
+        [
+          7,
+          2,
+          36
+        ]
+      ],
+      "prediction_counts": {
+        "Clear Reply": 114,
+        "Ambivalent": 56,
+        "Clear Non-Reply": 94
+      }
+    }
+  }
+}

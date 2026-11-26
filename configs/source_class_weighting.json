@@ -1,0 +1,7 @@
+{
+  "truncation_config": "configs/source_truncation.json",
+  "candidate_key": "head_tail",
+  "seeds": [20251125, 20251126],
+  "weightings": ["inverse_square_root", "inverse_frequency"],
+  "selection_rule": "Within each seed and weighting, select the earliest epoch attaining maximum validation Macro-F1. Compare weightings by paired seed on the unchanged grouped validation split."
+}

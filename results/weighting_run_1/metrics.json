@@ -1,0 +1,282 @@
+{
+  "weighting_20251125_inverse_square_root": {
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "count": 584,
+    "accuracy": 0.6095890410958904,
+    "macro_precision": 0.6113205634944765,
+    "macro_recall": 0.5086063760707199,
+    "macro_f1": 0.4563093880492373,
+    "per_class": {
+      "Clear Reply": {
+        "precision": 0.6923076923076923,
+        "recall": 0.04864864864864865,
+        "f1": 0.09090909090909091,
+        "support": 185
+      },
+      "Ambivalent": {
+        "precision": 0.6185770750988142,
+        "recall": 0.9287833827893175,
+        "f1": 0.7425860023724793,
+        "support": 337
+      },
+      "Clear Non-Reply": {
+        "precision": 0.5230769230769231,
+        "recall": 0.5483870967741935,
+        "f1": 0.5354330708661418,
+        "support": 62
+      }
+    },
+    "confusion_matrix": [
+      [
+        9,
+        165,
+        11
+      ],
+      [
+        4,
+        313,
+        20
+      ],
+      [
+        0,
+        28,
+        34
+      ]
+    ],
+    "prediction_file": "predictions/weighting_20251125_inverse_square_root.csv",
+    "parameters": {
+      "key": "weighting_20251125_inverse_square_root",
+      "answer_policy": "prefix_and_suffix",
+      "loss_weighting": "inverse_square_root",
+      "best_epoch": 5,
+      "validation_macro_f1": 0.4563093880492373,
+      "class_weights": {
+        "Clear Reply": 0.8511101007461548,
+        "Ambivalent": 0.6161543130874634,
+        "Clear Non-Reply": 1.5327355861663818
+      },
+      "learning_rate": 3e-05,
+      "batch_size": 32,
+      "max_wordpieces": 256,
+      "used_bfloat16": true,
+      "seed": 20251125,
+      "train_count": 2274,
+      "validation_count": 584
+    },
+    "split": "validation"
+  },
+  "weighting_20251125_inverse_frequency": {
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "count": 584,
+    "accuracy": 0.5085616438356164,
+    "macro_precision": 0.5410575516060748,
+    "macro_recall": 0.5635349430027329,
+    "macro_f1": 0.5049203470593185,
+    "per_class": {
+      "Clear Reply": {
+        "precision": 0.4074074074074074,
+        "recall": 0.772972972972973,
+        "f1": 0.5335820895522388,
+        "support": 185
+      },
+      "Ambivalent": {
+        "precision": 0.7727272727272727,
+        "recall": 0.35311572700296734,
+        "f1": 0.4847250509164969,
+        "support": 337
+      },
+      "Clear Non-Reply": {
+        "precision": 0.4430379746835443,
+        "recall": 0.5645161290322581,
+        "f1": 0.49645390070921985,
+        "support": 62
+      }
+    },
+    "confusion_matrix": [
+      [
+        143,
+        27,
+        15
+      ],
+      [
+        189,
+        119,
+        29
+      ],
+      [
+        19,
+        8,
+        35
+      ]
+    ],
+    "prediction_file": "predictions/weighting_20251125_inverse_frequency.csv",
+    "parameters": {
+      "key": "weighting_20251125_inverse_frequency",
+      "answer_policy": "prefix_and_suffix",
+      "loss_weighting": "inverse_frequency",
+      "best_epoch": 5,
+      "validation_macro_f1": 0.5049203470593185,
+      "class_weights": {
+        "Clear Reply": 0.629298746585846,
+        "Ambivalent": 0.32981038093566895,
+        "Clear Non-Reply": 2.040890693664551
+      },
+      "learning_rate": 3e-05,
+      "batch_size": 32,
+      "max_wordpieces": 256,
+      "used_bfloat16": true,
+      "seed": 20251125,
+      "train_count": 2274,
+      "validation_count": 584
+    },
+    "split": "validation"
+  },
+  "weighting_20251126_inverse_square_root": {
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "count": 584,
+    "accuracy": 0.6061643835616438,
+    "macro_precision": 0.592620439988861,
+    "macro_recall": 0.505491640774497,
+    "macro_f1": 0.4559451985922574,
+    "per_class": {
+      "Clear Reply": {
+        "precision": 0.6842105263157895,
+        "recall": 0.07027027027027027,
+        "f1": 0.12745098039215685,
+        "support": 185
+      },
+      "Ambivalent": {
+        "precision": 0.6222222222222222,
+        "recall": 0.913946587537092,
+        "f1": 0.7403846153846154,
+        "support": 337
+      },
+      "Clear Non-Reply": {
+        "precision": 0.4714285714285714,
+        "recall": 0.532258064516129,
+        "f1": 0.5,
+        "support": 62
+      }
+    },
+    "confusion_matrix": [
+      [
+        13,
+        159,
+        13
+      ],
+      [
+        5,
+        308,
+        24
+      ],
+      [
+        1,
+        28,
+        33
+      ]
+    ],
+    "prediction_file": "predictions/weighting_20251126_inverse_square_root.csv",
+    "parameters": {
+      "key": "weighting_20251126_inverse_square_root",
+      "answer_policy": "prefix_and_suffix",
+      "loss_weighting": "inverse_square_root",
+      "best_epoch": 4,
+      "validation_macro_f1": 0.4559451985922574,
+      "class_weights": {
+        "Clear Reply": 0.8511101007461548,
+        "Ambivalent": 0.6161543130874634,
+        "Clear Non-Reply": 1.5327355861663818
+      },
+      "learning_rate": 3e-05,
+      "batch_size": 32,
+      "max_wordpieces": 256,
+      "used_bfloat16": true,
+      "seed": 20251126,
+      "train_count": 2274,
+      "validation_count": 584
+    },
+    "split": "validation"
+  },
+  "weighting_20251126_inverse_frequency": {
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "count": 584,
+    "accuracy": 0.4914383561643836,
+    "macro_precision": 0.44833436443016755,
+    "macro_recall": 0.5055304466905883,
+    "macro_f1": 0.461448754789272,
+    "per_class": {
+      "Clear Reply": {
+        "precision": 0.36683417085427134,
+        "recall": 0.3945945945945946,
+        "f1": 0.3802083333333333,
+        "support": 185
+      },
+      "Ambivalent": {
+        "precision": 0.6507352941176471,
+        "recall": 0.5252225519287834,
+        "f1": 0.5812807881773399,
+        "support": 337
+      },
+      "Clear Non-Reply": {
+        "precision": 0.3274336283185841,
+        "recall": 0.5967741935483871,
+        "f1": 0.4228571428571429,
+        "support": 62
+      }
+    },
+    "confusion_matrix": [
+      [
+        73,
+        82,
+        30
+      ],
+      [
+        114,
+        177,
+        46
+      ],
+      [
+        12,
+        13,
+        37
+      ]
+    ],
+    "prediction_file": "predictions/weighting_20251126_inverse_frequency.csv",
+    "parameters": {
+      "key": "weighting_20251126_inverse_frequency",
+      "answer_policy": "prefix_and_suffix",
+      "loss_weighting": "inverse_frequency",
+      "best_epoch": 3,
+      "validation_macro_f1": 0.461448754789272,
+      "class_weights": {
+        "Clear Reply": 0.629298746585846,
+        "Ambivalent": 0.32981038093566895,
+        "Clear Non-Reply": 2.040890693664551
+      },
+      "learning_rate": 3e-05,
+      "batch_size": 32,
+      "max_wordpieces": 256,
+      "used_bfloat16": true,
+      "seed": 20251126,
+      "train_count": 2274,
+      "validation_count": 584
+    },
+    "split": "validation"
+  }
+}

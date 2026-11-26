@@ -3,7 +3,9 @@
 __pycache__/
 *.pyc
 data/raw/
+data/processed/*.csv
 data/.hf-data-audit/
 replay_data/
 configs/counterfactual.csv
 configs/counterfactual_reviewed.csv
+results/reproduced_*/

@@ -1,0 +1,182 @@
+{
+  "public_repository": "https://github.com/huangyuke914235/NLP-",
+  "checked_out_commit": "a15dad63496d2340010a186175d353e60f37cf6c",
+  "replay_date": "2026-11-26",
+  "environment": {
+    "platform": "Windows-11-10.0.26300-SP0",
+    "python": "3.12.13",
+    "cuda_build": "13.0",
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "versions": {
+      "torch": "2.14.1+cu130",
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "transformers": "4.53.3",
+      "scikit-learn": "1.6.1",
+      "scipy": "1.15.3",
+      "huggingface-hub": "0.33.4"
+    },
+    "weights_sha256": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db",
+    "dependency_materialization": "Pinned packages installed with uv; existing torch 2.14.1+cu130 package copied into the clone virtual environment after the network download stalled.",
+    "uv_pip_check": "56 packages checked; compatible"
+  },
+  "data": {
+    "raw_inputs": [
+      {
+        "file": "qevasion-train.parquet",
+        "sha256": "eca7855ada118a526cc0361d745b0a55534ca35b8b604d2f9cec4257c5f9fcb3",
+        "materialization": "downloaded_from_upstream"
+      },
+      {
+        "file": "qevasion-test.parquet",
+        "sha256": "d1de67bd7b7ea68b7f49fcd1f468fd434bc2de3d84146c9217d36713c0546298",
+        "materialization": "downloaded_from_upstream"
+      },
+      {
+        "file": "QNLI.zip",
+        "sha256": "e634e78627a29adaecd4f955359b22bf5e70f2cbd93b493f2d624138a0c0e5f5",
+        "materialization": "downloaded_from_upstream"
+      },
+      {
+        "file": "squad-train-v1.1.json",
+        "sha256": "3527663986b8295af4f7fcdff1ba1ff3f72d07d61a20f487cb238a6ef92fd955",
+        "materialization": "local_original_with_verified_upstream_sha256"
+      },
+      {
+        "file": "squad-dev-v1.1.json",
+        "sha256": "95aa6a52d5d6a735563366753ca50492a658031da74f301ac5238b03966972c9",
+        "materialization": "local_original_with_verified_upstream_sha256"
+      }
+    ],
+    "rebuilt_split_sha256": {
+      "qevasion_official.csv": "222e47e8da33d0dea1acea688642fc4cdb950ca1dff70b8ef0d62bd304510339",
+      "qevasion_grouped.csv": "9811501d43ac8c8a531e151a1c35740cb442afe825632a54b2efef08cf1833a1",
+      "qnli.csv": "c5a2f0711c5f7a1000e19006260f4e700fd385151cfacb91b83b61d648803827"
+    },
+    "split_hashes_match_submitted_inputs": true
+  },
+  "classification": {
+    "reproduced_main": {
+      "submitted_directory": "review_run_1",
+      "script": "src/run_experiments.py",
+      "environment": "clean_clone",
+      "training_elapsed_seconds": 81.686,
+      "prediction_sets_verified": 33,
+      "sample_ids_and_gold_match": true,
+      "changed_hard_predictions": 0,
+      "max_macro_f1_abs_delta": 0.0,
+      "max_probability_abs_delta": 0.0
+    },
+    "reproduced_joint": {
+      "submitted_directory": "pair_run_1",
+      "script": "src/run_pair_finetuning.py",
+      "environment": "clean_clone",
+      "training_elapsed_seconds": 114.124,
+      "prediction_sets_verified": 2,
+      "sample_ids_and_gold_match": true,
+      "changed_hard_predictions": 0,
+      "max_macro_f1_abs_delta": 0.0,
+      "max_probability_abs_delta": 0.0
+    },
+    "reproduced_truncation": {
+      "submitted_directory": "truncation_run_1",
+      "script": "src/run_source_truncation.py",
+      "environment": "clean_clone",
+      "training_elapsed_seconds": 94.314,
+      "prediction_sets_verified": 3,
+      "sample_ids_and_gold_match": true,
+      "changed_hard_predictions": 0,
+      "max_macro_f1_abs_delta": 0.0,
+      "max_probability_abs_delta": 0.0
+    }
+  },
+  "counterfactual": {
+    "attached_cases_sha256": "bbc1deaf4fd85fe3825ab13bebdee2f20b384234b7f6adcb5af91c55c7ff0ad0",
+    "cases_verified": 19,
+    "models_verified": 4,
+    "prediction_slots_per_run": 228,
+    "expected_label_support": {
+      "Ambivalent": 12,
+      "Clear Reply": 4,
+      "Clear Non-Reply": 3
+    },
+    "edit_kind_support": {
+      "unrelated": 12,
+      "answer_supported": 4,
+      "same_scoped_refusal": 3
+    },
+    "counts_by_model": {
+      "grouped_tfidf": {
+        "n": 19,
+        "original_correct_n": 9,
+        "paraphrase_stable_n": 18,
+        "paraphrase_both_correct_n": 9,
+        "changed_expected_label_correct_n": 9,
+        "gold_requires_change_n": 14,
+        "correct_and_changed_on_required_n": 0,
+        "required_and_original_correct_n": 6,
+        "correct_change_given_original_correct_n": 0,
+        "same_scoped_refusal_preserved_n": 3,
+        "changed_correct_by_expected": {
+          "Clear Reply": 1,
+          "Ambivalent": 5,
+          "Clear Non-Reply": 3
+        }
+      },
+      "grouped_minilm": {
+        "n": 19,
+        "original_correct_n": 5,
+        "paraphrase_stable_n": 16,
+        "paraphrase_both_correct_n": 5,
+        "changed_expected_label_correct_n": 13,
+        "gold_requires_change_n": 14,
+        "correct_and_changed_on_required_n": 1,
+        "required_and_original_correct_n": 2,
+        "correct_change_given_original_correct_n": 1,
+        "same_scoped_refusal_preserved_n": 2,
+        "changed_correct_by_expected": {
+          "Clear Reply": 0,
+          "Ambivalent": 11,
+          "Clear Non-Reply": 2
+        }
+      },
+      "grouped_minilm_interactions": {
+        "n": 19,
+        "original_correct_n": 8,
+        "paraphrase_stable_n": 12,
+        "paraphrase_both_correct_n": 4,
+        "changed_expected_label_correct_n": 13,
+        "gold_requires_change_n": 14,
+        "correct_and_changed_on_required_n": 2,
+        "required_and_original_correct_n": 5,
+        "correct_change_given_original_correct_n": 2,
+        "same_scoped_refusal_preserved_n": 2,
+        "changed_correct_by_expected": {
+          "Clear Reply": 0,
+          "Ambivalent": 11,
+          "Clear Non-Reply": 2
+        }
+      },
+      "constant_ambivalent": {
+        "n": 19,
+        "original_correct_n": 6,
+        "paraphrase_stable_n": 19,
+        "paraphrase_both_correct_n": 6,
+        "changed_expected_label_correct_n": 12,
+        "gold_requires_change_n": 14,
+        "correct_and_changed_on_required_n": 0,
+        "required_and_original_correct_n": 4,
+        "correct_change_given_original_correct_n": 0,
+        "same_scoped_refusal_preserved_n": 0,
+        "changed_correct_by_expected": {
+          "Clear Reply": 0,
+          "Ambivalent": 12,
+          "Clear Non-Reply": 0
+        }
+      }
+    },
+    "model_summaries_identical": true,
+    "changed_hard_predictions": 0,
+    "max_probability_abs_delta": 0.0
+  }
+}

@@ -97,7 +97,7 @@ def score_set(root):
         assert maximum_sum_error <= 1e-6, (key, maximum_sum_error)
         stats = independent_scores(rows, labels)
         compare_metric(key, record, stats)
-        output[key] = {"rows": row_dict, "columns": cols, "scores": stats,
+        output[key] = {"rows": row_dict, "labels": labels, "columns": cols, "scores": stats,
                        "sha256": digest(path), "maximum_probability_sum_error": maximum_sum_error}
     return output
 
@@ -108,6 +108,7 @@ def compare_runs(first, second):
     for key, record in first.items():
         other = second[key]
         assert record["rows"].keys() == other["rows"].keys(), key
+        assert record["labels"] == other["labels"], (key, "label order")
         diffs = []
         flips = []
         for ident, row in record["rows"].items():
@@ -115,7 +116,7 @@ def compare_runs(first, second):
             assert row["gold"] == replay["gold"], (key, ident)
             if row["prediction"] != replay["prediction"]:
                 flips.append(ident)
-            diffs.extend(abs(float(row[c]) - float(replay[c])) for c in record["columns"])
+            diffs.extend(abs(float(row[a]) - float(replay[b])) for a, b in zip(record["columns"], other["columns"], strict=True))
         updates[key] = {"count": len(record["rows"]), "hard_prediction_changed": len(flips), "changed_ids": flips,
                         "max_probability_abs_delta": max(diffs),
                         "macro_f1_abs_delta": abs(record["scores"]["macro_f1"] - other["scores"]["macro_f1"]),
@@ -143,12 +144,15 @@ def main():
     second = score_set(args.second)
     replay = compare_runs(first, second)
     summary = {"fixed_evaluation_sets": (validate_scope(first) if "grouped_tfidf" in first else {k:len(v["rows"]) for k,v in first.items()}), "predictions_verified": len(first),
+               "sample_ids_and_gold_match": True, "label_order_matches": True,
                "recomputed": {k: v["scores"] for k, v in first.items()}, "independent_replay": replay,
+               "max_macro_f1_abs_delta": max(row["macro_f1_abs_delta"] for row in replay.values()),
                "max_probability_abs_delta": max(row["max_probability_abs_delta"] for row in replay.values()),
                "total_changed_hard_predictions": sum(row["hard_prediction_changed"] for row in replay.values())}
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"verified {len(first)} prediction files per run; hard-label changes={summary['total_changed_hard_predictions']};"
+          f" max abs Macro-F1 delta={summary['max_macro_f1_abs_delta']:.10g};"
           f" max abs probability delta={summary['max_probability_abs_delta']:.10g}")
 
 
